@@ -109,7 +109,7 @@ class MaxwelMaliciousMaladies {
     for(let [userId,permission] of Object.entries(actor.data.permission)){
       if(permission !== 3) continue;
       const user = game.users.get(userId);
-      if(!user.isGM && user.active) return true;
+      if(!user?.isGM && user?.active) return true;
     }
     return false;
   }
