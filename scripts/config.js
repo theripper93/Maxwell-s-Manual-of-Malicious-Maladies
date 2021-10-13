@@ -61,9 +61,8 @@ Hooks.on("renderChatMessage", (message, html)=>{
       if(message?.data?.flavor?.includes(t)) return;
     }
     const button = $(`<a title="Apply Lingering Injury" style="margin-right: 0.3rem;color: red;" class="button"><i class="fas fa-viruses"></i></a>`)
-    //html.find(".message-delete").before(button);
     html.find(".result-text").prepend(button)
-    button.on("click", (e)=>{
+    button.on("click", async (e)=>{
         e.preventDefault();
         const actor = game.actors.get(message.data?.speaker?.actor) ?? _token?.actor;
         if(!actor) return ui.notifications.error("No token selected or actor found!");
@@ -76,6 +75,16 @@ Hooks.on("renderChatMessage", (message, html)=>{
             img: imgsrc,
             type: "feat",
             "data.description.value": description,
+            "effects": [
+              {
+                icon: imgsrc,
+                label: title,
+                transfer: true,
+                duration: {
+                  seconds: title.toLowerCase().includes("(") ? null : 9999999999999
+                }
+              }
+            ],
         }
         actor.createEmbeddedDocuments("Item", [itemData]);
         ui.notifications.notify(`Added ${title} to ${actor.data.name}`)
