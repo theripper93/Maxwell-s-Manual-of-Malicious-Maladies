@@ -46,3 +46,30 @@ Hooks.on("midi-qol.RollComplete", async (workflow) => {
     }
   }
 });
+
+Hooks.on("preUpdateActor", (actor,updates)=>{updates.prevHp = actor.data.data.attributes.hp.value});
+
+Hooks.on("updateActor", (actor, updates)=>{
+  if(!game.user.isGM || !actor.hasPlayerOwner || updates.damageItem || updates?.data?.attributes?.hp?.value === undefined) return;
+  if(!game.settings.get("mmm", "nonMidiAutomation")) return;
+  debugger;
+  const applyOnDamage = game.settings.get("mmm", "applyOnDamage");
+  const applyOnDown = game.settings.get("mmm", "applyOnDown");
+  const hpMax = actor.data.data.attributes.hp.max;
+  const damageTaken = actor.data.data.attributes.hp.value - updates.prevHp;
+  if(damageTaken >= 0) return;
+  const isHalfOrMore = Math.abs(damageTaken) >= hpMax / 2;
+  const isDead = actor.data.data.attributes.hp.value <= 0;
+  if (isHalfOrMore && applyOnDamage) {
+    MaxwelMaliciousMaladiesSocket.executeForEveryone("requestRoll",
+      "Damage exeded half of maximum hp",
+      undefined,
+      actor.id
+    );
+    return;
+  }
+  if (isDead && applyOnDown) {
+    MaxwelMaliciousMaladiesSocket.executeForEveryone("requestRoll","Downed", undefined, actor.id);
+    return;
+  }
+})

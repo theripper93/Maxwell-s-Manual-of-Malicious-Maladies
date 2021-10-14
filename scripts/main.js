@@ -78,10 +78,20 @@ class MaxwelMaliciousMaladies {
 
   static async confirmInjury(reason, tablename, actor){
     //set first letter to upper case
-    const damage = tablename.charAt(0).toUpperCase() + tablename.slice(1);
+    const choseTable = !tablename
+    const damage = choseTable ? "" : tablename.charAt(0).toUpperCase() + tablename.slice(1);
+    let select = "";
+    let rollPrompt = choseTable ? `Select the correct <strong>Damage Type</strong> before rolling on the table.` : `Roll on the <strong>${damage} Damage</strong> table?`;
+    if(choseTable){
+      select = `<div class="form-group"><select style="width: 100%;" id="mmm-select-table">`;
+      const pack = this.getPack();
+      const tableNames = Array.from(pack.index).map(e => e.name.replace(" - [MMMM]", ""));
+      tableNames.forEach(name => select+=`<option value="${name}">${name}</option>`);
+      select += `</select></div><p>`;
+    }
     new Dialog({
       title: "Maxwell's Manual of Malicious Maladies",
-      content: `<p>${actor.data.name} sustained a lingering injury.<br>Reason: <strong>${reason}</strong>.<br>Roll on the <strong>${damage} Damage</strong> table?</p>`,
+      content: `<p>${actor.data.name} sustained a lingering injury.<br>Reason: <strong>${reason}</strong>.<br>${rollPrompt}</p>${select}`,
       buttons: {
        one: {
         icon: '<i class="fas fa-dice-d20"></i>',
@@ -89,6 +99,9 @@ class MaxwelMaliciousMaladies {
         callback: (html) => {
           const token = actor.getActiveTokens()
           token[0]?.control()
+          if(choseTable){
+            tablename = html.find("#mmm-select-table")[0].value;
+          }
           MaxwelMaliciousMaladies.rollTable(tablename,actor);
         }
        },
@@ -103,6 +116,15 @@ class MaxwelMaliciousMaladies {
 
   static sleep(ms) {
     return new Promise(resolve => setTimeout(resolve, ms));
+  }
+
+  static inferDuration(text){
+    const seconds = parseInt(text.match(/\d+ seconds/i)) || 0;
+    const minutes = parseInt(text.match(/\d+ minutes/i)) || 0;
+    const hours = parseInt(text.match(/\d+ hours/i)) || 0;
+    const days = parseInt(text.match(/\d+ days/i)) || 0;
+    //add up
+    return seconds + (minutes * 60) + (hours * 60 * 60) + (days * 60 * 60 * 24);
   }
 
   static isOwnerConnected(actor){

@@ -35,6 +35,15 @@ Hooks.once('init', function() {
     default: true,
   });
 
+  game.settings.register("mmm", "nonMidiAutomation", {
+    name: "Enable non-midiqol automatins",
+    hint: "Enables some automation in the event that you are not using midiqol. The only automations working are the 'On Unconscious' and 'On Damage'. Since the system does not know what type of damage triggered the injury the player will be prompted with the choice.",
+    scope: "world",
+    config: true,
+    type: Boolean,
+    default: false,
+  });
+
 });
 
 Hooks.once('ready', async function() {
@@ -69,6 +78,7 @@ Hooks.on("renderChatMessage", (message, html)=>{
         const content = $(message.data.content)
         const imgsrc = content.find("img").attr("src");
         const description = content.find(".result-text").html();
+        const duration = MaxwelMaliciousMaladies.inferDuration(content.find(".result-text").text());
         const title = "Lingering Injury - " + content.find("strong").first().text();
         const itemData = {
             name: title,
@@ -87,7 +97,7 @@ Hooks.on("renderChatMessage", (message, html)=>{
                 label: title,
                 transfer: true,
                 duration: {
-                  seconds: title.toLowerCase().includes("(") ? null : 9999999999999
+                  seconds: title.includes("(") ? null : duration || 9999999999,
                 },
                 flags: {
                   mmm: 
