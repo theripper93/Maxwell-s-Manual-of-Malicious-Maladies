@@ -4,7 +4,6 @@ Hooks.on("midi-qol.RollComplete", async (workflow) => {
     await MaxwelMaliciousMaladies.sleep(500);
     timeout++;
   }
-  console.log(timeout);
   if(!workflow.damageList) return;
   const applyOnCritSave = game.settings.get("mmm", "applyOnCritSave");
   const applyOnCrit = game.settings.get("mmm", "applyOnCrit");
@@ -18,7 +17,7 @@ Hooks.on("midi-qol.RollComplete", async (workflow) => {
     const isHalfOrMore = damageTaken >= hpMax / 2;
     const damageType = workflow.damageDetail[0].type;
     const save = workflow.saveDisplayData?.find((s) => s.id === target.tokenId);
-    const isCritSave = save?.rollDetail?.terms[0]?.number === 1;
+    const isCritSave = save?.rollDetail?.terms[0]?.total === 1;
     const isCrit = workflow.isCritical;
     const isDead = target.newHP <= 0;
     if (isHalfOrMore && applyOnDamage) {

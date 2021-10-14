@@ -75,6 +75,12 @@ Hooks.on("renderChatMessage", (message, html)=>{
             img: imgsrc,
             type: "feat",
             "data.description.value": description,
+            flags: {
+              mmm: 
+              {
+                lingeringInjury: true
+              }
+            },
             "effects": [
               {
                 icon: imgsrc,
@@ -82,7 +88,13 @@ Hooks.on("renderChatMessage", (message, html)=>{
                 transfer: true,
                 duration: {
                   seconds: title.toLowerCase().includes("(") ? null : 9999999999999
-                }
+                },
+                flags: {
+                  mmm: 
+                  {
+                    lingeringInjury: true
+                  }
+                },
               }
             ],
         }
