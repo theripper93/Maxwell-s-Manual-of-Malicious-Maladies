@@ -37,7 +37,7 @@ Hooks.once('init', function() {
 
   game.settings.register("mmm", "nonMidiAutomation", {
     name: "Enable non-midiqol automatins",
-    hint: "Enables some automation in the event that you are not using midiqol. The only automations working are the 'On Unconscious' and 'On Damage'. Since the system does not know what type of damage triggered the injury the player will be prompted with the choice.",
+    hint: "Enables some automation in the event that you are not using midiqol or you are removing hp manually. The only automations working are the 'On Unconscious' and 'On Damage'. Since the system does not know what type of damage triggered the injury the player will be prompted with the choice.",
     scope: "world",
     config: true,
     type: Boolean,
