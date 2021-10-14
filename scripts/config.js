@@ -73,7 +73,8 @@ Hooks.on("renderChatMessage", (message, html)=>{
     html.find(".result-text").prepend(button)
     button.on("click", async (e)=>{
         e.preventDefault();
-        const actor = game.actors.get(message.data?.speaker?.actor) ?? _token?.actor;
+        let actor = game.scenes.get(message?.data?.speaker?.scene)?.tokens?.get(message?.data?.speaker?.token)?.actor;
+        actor = actor ?? (game.actors.get(message.data?.speaker?.actor) ?? _token?.actor);
         if(!actor) return ui.notifications.error("No token selected or actor found!");
         const content = $(message.data.content)
         const imgsrc = content.find("img").attr("src");
