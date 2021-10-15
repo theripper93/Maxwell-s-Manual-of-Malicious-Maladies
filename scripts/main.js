@@ -137,12 +137,11 @@ class MaxwelMaliciousMaladies {
   }
 
   static requestRoll(reason, tablename, actorId){
+    const actor = game.actors.get(actorId);
     if(game.user.isGM){
-      const actor = game.actors.get(actorId);
       if(!MaxwelMaliciousMaladies.isOwnerConnected(actor)) MaxwelMaliciousMaladies.confirmInjury(reason, tablename, actor);
       return;
     }
-    const actor = game.actors.get(actorId);
-    if(actor.isOwner) MaxwelMaliciousMaladies.confirmInjury(reason, tablename, actor);
+    if(actor.isOwner && MaxwelMaliciousMaladies.isOwnerConnected(actor)) MaxwelMaliciousMaladies.confirmInjury(reason, tablename, actor);
   }
 }

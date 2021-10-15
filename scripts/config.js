@@ -44,6 +44,15 @@ Hooks.once('init', function() {
     default: true,
   });
 
+  game.settings.register("mmm", "triggerNpc", {
+    name: "Trigger Injuries on NPCs",
+    hint: "Enables the automations on non player owned actors.",
+    scope: "world",
+    config: true,
+    type: Boolean,
+    default: false,
+  });
+
 });
 
 Hooks.once('ready', async function() {

@@ -9,15 +9,16 @@ Hooks.on("midi-qol.RollComplete", async (workflow) => {
   const applyOnCrit = game.settings.get("mmm", "applyOnCrit");
   const applyOnDamage = game.settings.get("mmm", "applyOnDamage");
   const applyOnDown = game.settings.get("mmm", "applyOnDown");
+  const triggerNpc = game.settings.get("mmm", "triggerNpc");
   for (let target of workflow.damageList) {
     const actor = game.actors.get(target.actorId);
-    if(!actor.hasPlayerOwner) continue;
+    if(!actor.hasPlayerOwner && !triggerNpc) continue;
     const hpMax = actor.data.data.attributes.hp.max;
     const damageTaken = target.hpDamage;
     const isHalfOrMore = damageTaken >= hpMax / 2;
     const damageType = workflow.damageDetail[0].type;
     const save = workflow.saveDisplayData?.find((s) => s.id === target.tokenId);
-    const isCritSave = save?.rollDetail?.terms[0]?.total === 1;
+    const isCritSave = save?.rollDetail?.terms[0]?.results?.find(result => result.active)?.result === 1;
     const isCrit = workflow.isCritical;
     const isDead = target.newHP <= 0;
     if (isHalfOrMore && applyOnDamage) {
@@ -50,9 +51,10 @@ Hooks.on("midi-qol.RollComplete", async (workflow) => {
 Hooks.on("preUpdateActor", (actor,updates)=>{updates.prevHp = actor.data.data.attributes.hp.value});
 
 Hooks.on("updateActor", (actor, updates)=>{
-  if(!game.user.isGM || !actor.hasPlayerOwner || updates.damageItem || updates?.data?.attributes?.hp?.value === undefined) return;
+  if(!game.user.isGM || updates.damageItem || updates?.data?.attributes?.hp?.value === undefined) return;
+  const triggerNpc = game.settings.get("mmm", "triggerNpc");
+  if(!actor.hasPlayerOwner && !triggerNpc) return;
   if(!game.settings.get("mmm", "nonMidiAutomation")) return;
-  debugger;
   const applyOnDamage = game.settings.get("mmm", "applyOnDamage");
   const applyOnDown = game.settings.get("mmm", "applyOnDown");
   const hpMax = actor.data.data.attributes.hp.max;

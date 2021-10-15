@@ -21,8 +21,7 @@
   "scripts": [
       "./scripts/main.js",
       "./scripts/config.js",
-      "./scripts/module.js",
-        "./scripts/injectConfig.js"
+      "./scripts/module.js"
   ],
   "styles": [
       "./styles/module.css"
