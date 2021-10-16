@@ -122,6 +122,9 @@ Hooks.on("renderChatMessage", (message, html)=>{
                   mmm: 
                   {
                     lingeringInjury: true
+                  },
+                  dae: {
+                    deleteOrigin : game.settings.get("mmm", "selfdestruct") ? 1 : ""
                   }
                 },
               }
