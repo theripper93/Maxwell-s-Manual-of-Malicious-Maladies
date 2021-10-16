@@ -53,6 +53,15 @@ Hooks.once('init', function() {
     default: false,
   });
 
+  game.settings.register("mmm", "selfdestruct", {
+    name: "Destroy items",
+    hint: "When active effects expire, destroy the injury item. (requires DAE/MidiQoL)",
+    scope: "world",
+    config: true,
+    type: Boolean,
+    default: false,
+  });
+
 });
 
 Hooks.once('ready', async function() {

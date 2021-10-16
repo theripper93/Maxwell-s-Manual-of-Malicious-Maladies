@@ -8,10 +8,10 @@ Hooks.on("midi-qol.RollComplete", async (workflow) => {
   const applyOnCritSave = game.settings.get("mmm", "applyOnCritSave");
   const applyOnCrit = game.settings.get("mmm", "applyOnCrit");
   const applyOnDamage = game.settings.get("mmm", "applyOnDamage");
-  const applyOnDown = game.settings.get("mmm", "applyOnDown") && actor.hasPlayerOwner;
   const triggerNpc = game.settings.get("mmm", "triggerNpc");
   for (let target of workflow.damageList) {
     const actor = game.actors.get(target.actorId);
+    const applyOnDown = game.settings.get("mmm", "applyOnDown") && actor.hasPlayerOwner;
     if(!actor.hasPlayerOwner && !triggerNpc) continue;
     const hpMax = actor.data.data.attributes.hp.max;
     const damageTaken = target.hpDamage;
