@@ -119,10 +119,10 @@ class MaxwelMaliciousMaladies {
   }
 
   static inferDuration(text){
-    const seconds = parseInt(text.match(/\d+ seconds/i)) || 0;
-    const minutes = parseInt(text.match(/\d+ minutes/i)) || 0;
-    const hours = parseInt(text.match(/\d+ hours/i)) || 0;
-    const days = parseInt(text.match(/\d+ days/i)) || 0;
+    const seconds = parseInt(text.match(/\d+ second/i)) || 0;
+    const minutes = parseInt(text.match(/\d+ minute/i)) || 0;
+    const hours = parseInt(text.match(/\d+ hour/i)) || 0;
+    const days = parseInt(text.match(/\d+ day/i)) || 0;
     //add up
     return seconds + (minutes * 60) + (hours * 60 * 60) + (days * 60 * 60 * 24);
   }

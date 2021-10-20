@@ -115,6 +115,14 @@ Hooks.on("renderChatMessage", (message, html)=>{
                 icon: imgsrc,
                 label: title,
                 transfer: true,
+                changes: [
+                  {
+                    "key": "flags.dae.deleteOrigin",
+                    "value":  game.settings.get("mmm", "selfdestruct") ? 1 : "",
+                    "mode": 2,
+                    "priority": 0
+                  }
+                ],
                 duration: {
                   seconds: title.includes("(") ? null : duration || 9999999999,
                 },
@@ -123,9 +131,6 @@ Hooks.on("renderChatMessage", (message, html)=>{
                   {
                     lingeringInjury: true
                   },
-                  dae: {
-                    deleteOrigin : game.settings.get("mmm", "selfdestruct") ? 1 : ""
-                  }
                 },
               }
             ],
