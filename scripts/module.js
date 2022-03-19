@@ -1,5 +1,6 @@
 Hooks.on("midi-qol.RollComplete", async (workflow) => {
   let timeout = 0;
+  if (!workflow.item?.hasDamage || workflow.hitTargets.size === 0) return;
   while(!workflow.damageList && timeout < 100) {
     await MaxwelMaliciousMaladies.sleep(500);
     timeout++;
