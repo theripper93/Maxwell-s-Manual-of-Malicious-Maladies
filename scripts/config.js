@@ -82,7 +82,7 @@ Hooks.on("chatMessage", (ChatLog, content) => {
   });
 
 Hooks.on("renderChatMessage", (message, html)=>{
-    if(!game.user.isGM || !message?.data?.flavor?.includes("[MMMM]")) return;
+    if(!game.user.isGM || !message?.flavor?.includes("[MMMM]")) return;
     const subTables = ["Scar Chart", "Small Appendage Table", "Large Limb Table"];
     for(let t of subTables){
       if(message?.data?.flavor?.includes(t)) return;
@@ -91,10 +91,10 @@ Hooks.on("renderChatMessage", (message, html)=>{
     html.find(".result-text").prepend(button)
     button.on("click", async (e)=>{
         e.preventDefault();
-        let actor = game.scenes.get(message?.data?.speaker?.scene)?.tokens?.get(message?.data?.speaker?.token)?.actor;
-        actor = actor ?? (game.actors.get(message.data?.speaker?.actor) ?? _token?.actor);
+        let actor = game.scenes.get(message?.speaker?.scene)?.tokens?.get(message?.speaker?.token)?.actor;
+        actor = actor ?? (game.actors.get(message?.speaker?.actor) ?? _token?.actor);
         if(!actor) return ui.notifications.error("No token selected or actor found!");
-        const content = $(message.data.content)
+        const content = $(message.content)
         const imgsrc = content.find("img").attr("src");
         const description = content.find(".result-text").html();
         const duration = MaxwelMaliciousMaladies.inferDuration(content.find(".result-text").text());
@@ -103,7 +103,7 @@ Hooks.on("renderChatMessage", (message, html)=>{
             name: title,
             img: imgsrc,
             type: "feat",
-            "data.description.value": description,
+            "system.description.value": description,
             flags: {
               mmm: 
               {
@@ -136,7 +136,7 @@ Hooks.on("renderChatMessage", (message, html)=>{
             ],
         }
         actor.createEmbeddedDocuments("Item", [itemData]);
-        ui.notifications.notify(`Added ${title} to ${actor.data.name}`)
+        ui.notifications.notify(`Added ${title} to ${actor.name}`)
     });
 });
 

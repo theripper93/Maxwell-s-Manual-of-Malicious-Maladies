@@ -27,11 +27,11 @@ class MaxwelMaliciousMaladies {
   }
 
   static async insertSubtableResult(text, chatMessage){
-    const content = $(chatMessage.data.content)
+    const content = $(chatMessage.content)
     const result = content.find(".result-text")
     //find replace the text in the first stron tag
     const oldTitle = result.find("strong").first().text()
-    const newContent = chatMessage.data.content.replace(oldTitle, oldTitle + "(" + text + ")")
+    const newContent = chatMessage.content.replace(oldTitle, oldTitle + "(" + text + ")")
     chatMessage.update({
       content: newContent
     })
@@ -91,7 +91,7 @@ class MaxwelMaliciousMaladies {
     }
     new Dialog({
       title: "Maxwell's Manual of Malicious Maladies",
-      content: `<p>${actor.data.name} sustained a lingering injury.<br>Reason: <strong>${reason}</strong>.<br>${rollPrompt}</p>${select}`,
+      content: `<p>${actor.name} sustained a lingering injury.<br>Reason: <strong>${reason}</strong>.<br>${rollPrompt}</p>${select}`,
       buttons: {
        one: {
         icon: '<i class="fas fa-dice-d20"></i>',
@@ -128,7 +128,7 @@ class MaxwelMaliciousMaladies {
   }
 
   static isOwnerConnected(actor){
-    for(let [userId,permission] of Object.entries(actor.data.permission)){
+    for(let [userId,permission] of Object.entries(actor.ownership)){
       if(permission !== 3) continue;
       const user = game.users.get(userId);
       if(!user?.isGM && user?.active) return true;

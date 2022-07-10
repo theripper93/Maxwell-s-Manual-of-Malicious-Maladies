@@ -15,7 +15,7 @@ Hooks.on("midi-qol.RollComplete", async (workflow) => {
     const actor = token.actor;
     const applyOnDown = game.settings.get("mmm", "applyOnDown") && actor.hasPlayerOwner;
     if(!actor.hasPlayerOwner && !triggerNpc) continue;
-    const hpMax = actor.data.data.attributes.hp.max;
+    const hpMax = actor.system.attributes.hp.max;
     const damageTaken = target.hpDamage;
     const isHalfOrMore = damageTaken >= hpMax / 2;
     const damageType = workflow.damageDetail[0].type;
@@ -50,20 +50,20 @@ Hooks.on("midi-qol.RollComplete", async (workflow) => {
   }
 });
 
-Hooks.on("preUpdateActor", (actor,updates)=>{updates.prevHp = actor.data.data.attributes.hp.value});
+Hooks.on("preUpdateActor", (actor,updates, diff)=>{diff.prevHp = actor.system.attributes.hp.value});
 
-Hooks.on("updateActor", (actor, updates)=>{
-  if(!game.user.isGM || updates.damageItem || updates?.data?.attributes?.hp?.value === undefined) return;
+Hooks.on("updateActor", (actor, updates, diff)=>{
+  if(!game.user.isGM || updates.damageItem || updates?.system?.attributes?.hp?.value === undefined) return;
   const triggerNpc = game.settings.get("mmm", "triggerNpc");
   if(!actor.hasPlayerOwner && !triggerNpc) return;
   if(!game.settings.get("mmm", "nonMidiAutomation")) return;
   const applyOnDamage = game.settings.get("mmm", "applyOnDamage");
   const applyOnDown = game.settings.get("mmm", "applyOnDown") && actor.hasPlayerOwner;
-  const hpMax = actor.data.data.attributes.hp.max;
-  const damageTaken = actor.data.data.attributes.hp.value - updates.prevHp;
+  const hpMax = actor.system.attributes.hp.max;
+  const damageTaken = actor.system.attributes.hp.value - diff.prevHp;
   if(damageTaken >= 0) return;
   const isHalfOrMore = Math.abs(damageTaken) >= hpMax / 2;
-  const isDead = actor.data.data.attributes.hp.value <= 0;
+  const isDead = actor.system.attributes.hp.value <= 0;
   if (isHalfOrMore && applyOnDamage) {
     MaxwelMaliciousMaladiesSocket.executeForEveryone("requestRoll",
       "Damage exeded half of maximum hp",

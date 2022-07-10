@@ -1,63 +1,68 @@
 {
-  "name": "mmm",
+  "id": "mmm",
   "title": "Maxwell's Manual of Malicious Maladies",
   "description": "208 lingering injuries all with different severities, durations, and consequences, based on the 13 different damage types.",
   "version": "0.1",
-  "author": "theripper93",
   "authors": [
-      {
-          "name": "theripper93",
-          "email": "tsplab@gmail.com",
-          "url": "https://www.patreon.com/theripper93"
-      }
+    {
+      "name": "theripper93",
+      "email": "tsplab@gmail.com",
+      "url": "https://www.patreon.com/theripper93"
+    }
   ],
   "languages": [
-      {
-          "lang": "en",
-          "name": "English",
-          "path": "languages/en.json"
-      }
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "languages/en.json"
+    }
   ],
   "scripts": [
-      "./scripts/main.js",
-      "./scripts/config.js",
-      "./scripts/module.js"
+    "scripts/main.js",
+    "scripts/config.js",
+    "scripts/module.js"
   ],
   "styles": [
-      "./styles/module.css"
+    "styles/module.css"
   ],
   "packs": [
     {
-        "name": "mmmm",
-        "label": "Maxwell's Manual of Malicious Maladies Tables",
-        "path": "packs/tables.db",
-        "entity": "RollTable",
-        "module": "mmm"
+      "name": "mmmm",
+      "label": "Maxwell's Manual of Malicious Maladies Tables",
+      "path": "packs/tables.db",
+      "type": "RollTable",
+      "private": false
     },
     {
-        "name": "mmmmi",
-        "label": "Maxwell's Manual of Malicious Maladies Items",
-        "path": "packs/items.db",
-        "entity": "Item",
-        "module": "mmm"
+      "name": "mmmmi",
+      "label": "Maxwell's Manual of Malicious Maladies Items",
+      "path": "packs/items.db",
+      "type": "Item",
+      "private": false
     },
     {
-        "name": "mmmmj",
-        "label": "Maxwell's Manual of Malicious Maladies",
-        "path": "packs/journals.db",
-        "entity": "JournalEntry",
-        "module": "mmm"
+      "name": "mmmmj",
+      "label": "Maxwell's Manual of Malicious Maladies",
+      "path": "packs/journals.db",
+      "type": "JournalEntry",
+      "private": false
     }
-],
-  "minimumCoreVersion": "0.8.6",
-  "compatibleCoreVersion": "0.8.9",
+  ],
   "url": "https://github.com/theripper93/mmm",
   "manifest": "https://github.com/theripper93/mmm/releases/latest/download/module.json",
   "download": "https://github.com/theripper93/mmm/releases/latest/download/module.zip",
-  "socket":true,
-  "dependencies": [
-    {
-        "name": "socketlib"
-    }
-  ]
+  "socket": true,
+  "relationships": {
+    "requires": [
+      {
+        "id": "socketlib",
+        "type": "module",
+        "compatibility": {}
+      }
+    ]
+  },
+  "compatibility": {
+    "minimum": "0.8.6",
+    "verified": "0.8.9"
+  }
 }
