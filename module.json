@@ -64,5 +64,8 @@
   "compatibility": {
     "minimum": "10",
     "verified": "10"
-  }
+  },
+
+  "name": "mmm",
+  "minimumCoreVersion": "10"
 }
