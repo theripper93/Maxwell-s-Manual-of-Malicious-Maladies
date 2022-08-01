@@ -38,7 +38,8 @@
       "label": "Maxwell's Manual of Malicious Maladies Items",
       "path": "packs/items.db",
       "type": "Item",
-      "private": false
+      "private": false,
+      "system": "dnd5e"
     },
     {
       "name": "mmmmj",
