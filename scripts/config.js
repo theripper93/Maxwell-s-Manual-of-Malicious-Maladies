@@ -85,7 +85,7 @@ Hooks.on("renderChatMessage", (message, html)=>{
     if(!game.user.isGM || !message?.flavor?.includes("[MMMM]")) return;
     const subTables = ["Scar Chart", "Small Appendage Table", "Large Limb Table"];
     for(let t of subTables){
-      if(message?.data?.flavor?.includes(t)) return;
+      if(message?.flavor?.includes(t)) return;
     }
     const button = $(`<a title="Apply Lingering Injury" style="margin-right: 0.3rem;color: red;" class="button"><i class="fas fa-viruses"></i></a>`)
     html.find(".result-text").prepend(button)
