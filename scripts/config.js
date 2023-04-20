@@ -131,6 +131,9 @@ Hooks.on("renderChatMessage", (message, html)=>{
                   {
                     lingeringInjury: true
                   },
+                  "dfreds-convenient-effects": {
+                    "description": description,
+                  },
                 },
               }
             ],
