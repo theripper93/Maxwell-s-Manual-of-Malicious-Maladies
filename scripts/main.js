@@ -51,8 +51,8 @@ class MaxwelMaliciousMaladies {
   static async displayDialog(){
     let select = `<div class="form-group"><select style="width: 100%;" id="mmm-select-table">`;
     const pack = this.getPack();
-    const tableNames = Array.from(pack.index).map(e => e.name.replace(" - [MMMM]", ""));
-    tableNames.forEach(name => select+=`<option value="${name}">${name}</option>`);
+    const tableNames = Array.from(pack.index).map(e => e.name.replace(" - [MMMM]", "")).sort((a,b) => a.localeCompare(b));
+    tableNames.forEach(name => select += `<option value="${name}">${name}</option>`);
     select += `</select></div><p>`;
     new Dialog({
       title: "Maxwell's Manual of Malicious Maladies",
@@ -85,7 +85,7 @@ class MaxwelMaliciousMaladies {
     if(choseTable){
       select = `<div class="form-group"><select style="width: 100%;" id="mmm-select-table">`;
       const pack = this.getPack();
-      const tableNames = Array.from(pack.index).map(e => e.name.replace(" - [MMMM]", ""));
+      const tableNames = Array.from(pack.index).map(e => e.name.replace(" - [MMMM]", "")).sort((a,b) => a.localeCompare(b));
       tableNames.forEach(name => select+=`<option value="${name}">${name}</option>`);
       select += `</select></div><p>`;
     }
