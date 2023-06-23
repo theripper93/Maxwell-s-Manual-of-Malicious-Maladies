@@ -126,13 +126,11 @@ Hooks.on("renderChatMessage", (message, html)=>{
                 duration: {
                   seconds: title.includes("(") ? null : duration || 9999999999,
                 },
+                description: description,
                 flags: {
                   mmm: 
                   {
                     lingeringInjury: true
-                  },
-                  "dfreds-convenient-effects": {
-                    "description": description,
                   },
                 },
               }
