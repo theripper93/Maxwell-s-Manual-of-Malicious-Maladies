@@ -136,8 +136,8 @@ class MaxwelMaliciousMaladies {
     return false;
   }
 
-  static requestRoll(reason, tablename, actorId){
-    const actor = game.actors.get(actorId);
+  static async requestRoll(reason, tablename, actorId){
+    const actor = await fromUuid(actorId)//game.actors.get(actorId);
     if(game.user.isGM){
       if(!MaxwelMaliciousMaladies.isOwnerConnected(actor)) MaxwelMaliciousMaladies.confirmInjury(reason, tablename, actor);
       return;
