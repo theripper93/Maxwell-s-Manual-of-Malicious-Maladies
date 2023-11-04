@@ -1,3 +1,9 @@
+const MODULE_ID = "mmm";
+const DATA_PACK_ITEMS = "mmm.mmmmi";
+const DATA_PACK_TABLES = "mmm.mmmm";
+const DATA_PACK_JOURNALS = "mmm.mmmmj";
+const DATA_PACKS = [DATA_PACK_ITEMS,DATA_PACK_TABLES,DATA_PACK_JOURNALS];
+
 Hooks.on("midi-qol.RollComplete", async (workflow) => {
     let timeout = 0;
     if (!workflow.item?.hasDamage || workflow.hitTargets.size === 0) return;
@@ -66,4 +72,67 @@ Hooks.on("updateActor", (actor, updates, diff) => {
         MaxwelMaliciousMaladiesSocket.executeForEveryone("requestRoll", "Downed", undefined, actor.uuid);
         return;
     }
+});
+
+function applyChangesCompendiumHeader() {
+    for(const DATA_PACK of DATA_PACKS) {
+        const headerBanner = document.querySelectorAll(
+            `.directory.compendium[data-pack='${DATA_PACK}'] .header-banner`
+          );
+          headerBanner.forEach((item) => {
+            item.style.color = "#ff5252";
+            item.style["background-image"] = `url('modules/${MODULE_ID}/assets/cover.webp')`;
+            item.style["background-repeat"] = `no-repeat`;
+            item.style["background-position"] = `center`;
+            item.style["background-size"] = `cover`;
+        });
+    }
+
+}
+
+function applyChangesCompendiumBanner() {
+    for(const DATA_PACK of DATA_PACKS) {
+        const images = document.querySelectorAll(
+            `.compendium-sidebar .directory-item.compendium[data-pack='${DATA_PACK}'] .compendium-banner`
+        );
+        images.forEach((image) => {
+            image.remove();
+        });
+
+        const compendiumItems = document.querySelectorAll(
+            `.compendium-sidebar .directory-item.compendium[data-pack='${DATA_PACK}']`
+        );
+        compendiumItems.forEach((item) => {
+            item.style.color = "#ff5252";
+            const myImage = new Image();
+            myImage.src = `modules/${MODULE_ID}/assets/cover.webp`;
+            myImage.classList.add("compendium-banner");
+            item.prepend(myImage);
+        });
+
+        const sourceFooter = document.querySelectorAll(
+            `.compendium-sidebar .directory-item.compendium[data-pack='${DATA_PACK}'] .compendium-footer`
+        );
+        sourceFooter.forEach((source) => {
+            source.style.color = "#ff5252";
+        });
+    }
+}
+
+Hooks.on("renderSidebarTab", (tab) => {
+  if (tab instanceof CompendiumDirectory) {
+    applyChangesCompendiumBanner();
+  }
+  if (tab instanceof Compendium) {
+    applyChangesCompendiumHeader();
+  }
+});
+
+Hooks.on("changeSidebarTab", (tab) => {
+  if (tab instanceof CompendiumDirectory) {
+    applyChangesCompendiumBanner();
+  }
+  if (tab instanceof Compendium) {
+    applyChangesCompendiumHeader();
+  }
 });
