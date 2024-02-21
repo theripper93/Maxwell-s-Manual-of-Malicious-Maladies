@@ -91,7 +91,7 @@ class MaxwelMaliciousMaladies {
     }
     new Dialog({
       title: "Maxwell's Manual of Malicious Maladies",
-      content: `<p>${actor.name} sustained a lingering injury.<br>Reason: <strong>${reason}</strong>.<br>${rollPrompt}</p>${select}`,
+      content: `<p class="mmmm-dialog">${actor.name} sustained a lingering injury.<br>Reason: <strong>${reason}</strong>.<br>${rollPrompt}</p>${select}`,
       buttons: {
        one: {
         icon: '<i class="fas fa-dice-d20"></i>',
@@ -111,6 +111,9 @@ class MaxwelMaliciousMaladies {
         callback: () => {}
        }
       },
+      render: html => {
+        html[0].closest(".app").classList.add("dnd5e2");
+      }
      }).render(true);
   }
 
