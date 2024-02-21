@@ -1,21 +1,4 @@
 Hooks.once('init', function() {
-  game.settings.register("mmm", "applyOnCritSave", {
-    name: "On fumbled Saving Throw",
-    hint: "Prompt for a lingering injury roll on a fumbled saving throw.",
-    scope: "world",
-    config: true,
-    type: Boolean,
-    default: true,
-  });
-
-  game.settings.register("mmm", "applyOnCrit", {
-    name: "On Critical",
-    hint: "Prompt for a lingering injury roll on a critical hit.",
-    scope: "world",
-    config: true,
-    type: Boolean,
-    default: true,
-  });
 
   game.settings.register("mmm", "applyOnDamage", {
     name: "On Damage",
@@ -29,15 +12,6 @@ Hooks.once('init', function() {
   game.settings.register("mmm", "applyOnDown", {
     name: "On Unconscious",
     hint: "Prompt for a lingering injury roll when damage brings an actor to 0 hp.",
-    scope: "world",
-    config: true,
-    type: Boolean,
-    default: true,
-  });
-
-  game.settings.register("mmm", "nonMidiAutomation", {
-    name: "Enable non-midiqol automatins",
-    hint: "Enables some automation in the event that you are not using midiqol or you are removing hp manually. The only automations working are the 'On Unconscious' and 'On Damage'. Since the system does not know what type of damage triggered the injury the player will be prompted with the choice.",
     scope: "world",
     config: true,
     type: Boolean,
