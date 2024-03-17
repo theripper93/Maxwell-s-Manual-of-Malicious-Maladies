@@ -111,9 +111,6 @@ class MaxwelMaliciousMaladies {
         callback: () => {}
        }
       },
-      render: html => {
-        html[0].closest(".app").classList.add("dnd5e2");
-      }
      }).render(true);
   }
 
