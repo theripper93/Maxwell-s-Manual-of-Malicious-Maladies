@@ -22,25 +22,21 @@ Hooks.on("dnd5e.calculateDamage", (actor, damages, o) => {
 		const hpCurrent = actor.data.data.attributes.hp.value;
 		const isHalfOrMore = totalDamage >= hpMax / 2;
 		const isDead = hpCurrent === 0;
-		const applyOnDamage = game.settings.get("mmm", "applyOnDamage");
-		const applyOnDown = game.settings.get("mmm", "applyOnDown") && actor.hasPlayerOwner;
-		const applyOnCrit = game.settings.get("mmm", "applyOnCrit");
-		const applyOnCritSave = game.settings.get("mmm", "applyOnCritSave");
 		const isCrit = options?.midi?.isCritical;
 		const isCritSave = options?.midi?.fumbleSave;
-		if (isDead && applyOnDown) {
+		if (isDead && actor.hasPlayerOwner && game.settings.get("mmm", "applyOnDown")) {
 			MaxwelMaliciousMaladiesSocket.executeForEveryone("requestRoll", "Downed", highestDamageType, actor.uuid);
 			return;
 		}
-		if (isHalfOrMore && applyOnDamage) {
+		if (isHalfOrMore && game.settings.get("mmm", "applyOnDamage")) {
 			MaxwelMaliciousMaladiesSocket.executeForEveryone("requestRoll", "Damage exeded half of maximum hp", highestDamageType, actor.uuid);
 			return;
 		}
-		if(isCrit && applyOnCrit){
+		if(isCrit && game.settings.get("mmm", "applyOnCrit")){
 			MaxwelMaliciousMaladiesSocket.executeForEveryone("requestRoll", "Critical Hit", highestDamageType, actor.uuid);
 			return;
 		}
-		if(isCritSave && applyOnCritSave){
+		if(isCritSave && game.settings.get("mmm", "applyOnCritSave")){
 			MaxwelMaliciousMaladiesSocket.executeForEveryone("requestRoll", "Fumbled Saving Throw", highestDamageType, actor.uuid);
 			return;
 		}
