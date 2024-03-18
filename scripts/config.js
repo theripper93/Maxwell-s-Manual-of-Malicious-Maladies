@@ -18,6 +18,24 @@ Hooks.once('init', function() {
     default: true,
   });
 
+  game.settings.register("mmm", "applyOnCritSave", {
+    name: "On fumbled Saving Throw",
+    hint: "Prompt for a lingering injury roll on a fumbled saving throw. (requires MidiQoL)",
+    scope: "world",
+    config: true,
+    type: Boolean,
+    default: true,
+  });
+
+  game.settings.register("mmm", "applyOnCrit", {
+    name: "On Critical",
+    hint: "Prompt for a lingering injury roll on a critical hit. (requires MidiQoL)",
+    scope: "world",
+    config: true,
+    type: Boolean,
+    default: true,
+  });
+
   game.settings.register("mmm", "triggerNpc", {
     name: "Trigger Injuries on NPCs",
     hint: "Enables the automations on non player owned actors.",
