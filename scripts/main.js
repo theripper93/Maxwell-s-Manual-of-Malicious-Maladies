@@ -1,147 +1,174 @@
-class MaxwelMaliciousMaladies {
-  static async rollTable(name, actor){
-    name = name.trim();
-    if(!name.endsWith("[MMMM]")) name = name + " - [MMMM]";
-    name = name.charAt(0).toUpperCase() + name.slice(1);
-    const table = game.tables.getName(name) ?? await this.getTableFromPack(name);
-    if(!table) return await this.displayDialog();
-    let chatMessage
-    Hooks.once("createChatMessage", (message) =>{
-      chatMessage = message;
-    })
-    const result = await table.draw()
-    this.rollSubtable(result.results[0].text, chatMessage);
-    return result
-  }
+import { MaxwelMaliciousMaladies } from "./maxwelMaliciousMaladies.js";
+import { Socket } from "./lib/socket.js";
 
-  static async rollSubtable(result, chatMessage){
+export const MODULE_ID = "mmm";
+
+Hooks.once("init", function () {
+    Socket.register("requestRoll", MaxwelMaliciousMaladies.requestRoll);
+
+    game.settings.register("mmm", "applyOnDamage", {
+        name: "On Damage",
+        hint: "Prompt for a lingering injury roll when the damage recived is more than half of the max hp.",
+        scope: "world",
+        config: true,
+        type: Boolean,
+        default: true,
+    });
+
+    game.settings.register("mmm", "applyOnDown", {
+        name: "On Unconscious",
+        hint: "Prompt for a lingering injury roll when damage brings an actor to 0 hp.",
+        scope: "world",
+        config: true,
+        type: Boolean,
+        default: true,
+    });
+
+    game.settings.register("mmm", "applyOnCritSave", {
+        name: "On fumbled Saving Throw",
+        hint: "Prompt for a lingering injury roll on a fumbled saving throw. (requires MidiQoL)",
+        scope: "world",
+        config: true,
+        type: Boolean,
+        default: true,
+    });
+
+    game.settings.register("mmm", "applyOnCrit", {
+        name: "On Critical",
+        hint: "Prompt for a lingering injury roll on a critical hit. (requires MidiQoL)",
+        scope: "world",
+        config: true,
+        type: Boolean,
+        default: true,
+    });
+
+    game.settings.register("mmm", "triggerNpc", {
+        name: "Trigger Injuries on NPCs",
+        hint: "Enables the automations on non player owned actors.",
+        scope: "world",
+        config: true,
+        type: Boolean,
+        default: false,
+    });
+
+    game.settings.register("mmm", "selfdestruct", {
+        name: "Destroy items",
+        hint: "When active effects expire, destroy the injury item. (requires DAE/MidiQoL)",
+        scope: "world",
+        config: true,
+        type: Boolean,
+        default: false,
+    });
+});
+
+Hooks.on("chatMessage", (ChatLog, content) => {
+    if (content.toLowerCase().startsWith("/mmmm")) {
+        const data = content.replace("/mmmm", "").trim();
+        if (data) {
+            MaxwelMaliciousMaladies.rollTable(data);
+        } else {
+            MaxwelMaliciousMaladies.displayDialog();
+        }
+
+        return false;
+    }
+});
+
+Hooks.on("renderChatMessage", (message, html) => {
+    if (!game.user.isGM || !message?.flavor?.includes("[MMMM]")) return;
     const subTables = ["Scar Chart", "Small Appendage Table", "Large Limb Table"];
-    for(let tab of subTables){
-      if(result.toLowerCase().includes(tab.toLowerCase())){
-        const result = await MaxwelMaliciousMaladies.rollTable(tab);
-        const text = result.results[0].text
-        MaxwelMaliciousMaladies.insertSubtableResult(text,chatMessage)
-        return;
-      }
+    for (let t of subTables) {
+        if (message?.flavor?.includes(t)) return;
     }
-  }
+    const button = $(`<a title="Apply Lingering Injury" style="margin-right: 0.3rem;color: red;" class="button"><i class="fas fa-viruses"></i></a>`);
+    html.find(".result-text").prepend(button);
+    button.on("click", async (e) => {
+        e.preventDefault();
+        let actor = game.scenes.get(message?.speaker?.scene)?.tokens?.get(message?.speaker?.token)?.actor;
+        actor = actor ?? game.actors.get(message?.speaker?.actor) ?? _token?.actor;
+        if (!actor) return ui.notifications.error("No token selected or actor found!");
+        const content = $(message.content);
+        const imgsrc = content.find("img").attr("src");
+        const description = content.find(".result-text").html();
+        const duration = MaxwelMaliciousMaladies.inferDuration(content.find(".result-text").text());
+        const title = "Lingering Injury - " + content.find("strong").first().text();
+        const itemData = {
+            name: title,
+            img: imgsrc,
+            type: "feat",
+            "system.description.value": description,
+            flags: {
+                mmm: {
+                    lingeringInjury: true,
+                },
+            },
+            effects: [
+                {
+                    icon: imgsrc,
+                    label: title,
+                    transfer: true,
+                    changes: [
+                        {
+                            key: "flags.dae.deleteOrigin",
+                            value: game.settings.get("mmm", "selfdestruct") ? 1 : "",
+                            mode: 2,
+                            priority: 0,
+                        },
+                    ],
+                    duration: {
+                        seconds: title.includes("(") ? null : duration || 9999999999,
+                    },
+                    description: description,
+                    flags: {
+                        mmm: {
+                            lingeringInjury: true,
+                        },
+                    },
+                },
+            ],
+        };
+        actor.createEmbeddedDocuments("Item", [itemData]);
+        ui.notifications.notify(`Added ${title} to ${actor.name}`);
+    });
+});
 
-  static async insertSubtableResult(text, chatMessage){
-    const content = $(chatMessage.content)
-    const result = content.find(".result-text")
-    //find replace the text in the first stron tag
-    const oldTitle = result.find("strong").first().text()
-    const newContent = chatMessage.content.replace(oldTitle, oldTitle + "(" + text + ")")
-    chatMessage.update({
-      content: newContent
-    })
-  }
+Hooks.on("dnd5e.calculateDamage", (actor, damages, o) => {
+    o.MMMMID = foundry.utils.randomID();
+    Hooks.once("dnd5e.applyDamage", (a, b, options) => {
+        if (o.MMMMID !== options.MMMMID) return;
+        const triggerNpc = game.settings.get("mmm", "triggerNpc");
+        if (!actor.hasPlayerOwner && !triggerNpc) return;
+        damages = [...damages];
+        damages.forEach((d) => {
+            if (!d.type) d.type = d.value < 0 ? "healing" : "";
+        });
+        const damagesNoHealing = damages.filter((d) => d.type !== "healing");
+        if (!damagesNoHealing.length) return;
+        const damagesSorted = damagesNoHealing.sort((a, b) => b.value - a.value);
+        const highestDamageType = damagesSorted[0].type;
+        const totalDamage = damagesSorted.reduce((acc, d) => acc + d.value, 0);
 
-
-  static getPack(){
-    return game.packs.get("mmm.mmmm");
-  }
-
-  static async getTableFromPack(name){
-    const pack = this.getPack();
-    const entry = Array.from(pack.index).find(e => e.name == name);
-    return await pack.getDocument(entry._id);
-  }
-
-  static async displayDialog(){
-    let select = `<div class="form-group"><select style="width: 100%;" id="mmm-select-table">`;
-    const pack = this.getPack();
-    const tableNames = Array.from(pack.index).map(e => e.name.replace(" - [MMMM]", "")).sort((a,b) => a.localeCompare(b));
-    tableNames.forEach(name => select += `<option value="${name}">${name}</option>`);
-    select += `</select></div><p>`;
-    new Dialog({
-      title: "Maxwell's Manual of Malicious Maladies",
-      content: `<p>Chose a Table:</p>${select}`,
-      buttons: {
-       one: {
-        icon: '<i class="fas fa-dice-d20"></i>',
-        label: "Roll Injury",
-        callback: (html) => {
-          const tableName = html.find("#mmm-select-table")[0].value;
-          MaxwelMaliciousMaladies.rollTable(tableName);
+        const hpMax = actor.system.attributes.hp.max;
+        const hpCurrent = actor.system.attributes.hp.value;
+        const isHalfOrMore = totalDamage >= hpMax / 2;
+        const isDead = hpCurrent === 0;
+        const isCrit = options?.midi?.isCritical;
+        const isCritSave = options?.midi?.fumbleSave;
+        if (isDead && actor.hasPlayerOwner && game.settings.get("mmm", "applyOnDown")) {
+            Socket.requestRoll({ reason: "Downed", tablename: highestDamageType, uuid: actor.uuid });
+            return;
         }
-       },
-       two: {
-        icon: '<i class="fas fa-times"></i>',
-        label: "Cancel",
-        callback: () => {}
-       }
-      },
-     }).render(true);
-
-  }
-
-  static async confirmInjury(reason, tablename, actor){
-    //set first letter to upper case
-    const choseTable = !tablename
-    const damage = choseTable ? "" : tablename.charAt(0).toUpperCase() + tablename.slice(1);
-    let select = "";
-    let rollPrompt = choseTable ? `Select the correct <strong>Damage Type</strong> before rolling on the table.` : `Roll on the <strong>${damage} Damage</strong> table?`;
-    if(choseTable){
-      select = `<div class="form-group"><select style="width: 100%;" id="mmm-select-table">`;
-      const pack = this.getPack();
-      const tableNames = Array.from(pack.index).map(e => e.name.replace(" - [MMMM]", "")).sort((a,b) => a.localeCompare(b));
-      tableNames.forEach(name => select+=`<option value="${name}">${name}</option>`);
-      select += `</select></div><p>`;
-    }
-    new Dialog({
-      title: "Maxwell's Manual of Malicious Maladies",
-      content: `<p class="mmmm-dialog">${actor.name} sustained a lingering injury.<br>Reason: <strong>${reason}</strong>.<br>${rollPrompt}</p>${select}`,
-      buttons: {
-       one: {
-        icon: '<i class="fas fa-dice-d20"></i>',
-        label: "Roll Injury",
-        callback: (html) => {
-          const token = actor.getActiveTokens()
-          token[0]?.control()
-          if(choseTable){
-            tablename = html.find("#mmm-select-table")[0].value;
-          }
-          MaxwelMaliciousMaladies.rollTable(tablename,actor);
+        if (isHalfOrMore && game.settings.get("mmm", "applyOnDamage")) {
+            Socket.requestRoll({ reason: "Damage exeded half of maximum hp", tablename: highestDamageType, uuid: actor.uuid });
+            return;
         }
-       },
-       two: {
-        icon: '<i class="fas fa-times"></i>',
-        label: "Cancel",
-        callback: () => {}
-       }
-      },
-     }).render(true);
-  }
-
-  static sleep(ms) {
-    return new Promise(resolve => setTimeout(resolve, ms));
-  }
-
-  static inferDuration(text){
-    const seconds = parseInt(text.match(/\d+ second/i)) || 0;
-    const minutes = parseInt(text.match(/\d+ minute/i)) || 0;
-    const hours = parseInt(text.match(/\d+ hour/i)) || 0;
-    const days = parseInt(text.match(/\d+ day/i)) || 0;
-    //add up
-    return seconds + (minutes * 60) + (hours * 60 * 60) + (days * 60 * 60 * 24);
-  }
-
-  static isOwnerConnected(actor){
-    for(let [userId,permission] of Object.entries(actor.ownership)){
-      if(permission !== 3) continue;
-      const user = game.users.get(userId);
-      if(!user?.isGM && user?.active) return true;
-    }
-    return false;
-  }
-
-  static async requestRoll(reason, tablename, actorId){
-    const actor = await fromUuid(actorId)//game.actors.get(actorId);
-    if(game.user.isGM){
-      if(!MaxwelMaliciousMaladies.isOwnerConnected(actor)) MaxwelMaliciousMaladies.confirmInjury(reason, tablename, actor);
-      return;
-    }
-    if(actor.isOwner && MaxwelMaliciousMaladies.isOwnerConnected(actor)) MaxwelMaliciousMaladies.confirmInjury(reason, tablename, actor);
-  }
-}
+        if (isCrit && game.settings.get("mmm", "applyOnCrit")) {
+            Socket.requestRoll({ reason: "Critical Hit", tablename: highestDamageType, uuid: actor.uuid });
+            return;
+        }
+        if (isCritSave && game.settings.get("mmm", "applyOnCritSave")) {
+            Socket.requestRoll({ reason: "Fumbled Saving Throw", tablename: highestDamageType, uuid: actor.uuid });
+            return;
+        }
+    });
+});
