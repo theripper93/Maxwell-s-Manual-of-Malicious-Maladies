@@ -132,13 +132,15 @@ Hooks.on("renderChatMessage", (message, html) => {
     });
 });
 
-Hooks.on("dnd5e.calculateDamage", (actor, damages, o) => {
-    o.MMMMID = foundry.utils.randomID();
-    Hooks.once("dnd5e.applyDamage", (a, b, options) => {
-        if (o.MMMMID !== options.MMMMID) return;
+Hooks.on("dnd5e.calculateDamage", (actor, damages, options) => {
+    options.mmmm = {originalDamages: [...damages]};
+});
+
+Hooks.on("dnd5e.applyDamage", (actor, damageTotal, options) => {
+        if(damageTotal <= 0) return;
         const triggerNpc = game.settings.get("mmm", "triggerNpc");
         if (!actor.hasPlayerOwner && !triggerNpc) return;
-        damages = [...damages];
+        const damages = options.mmmm.originalDamages;
         damages.forEach((d) => {
             if (!d.type) d.type = d.value < 0 ? "healing" : "";
         });
@@ -146,11 +148,10 @@ Hooks.on("dnd5e.calculateDamage", (actor, damages, o) => {
         if (!damagesNoHealing.length) return;
         const damagesSorted = damagesNoHealing.sort((a, b) => b.value - a.value);
         const highestDamageType = damagesSorted[0].type;
-        const totalDamage = damagesSorted.reduce((acc, d) => acc + d.value, 0);
 
         const hpMax = actor.system.attributes.hp.max;
         const hpCurrent = actor.system.attributes.hp.value;
-        const isHalfOrMore = totalDamage >= hpMax / 2;
+        const isHalfOrMore = damageTotal >= hpMax / 2;
         const isDead = hpCurrent === 0;
         const isCrit = options?.midi?.isCritical;
         const isCritSave = options?.midi?.fumbleSave;
@@ -171,4 +172,3 @@ Hooks.on("dnd5e.calculateDamage", (actor, damages, o) => {
             return;
         }
     });
-});
