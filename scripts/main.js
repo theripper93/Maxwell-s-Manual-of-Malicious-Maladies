@@ -149,7 +149,7 @@ Hooks.on("dnd5e.applyDamage", (actor, damageTotal, options) => {
         const damagesSorted = damagesNoHealing.sort((a, b) => b.value - a.value);
         const highestDamageType = damagesSorted[0].type;
 
-        const hpMax = actor.system.attributes.hp.max;
+        const hpMax = actor.system.attributes.hp.effictiveMax;
         const hpCurrent = actor.system.attributes.hp.value;
         const isHalfOrMore = damageTotal >= hpMax / 2;
         const isDead = hpCurrent === 0;
