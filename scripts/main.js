@@ -137,6 +137,7 @@ Hooks.on("dnd5e.calculateDamage", (actor, damages, options) => {
 });
 
 Hooks.on("dnd5e.applyDamage", (actor, damageTotal, options) => {
+    
         if(damageTotal <= 0) return;
         const triggerNpc = game.settings.get("mmm", "triggerNpc");
         if (!actor.hasPlayerOwner && !triggerNpc) return;
@@ -148,8 +149,7 @@ Hooks.on("dnd5e.applyDamage", (actor, damageTotal, options) => {
         if (!damagesNoHealing.length) return;
         const damagesSorted = damagesNoHealing.sort((a, b) => b.value - a.value);
         const highestDamageType = damagesSorted[0].type;
-
-        const hpMax = actor.system.attributes.hp.effictiveMax;
+        const hpMax = actor.system.attributes.hp.effectiveMax;
         const hpCurrent = actor.system.attributes.hp.value;
         const isHalfOrMore = damageTotal >= hpMax / 2;
         const isDead = hpCurrent === 0;
