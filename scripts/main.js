@@ -132,12 +132,11 @@ Hooks.on("renderChatMessage", (message, html) => {
     });
 });
 
-Hooks.on("dnd5e.calculateDamage", (actor, damages, options) => {
+Hooks.on("dnd5e.calculateDamage", (actor, damages, options,a,d,f) => {
     options.mmmm = {originalDamages: [...damages]};
 });
 
 Hooks.on("dnd5e.applyDamage", (actor, damageTotal, options) => {
-    
         if(damageTotal <= 0) return;
         const triggerNpc = game.settings.get("mmm", "triggerNpc");
         if (!actor.hasPlayerOwner && !triggerNpc) return;
@@ -160,7 +159,7 @@ Hooks.on("dnd5e.applyDamage", (actor, damageTotal, options) => {
             return;
         }
         if (isHalfOrMore && game.settings.get("mmm", "applyOnDamage")) {
-            Socket.requestRoll({ reason: "Damage exeded half of maximum hp", tablename: highestDamageType, uuid: actor.uuid });
+            Socket.requestRoll({ reason: "Damage exceeded half of maximum hp", tablename: highestDamageType, uuid: actor.uuid });
             return;
         }
         if (isCrit && game.settings.get("mmm", "applyOnCrit")) {
