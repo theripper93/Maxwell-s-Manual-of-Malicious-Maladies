@@ -54,25 +54,29 @@ export class MaxwelMaliciousMaladies {
     const tableNames = Array.from(pack.index).map(e => e.name.replace(" - [MMMM]", "")).sort((a,b) => a.localeCompare(b));
     tableNames.forEach(name => select += `<option value="${name}">${name}</option>`);
     select += `</select></div><p>`;
-    new Dialog({
-      title: "Maxwell's Manual of Malicious Maladies",
-      content: `<p>Chose a Table:</p>${select}`,
-      buttons: {
-       one: {
-        icon: '<i class="fas fa-dice-d20"></i>',
-        label: "Roll Injury",
-        callback: (html) => {
-          const tableName = html.find("#mmm-select-table")[0].value;
-          MaxwelMaliciousMaladies.rollTable(tableName);
+    new foundry.applications.api.DialogV2({
+      window: { title: "Maxwell's Manual of Malicious Maladies" },
+      content: `<p>Choose a Table:</p>${select}`,
+      buttons: [
+        {
+          action: "roll",
+          icon: "fas fa-dice-d20",
+          label: "Roll Injury",
+          default: true,
+          callback: (event, button, dialog) => {
+            const tableName = dialog.element.querySelector("#mmm-select-table").value;
+            MaxwelMaliciousMaladies.rollTable(tableName);
+          }
+        },
+        {
+          action: "cancel",
+          icon: "fas fa-times",
+          label: "Cancel",
+          callback: () => {}
         }
-       },
-       two: {
-        icon: '<i class="fas fa-times"></i>',
-        label: "Cancel",
-        callback: () => {}
-       }
-      },
-     }).render(true);
+      ]
+    }).render({ force: true });
+    
 
   }
 
@@ -89,29 +93,40 @@ export class MaxwelMaliciousMaladies {
       tableNames.forEach(name => select+=`<option value="${name}">${name}</option>`);
       select += `</select></div><p>`;
     }
-    new Dialog({
-      title: "Maxwell's Manual of Malicious Maladies",
-      content: `<p class="mmmm-dialog">${actor.name} sustained a lingering injury.<br>Reason: <strong>${reason}</strong>.<br>${rollPrompt}</p>${select}`,
-      buttons: {
-       one: {
-        icon: '<i class="fas fa-dice-d20"></i>',
-        label: "Roll Injury",
-        callback: (html) => {
-          const token = actor.getActiveTokens()
-          token[0]?.control()
-          if(choseTable){
-            tablename = html.find("#mmm-select-table")[0].value;
+    new foundry.applications.api.DialogV2({
+      window: { title: "Maxwell's Manual of Malicious Maladies" },
+      content: `
+        <p class="mmmm-dialog">
+          ${actor.name} sustained a lingering injury.<br>
+          Reason: <strong>${reason}</strong>.<br>
+          ${rollPrompt}
+        </p>
+        ${select}
+      `,
+      buttons: [
+        {
+          action: "roll",
+          icon: "fas fa-dice-d20",
+          label: "Roll Injury",
+          default: true,
+          callback: (event, button, dialog) => {
+            const token = actor.getActiveTokens();
+            token[0]?.control();
+            if (choseTable) {
+              tablename = dialog.element.querySelector("#mmm-select-table").value;
+            }
+            MaxwelMaliciousMaladies.rollTable(tablename, actor);
           }
-          MaxwelMaliciousMaladies.rollTable(tablename,actor);
+        },
+        {
+          action: "cancel",
+          icon: "fas fa-times",
+          label: "Cancel",
+          callback: () => {}
         }
-       },
-       two: {
-        icon: '<i class="fas fa-times"></i>',
-        label: "Cancel",
-        callback: () => {}
-       }
-      },
-     }).render(true);
+      ]
+    }).render({ force: true });
+    
   }
 
   static sleep(ms) {

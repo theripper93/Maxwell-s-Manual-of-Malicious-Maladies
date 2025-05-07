@@ -75,13 +75,14 @@ Hooks.on("chatMessage", (ChatLog, content) => {
 });
 
 Hooks.on("renderChatMessage", (message, html) => {
+
     if (!game.user.isGM || !message?.flavor?.includes("[MMMM]")) return;
     const subTables = ["Scar Chart", "Small Appendage Table", "Large Limb Table"];
     for (let t of subTables) {
         if (message?.flavor?.includes(t)) return;
     }
-    const button = $(`<a title="Apply Lingering Injury" style="margin-right: 0.3rem;color: red;" class="button"><i class="fas fa-viruses"></i></a>`);
-    html.find(".result-text").prepend(button);
+    const button = $(`<a data-tooltip="Apply Lingering Injury" style="margin-right: 0.3rem;color: red;" class="button"><i class="fas fa-viruses"></i></a>`);
+    html.find(".table-draw").after(button);
     button.on("click", async (e) => {
         e.preventDefault();
         let actor = game.scenes.get(message?.speaker?.scene)?.tokens?.get(message?.speaker?.token)?.actor;
@@ -89,7 +90,7 @@ Hooks.on("renderChatMessage", (message, html) => {
         if (!actor) return ui.notifications.error("No token selected or actor found!");
         const content = $(message.content);
         const imgsrc = content.find("img").attr("src");
-        const description = content.find(".result-text").html();
+        const description = content.find(".table-results .description").html();
         const duration = MaxwelMaliciousMaladies.inferDuration(content.find(".result-text").text());
         const title = "Lingering Injury - " + content.find("strong").first().text();
         const itemData = {
@@ -105,7 +106,7 @@ Hooks.on("renderChatMessage", (message, html) => {
             effects: [
                 {
                     icon: imgsrc,
-                    label: title,
+                    name: title,
                     transfer: true,
                     changes: [
                         {
