@@ -88,11 +88,16 @@ Hooks.on("renderChatMessage", (message, html) => {
         let actor = game.scenes.get(message?.speaker?.scene)?.tokens?.get(message?.speaker?.token)?.actor;
         actor = actor ?? game.actors.get(message?.speaker?.actor) ?? _token?.actor;
         if (!actor) return ui.notifications.error("No token selected or actor found!");
-        const content = $(message.content);
-        const imgsrc = content.find("img").attr("src");
-        const description = content.find(".table-results .description").html();
-        const duration = MaxwelMaliciousMaladies.inferDuration(content.find(".result-text").text());
-        const title = "Lingering Injury - " + content.find("strong").first().text();
+        const parser = new DOMParser();
+        const doc = parser.parseFromString(`<div>${message.content}</div>`, "text/html");
+        const imgElem = doc.querySelector("img");
+        const imgsrc = imgElem ? imgElem.getAttribute("src") : "";
+        const descElem = doc.querySelector(".table-results .description");
+        const description = descElem ? descElem.innerHTML : "";
+        const resultTextElem = doc.querySelector(".result-text");
+        const duration = MaxwelMaliciousMaladies.inferDuration(resultTextElem ? resultTextElem.textContent : "");
+        const strongElem = doc.querySelector("strong");
+        const title = "Lingering Injury - " + (strongElem ? strongElem.textContent : "");
         const itemData = {
             name: title,
             img: imgsrc,
