@@ -62,6 +62,9 @@ Hooks.once("init", function () {
 });
 
 Hooks.on("chatMessage", (ChatLog, content) => {
+    const div = document.createElement("div");
+    div.innerHTML = content;
+    content = div.innerText;
     if (content.toLowerCase().startsWith("/mmmm")) {
         const data = content.replace("/mmmm", "").trim();
         if (data) {
@@ -81,7 +84,7 @@ Hooks.on("renderChatMessage", (message, html) => {
     for (let t of subTables) {
         if (message?.flavor?.includes(t)) return;
     }
-    const button = $(`<a data-tooltip="Apply Lingering Injury" style="margin-right: 0.3rem;color: red;" class="button"><i class="fas fa-viruses"></i></a>`);
+    const button = $(`<a style="margin-right: 0.3rem;" class="button"><i class="fas fa-viruses" style="color: red;"></i>Apply Lingering Injury</a>`);
     html.find(".table-draw").after(button);
     button.on("click", async (e) => {
         e.preventDefault();
