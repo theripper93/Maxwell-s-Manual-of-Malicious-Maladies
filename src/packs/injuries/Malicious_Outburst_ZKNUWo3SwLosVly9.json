@@ -1,0 +1,80 @@
+{
+  "_id": "ZKNUWo3SwLosVly9",
+  "name": "Malicious Outburst",
+  "type": "feat",
+  "img": "icons/magic/unholy/strike-body-explode-disintegrate.webp",
+  "system": {
+    "description": {
+      "value": "<p>You are filled with a blind rage and an overwhelming violent compulsion. You immediately use your reaction to make a melee attack against the nearest creature (at random). You spend the next [[1d4]] turns pursuing and attacking whatever creature is closest to you, regardless of if they are friendly or not.</p><p><em>Treatment</em> - Any spell or effect that would end a Barbarian's rage also ends this effect.</p>",
+      "chat": ""
+    },
+    "source": {
+      "book": "Maxwell's Manual of Malicious Maladies",
+      "custom": ""
+    },
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "requirements": "Necrotic Lingering Injury"
+  },
+  "effects": [
+    {
+      "_id": "blUO6w0yoNYGcasi",
+      "name": "Malicious Outburst",
+      "img": "icons/magic/unholy/strike-body-explode-disintegrate.webp",
+      "type": "base",
+      "system": {
+        "changes": [],
+        "conditions": "{}",
+        "magical": false,
+        "rider": {
+          "statuses": []
+        }
+      },
+      "disabled": false,
+      "duration": {
+        "value": null,
+        "units": "rounds",
+        "expiry": "turnEnd",
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "showIcon": 1,
+      "sort": 0,
+      "flags": {
+        "mmm": {
+          "duration": {
+            "formula": "1d4",
+            "units": "rounds",
+            "expiry": "turnEnd"
+          }
+        }
+      },
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6"
+      },
+      "_key": "!items.effects!ZKNUWo3SwLosVly9.blUO6w0yoNYGcasi"
+    }
+  ],
+  "folder": "1nRoeyF7X9eMLmxS",
+  "sort": 700,
+  "flags": {
+    "mmm": {
+      "injury": true,
+      "damageType": "necrotic"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  },
+  "_key": "!items!ZKNUWo3SwLosVly9"
+}

@@ -1,0 +1,85 @@
+{
+  "_id": "rzg5uTI2aZ83kitr",
+  "name": "The Stench of Decay",
+  "type": "feat",
+  "img": "icons/magic/unholy/strike-body-explode-disintegrate.webp",
+  "system": {
+    "description": {
+      "value": "<p>You are plagued by the lingering stench of rotting flesh. It clings to you and is perceivable by anyone within 5 feet of you. For [[1d6]] days you have disadvantage on all Charisma based checks.</p><p><em>Treatment</em> - Scouring clean in a long, hot bath will reduce the duration of this effect by [[1d6]] days.</p>",
+      "chat": ""
+    },
+    "source": {
+      "book": "Maxwell's Manual of Malicious Maladies",
+      "custom": ""
+    },
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "requirements": "Necrotic Lingering Injury"
+  },
+  "effects": [
+    {
+      "_id": "u3wXiCIggSCL8jPW",
+      "name": "The Stench of Decay",
+      "img": "icons/magic/unholy/strike-body-explode-disintegrate.webp",
+      "type": "base",
+      "system": {
+        "changes": [
+          {
+            "key": "system.abilities.cha.check.roll.mode",
+            "type": "add",
+            "value": "-1"
+          }
+        ],
+        "conditions": "{}",
+        "magical": false,
+        "rider": {
+          "statuses": []
+        }
+      },
+      "disabled": false,
+      "duration": {
+        "value": null,
+        "units": "days",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "showIcon": 1,
+      "sort": 0,
+      "flags": {
+        "mmm": {
+          "duration": {
+            "formula": "1d6",
+            "units": "days"
+          }
+        }
+      },
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6"
+      },
+      "_key": "!items.effects!rzg5uTI2aZ83kitr.u3wXiCIggSCL8jPW"
+    }
+  ],
+  "folder": "1nRoeyF7X9eMLmxS",
+  "sort": 900,
+  "flags": {
+    "mmm": {
+      "injury": true,
+      "damageType": "necrotic"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  },
+  "_key": "!items!rzg5uTI2aZ83kitr"
+}

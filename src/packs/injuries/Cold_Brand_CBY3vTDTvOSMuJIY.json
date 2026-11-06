@@ -1,0 +1,79 @@
+{
+  "_id": "CBY3vTDTvOSMuJIY",
+  "name": "Cold Brand",
+  "type": "feat",
+  "img": "icons/magic/water/snowflake-ice-snow-white.webp",
+  "system": {
+    "description": {
+      "value": "<p>Roll on the @UUID[Compendium.mmm.mmmm.RollTable.5EyNHyXKtfhIlYCa]{Scar Chart}. This area of your body has been cryo-branded, and will result in a defined, pale scar. Any hair on the affected area will grow back white.</p>",
+      "chat": ""
+    },
+    "source": {
+      "book": "Maxwell's Manual of Malicious Maladies",
+      "custom": ""
+    },
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "requirements": "Cold Lingering Injury"
+  },
+  "effects": [
+    {
+      "_id": "Li5mdhjdGYCzYN6u",
+      "name": "Cold Brand",
+      "img": "icons/magic/water/snowflake-ice-snow-white.webp",
+      "type": "base",
+      "system": {
+        "changes": [],
+        "conditions": "{}",
+        "magical": false,
+        "rider": {
+          "statuses": []
+        }
+      },
+      "disabled": false,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "showIcon": 1,
+      "sort": 0,
+      "flags": {
+        "mmm": {
+          "duration": null
+        }
+      },
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6"
+      },
+      "_key": "!items.effects!CBY3vTDTvOSMuJIY.Li5mdhjdGYCzYN6u"
+    }
+  ],
+  "folder": "ehO7jsjguoMng3CE",
+  "sort": 1200,
+  "flags": {
+    "mmm": {
+      "injury": true,
+      "damageType": "cold",
+      "location": {
+        "table": "scar"
+      }
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  },
+  "_key": "!items!CBY3vTDTvOSMuJIY"
+}

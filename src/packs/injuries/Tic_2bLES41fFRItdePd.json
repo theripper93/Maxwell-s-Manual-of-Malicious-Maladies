@@ -1,0 +1,76 @@
+{
+  "_id": "2bLES41fFRItdePd",
+  "name": "Tic",
+  "type": "feat",
+  "img": "icons/magic/control/hypnosis-mesmerism-pendulum.webp",
+  "system": {
+    "description": {
+      "value": "<p>The psychic assault has left you with a small vocal or motor tic; a brief compulsive behavior you find difficult or impossible to suppress. The DM may choose a specific tic or roll to determine the tic randomly ([[1d6]]): 1) Eye twitching, 2) Finger clicking, 3) Touching other people or things, 4) Grunting, 5) Repeating a sound or phrase, 6) Grimacing.</p>",
+      "chat": ""
+    },
+    "source": {
+      "book": "Maxwell's Manual of Malicious Maladies",
+      "custom": ""
+    },
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "requirements": "Psychic Lingering Injury"
+  },
+  "effects": [
+    {
+      "_id": "ZGpi1muHGjiwQ9jI",
+      "name": "Tic",
+      "img": "icons/magic/control/hypnosis-mesmerism-pendulum.webp",
+      "type": "base",
+      "system": {
+        "changes": [],
+        "conditions": "{}",
+        "magical": false,
+        "rider": {
+          "statuses": []
+        }
+      },
+      "disabled": false,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "showIcon": 1,
+      "sort": 0,
+      "flags": {
+        "mmm": {
+          "duration": null
+        }
+      },
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6"
+      },
+      "_key": "!items.effects!2bLES41fFRItdePd.ZGpi1muHGjiwQ9jI"
+    }
+  ],
+  "folder": "LhZNHt3RmLuRoZa8",
+  "sort": 1100,
+  "flags": {
+    "mmm": {
+      "injury": true,
+      "damageType": "psychic"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  },
+  "_key": "!items!2bLES41fFRItdePd"
+}

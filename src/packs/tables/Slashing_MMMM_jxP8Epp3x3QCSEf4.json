@@ -1,0 +1,464 @@
+{
+  "name": "Slashing - [MMMM]",
+  "img": "icons/skills/melee/blood-slash-foam-red.webp",
+  "description": "Here is a tip for you to scrawl, please underline it twice: the blood belongs inside the body. When you find a bleed, it is your responsibility to stop it as quickly as possible. Do not rely on magical healing to fix the issue, use pressure and tight bandages. Use of leeches not recommended; you want more blood inside the body, not less.",
+  "results": [
+    {
+      "_id": "vJ9f19tCiLkLf7jr",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/skills/melee/blood-slash-foam-red.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>Roll to randomly determine your left or right eye. You've taken a grievous wound across this eye. It is <strong>nonfunctional</strong>, and if not treated within 12 hours, your vision will be permanently <strong>missing</strong>.</p><p><em>Treatment</em> - A DC 20 Save Sense Surgery.</p>",
+      "name": "Sliced Eye",
+      "_key": "!tables.results!jxP8Epp3x3QCSEf4.vJ9f19tCiLkLf7jr",
+      "documentUuid": "Compendium.mmm.injuries.Item.ouYVpjOKVJcVzo6d"
+    },
+    {
+      "_id": "Asnooo7m3fC7TmqL",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/skills/melee/blood-slash-foam-red.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>Roll on the @UUID[Compendium.mmm.mmmm.RollTable.iP8lOROAIYARwcgk]{Large Limb Table}. The intensity of the blow has sliced your limb clean off. It lands severed at your feet and is considered <strong>missing</strong>.</p><p><em>Treatment</em> - A DC 22 Save Limb Surgery.</p>",
+      "name": "Severed Limb",
+      "_key": "!tables.results!jxP8Epp3x3QCSEf4.Asnooo7m3fC7TmqL",
+      "documentUuid": "Compendium.mmm.injuries.Item.N825I9jeVzOOG1li"
+    },
+    {
+      "_id": "HMMk2aJGt9NxZ2fo",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/skills/melee/blood-slash-foam-red.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>Roll on the @UUID[Compendium.mmm.mmmm.RollTable.vG8gsjqxGB7y9cSD]{Small Appendage Table}. The savagery of the blow has severed one of your small appendages. It lands at your feet and is considered <strong>missing</strong>.</p><p><em>Treatment</em> - A DC 22 Save Limb Surgery.</p>",
+      "name": "Severed Appendage",
+      "_key": "!tables.results!jxP8Epp3x3QCSEf4.HMMk2aJGt9NxZ2fo",
+      "documentUuid": "Compendium.mmm.injuries.Item.sSk5qFNlNiYSl3iE"
+    },
+    {
+      "_id": "4WtHsXCOByvPqij8",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/skills/melee/blood-slash-foam-red.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>The attack has hit one of your vital points and opened a large artery. You are bleeding out. At the end of each turn, take one level of <strong>&Reference[exhaustion]{exhaustion}</strong>.</p><p><em>Treatment</em> - A [[/skill medicine 16]] check staunches bleeding. On a failed save you do not take a level of <strong>exhaustion</strong> at the end of your next turn. You may reattempt this check.</p>",
+      "name": "Exsanguinating",
+      "_key": "!tables.results!jxP8Epp3x3QCSEf4.4WtHsXCOByvPqij8",
+      "documentUuid": "Compendium.mmm.injuries.Item.fsDFlNpXHNC3JAvA"
+    },
+    {
+      "_id": "1aZFemaaN5LlhCtn",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        7,
+        7
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/skills/melee/blood-slash-foam-red.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>You see blood pour from your wound and you feel a bit light headed. At the end of each turn you take damage to your maximum hit points scaled to the damage that caused the lingering injury: 1-10 damage ([[1d4]]), 11-20 damage ([[1d6]]), 21-30 damage ([[1d8]]), 31-40 damage ([[1d10]]), &gt;40 damage ([[1d12]]).</p><p><em>Treatment</em> - A [[/skill medicine 11]] check staunches the bleeding. You may reattempt this check.</p>",
+      "name": "Hemorrhaging",
+      "_key": "!tables.results!jxP8Epp3x3QCSEf4.1aZFemaaN5LlhCtn",
+      "documentUuid": "Compendium.mmm.injuries.Item.Ma7pEt7l2Srdr5x0"
+    },
+    {
+      "_id": "Eb52VVrgBOgdFzXF",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        8,
+        8
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/skills/melee/blood-slash-foam-red.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>You see blood trickling from your wound. It's not a lot, but it adds up. At the end of each turn you take damage to your maximum hit points scaled to the damage that caused the lingering injury: 1-10 damage ([[1d2]]), 11-20 damage ([[1d4]]), 21-30 damage ([[1d6]]), 31-40 damage ([[1d8]]), &gt;40 damage ([[1d10]]).</p><p><em>Treatment</em> - A [[/skill medicine 10]] check staunches the bleeding. You may reattempt this check.</p>",
+      "name": "Bleeding",
+      "_key": "!tables.results!jxP8Epp3x3QCSEf4.Eb52VVrgBOgdFzXF",
+      "documentUuid": "Compendium.mmm.injuries.Item.kLN81kihulFLvoUF"
+    },
+    {
+      "_id": "nDeul6oAuIUnZGGW",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        9,
+        9
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/skills/melee/blood-slash-foam-red.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>Your wound looks angry near its edges and stubbornly refuses to heal. You cannot heal hit points through nonmagical means (such as short or long rests).</p><p><em>Treatment</em> - Once per long rest you may make a [[/skill medicine 18]] check to heal this injury.</p>",
+      "name": "Festering Wound",
+      "_key": "!tables.results!jxP8Epp3x3QCSEf4.nDeul6oAuIUnZGGW",
+      "documentUuid": "Compendium.mmm.injuries.Item.PwAQwbEbLKQN7bVX"
+    },
+    {
+      "_id": "0SpCq7yz5ExlheSP",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        10,
+        10
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/skills/melee/blood-slash-foam-red.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>You've taken a long, painful slash to one of your legs. Your speed is reduced by 10 feet. This injury lasts [[1d8]] days.</p><p><em>Treatment</em> - A [[/skill medicine 15]] check reduces the duration of this injury by [[1d6]] days.</p>",
+      "name": "Leg Laceration",
+      "_key": "!tables.results!jxP8Epp3x3QCSEf4.0SpCq7yz5ExlheSP",
+      "documentUuid": "Compendium.mmm.injuries.Item.0N9c1tfXaC3LLtM9"
+    },
+    {
+      "_id": "24omQYVqdDvxO96H",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        11,
+        11
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/skills/melee/blood-slash-foam-red.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>Roll on the @UUID[Compendium.mmm.mmmm.RollTable.5EyNHyXKtfhIlYCa]{Scar Chart}. You are left with a thin, sinuous scar on this area of your body.</p>",
+      "name": "Sinuous Scar",
+      "_key": "!tables.results!jxP8Epp3x3QCSEf4.24omQYVqdDvxO96H",
+      "documentUuid": "Compendium.mmm.injuries.Item.GAIZ0crw1xfeih5e"
+    },
+    {
+      "_id": "HOt6FHGr0ZB8HD4q",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        12,
+        12
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/skills/melee/blood-slash-foam-red.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>Roll on the @UUID[Compendium.mmm.mmmm.RollTable.5EyNHyXKtfhIlYCa]{Scar Chart}. You are left with a thick, raised scar on this area of your body.</p>",
+      "name": "Hypertrophic Scar",
+      "_key": "!tables.results!jxP8Epp3x3QCSEf4.HOt6FHGr0ZB8HD4q",
+      "documentUuid": "Compendium.mmm.injuries.Item.7nYfZ3fHkvw58c1N"
+    },
+    {
+      "_id": "ULdXoOmf1zja8rHU",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        13,
+        13
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/skills/melee/blood-slash-foam-red.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>You see blood trickling from your wound. It must be a nicked vein because it's difficult to staunch. At the end of each turn you take damage to your maximum hit points scaled to the damage that caused the lingering injury: 1-10 damage ([[1d2]]), 11-20 damage ([[1d4]]), 21-30 damage ([[1d6]]), 31-40 damage ([[1d8]]), &gt;40 damage ([[1d10]]).</p><p><em>Treatment</em> - A [[/skill medicine 14]] check staunches the bleeding. You may reattempt this check.</p>",
+      "name": "Stubborn Bleeding",
+      "_key": "!tables.results!jxP8Epp3x3QCSEf4.ULdXoOmf1zja8rHU",
+      "documentUuid": "Compendium.mmm.injuries.Item.aBreJKa3HM2XyIZ0"
+    },
+    {
+      "_id": "jjDysUgbU0T1hgDo",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        14,
+        14
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/skills/melee/blood-slash-foam-red.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>With every beat of your heart you can feel your lifeblood spilling out. At the end of each turn you take damage to your maximum hit points scaled to the damage that caused the lingering injury: 1-10 damage ([[1d4]]), 11-20 damage ([[1d6]]), 21-30 damage ([[1d8]]), 31-40 damage ([[1d10]]), &gt;40 damage ([[1d12]]).</p><p><em>Treatment</em> - A [[/skill medicine 15]] check staunches the bleeding. You may reattempt this check.</p>",
+      "name": "Stubborn Hemorrhaging",
+      "_key": "!tables.results!jxP8Epp3x3QCSEf4.jjDysUgbU0T1hgDo",
+      "documentUuid": "Compendium.mmm.injuries.Item.Hpbu9QICvD6Krucs"
+    },
+    {
+      "_id": "1caSPQ1b5Aw6cIXu",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        15,
+        15
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/skills/melee/blood-slash-foam-red.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>Roll on the @UUID[Compendium.mmm.mmmm.RollTable.5EyNHyXKtfhIlYCa]{Scar Chart}. You are left with a scar that look particularly well placed on you. When this scar is visible you have a +1 bonus to Charisma (Persuasion) checks. If you collect multiple Aesthetic Scars, this bonus does not stack.</p>",
+      "name": "Aesthetic Scar",
+      "_key": "!tables.results!jxP8Epp3x3QCSEf4.1caSPQ1b5Aw6cIXu",
+      "documentUuid": "Compendium.mmm.injuries.Item.Pimuqy6axq5N7OaX"
+    },
+    {
+      "_id": "R7sfEmITW4uzGcZt",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        16,
+        16
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/skills/melee/blood-slash-foam-red.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>Roll on the @UUID[Compendium.mmm.mmmm.RollTable.vG8gsjqxGB7y9cSD]{Small Appendage Table}. The savage slash has cloven your appendage from you, flinging it into the distance. It lands 15 feet away in a random direction and is considered <strong>missing</strong>.</p><p><em>Treatment</em> - A DC 22 Save Limb Surgery.</p>",
+      "name": "Traumatic Amputation",
+      "_key": "!tables.results!jxP8Epp3x3QCSEf4.R7sfEmITW4uzGcZt",
+      "documentUuid": "Compendium.mmm.injuries.Item.vgXrjFmNYuryWa7n"
+    },
+    {
+      "_id": "AK2seB56EtUmGd8E",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        17,
+        17
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/skills/melee/blood-slash-foam-red.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>You feel the cut rake across the back of your leg, and you stumble, crying out in pain. Your speed is reduced by 10 feet.</p><p><em>Treatment</em> - A DC 20 Save Limb Surgery.</p>",
+      "name": "Hamstrung",
+      "_key": "!tables.results!jxP8Epp3x3QCSEf4.AK2seB56EtUmGd8E",
+      "documentUuid": "Compendium.mmm.injuries.Item.QRT4v9jRYhYslvoN"
+    },
+    {
+      "_id": "sCkgW7G6qNeUbNQb",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        18,
+        18
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/skills/melee/blood-slash-foam-red.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>Roll to randomly determine your left or right ear. You've taken a grievous wound across this ear. It is <strong>nonfunctional</strong>, and if not treated within 12 hours, your hearing will be permanently <strong>missing</strong>.</p><p><em>Treatment</em> - A DC 20 Save Sense Surgery.</p>",
+      "name": "Sliced Ear",
+      "_key": "!tables.results!jxP8Epp3x3QCSEf4.sCkgW7G6qNeUbNQb",
+      "documentUuid": "Compendium.mmm.injuries.Item.Z7ONgJVC7OytBi9e"
+    }
+  ],
+  "formula": "3d6",
+  "replacement": true,
+  "displayRoll": true,
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "core": {}
+  },
+  "_id": "jxP8Epp3x3QCSEf4",
+  "_stats": {
+    "coreVersion": "13.342",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": "RollTable.ApMcZqs3gLdw05y9",
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "Cspu3pxFr7tu7SU7": 3
+  },
+  "_key": "!tables!jxP8Epp3x3QCSEf4"
+}

@@ -1,0 +1,78 @@
+{
+  "_id": "iHMtpZsTEJogJdXu",
+  "name": "Frozen in Place",
+  "type": "feat",
+  "img": "icons/magic/water/snowflake-ice-snow-white.webp",
+  "system": {
+    "description": {
+      "value": "<p>You attempt to move your feet but find the intensity of the cold has frozen you directly to the ground. You are <strong>&Reference[restrained]{restrained}</strong>. If you are flying or otherwise not contacting a surface, there is no effect.</p><p><em>Treatment</em> - A Strength check (DC equals half the damage that caused the lingering injury or 10, whichever number is higher) as an action allows you to break free.</p>",
+      "chat": ""
+    },
+    "source": {
+      "book": "Maxwell's Manual of Malicious Maladies",
+      "custom": ""
+    },
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "requirements": "Cold Lingering Injury"
+  },
+  "effects": [
+    {
+      "_id": "04DbeKK5S2XGRaUn",
+      "name": "Frozen in Place",
+      "img": "icons/magic/water/snowflake-ice-snow-white.webp",
+      "type": "base",
+      "system": {
+        "changes": [],
+        "conditions": "{}",
+        "magical": false,
+        "rider": {
+          "statuses": []
+        }
+      },
+      "disabled": false,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [
+        "restrained"
+      ],
+      "showIcon": 1,
+      "sort": 0,
+      "flags": {
+        "mmm": {
+          "duration": null
+        }
+      },
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6"
+      },
+      "_key": "!items.effects!iHMtpZsTEJogJdXu.04DbeKK5S2XGRaUn"
+    }
+  ],
+  "folder": "ehO7jsjguoMng3CE",
+  "sort": 900,
+  "flags": {
+    "mmm": {
+      "injury": true,
+      "damageType": "cold"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  },
+  "_key": "!items!iHMtpZsTEJogJdXu"
+}

@@ -1,0 +1,76 @@
+{
+  "_id": "eEwVyOugeWZekDXW",
+  "name": "Pertinax Machina",
+  "type": "feat",
+  "img": "icons/magic/movement/trail-streak-zigzag-teal.webp",
+  "system": {
+    "description": {
+      "value": "<p>Your spells struggle to take and always seem like they need a little something extra. Any spell with a material component cost requires double that cost to cast. If the spell consumes the components, double the cost in components are consumed.</p>",
+      "chat": ""
+    },
+    "source": {
+      "book": "Maxwell's Manual of Malicious Maladies",
+      "custom": ""
+    },
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "requirements": "Force Lingering Injury"
+  },
+  "effects": [
+    {
+      "_id": "lrBE7g6SpNDBbuzq",
+      "name": "Pertinax Machina",
+      "img": "icons/magic/movement/trail-streak-zigzag-teal.webp",
+      "type": "base",
+      "system": {
+        "changes": [],
+        "conditions": "{}",
+        "magical": false,
+        "rider": {
+          "statuses": []
+        }
+      },
+      "disabled": false,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "showIcon": 1,
+      "sort": 0,
+      "flags": {
+        "mmm": {
+          "duration": null
+        }
+      },
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6"
+      },
+      "_key": "!items.effects!eEwVyOugeWZekDXW.lrBE7g6SpNDBbuzq"
+    }
+  ],
+  "folder": "SsBTrqUBbEVlKT2I",
+  "sort": 400,
+  "flags": {
+    "mmm": {
+      "injury": true,
+      "damageType": "force"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  },
+  "_key": "!items!eEwVyOugeWZekDXW"
+}

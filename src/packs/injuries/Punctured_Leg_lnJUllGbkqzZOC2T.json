@@ -1,0 +1,86 @@
+{
+  "_id": "lnJUllGbkqzZOC2T",
+  "name": "Punctured Leg",
+  "type": "feat",
+  "img": "icons/skills/melee/blade-tip-orange.webp",
+  "system": {
+    "description": {
+      "value": "<p>The attack sinks into the meat of your leg. It's probably not serious, but the pain of it makes you treat your leg gingerly. Your speed is reduced by 10 feet for [[1d8]] rounds.</p><p><em>Treatment</em> - Any amount of magical healing will end this effect.</p>",
+      "chat": ""
+    },
+    "source": {
+      "book": "Maxwell's Manual of Malicious Maladies",
+      "custom": ""
+    },
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "requirements": "Piercing Lingering Injury"
+  },
+  "effects": [
+    {
+      "_id": "TBReIWi1151b6UAF",
+      "name": "Punctured Leg",
+      "img": "icons/skills/melee/blade-tip-orange.webp",
+      "type": "base",
+      "system": {
+        "changes": [
+          {
+            "key": "system.attributes.movement.speeds.walk",
+            "type": "add",
+            "value": "-10"
+          }
+        ],
+        "conditions": "{}",
+        "magical": false,
+        "rider": {
+          "statuses": []
+        }
+      },
+      "disabled": false,
+      "duration": {
+        "value": null,
+        "units": "rounds",
+        "expiry": "turnEnd",
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "showIcon": 1,
+      "sort": 0,
+      "flags": {
+        "mmm": {
+          "duration": {
+            "formula": "1d8",
+            "units": "rounds",
+            "expiry": "turnEnd"
+          }
+        }
+      },
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6"
+      },
+      "_key": "!items.effects!lnJUllGbkqzZOC2T.TBReIWi1151b6UAF"
+    }
+  ],
+  "folder": "txEFm3aMv2ObXu7k",
+  "sort": 1300,
+  "flags": {
+    "mmm": {
+      "injury": true,
+      "damageType": "piercing"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  },
+  "_key": "!items!lnJUllGbkqzZOC2T"
+}

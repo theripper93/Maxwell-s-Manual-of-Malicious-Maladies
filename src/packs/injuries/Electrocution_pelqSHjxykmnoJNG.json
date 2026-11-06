@@ -1,0 +1,82 @@
+{
+  "_id": "pelqSHjxykmnoJNG",
+  "name": "Electrocution",
+  "type": "feat",
+  "img": "icons/magic/lightning/bolt-strike-sparks-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Your muscles seize, your eyes roll back, and you cannot seem to force your body to function. You are <strong>&Reference[paralyzed]{paralyzed}</strong> until the end of your next turn. Critical hits as the result of your paralysis do not cause you to roll another lingering injury.</p><p><em>Treatment</em> - The Lesser Restoration spell removes this paralysis as usual.</p>",
+      "chat": ""
+    },
+    "source": {
+      "book": "Maxwell's Manual of Malicious Maladies",
+      "custom": ""
+    },
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "requirements": "Lightning Lingering Injury"
+  },
+  "effects": [
+    {
+      "_id": "t5RNstHIEuQacvCC",
+      "name": "Electrocution",
+      "img": "icons/magic/lightning/bolt-strike-sparks-blue.webp",
+      "type": "base",
+      "system": {
+        "changes": [],
+        "conditions": "{}",
+        "magical": false,
+        "rider": {
+          "statuses": []
+        }
+      },
+      "disabled": false,
+      "duration": {
+        "value": null,
+        "units": "rounds",
+        "expiry": "turnEnd",
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [
+        "paralyzed"
+      ],
+      "showIcon": 1,
+      "sort": 0,
+      "flags": {
+        "mmm": {
+          "duration": {
+            "formula": "1",
+            "units": "rounds",
+            "expiry": "turnEnd"
+          }
+        }
+      },
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6"
+      },
+      "_key": "!items.effects!pelqSHjxykmnoJNG.t5RNstHIEuQacvCC"
+    }
+  ],
+  "folder": "pVtivJ93JSXv9sP3",
+  "sort": 800,
+  "flags": {
+    "mmm": {
+      "injury": true,
+      "damageType": "lightning"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  },
+  "_key": "!items!pelqSHjxykmnoJNG"
+}

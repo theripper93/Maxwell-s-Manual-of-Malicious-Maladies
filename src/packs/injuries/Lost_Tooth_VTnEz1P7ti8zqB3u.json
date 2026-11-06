@@ -1,0 +1,76 @@
+{
+  "_id": "VTnEz1P7ti8zqB3u",
+  "name": "Lost Tooth",
+  "type": "feat",
+  "img": "icons/skills/melee/strike-hammer-destructive-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>A blow to your face has knocked one of your teeth clean out of your mouth.</p><p><em>Treatment</em> - A [[/skill perception 15]] check will allow you to recover the tooth. A DC 19 General Surgery within 1 day of the injury occurring allows you to reinsert the tooth.</p>",
+      "chat": ""
+    },
+    "source": {
+      "book": "Maxwell's Manual of Malicious Maladies",
+      "custom": ""
+    },
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "requirements": "Bludgeoning Lingering Injury"
+  },
+  "effects": [
+    {
+      "_id": "BZl2xsLEGbvfmwNr",
+      "name": "Lost Tooth",
+      "img": "icons/skills/melee/strike-hammer-destructive-blue.webp",
+      "type": "base",
+      "system": {
+        "changes": [],
+        "conditions": "{}",
+        "magical": false,
+        "rider": {
+          "statuses": []
+        }
+      },
+      "disabled": false,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "showIcon": 1,
+      "sort": 0,
+      "flags": {
+        "mmm": {
+          "duration": null
+        }
+      },
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6"
+      },
+      "_key": "!items.effects!VTnEz1P7ti8zqB3u.BZl2xsLEGbvfmwNr"
+    }
+  ],
+  "folder": "Wc8yj8xMGuNmySgj",
+  "sort": 500,
+  "flags": {
+    "mmm": {
+      "injury": true,
+      "damageType": "bludgeoning"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  },
+  "_key": "!items!VTnEz1P7ti8zqB3u"
+}

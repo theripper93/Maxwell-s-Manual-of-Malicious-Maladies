@@ -1,0 +1,37 @@
+{
+  "_id": "CY1e5hRepzkBmuR5",
+  "name": "Apathy",
+  "type": "feat",
+  "img": "icons/magic/control/hypnosis-mesmerism-pendulum.webp",
+  "system": {
+    "description": {
+      "value": "<p>Your mind has been indelibly altered, and you just find it more difficult to care. Your alignment shifts one step towards neutral on the good/evil axis. If it is already neutral, treat this roll as a 15.</p>",
+      "chat": ""
+    },
+    "source": {
+      "book": "Maxwell's Manual of Malicious Maladies",
+      "custom": ""
+    },
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "requirements": "Psychic Lingering Injury"
+  },
+  "effects": [],
+  "folder": "LhZNHt3RmLuRoZa8",
+  "sort": 300,
+  "flags": {
+    "mmm": {
+      "injury": true,
+      "damageType": "psychic",
+      "instant": true
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  },
+  "_key": "!items!CY1e5hRepzkBmuR5"
+}

@@ -1,0 +1,37 @@
+{
+  "_id": "FtsxfkWhYScMuGLV",
+  "name": "Corroded Clothes",
+  "type": "feat",
+  "img": "icons/magic/acid/dissolve-drip-droplet-smoke.webp",
+  "system": {
+    "description": {
+      "value": "<p>Your clothes have been corroded to the point of uselessness. If they are magic, they instead have any magical effects suppressed for [[1d4]] days. You are luckily unharmed, apart from a potentially awkward situation with your party members.</p>",
+      "chat": ""
+    },
+    "source": {
+      "book": "Maxwell's Manual of Malicious Maladies",
+      "custom": ""
+    },
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "requirements": "Acid Lingering Injury"
+  },
+  "effects": [],
+  "folder": "hz7xOtq4kabtsVtJ",
+  "sort": 1200,
+  "flags": {
+    "mmm": {
+      "injury": true,
+      "damageType": "acid",
+      "instant": true
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  },
+  "_key": "!items!FtsxfkWhYScMuGLV"
+}

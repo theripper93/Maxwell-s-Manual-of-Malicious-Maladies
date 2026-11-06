@@ -1,0 +1,76 @@
+{
+  "_id": "N9Leza9RlN2ouDNg",
+  "name": "Ruptured Left Eardrum",
+  "type": "feat",
+  "img": "icons/skills/melee/strike-hammer-destructive-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>A violent impact to the side of your head has caused your left eardrum to rupture. Your left ear is <strong>nonfunctional</strong>. If it is not treated within 24 hours, your hearing in this ear is permanently <strong>missing</strong>.</p><p><em>Treatment</em> - A DC 20 Save Sense Surgery</p>",
+      "chat": ""
+    },
+    "source": {
+      "book": "Maxwell's Manual of Malicious Maladies",
+      "custom": ""
+    },
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "requirements": "Bludgeoning Lingering Injury"
+  },
+  "effects": [
+    {
+      "_id": "DCuzhu0eGpbIUszo",
+      "name": "Ruptured Left Eardrum",
+      "img": "icons/skills/melee/strike-hammer-destructive-blue.webp",
+      "type": "base",
+      "system": {
+        "changes": [],
+        "conditions": "{}",
+        "magical": false,
+        "rider": {
+          "statuses": []
+        }
+      },
+      "disabled": false,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "showIcon": 1,
+      "sort": 0,
+      "flags": {
+        "mmm": {
+          "duration": null
+        }
+      },
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6"
+      },
+      "_key": "!items.effects!N9Leza9RlN2ouDNg.DCuzhu0eGpbIUszo"
+    }
+  ],
+  "folder": "Wc8yj8xMGuNmySgj",
+  "sort": 1800,
+  "flags": {
+    "mmm": {
+      "injury": true,
+      "damageType": "bludgeoning"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  },
+  "_key": "!items!N9Leza9RlN2ouDNg"
+}

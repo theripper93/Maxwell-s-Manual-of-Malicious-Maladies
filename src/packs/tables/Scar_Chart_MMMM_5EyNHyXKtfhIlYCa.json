@@ -1,0 +1,1926 @@
+{
+  "name": "Scar Chart - [MMMM]",
+  "img": "icons/skills/wounds/injury-stapled-flesh-tan.webp",
+  "results": [
+    {
+      "_id": "F9CdF3s1Q6lAheym",
+      "type": "text",
+      "weight": 2,
+      "range": [
+        1,
+        2
+      ],
+      "drawn": false,
+      "flags": {
+        "better-rolltables": {
+          "brt-result-formula": {
+            "formula": ""
+          }
+        }
+      },
+      "img": "icons/skills/wounds/injury-stapled-flesh-tan.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Head",
+      "name": "",
+      "_key": "!tables.results!5EyNHyXKtfhIlYCa.F9CdF3s1Q6lAheym"
+    },
+    {
+      "_id": "ms0r4Wrucvl7WxXY",
+      "type": "text",
+      "weight": 2,
+      "range": [
+        3,
+        4
+      ],
+      "drawn": false,
+      "flags": {
+        "better-rolltables": {
+          "brt-result-formula": {
+            "formula": ""
+          }
+        }
+      },
+      "img": "icons/skills/wounds/injury-stapled-flesh-tan.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Face",
+      "name": "",
+      "_key": "!tables.results!5EyNHyXKtfhIlYCa.ms0r4Wrucvl7WxXY"
+    },
+    {
+      "_id": "X8Weg0LG1vuaa62k",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "flags": {
+        "better-rolltables": {
+          "brt-result-formula": {
+            "formula": ""
+          }
+        }
+      },
+      "img": "icons/skills/wounds/injury-stapled-flesh-tan.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Forehead",
+      "name": "",
+      "_key": "!tables.results!5EyNHyXKtfhIlYCa.X8Weg0LG1vuaa62k"
+    },
+    {
+      "_id": "891JvbRacCvMnRwh",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "flags": {
+        "better-rolltables": {
+          "brt-result-formula": {
+            "formula": ""
+          }
+        }
+      },
+      "img": "icons/skills/wounds/injury-stapled-flesh-tan.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Left Cheek",
+      "name": "",
+      "_key": "!tables.results!5EyNHyXKtfhIlYCa.891JvbRacCvMnRwh"
+    },
+    {
+      "_id": "zUt6DNz1vNN5jLQN",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        7,
+        7
+      ],
+      "drawn": false,
+      "flags": {
+        "better-rolltables": {
+          "brt-result-formula": {
+            "formula": ""
+          }
+        }
+      },
+      "img": "icons/skills/wounds/injury-stapled-flesh-tan.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Right Cheek",
+      "name": "",
+      "_key": "!tables.results!5EyNHyXKtfhIlYCa.zUt6DNz1vNN5jLQN"
+    },
+    {
+      "_id": "NZ6foEKx4FQLa178",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        8,
+        8
+      ],
+      "drawn": false,
+      "flags": {
+        "better-rolltables": {
+          "brt-result-formula": {
+            "formula": ""
+          }
+        }
+      },
+      "img": "icons/skills/wounds/injury-stapled-flesh-tan.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Chin",
+      "name": "",
+      "_key": "!tables.results!5EyNHyXKtfhIlYCa.NZ6foEKx4FQLa178"
+    },
+    {
+      "_id": "UCMuxojUjTnS73jS",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        9,
+        9
+      ],
+      "drawn": false,
+      "flags": {
+        "better-rolltables": {
+          "brt-result-formula": {
+            "formula": ""
+          }
+        }
+      },
+      "img": "icons/skills/wounds/injury-stapled-flesh-tan.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Hair/Horns/Scalp",
+      "name": "",
+      "_key": "!tables.results!5EyNHyXKtfhIlYCa.UCMuxojUjTnS73jS"
+    },
+    {
+      "_id": "1ANT2wQ2CcQZP3xM",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        10,
+        10
+      ],
+      "drawn": false,
+      "flags": {
+        "better-rolltables": {
+          "brt-result-formula": {
+            "formula": ""
+          }
+        }
+      },
+      "img": "icons/skills/wounds/injury-stapled-flesh-tan.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Nose",
+      "name": "",
+      "_key": "!tables.results!5EyNHyXKtfhIlYCa.1ANT2wQ2CcQZP3xM"
+    },
+    {
+      "_id": "iABeyaBt6LGbNXYZ",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        11,
+        11
+      ],
+      "drawn": false,
+      "flags": {
+        "better-rolltables": {
+          "brt-result-formula": {
+            "formula": ""
+          }
+        }
+      },
+      "img": "icons/skills/wounds/injury-stapled-flesh-tan.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Tongue",
+      "name": "",
+      "_key": "!tables.results!5EyNHyXKtfhIlYCa.iABeyaBt6LGbNXYZ"
+    },
+    {
+      "_id": "EoOd3JWVujFDjlhW",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        12,
+        12
+      ],
+      "drawn": false,
+      "flags": {
+        "better-rolltables": {
+          "brt-result-formula": {
+            "formula": ""
+          }
+        }
+      },
+      "img": "icons/skills/wounds/injury-stapled-flesh-tan.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Lips/Mouth",
+      "name": "",
+      "_key": "!tables.results!5EyNHyXKtfhIlYCa.EoOd3JWVujFDjlhW"
+    },
+    {
+      "_id": "E0hNF6npWD0dKOQ0",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        13,
+        13
+      ],
+      "drawn": false,
+      "flags": {
+        "better-rolltables": {
+          "brt-result-formula": {
+            "formula": ""
+          }
+        }
+      },
+      "img": "icons/skills/wounds/injury-stapled-flesh-tan.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Eyes/Over Eyes",
+      "name": "",
+      "_key": "!tables.results!5EyNHyXKtfhIlYCa.E0hNF6npWD0dKOQ0"
+    },
+    {
+      "_id": "1Rx6SZX7sJIRCPIg",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        14,
+        14
+      ],
+      "drawn": false,
+      "flags": {
+        "better-rolltables": {
+          "brt-result-formula": {
+            "formula": ""
+          }
+        }
+      },
+      "img": "icons/skills/wounds/injury-stapled-flesh-tan.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Left Eye/Over Eye",
+      "name": "",
+      "_key": "!tables.results!5EyNHyXKtfhIlYCa.1Rx6SZX7sJIRCPIg"
+    },
+    {
+      "_id": "RU8REruuI90VwAHx",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        15,
+        15
+      ],
+      "drawn": false,
+      "flags": {
+        "better-rolltables": {
+          "brt-result-formula": {
+            "formula": ""
+          }
+        }
+      },
+      "img": "icons/skills/wounds/injury-stapled-flesh-tan.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Right Eye/Over Eye",
+      "name": "",
+      "_key": "!tables.results!5EyNHyXKtfhIlYCa.RU8REruuI90VwAHx"
+    },
+    {
+      "_id": "Ot5DPjIMqelI1XQv",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        16,
+        16
+      ],
+      "drawn": false,
+      "flags": {
+        "better-rolltables": {
+          "brt-result-formula": {
+            "formula": ""
+          }
+        }
+      },
+      "img": "icons/skills/wounds/injury-stapled-flesh-tan.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Ears",
+      "name": "",
+      "_key": "!tables.results!5EyNHyXKtfhIlYCa.Ot5DPjIMqelI1XQv"
+    },
+    {
+      "_id": "2ma2U2H1DMOOFRMw",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        17,
+        17
+      ],
+      "drawn": false,
+      "flags": {
+        "better-rolltables": {
+          "brt-result-formula": {
+            "formula": ""
+          }
+        }
+      },
+      "img": "icons/skills/wounds/injury-stapled-flesh-tan.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Left Ear",
+      "name": "",
+      "_key": "!tables.results!5EyNHyXKtfhIlYCa.2ma2U2H1DMOOFRMw"
+    },
+    {
+      "_id": "peB1X4EDWlnHk02n",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        18,
+        18
+      ],
+      "drawn": false,
+      "flags": {
+        "better-rolltables": {
+          "brt-result-formula": {
+            "formula": ""
+          }
+        }
+      },
+      "img": "icons/skills/wounds/injury-stapled-flesh-tan.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Right Ear",
+      "name": "",
+      "_key": "!tables.results!5EyNHyXKtfhIlYCa.peB1X4EDWlnHk02n"
+    },
+    {
+      "_id": "fWKLTzWICDRnTlGb",
+      "type": "text",
+      "weight": 2,
+      "range": [
+        19,
+        20
+      ],
+      "drawn": false,
+      "flags": {
+        "better-rolltables": {
+          "brt-result-formula": {
+            "formula": ""
+          }
+        }
+      },
+      "img": "icons/skills/wounds/injury-stapled-flesh-tan.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Neck",
+      "name": "",
+      "_key": "!tables.results!5EyNHyXKtfhIlYCa.fWKLTzWICDRnTlGb"
+    },
+    {
+      "_id": "KnSDsRFPD0pmJVcV",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        21,
+        21
+      ],
+      "drawn": false,
+      "flags": {
+        "better-rolltables": {
+          "brt-result-formula": {
+            "formula": ""
+          }
+        }
+      },
+      "img": "icons/skills/wounds/injury-stapled-flesh-tan.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Back of Neck",
+      "name": "",
+      "_key": "!tables.results!5EyNHyXKtfhIlYCa.KnSDsRFPD0pmJVcV"
+    },
+    {
+      "_id": "9VwZyQqR8BSM6pVf",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        22,
+        22
+      ],
+      "drawn": false,
+      "flags": {
+        "better-rolltables": {
+          "brt-result-formula": {
+            "formula": ""
+          }
+        }
+      },
+      "img": "icons/skills/wounds/injury-stapled-flesh-tan.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Throat",
+      "name": "",
+      "_key": "!tables.results!5EyNHyXKtfhIlYCa.9VwZyQqR8BSM6pVf"
+    },
+    {
+      "_id": "GxROKJmSbRsotAqs",
+      "type": "text",
+      "weight": 3,
+      "range": [
+        23,
+        25
+      ],
+      "drawn": false,
+      "flags": {
+        "better-rolltables": {
+          "brt-result-formula": {
+            "formula": ""
+          }
+        }
+      },
+      "img": "icons/skills/wounds/injury-stapled-flesh-tan.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Chest",
+      "name": "",
+      "_key": "!tables.results!5EyNHyXKtfhIlYCa.GxROKJmSbRsotAqs"
+    },
+    {
+      "_id": "rPsxbYegsrHsA7o0",
+      "type": "text",
+      "weight": 3,
+      "range": [
+        26,
+        28
+      ],
+      "drawn": false,
+      "flags": {
+        "better-rolltables": {
+          "brt-result-formula": {
+            "formula": ""
+          }
+        }
+      },
+      "img": "icons/skills/wounds/injury-stapled-flesh-tan.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Left Chest",
+      "name": "",
+      "_key": "!tables.results!5EyNHyXKtfhIlYCa.rPsxbYegsrHsA7o0"
+    },
+    {
+      "_id": "vLsEDBSHqM4fs5m7",
+      "type": "text",
+      "weight": 3,
+      "range": [
+        29,
+        31
+      ],
+      "drawn": false,
+      "flags": {
+        "better-rolltables": {
+          "brt-result-formula": {
+            "formula": ""
+          }
+        }
+      },
+      "img": "icons/skills/wounds/injury-stapled-flesh-tan.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Right Chest",
+      "name": "",
+      "_key": "!tables.results!5EyNHyXKtfhIlYCa.vLsEDBSHqM4fs5m7"
+    },
+    {
+      "_id": "Zx4pckQ5kv1TYs1Q",
+      "type": "text",
+      "weight": 3,
+      "range": [
+        32,
+        34
+      ],
+      "drawn": false,
+      "flags": {
+        "better-rolltables": {
+          "brt-result-formula": {
+            "formula": ""
+          }
+        }
+      },
+      "img": "icons/skills/wounds/injury-stapled-flesh-tan.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Upper Back",
+      "name": "",
+      "_key": "!tables.results!5EyNHyXKtfhIlYCa.Zx4pckQ5kv1TYs1Q"
+    },
+    {
+      "_id": "wSg9frRjAzIyZuqN",
+      "type": "text",
+      "weight": 3,
+      "range": [
+        35,
+        37
+      ],
+      "drawn": false,
+      "flags": {
+        "better-rolltables": {
+          "brt-result-formula": {
+            "formula": ""
+          }
+        }
+      },
+      "img": "icons/skills/wounds/injury-stapled-flesh-tan.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Left Upper Back",
+      "name": "",
+      "_key": "!tables.results!5EyNHyXKtfhIlYCa.wSg9frRjAzIyZuqN"
+    },
+    {
+      "_id": "LXQEHIQnUdKB7X7m",
+      "type": "text",
+      "weight": 3,
+      "range": [
+        38,
+        40
+      ],
+      "drawn": false,
+      "flags": {
+        "better-rolltables": {
+          "brt-result-formula": {
+            "formula": ""
+          }
+        }
+      },
+      "img": "icons/skills/wounds/injury-stapled-flesh-tan.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Right Upper Back",
+      "name": "",
+      "_key": "!tables.results!5EyNHyXKtfhIlYCa.LXQEHIQnUdKB7X7m"
+    },
+    {
+      "_id": "J2V5Ywd8gRHYqMEV",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        41,
+        41
+      ],
+      "drawn": false,
+      "flags": {
+        "better-rolltables": {
+          "brt-result-formula": {
+            "formula": ""
+          }
+        }
+      },
+      "img": "icons/skills/wounds/injury-stapled-flesh-tan.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Along Spine",
+      "name": "",
+      "_key": "!tables.results!5EyNHyXKtfhIlYCa.J2V5Ywd8gRHYqMEV"
+    },
+    {
+      "_id": "dEvTSyIxrycL82zV",
+      "type": "text",
+      "weight": 3,
+      "range": [
+        42,
+        44
+      ],
+      "drawn": false,
+      "flags": {
+        "better-rolltables": {
+          "brt-result-formula": {
+            "formula": ""
+          }
+        }
+      },
+      "img": "icons/skills/wounds/injury-stapled-flesh-tan.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Lower Back",
+      "name": "",
+      "_key": "!tables.results!5EyNHyXKtfhIlYCa.dEvTSyIxrycL82zV"
+    },
+    {
+      "_id": "Ok2fIOM0VIFPHLhr",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        45,
+        47
+      ],
+      "drawn": false,
+      "flags": {
+        "better-rolltables": {
+          "brt-result-formula": {
+            "formula": ""
+          }
+        }
+      },
+      "img": "icons/skills/wounds/injury-stapled-flesh-tan.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Stomach",
+      "name": "",
+      "_key": "!tables.results!5EyNHyXKtfhIlYCa.Ok2fIOM0VIFPHLhr"
+    },
+    {
+      "_id": "JaqR1NlPcKlr62jV",
+      "type": "text",
+      "weight": 2,
+      "range": [
+        48,
+        49
+      ],
+      "drawn": false,
+      "flags": {
+        "better-rolltables": {
+          "brt-result-formula": {
+            "formula": ""
+          }
+        }
+      },
+      "img": "icons/skills/wounds/injury-stapled-flesh-tan.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Left Hip",
+      "name": "",
+      "_key": "!tables.results!5EyNHyXKtfhIlYCa.JaqR1NlPcKlr62jV"
+    },
+    {
+      "_id": "AYrnFwkv0VMSxsNj",
+      "type": "text",
+      "weight": 2,
+      "range": [
+        50,
+        51
+      ],
+      "drawn": false,
+      "flags": {
+        "better-rolltables": {
+          "brt-result-formula": {
+            "formula": ""
+          }
+        }
+      },
+      "img": "icons/skills/wounds/injury-stapled-flesh-tan.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Right Hip",
+      "name": "",
+      "_key": "!tables.results!5EyNHyXKtfhIlYCa.AYrnFwkv0VMSxsNj"
+    },
+    {
+      "_id": "WAWgbcoH8iHEpxVK",
+      "type": "text",
+      "weight": 3,
+      "range": [
+        52,
+        54
+      ],
+      "drawn": false,
+      "flags": {
+        "better-rolltables": {
+          "brt-result-formula": {
+            "formula": ""
+          }
+        }
+      },
+      "img": "icons/skills/wounds/injury-stapled-flesh-tan.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Left Arm",
+      "name": "",
+      "_key": "!tables.results!5EyNHyXKtfhIlYCa.WAWgbcoH8iHEpxVK"
+    },
+    {
+      "_id": "6nWSudxGFOxl7qSP",
+      "type": "text",
+      "weight": 3,
+      "range": [
+        55,
+        57
+      ],
+      "drawn": false,
+      "flags": {
+        "better-rolltables": {
+          "brt-result-formula": {
+            "formula": ""
+          }
+        }
+      },
+      "img": "icons/skills/wounds/injury-stapled-flesh-tan.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Left Arm to Elbow",
+      "name": "",
+      "_key": "!tables.results!5EyNHyXKtfhIlYCa.6nWSudxGFOxl7qSP"
+    },
+    {
+      "_id": "1IBT2eMJ6ipZZl0U",
+      "type": "text",
+      "weight": 2,
+      "range": [
+        58,
+        59
+      ],
+      "drawn": false,
+      "flags": {
+        "better-rolltables": {
+          "brt-result-formula": {
+            "formula": ""
+          }
+        }
+      },
+      "img": "icons/skills/wounds/injury-stapled-flesh-tan.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Left Hand",
+      "name": "",
+      "_key": "!tables.results!5EyNHyXKtfhIlYCa.1IBT2eMJ6ipZZl0U"
+    },
+    {
+      "_id": "uelArxPEAqOkDRaX",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        60,
+        60
+      ],
+      "drawn": false,
+      "flags": {
+        "better-rolltables": {
+          "brt-result-formula": {
+            "formula": ""
+          }
+        }
+      },
+      "img": "icons/skills/wounds/injury-stapled-flesh-tan.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Left Palm",
+      "name": "",
+      "_key": "!tables.results!5EyNHyXKtfhIlYCa.uelArxPEAqOkDRaX"
+    },
+    {
+      "_id": "J4hBGV1drB2px2Zn",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        61,
+        61
+      ],
+      "drawn": false,
+      "flags": {
+        "better-rolltables": {
+          "brt-result-formula": {
+            "formula": ""
+          }
+        }
+      },
+      "img": "icons/skills/wounds/injury-stapled-flesh-tan.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Back of Left Hand",
+      "name": "",
+      "_key": "!tables.results!5EyNHyXKtfhIlYCa.J4hBGV1drB2px2Zn"
+    },
+    {
+      "_id": "tPioDeZKbTipM5y3",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        62,
+        62
+      ],
+      "drawn": false,
+      "flags": {
+        "better-rolltables": {
+          "brt-result-formula": {
+            "formula": ""
+          }
+        }
+      },
+      "img": "icons/skills/wounds/injury-stapled-flesh-tan.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Left Thumb",
+      "name": "",
+      "_key": "!tables.results!5EyNHyXKtfhIlYCa.tPioDeZKbTipM5y3"
+    },
+    {
+      "_id": "cokUWCc67bBy63Xx",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        63,
+        63
+      ],
+      "drawn": false,
+      "flags": {
+        "better-rolltables": {
+          "brt-result-formula": {
+            "formula": ""
+          }
+        }
+      },
+      "img": "icons/skills/wounds/injury-stapled-flesh-tan.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Left Index Finger",
+      "name": "",
+      "_key": "!tables.results!5EyNHyXKtfhIlYCa.cokUWCc67bBy63Xx"
+    },
+    {
+      "_id": "OdgDlH4RHgoB9hwX",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        64,
+        64
+      ],
+      "drawn": false,
+      "flags": {
+        "better-rolltables": {
+          "brt-result-formula": {
+            "formula": ""
+          }
+        }
+      },
+      "img": "icons/skills/wounds/injury-stapled-flesh-tan.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Left Middle Finger",
+      "name": "",
+      "_key": "!tables.results!5EyNHyXKtfhIlYCa.OdgDlH4RHgoB9hwX"
+    },
+    {
+      "_id": "uL0HFmYWBup7KVYy",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        65,
+        65
+      ],
+      "drawn": false,
+      "flags": {
+        "better-rolltables": {
+          "brt-result-formula": {
+            "formula": ""
+          }
+        }
+      },
+      "img": "icons/skills/wounds/injury-stapled-flesh-tan.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Left Ring Finger",
+      "name": "",
+      "_key": "!tables.results!5EyNHyXKtfhIlYCa.uL0HFmYWBup7KVYy"
+    },
+    {
+      "_id": "0pGg5ZTFRbEv2meu",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        66,
+        66
+      ],
+      "drawn": false,
+      "flags": {
+        "better-rolltables": {
+          "brt-result-formula": {
+            "formula": ""
+          }
+        }
+      },
+      "img": "icons/skills/wounds/injury-stapled-flesh-tan.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Left Pinky Finger",
+      "name": "",
+      "_key": "!tables.results!5EyNHyXKtfhIlYCa.0pGg5ZTFRbEv2meu"
+    },
+    {
+      "_id": "1E5xyPk3zY5B6D5e",
+      "type": "text",
+      "weight": 3,
+      "range": [
+        67,
+        69
+      ],
+      "drawn": false,
+      "flags": {
+        "better-rolltables": {
+          "brt-result-formula": {
+            "formula": ""
+          }
+        }
+      },
+      "img": "icons/skills/wounds/injury-stapled-flesh-tan.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Right Arm",
+      "name": "",
+      "_key": "!tables.results!5EyNHyXKtfhIlYCa.1E5xyPk3zY5B6D5e"
+    },
+    {
+      "_id": "XzfICIwhXI1JQE7o",
+      "type": "text",
+      "weight": 3,
+      "range": [
+        70,
+        72
+      ],
+      "drawn": false,
+      "flags": {
+        "better-rolltables": {
+          "brt-result-formula": {
+            "formula": ""
+          }
+        }
+      },
+      "img": "icons/skills/wounds/injury-stapled-flesh-tan.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Right Arm to Elbow",
+      "name": "",
+      "_key": "!tables.results!5EyNHyXKtfhIlYCa.XzfICIwhXI1JQE7o"
+    },
+    {
+      "_id": "3tzdTwxKTBndzxaI",
+      "type": "text",
+      "weight": 2,
+      "range": [
+        73,
+        74
+      ],
+      "drawn": false,
+      "flags": {
+        "better-rolltables": {
+          "brt-result-formula": {
+            "formula": ""
+          }
+        }
+      },
+      "img": "icons/skills/wounds/injury-stapled-flesh-tan.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Right Hand",
+      "name": "",
+      "_key": "!tables.results!5EyNHyXKtfhIlYCa.3tzdTwxKTBndzxaI"
+    },
+    {
+      "_id": "NJnFbnTIRSkDXSub",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        75,
+        75
+      ],
+      "drawn": false,
+      "flags": {
+        "better-rolltables": {
+          "brt-result-formula": {
+            "formula": ""
+          }
+        }
+      },
+      "img": "icons/skills/wounds/injury-stapled-flesh-tan.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Right Palm",
+      "name": "",
+      "_key": "!tables.results!5EyNHyXKtfhIlYCa.NJnFbnTIRSkDXSub"
+    },
+    {
+      "_id": "qTYlb1cxyYlE6jhQ",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        76,
+        76
+      ],
+      "drawn": false,
+      "flags": {
+        "better-rolltables": {
+          "brt-result-formula": {
+            "formula": ""
+          }
+        }
+      },
+      "img": "icons/skills/wounds/injury-stapled-flesh-tan.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Back of Right Hand",
+      "name": "",
+      "_key": "!tables.results!5EyNHyXKtfhIlYCa.qTYlb1cxyYlE6jhQ"
+    },
+    {
+      "_id": "0bPyhytOq4cEe3lN",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        77,
+        77
+      ],
+      "drawn": false,
+      "flags": {
+        "better-rolltables": {
+          "brt-result-formula": {
+            "formula": ""
+          }
+        }
+      },
+      "img": "icons/skills/wounds/injury-stapled-flesh-tan.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Right Thumb",
+      "name": "",
+      "_key": "!tables.results!5EyNHyXKtfhIlYCa.0bPyhytOq4cEe3lN"
+    },
+    {
+      "_id": "59CsdvnCQu0JBmXw",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        78,
+        78
+      ],
+      "drawn": false,
+      "flags": {
+        "better-rolltables": {
+          "brt-result-formula": {
+            "formula": ""
+          }
+        }
+      },
+      "img": "icons/skills/wounds/injury-stapled-flesh-tan.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Right Index Finger",
+      "name": "",
+      "_key": "!tables.results!5EyNHyXKtfhIlYCa.59CsdvnCQu0JBmXw"
+    },
+    {
+      "_id": "dEGoLGs08H84o1qx",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        79,
+        79
+      ],
+      "drawn": false,
+      "flags": {
+        "better-rolltables": {
+          "brt-result-formula": {
+            "formula": ""
+          }
+        }
+      },
+      "img": "icons/skills/wounds/injury-stapled-flesh-tan.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Right Middle Finger",
+      "name": "",
+      "_key": "!tables.results!5EyNHyXKtfhIlYCa.dEGoLGs08H84o1qx"
+    },
+    {
+      "_id": "0b38MP7qMFAyuC1m",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        81,
+        81
+      ],
+      "drawn": false,
+      "flags": {
+        "better-rolltables": {
+          "brt-result-formula": {
+            "formula": ""
+          }
+        }
+      },
+      "img": "icons/skills/wounds/injury-stapled-flesh-tan.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Right Pinky Finger",
+      "name": "",
+      "_key": "!tables.results!5EyNHyXKtfhIlYCa.0b38MP7qMFAyuC1m"
+    },
+    {
+      "_id": "KXvgDVXS9UfMCR92",
+      "type": "text",
+      "weight": 3,
+      "range": [
+        82,
+        84
+      ],
+      "drawn": false,
+      "flags": {
+        "better-rolltables": {
+          "brt-result-formula": {
+            "formula": ""
+          }
+        }
+      },
+      "img": "icons/skills/wounds/injury-stapled-flesh-tan.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Left Leg",
+      "name": "",
+      "_key": "!tables.results!5EyNHyXKtfhIlYCa.KXvgDVXS9UfMCR92"
+    },
+    {
+      "_id": "OUA1jANqdVyNF5fl",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        80,
+        80
+      ],
+      "drawn": false,
+      "flags": {
+        "better-rolltables": {
+          "brt-result-formula": {
+            "formula": ""
+          }
+        }
+      },
+      "img": "icons/skills/wounds/injury-stapled-flesh-tan.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Right Ring Finger",
+      "name": "",
+      "_key": "!tables.results!5EyNHyXKtfhIlYCa.OUA1jANqdVyNF5fl"
+    },
+    {
+      "_id": "5a87yGZKTnQ0CIAI",
+      "type": "text",
+      "weight": 3,
+      "range": [
+        85,
+        87
+      ],
+      "drawn": false,
+      "flags": {
+        "better-rolltables": {
+          "brt-result-formula": {
+            "formula": ""
+          }
+        }
+      },
+      "img": "icons/skills/wounds/injury-stapled-flesh-tan.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Left Leg to Knee",
+      "name": "",
+      "_key": "!tables.results!5EyNHyXKtfhIlYCa.5a87yGZKTnQ0CIAI"
+    },
+    {
+      "_id": "p8zhyjuezAT35UMR",
+      "type": "text",
+      "weight": 2,
+      "range": [
+        88,
+        89
+      ],
+      "drawn": false,
+      "flags": {
+        "better-rolltables": {
+          "brt-result-formula": {
+            "formula": ""
+          }
+        }
+      },
+      "img": "icons/skills/wounds/injury-stapled-flesh-tan.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Left Foot",
+      "name": "",
+      "_key": "!tables.results!5EyNHyXKtfhIlYCa.p8zhyjuezAT35UMR"
+    },
+    {
+      "_id": "nI4rQvfXuzsp12GL",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        90,
+        90
+      ],
+      "drawn": false,
+      "flags": {
+        "better-rolltables": {
+          "brt-result-formula": {
+            "formula": ""
+          }
+        }
+      },
+      "img": "icons/skills/wounds/injury-stapled-flesh-tan.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Toes on Left Foot",
+      "name": "",
+      "_key": "!tables.results!5EyNHyXKtfhIlYCa.nI4rQvfXuzsp12GL"
+    },
+    {
+      "_id": "CgJ8IujzO8FUPIIt",
+      "type": "text",
+      "weight": 3,
+      "range": [
+        91,
+        93
+      ],
+      "drawn": false,
+      "flags": {
+        "better-rolltables": {
+          "brt-result-formula": {
+            "formula": ""
+          }
+        }
+      },
+      "img": "icons/skills/wounds/injury-stapled-flesh-tan.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Right Leg",
+      "name": "",
+      "_key": "!tables.results!5EyNHyXKtfhIlYCa.CgJ8IujzO8FUPIIt"
+    },
+    {
+      "_id": "LUzlMRaqOnG8uwAi",
+      "type": "text",
+      "weight": 3,
+      "range": [
+        94,
+        96
+      ],
+      "drawn": false,
+      "flags": {
+        "better-rolltables": {
+          "brt-result-formula": {
+            "formula": ""
+          }
+        }
+      },
+      "img": "icons/skills/wounds/injury-stapled-flesh-tan.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Right Leg to Knee",
+      "name": "",
+      "_key": "!tables.results!5EyNHyXKtfhIlYCa.LUzlMRaqOnG8uwAi"
+    },
+    {
+      "_id": "JVr76o9CF0mvkKVL",
+      "type": "text",
+      "weight": 2,
+      "range": [
+        97,
+        98
+      ],
+      "drawn": false,
+      "flags": {
+        "better-rolltables": {
+          "brt-result-formula": {
+            "formula": ""
+          }
+        }
+      },
+      "img": "icons/skills/wounds/injury-stapled-flesh-tan.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Right Foot",
+      "name": "",
+      "_key": "!tables.results!5EyNHyXKtfhIlYCa.JVr76o9CF0mvkKVL"
+    },
+    {
+      "_id": "R8x6NCzREys42Xn4",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        99,
+        99
+      ],
+      "drawn": false,
+      "flags": {
+        "better-rolltables": {
+          "brt-result-formula": {
+            "formula": ""
+          }
+        }
+      },
+      "img": "icons/skills/wounds/injury-stapled-flesh-tan.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Toes on Right Foot",
+      "name": "",
+      "_key": "!tables.results!5EyNHyXKtfhIlYCa.R8x6NCzREys42Xn4"
+    },
+    {
+      "_id": "jtCRcpMbzJypMrhv",
+      "type": "text",
+      "weight": 1,
+      "range": [
+        100,
+        100
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/skills/wounds/injury-stapled-flesh-tan.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Player's Choice",
+      "name": "",
+      "_key": "!tables.results!5EyNHyXKtfhIlYCa.jtCRcpMbzJypMrhv"
+    }
+  ],
+  "formula": "1d100",
+  "replacement": true,
+  "displayRoll": true,
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "better-rolltables": {
+      "table-type": "none",
+      "table-currency-string": "",
+      "loot-amount-key": "",
+      "loot-actor-name": ""
+    },
+    "core": {}
+  },
+  "_id": "5EyNHyXKtfhIlYCa",
+  "_stats": {
+    "coreVersion": "13.342",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": "RollTable.X74c02nUDuGsw5AN",
+    "duplicateSource": null,
+    "exportSource": {
+      "worldId": "butters",
+      "uuid": null,
+      "coreVersion": "0.8.9",
+      "systemId": "dnd5e",
+      "systemVersion": "1.5.2"
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "Cspu3pxFr7tu7SU7": 3
+  },
+  "description": "",
+  "_key": "!tables!5EyNHyXKtfhIlYCa"
+}

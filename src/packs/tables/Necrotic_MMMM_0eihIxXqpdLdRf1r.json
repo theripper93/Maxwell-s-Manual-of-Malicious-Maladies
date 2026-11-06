@@ -1,0 +1,464 @@
+{
+  "name": "Necrotic - [MMMM]",
+  "img": "icons/magic/unholy/strike-body-explode-disintegrate.webp",
+  "description": "If you want to see the most harmful effects of necrotic damage, look inward, not outward. Necrotic damage erodes the soul. Necrotic damage is misery, and misery loves\ncompany. Treat what you can, but be aware your patient may need a Cleric more than hey need a surgeon.",
+  "results": [
+    {
+      "_id": "TuWgTGil1Bz6im8w",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/magic/unholy/strike-body-explode-disintegrate.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>You've borne witness to a deep darkness and even now you can feel its touch lingering on your soul. Your alignment shifts one step towards evil. If you are already evil, treat this roll as a 15.</p>",
+      "name": "Corrupted Soul",
+      "_key": "!tables.results!0eihIxXqpdLdRf1r.TuWgTGil1Bz6im8w",
+      "documentUuid": "Compendium.mmm.injuries.Item.su1AKqpXfwnFGHWr"
+    },
+    {
+      "_id": "mflZMTM1nS2HFcfX",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/magic/unholy/strike-body-explode-disintegrate.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>You feel like you've seen the face of death and can recall its grim visage with ease. You require one less failed death saving throw before you die.</p>",
+      "name": "Tenuous Grip on Life",
+      "_key": "!tables.results!0eihIxXqpdLdRf1r.mflZMTM1nS2HFcfX",
+      "documentUuid": "Compendium.mmm.injuries.Item.Zn2Z8JCxvUXphnzp"
+    },
+    {
+      "_id": "yq7N0ZmXyvnIExgW",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/magic/unholy/strike-body-explode-disintegrate.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>Your wound festers with a dark energy. It resists both magical and natural healing. Your maximum hit points are reduced by the amount of damage that caused the lingering injury.</p><p><em>Treatment</em> - A DC 18 General Surgery check or the Greater Restoration spell.</p>",
+      "name": "Necrotic Wound",
+      "_key": "!tables.results!0eihIxXqpdLdRf1r.yq7N0ZmXyvnIExgW",
+      "documentUuid": "Compendium.mmm.injuries.Item.nQ9BDJmwaBvsR4oh"
+    },
+    {
+      "_id": "zgGMdkoNVSiuodwE",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/magic/unholy/strike-body-explode-disintegrate.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>You feel frail, drained, as if your life's very essence has been stolen away from you. You have disadvantage on Strength (Athletics) checks and both Strength and Constitution saving throws for [[1d4]] days.</p>",
+      "name": "Withered Away",
+      "_key": "!tables.results!0eihIxXqpdLdRf1r.zgGMdkoNVSiuodwE",
+      "documentUuid": "Compendium.mmm.injuries.Item.yHzmaTQ5WMPjxjLM"
+    },
+    {
+      "_id": "OHQKqZgivvQDESXa",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        7,
+        7
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/magic/unholy/strike-body-explode-disintegrate.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>You are filled with a blind rage and an overwhelming violent compulsion. You immediately use your reaction to make a melee attack against the nearest creature (at random). You spend the next [[1d4]] turns pursuing and attacking whatever creature is closest to you, regardless of if they are friendly or not.</p><p><em>Treatment</em> - Any spell or effect that would end a Barbarian's rage also ends this effect.</p>",
+      "name": "Malicious Outburst",
+      "_key": "!tables.results!0eihIxXqpdLdRf1r.OHQKqZgivvQDESXa",
+      "documentUuid": "Compendium.mmm.injuries.Item.ZKNUWo3SwLosVly9"
+    },
+    {
+      "_id": "nyeVzSKBd68wKmr8",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        8,
+        8
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/magic/unholy/strike-body-explode-disintegrate.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>All positive emotion within you shatters like a mirror and you are left only with painful, distracting shards. If you have Inspiration, you lose it. You lose any nonmagical effect granting you a temporary bonus or advantage (such as Bardic Inspiration, Barbarian Rage, the Dodge action, or the Help action).</p>",
+      "name": "Sorrow",
+      "_key": "!tables.results!0eihIxXqpdLdRf1r.nyeVzSKBd68wKmr8",
+      "documentUuid": "Compendium.mmm.injuries.Item.rJls35rZ1woHNjOQ"
+    },
+    {
+      "_id": "A5vVDEmuZMEdx3Ra",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        9,
+        9
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/magic/unholy/strike-body-explode-disintegrate.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>You are plagued by the lingering stench of rotting flesh. It clings to you and is perceivable by anyone within 5 feet of you. For [[1d6]] days you have disadvantage on all Charisma based checks.</p><p><em>Treatment</em> - Scouring clean in a long, hot bath will reduce the duration of this effect by [[1d6]] days.</p>",
+      "name": "The Stench of Decay",
+      "_key": "!tables.results!0eihIxXqpdLdRf1r.A5vVDEmuZMEdx3Ra",
+      "documentUuid": "Compendium.mmm.injuries.Item.rzg5uTI2aZ83kitr"
+    },
+    {
+      "_id": "PUOXb7ZJ4DWysTzn",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        10,
+        10
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/magic/unholy/strike-body-explode-disintegrate.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>You feel the negative energy latching on to you, actively working against you. You are afflicted as if by the Bestow Curse spell, with the specific curse chosen at random, or by the DM. For the purpose of identifying targets, the source of the damage is assumed to be the caster of the curse. The curse lasts until the next sunrise.</p><p><em>Treatment</em> - A Remove Curse spell will end this effect, as usual.</p>",
+      "name": "Cursed",
+      "_key": "!tables.results!0eihIxXqpdLdRf1r.PUOXb7ZJ4DWysTzn",
+      "documentUuid": "Compendium.mmm.injuries.Item.VfyN786tmBqxOPRr"
+    },
+    {
+      "_id": "fOM1XBQOuP86dTQO",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        11,
+        11
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/magic/unholy/strike-body-explode-disintegrate.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>Roll on the @UUID[Compendium.mmm.mmmm.RollTable.5EyNHyXKtfhIlYCa]{Scar Chart}. You are left with a curious scar that appears to be a shadow over the wounded area. No amount of light seems to be able to eliminate this shadow.</p>",
+      "name": "Shadow Scar",
+      "_key": "!tables.results!0eihIxXqpdLdRf1r.fOM1XBQOuP86dTQO",
+      "documentUuid": "Compendium.mmm.injuries.Item.ZSjESgzEimHy5aTL"
+    },
+    {
+      "_id": "dvQP3UB7lq3KM0jR",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        12,
+        12
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/magic/unholy/strike-body-explode-disintegrate.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>Roll on the @UUID[Compendium.mmm.mmmm.RollTable.5EyNHyXKtfhIlYCa]{Scar Chart}. You are left with a lingering blackness along the veins in this area of your body.</p>",
+      "name": "Dark Vessels",
+      "_key": "!tables.results!0eihIxXqpdLdRf1r.dvQP3UB7lq3KM0jR",
+      "documentUuid": "Compendium.mmm.injuries.Item.yL6cNNz65ZGH7l5W"
+    },
+    {
+      "_id": "zTAXVuVF0GijLXbM",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        13,
+        13
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/magic/unholy/strike-body-explode-disintegrate.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>You cannot be magically healed for [[1d6]] turns. This includes spells which restore hit points, cure conditions, and raise the dead.</p>",
+      "name": "Mitotic Rejection",
+      "_key": "!tables.results!0eihIxXqpdLdRf1r.zTAXVuVF0GijLXbM",
+      "documentUuid": "Compendium.mmm.injuries.Item.i7VC1FIxuVSPkPUS"
+    },
+    {
+      "_id": "wUP0u5dCuO9LWR2f",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        14,
+        14
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/magic/unholy/strike-body-explode-disintegrate.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>You are struck by a short, traumatic vision of your own demise, and your heart is filled with dread at this portent. You have vulnerability to the next source of damage that harms you, after which this effect ends.</p><p><em>Treatment</em> - The Remove Curse spell ends this effect.</p>",
+      "name": "Path to Your Grave",
+      "_key": "!tables.results!0eihIxXqpdLdRf1r.wUP0u5dCuO9LWR2f",
+      "documentUuid": "Compendium.mmm.injuries.Item.l2ONnqFfEkVfZjD1"
+    },
+    {
+      "_id": "NNEoVJmXjmNndWAs",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        15,
+        15
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/magic/unholy/strike-body-explode-disintegrate.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>Roll on the @UUID[Compendium.mmm.mmmm.RollTable.iP8lOROAIYARwcgk]{Large Limb Table}. This limb is pale, bloodless, and dead. Yet somehow...you can still move it normally. The limb emits a faint aura of Necromancy. You can suppress this effect with an effort of concentration. This renders your physical limb inanimate and a ghostly, phantom limb appears from within it, staying attached to you. This incorporeal limb can pass through creatures and objects and interact with both the Material Plane and the Border Ethereal Plane. If the Phantom Limb ever spends more than 6 seconds inside an object, it flickers from existence and you take [[/damage 1d6 force]].</p><p><em>Treatment</em> - Any spell that returns the dead to life will return your limb to normal, provided you follow the spell's normal requirements.</p>",
+      "name": "Phantom Limb",
+      "_key": "!tables.results!0eihIxXqpdLdRf1r.NNEoVJmXjmNndWAs",
+      "documentUuid": "Compendium.mmm.injuries.Item.JsaFwMWuJG9F0UkB"
+    },
+    {
+      "_id": "e6palVsMklFOzEPx",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        16,
+        16
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/magic/unholy/strike-body-explode-disintegrate.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>Slowly, you feel the building urge to destroy something beautiful. You have [[1d6]] days to commit an act of senseless destruction or violence (outside of what would be normal behavior for your character). If you do not do this within the time limit, the compulsion builds to distracting levels, and you have disadvantage to all attack rolls, ability checks, and saving throws until you do.</p>",
+      "name": "Insidious Compulsion",
+      "_key": "!tables.results!0eihIxXqpdLdRf1r.e6palVsMklFOzEPx",
+      "documentUuid": "Compendium.mmm.injuries.Item.FY5fuwuHmYXwkIpF"
+    },
+    {
+      "_id": "JIn4VzwNYZmH5URA",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        17,
+        17
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/magic/unholy/strike-body-explode-disintegrate.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>Every cell in your body protests as they are assaulted by the flow of time itself. Your body ages [[1d10]] years. Your mind is unaffected.</p>",
+      "name": "Chronoscarred",
+      "_key": "!tables.results!0eihIxXqpdLdRf1r.JIn4VzwNYZmH5URA",
+      "documentUuid": "Compendium.mmm.injuries.Item.pKxmf8XyaPdqSsBX"
+    },
+    {
+      "_id": "09TizzFme7VtzSV9",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        18,
+        18
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/magic/unholy/strike-body-explode-disintegrate.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>A small mote of corrupt power has taken residence within you and you feel a tiny part of your soul become unhinged. You take a <strong>flaw</strong> that would be considered malevolent, violent, cruel, or volatile.</p>",
+      "name": "Felt the Dark",
+      "_key": "!tables.results!0eihIxXqpdLdRf1r.09TizzFme7VtzSV9",
+      "documentUuid": "Compendium.mmm.injuries.Item.3MczKcI7QlA9H3yB"
+    }
+  ],
+  "formula": "3d6",
+  "replacement": true,
+  "displayRoll": true,
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "core": {}
+  },
+  "_id": "0eihIxXqpdLdRf1r",
+  "_stats": {
+    "coreVersion": "13.342",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": "RollTable.t7A8xMszI0QObTAy",
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "Cspu3pxFr7tu7SU7": 3
+  },
+  "_key": "!tables!0eihIxXqpdLdRf1r"
+}

@@ -1,0 +1,76 @@
+{
+  "_id": "RFGvmYyzPEFdui40",
+  "name": "Anathema Magicka",
+  "type": "feat",
+  "img": "icons/magic/movement/trail-streak-zigzag-teal.webp",
+  "system": {
+    "description": {
+      "value": "<p>You shake your head from the force of the arcane blow and, it's gone. The knowledge, that is, not your head. You lose the ability to cast your most recently cast spell permanently. You can never cast this spell again by any means (including class features, racial traits, or magical items). If your class allows you to replace spells on your spell list when leveling up, you may replace this spell normally.</p>",
+      "chat": ""
+    },
+    "source": {
+      "book": "Maxwell's Manual of Malicious Maladies",
+      "custom": ""
+    },
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "requirements": "Force Lingering Injury"
+  },
+  "effects": [
+    {
+      "_id": "uUTEbkGTMcuI90MD",
+      "name": "Anathema Magicka",
+      "img": "icons/magic/movement/trail-streak-zigzag-teal.webp",
+      "type": "base",
+      "system": {
+        "changes": [],
+        "conditions": "{}",
+        "magical": false,
+        "rider": {
+          "statuses": []
+        }
+      },
+      "disabled": false,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "showIcon": 1,
+      "sort": 0,
+      "flags": {
+        "mmm": {
+          "duration": null
+        }
+      },
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6"
+      },
+      "_key": "!items.effects!RFGvmYyzPEFdui40.uUTEbkGTMcuI90MD"
+    }
+  ],
+  "folder": "SsBTrqUBbEVlKT2I",
+  "sort": 1700,
+  "flags": {
+    "mmm": {
+      "injury": true,
+      "damageType": "force"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  },
+  "_key": "!items!RFGvmYyzPEFdui40"
+}

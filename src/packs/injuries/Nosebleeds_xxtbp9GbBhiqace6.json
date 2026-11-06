@@ -1,0 +1,76 @@
+{
+  "_id": "xxtbp9GbBhiqace6",
+  "name": "Nosebleeds",
+  "type": "feat",
+  "img": "icons/magic/control/hypnosis-mesmerism-pendulum.webp",
+  "system": {
+    "description": {
+      "value": "<p>You now tend to experience nosebleeds when you exert a great force of mental effort. The nosebleeds occur when (roll [[1d6]]): 1) You are <strong>&Reference[frightened]{frightened}</strong>, 2) You are <strong>&Reference[charmed]{charmed}</strong>, 3) You make an Intelligence saving throw, 4) You make a Wisdom saving throw, 5) You make a Charisma saving throw, 6) You take psychic damage.</p>",
+      "chat": ""
+    },
+    "source": {
+      "book": "Maxwell's Manual of Malicious Maladies",
+      "custom": ""
+    },
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "requirements": "Psychic Lingering Injury"
+  },
+  "effects": [
+    {
+      "_id": "4Fz3ly5SJTVGOR6X",
+      "name": "Nosebleeds",
+      "img": "icons/magic/control/hypnosis-mesmerism-pendulum.webp",
+      "type": "base",
+      "system": {
+        "changes": [],
+        "conditions": "{}",
+        "magical": false,
+        "rider": {
+          "statuses": []
+        }
+      },
+      "disabled": false,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "showIcon": 1,
+      "sort": 0,
+      "flags": {
+        "mmm": {
+          "duration": null
+        }
+      },
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6"
+      },
+      "_key": "!items.effects!xxtbp9GbBhiqace6.4Fz3ly5SJTVGOR6X"
+    }
+  ],
+  "folder": "LhZNHt3RmLuRoZa8",
+  "sort": 1200,
+  "flags": {
+    "mmm": {
+      "injury": true,
+      "damageType": "psychic"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  },
+  "_key": "!items!xxtbp9GbBhiqace6"
+}

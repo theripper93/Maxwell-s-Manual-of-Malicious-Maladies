@@ -1,0 +1,103 @@
+{
+  "name": "Language: Gestural",
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "core": {}
+  },
+  "_id": "RKcg8h5BvIjgdtl5",
+  "pages": [
+    {
+      "name": "Figure: Language: Gestural",
+      "type": "image",
+      "src": "https://i.imgur.com/nKHhlJ9.png",
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_id": "f55EHI2GAC5SyvXe",
+      "system": {},
+      "image": {},
+      "text": {
+        "format": 1
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "sort": 0,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "category": null,
+      "_key": "!journal.pages!RKcg8h5BvIjgdtl5.f55EHI2GAC5SyvXe"
+    },
+    {
+      "name": "Language: Gestural",
+      "type": "text",
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<h1>Language: Gestural</h1>\n<p>Gestural is a silent language conveyed with hand gestures, body language, and facial expressions. It is used as a form of communication for creatures of all races who are deaf, mute, or simply find it easier to communicate without the use of sound. While different races may have different dialects, as long as both characters are proficient in Gestural they are able to understand and converse with each other.</p>"
+      },
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_id": "qKDJijnYpFz3oYoX",
+      "system": {},
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "sort": 0,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "category": null,
+      "_key": "!journal.pages!RKcg8h5BvIjgdtl5.qKDJijnYpFz3oYoX"
+    }
+  ],
+  "_stats": {
+    "coreVersion": "13.342",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": "JournalEntry.3Wx3dn4gBN8ujaGP",
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "Cspu3pxFr7tu7SU7": 3
+  },
+  "categories": [],
+  "_key": "!journal!RKcg8h5BvIjgdtl5"
+}

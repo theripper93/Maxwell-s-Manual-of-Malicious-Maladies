@@ -1,0 +1,470 @@
+{
+  "name": "Bludgeoning - [MMMM]",
+  "img": "icons/skills/melee/strike-hammer-destructive-blue.webp",
+  "description": "Ah, is there any sound more dissonant than the crunch of a\nbroken bone? Few types of damage are more efficient at\ntaking your limbs out of commission than bludgeoning. Do\nnot forget to assess your patient's noggin, though. An errant\nclub swing can result in a nasty concussion or a ruptured\neardrum. Most often, though, bludgeoning leaves you with the\ncolorful parting gift of a black eye or a broken nose. Not the\nprettiest accessories for polite company.",
+  "results": [
+    {
+      "_id": "suseSy7RPk0Tmk55",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/skills/melee/strike-hammer-destructive-blue.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>A violent impact to the side of your head has caused your right eardrum to rupture. Your right ear is <strong>nonfunctional</strong>. If it is not treated within 24 hours, your hearing in this ear is permanently <strong>missing</strong>.</p><p><em>Treatment</em> - A DC 20 Save Sense Surgery</p>",
+      "name": "Ruptured Right Eardrum",
+      "_key": "!tables.results!48xZVriedgL4S9IO.suseSy7RPk0Tmk55",
+      "documentUuid": "Compendium.mmm.injuries.Item.q9Q4d8UdipnM6SiC"
+    },
+    {
+      "_id": "TVBki4p4T3wU0ZS1",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/skills/melee/strike-hammer-destructive-blue.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>Roll on the @UUID[Compendium.mmm.mmmm.RollTable.iP8lOROAIYARwcgk]{Large Limb Table}. The enormous impact of the blow has caused your limb to be torn from its socket. The limb is <strong>missing</strong> and thrown 15 feet in a random direction.</p><p><em>Treatment</em> - A DC 22 Save Limb Surgery</p>",
+      "name": "Limb Torn Asunder",
+      "_key": "!tables.results!48xZVriedgL4S9IO.TVBki4p4T3wU0ZS1",
+      "documentUuid": "Compendium.mmm.injuries.Item.rULySNi5rRtLc7gG"
+    },
+    {
+      "_id": "rapzjtMGK4VLX4wf",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/skills/melee/strike-hammer-destructive-blue.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>A blow to your face has knocked one of your teeth clean out of your mouth.</p><p><em>Treatment</em> - A [[/skill perception 15]] check will allow you to recover the tooth. A DC 19 General Surgery within 1 day of the injury occurring allows you to reinsert the tooth.</p>",
+      "name": "Lost Tooth",
+      "_key": "!tables.results!48xZVriedgL4S9IO.rapzjtMGK4VLX4wf",
+      "documentUuid": "Compendium.mmm.injuries.Item.VTnEz1P7ti8zqB3u"
+    },
+    {
+      "_id": "8jJIfpgD0nxBFF7u",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/skills/melee/strike-hammer-destructive-blue.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>A mighty strike to your head has left you with dizziness, nausea, and a lingering headache. Any time you make an Intelligence, Wisdom, or Charisma saving throw you are also &Reference[stunned]{stunned} until the end of your next turn. This condition lasts [[1d12]] days.</p><p><em>Treatment</em> - A [[/skill medicine 15]] check reduces the duration of this injury by [[1d8]] days.</p>",
+      "name": "Concussion",
+      "_key": "!tables.results!48xZVriedgL4S9IO.8jJIfpgD0nxBFF7u",
+      "documentUuid": "Compendium.mmm.injuries.Item.foFcZEXasn7rSZ4r"
+    },
+    {
+      "_id": "6nva89TqTbTkG7Je",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        7,
+        7
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/skills/melee/strike-hammer-destructive-blue.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>You gasp for breath as the blow knocks you flat onto your back. You are <strong>&Reference[prone]{prone}</strong> and you lose <strong>concentration</strong>.</p>",
+      "name": "Wind Knocked out of You",
+      "_key": "!tables.results!48xZVriedgL4S9IO.6nva89TqTbTkG7Je",
+      "documentUuid": "Compendium.mmm.injuries.Item.3licVhmktflEH6R2"
+    },
+    {
+      "_id": "4H4kEMLGjMxyDyr5",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        8,
+        8
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/skills/melee/strike-hammer-destructive-blue.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>The force of the impact jars your nerves and sends a spreading numbness through your left arm. You drop anything you are holding with that arm and it is <strong>nonfunctional</strong> for [[1d4]] turns.</p><p><em>Treatment</em> - Any amount of magical healing will end this effect.</p>",
+      "name": "Numb Left Arm",
+      "_key": "!tables.results!48xZVriedgL4S9IO.4H4kEMLGjMxyDyr5",
+      "documentUuid": "Compendium.mmm.injuries.Item.aUf88EwNWpbc3hUS"
+    },
+    {
+      "_id": "ss3rLGdJAupNTzCt",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        9,
+        9
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/skills/melee/strike-hammer-destructive-blue.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>You feel a sharp pain as the blow lands directly on one of your extremities. Roll on the @UUID[Compendium.mmm.mmmm.RollTable.vG8gsjqxGB7y9cSD]{Small Appendage Table}. That appendage is broken and <strong>nonfunctional</strong> for [[1d12]] days.</p><p><em>Treatment</em> - A [[/skill medicine 12]] check reduces the duration of this injury by [[1d10]] days.</p>",
+      "name": "Broken Appendage",
+      "_key": "!tables.results!48xZVriedgL4S9IO.ss3rLGdJAupNTzCt",
+      "documentUuid": "Compendium.mmm.injuries.Item.X5INGDuWp9MrN4cF"
+    },
+    {
+      "_id": "ijPpSVT8cX1MRNgG",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        10,
+        10
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/skills/melee/strike-hammer-destructive-blue.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>Roll to randomly determine the left or right arm. The intensity of the blow has forced your shoulder joint from its socket. This arm is <strong>nonfunctional</strong>.</p><p><em>Treatment</em> - While on initiative, make a [[/check con 18]] check as a bonus action to force the joint into place and end this injury. Off initiative, a [[/skill medicine 18]] check will end this injury.</p>",
+      "name": "Dislocated Shoulder",
+      "_key": "!tables.results!48xZVriedgL4S9IO.ijPpSVT8cX1MRNgG",
+      "documentUuid": "Compendium.mmm.injuries.Item.pIhpZqWVD3qPb6xd"
+    },
+    {
+      "_id": "MNBtXTArqkFFZ3YG",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        11,
+        11
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/skills/melee/strike-hammer-destructive-blue.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>You've got yourself a good ol' fashioned shiner. It will resolve on its own in [[1d6]] days, but you may look out of place in polite company until then.</p>",
+      "name": "Black Eye",
+      "_key": "!tables.results!48xZVriedgL4S9IO.MNBtXTArqkFFZ3YG",
+      "documentUuid": "Compendium.mmm.injuries.Item.SvP7zEIY5IGgE1G6"
+    },
+    {
+      "_id": "ZPVbTc1a7OJmxAyZ",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        12,
+        12
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/skills/melee/strike-hammer-destructive-blue.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>A sharp impact to your face has left you with a painfully broken nose.</p><p><em>Treatment</em> - A [[/skill medicine 8]] check will set your nose properly, otherwise it has a 50% chance of healing slightly crooked in [[1d6]] days. The DC of this check increases by 2 each time your nose is broken.</p>",
+      "name": "Broken Nose",
+      "_key": "!tables.results!48xZVriedgL4S9IO.ZPVbTc1a7OJmxAyZ",
+      "documentUuid": "Compendium.mmm.injuries.Item.KqnnrCd0IaSXV3ls"
+    },
+    {
+      "_id": "ztlCITgANLUGzBMJ",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        13,
+        13
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/skills/melee/strike-hammer-destructive-blue.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>The force of the impact jars your nerves and sends a spreading numbness through your right arm. You drop anything you are holding with that arm and it is <strong>nonfunctional</strong> for [[1d4]] turns.</p><p><em>Treatment</em> - Any amount of magical healing will end this effect.</p>",
+      "name": "Numb Right Arm",
+      "_key": "!tables.results!48xZVriedgL4S9IO.ztlCITgANLUGzBMJ",
+      "documentUuid": "Compendium.mmm.injuries.Item.bWgPGXmnSS3BBkE9"
+    },
+    {
+      "_id": "5xYxYwmHNBEqQUIv",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        14,
+        14
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/skills/melee/strike-hammer-destructive-blue.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>Your entire body aches and you are left with some extensive ugly bruises. Any time you make a Strength (Athletics) or Dexterity (Acrobatics) check you take bludgeoning damage scaled to the damage that caused the lingering injury: 1-10 damage ([[1d4]]), 11-20 damage ([[1d6]]), 21-30 damage ([[1d8]]), 31-40 damage ([[1d10]]), &gt;40 damage ([[1d12]]). This injury resolves on its own in [[1d4]] days.</p>",
+      "name": "Bruised Black and Blue",
+      "_key": "!tables.results!48xZVriedgL4S9IO.5xYxYwmHNBEqQUIv",
+      "documentUuid": "Compendium.mmm.injuries.Item.LZcOi6YLEjcUJvRd"
+    },
+    {
+      "_id": "0NzG2B900AuqiGOD",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        15,
+        15
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/skills/melee/strike-hammer-destructive-blue.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>Roll on the @UUID[Compendium.mmm.mmmm.RollTable.5EyNHyXKtfhIlYCa]{Scar Chart}. The ache of your injury never completely leaves you and even years later you sometimes feel a twinge of pain. The bones in/around the area rolled ache 6 hours before (roll [[1d6]]): 1) Rain, 2) Bright Sunshine, 3) Snow, 4) Fog, 5) Storms, 6) Calamities and Natural Disasters</p>",
+      "name": "Aching Bones",
+      "_key": "!tables.results!48xZVriedgL4S9IO.0NzG2B900AuqiGOD",
+      "documentUuid": "Compendium.mmm.injuries.Item.XqfSTxLQY0Wy9p2n"
+    },
+    {
+      "_id": "k2Sv7O6CBCwMkbL7",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        16,
+        16
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/skills/melee/strike-hammer-destructive-blue.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>Roll on the @UUID[Compendium.mmm.mmmm.RollTable.iP8lOROAIYARwcgk]{Large Limb Table}. This limb is broken and <strong>nonfunctional</strong> for [[1d12]] days.</p><p><em>Treatment</em> - A [[/skill medicine 15]] check reduces the duration of this injury by [[1d8]] days.</p>",
+      "name": "Broken Limb",
+      "_key": "!tables.results!48xZVriedgL4S9IO.k2Sv7O6CBCwMkbL7",
+      "documentUuid": "Compendium.mmm.injuries.Item.6G4qwq1APU6BSmQu"
+    },
+    {
+      "_id": "wiovK1an4WFoH6Op",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        17,
+        17
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/skills/melee/strike-hammer-destructive-blue.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>Roll on the @UUID[Compendium.mmm.mmmm.RollTable.iP8lOROAIYARwcgk]{Large Limb Table}. Your limb is crushed to the point of uselessness and permanently nonfunctional. If it isn't reconstructed, the limb will not regain functionality.</p><p><em>Treatment</em> - A DC 23 Save Limb Surgery</p>",
+      "name": "Crushed Limb",
+      "_key": "!tables.results!48xZVriedgL4S9IO.wiovK1an4WFoH6Op",
+      "documentUuid": "Compendium.mmm.injuries.Item.uFkl1FRdw51NMmst"
+    },
+    {
+      "_id": "FYywmaJdRzJrhFqw",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        18,
+        18
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/skills/melee/strike-hammer-destructive-blue.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>A violent impact to the side of your head has caused your left eardrum to rupture. Your left ear is <strong>nonfunctional</strong>. If it is not treated within 24 hours, your hearing in this ear is permanently <strong>missing</strong>.</p><p><em>Treatment</em> - A DC 20 Save Sense Surgery</p>",
+      "name": "Ruptured Left Eardrum",
+      "_key": "!tables.results!48xZVriedgL4S9IO.FYywmaJdRzJrhFqw",
+      "documentUuid": "Compendium.mmm.injuries.Item.N9Leza9RlN2ouDNg"
+    }
+  ],
+  "formula": "3d6",
+  "replacement": true,
+  "displayRoll": true,
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "core": {}
+  },
+  "_id": "48xZVriedgL4S9IO",
+  "_stats": {
+    "coreVersion": "13.342",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": "RollTable.rVSxLj1d6AtfwRAv",
+    "duplicateSource": null,
+    "exportSource": {
+      "worldId": "tester",
+      "uuid": null,
+      "coreVersion": "0.8.9",
+      "systemId": "dnd5e",
+      "systemVersion": "1.4.3"
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "Cspu3pxFr7tu7SU7": 3
+  },
+  "_key": "!tables!48xZVriedgL4S9IO"
+}

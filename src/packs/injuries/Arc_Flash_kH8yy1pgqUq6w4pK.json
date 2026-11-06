@@ -1,0 +1,92 @@
+{
+  "_id": "kH8yy1pgqUq6w4pK",
+  "name": "Arc Flash",
+  "type": "feat",
+  "img": "icons/magic/lightning/bolt-strike-sparks-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>The electricity's current has ignited you aflame. At the beginning of your turn, you take fire damage scaled to the damage that caused the lingering injury: 1-10 damage ([[1d2]]), 11-20 damage ([[1d4]]), 21-30 damage ([[1d6]]), 31-40 damage ([[1d8]]), &gt;40 damage ([[1d10]]).</p><p><em>Treatment</em> - You may use an action to extinguish the flames.</p>",
+      "chat": ""
+    },
+    "source": {
+      "book": "Maxwell's Manual of Malicious Maladies",
+      "custom": ""
+    },
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "requirements": "Lightning Lingering Injury"
+  },
+  "effects": [
+    {
+      "_id": "AwZyR0tSUpPseOky",
+      "name": "Arc Flash",
+      "img": "icons/magic/lightning/bolt-strike-sparks-blue.webp",
+      "type": "base",
+      "system": {
+        "changes": [],
+        "conditions": "{}",
+        "magical": false,
+        "rider": {
+          "statuses": []
+        }
+      },
+      "disabled": false,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [
+        "burning"
+      ],
+      "showIcon": 1,
+      "sort": 0,
+      "flags": {
+        "mmm": {
+          "ongoing": [
+            {
+              "event": "turnStart",
+              "formula": "@tier",
+              "type": "fire"
+            }
+          ],
+          "duration": null
+        }
+      },
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6"
+      },
+      "_key": "!items.effects!kH8yy1pgqUq6w4pK.AwZyR0tSUpPseOky"
+    }
+  ],
+  "folder": "pVtivJ93JSXv9sP3",
+  "sort": 1300,
+  "flags": {
+    "mmm": {
+      "injury": true,
+      "damageType": "lightning",
+      "tiers": [
+        "1d2",
+        "1d4",
+        "1d6",
+        "1d8",
+        "1d10"
+      ]
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  },
+  "_key": "!items!kH8yy1pgqUq6w4pK"
+}

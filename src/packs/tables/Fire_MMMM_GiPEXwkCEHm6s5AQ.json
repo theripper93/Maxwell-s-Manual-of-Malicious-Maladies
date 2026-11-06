@@ -1,0 +1,470 @@
+{
+  "name": "Fire - [MMMM]",
+  "img": "icons/magic/fire/flame-burning-campfire-orange.webp",
+  "description": "Fire burns. What more need you know? Fire damage presents a singular challenge for the industrious surgeon; it is rather difficult to reattach a limb turned to ash. You may also find your patients dangerously fatigued with heat exhaustion or heat stroke. It need not be said that if you happen to come across a patient who is still actively on fire...put them out!",
+  "results": [
+    {
+      "_id": "suseSy7RPk0Tmk55",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/magic/fire/flame-burning-campfire-orange.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>You just can't take the heat. Any exposure causes you to sweat, turn beet red, and become quickly fatigued. You have disadvantage on Constitution checks and saving throws made to resist the environmental effects of heat.</p>",
+      "name": "Heat Intolerance",
+      "_key": "!tables.results!GiPEXwkCEHm6s5AQ.suseSy7RPk0Tmk55",
+      "documentUuid": "Compendium.mmm.injuries.Item.OJLiaikwTzInU7TS"
+    },
+    {
+      "_id": "TVBki4p4T3wU0ZS1",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/magic/fire/flame-burning-campfire-orange.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>Roll on the @UUID[Compendium.mmm.mmmm.RollTable.iP8lOROAIYARwcgk]{Large Limb Table}. The limb is charred black, completely covered in extensive burns, and <strong>nonfunctional</strong>. If untreated within 24 hours the limb will necrotize and fall off in [[1d4]] days (after which it is <strong>missing</strong>).</p><p><em>Treatment</em> - A DC 21 Save Limb Surgery. You get 1 check for this surgery; if you do not meet the DC on the first check, the limb is lost.</p>",
+      "name": "Immolated Limb",
+      "_key": "!tables.results!GiPEXwkCEHm6s5AQ.TVBki4p4T3wU0ZS1",
+      "documentUuid": "Compendium.mmm.injuries.Item.yT5kgfA025rQer4Z"
+    },
+    {
+      "_id": "rapzjtMGK4VLX4wf",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/magic/fire/flame-burning-campfire-orange.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>Roll on the @UUID[Compendium.mmm.mmmm.RollTable.vG8gsjqxGB7y9cSD]{Small Appendage Table}. The appendage is charred black, completely covered in extensive burns, and <strong>nonfunctional</strong>. If untreated within 24 hours the appendage will necrotize and fall off in [[1d4]] days (after which it is <strong>missing</strong>).</p><p><em>Treatment</em> - A DC 21 Save Limb Surgery. You get 1 check for this surgery; if you do not meet the DC on the first check, the appendage is lost.</p>",
+      "name": "Immolated Appendage",
+      "_key": "!tables.results!GiPEXwkCEHm6s5AQ.rapzjtMGK4VLX4wf",
+      "documentUuid": "Compendium.mmm.injuries.Item.vRdaFYg1tf8BQzpb"
+    },
+    {
+      "_id": "8jJIfpgD0nxBFF7u",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/magic/fire/flame-burning-campfire-orange.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>You have a deep burn penetrating through your skin, resulting in a cracked, red wound. While on initiative you take 1 fire damage for every 5 feet of movement. In addition, you take [[/damage 1d4 fire]] every time you take an action or bonus action. This injury lasts [[1d8]] days.</p><p><em>Treatment</em> - A [[/skill medicine 16]] check reduces the duration of this injury by [[1d8]] days.</p>",
+      "name": "Third Degree Burn",
+      "_key": "!tables.results!GiPEXwkCEHm6s5AQ.8jJIfpgD0nxBFF7u",
+      "documentUuid": "Compendium.mmm.injuries.Item.kXGOMWu1FZh4IvGt"
+    },
+    {
+      "_id": "6nva89TqTbTkG7Je",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        7,
+        7
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/magic/fire/flame-burning-campfire-orange.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>Sweat breaks out on your brow, your pulse is thready, and your muscles feel weak. You take 1 level of <strong>&Reference[exhaustion]{exhaustion}</strong>.</p><p><em>Treatment</em> - A long rest or the <em>Greater Restoration</em> spell removes this <strong>exhaustion</strong> as usual.</p>",
+      "name": "Heat Exhaustion",
+      "_key": "!tables.results!GiPEXwkCEHm6s5AQ.6nva89TqTbTkG7Je",
+      "documentUuid": "Compendium.mmm.injuries.Item.eev0iOyegv32i2Qd"
+    },
+    {
+      "_id": "4H4kEMLGjMxyDyr5",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        8,
+        8
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/magic/fire/flame-burning-campfire-orange.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>An angry red burn flashes over your skin. It's tender and painful to move. While on initiative you take 1 fire damage per 10 feet of movement. This injury heals in [[1d6]] days.</p><p><em>Treatment</em> - A [[/skill medicine 10]] check reduces the duration of this injury by [[1d6]] days.</p>",
+      "name": "First Degree Burn",
+      "_key": "!tables.results!GiPEXwkCEHm6s5AQ.4H4kEMLGjMxyDyr5",
+      "documentUuid": "Compendium.mmm.injuries.Item.9pc4FS0NqzFBHWCj"
+    },
+    {
+      "_id": "ss3rLGdJAupNTzCt",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        9,
+        9
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/magic/fire/flame-burning-campfire-orange.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>It's so hot you feel faint. Your muscles are cramping. It feels as if your blood is about to boil in your body. You take 2 levels of &Reference[exhaustion]{exhaustion}.</p><p><em>Treatment</em> - A long rest or the <em>Greater Restoration</em> spell removes this <strong>exhaustion</strong> as usual.</p>",
+      "name": "Heat Stroke",
+      "_key": "!tables.results!GiPEXwkCEHm6s5AQ.ss3rLGdJAupNTzCt",
+      "documentUuid": "Compendium.mmm.injuries.Item.otfmlySDqRZqwR8w"
+    },
+    {
+      "_id": "ijPpSVT8cX1MRNgG",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        10,
+        10
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/magic/fire/flame-burning-campfire-orange.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>Your skin bubbles and blisters as the burning flashes over it. While on initiative you take 1 fire damage per 5 feet of movement. This injury heals in [[1d8]] days.</p><p><em>Treatment</em> - A [[/skill medicine 12]] check reduces the duration of this injury by [[1d8]] days.</p>",
+      "name": "Second Degree Burn",
+      "_key": "!tables.results!GiPEXwkCEHm6s5AQ.ijPpSVT8cX1MRNgG",
+      "documentUuid": "Compendium.mmm.injuries.Item.UNUqJXPoCNir0bef"
+    },
+    {
+      "_id": "MNBtXTArqkFFZ3YG",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        11,
+        11
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/magic/fire/flame-burning-campfire-orange.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>Roll on the @UUID[Compendium.mmm.mmmm.RollTable.5EyNHyXKtfhIlYCa]{Scar Chart}. This area of your body is left with a creased and wrinkled burn scar.</p>",
+      "name": "Burn Scar",
+      "_key": "!tables.results!GiPEXwkCEHm6s5AQ.MNBtXTArqkFFZ3YG",
+      "documentUuid": "Compendium.mmm.injuries.Item.tZX2BDxFKJt7d7O9"
+    },
+    {
+      "_id": "ZPVbTc1a7OJmxAyZ",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        12,
+        12
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/magic/fire/flame-burning-campfire-orange.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>Roll on the @UUID[Compendium.mmm.mmmm.RollTable.5EyNHyXKtfhIlYCa]{Scar Chart}. This area of your body is left with a defined, slightly depressed branding scar.</p>",
+      "name": "Branded",
+      "_key": "!tables.results!GiPEXwkCEHm6s5AQ.ZPVbTc1a7OJmxAyZ",
+      "documentUuid": "Compendium.mmm.injuries.Item.M9ZgyvAWuVdXHnJ5"
+    },
+    {
+      "_id": "ztlCITgANLUGzBMJ",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        13,
+        13
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/magic/fire/flame-burning-campfire-orange.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>You. Are. On. Fire. Dancing flames lick around your body. At the beginning of your turn, you take fire damage scaled to the damage that caused the lingering injury: 1-10 damage ([[1d2]]), 11-20 damage ([[1d4]]), 21-30 damage ([[1d6]]), 31-40 damage ([[1d8]]), &gt;40 damage ([[1d10]]).</p><p><em>Treatment</em> - You may use an action to extinguish the flames.</p>",
+      "name": "Ignited",
+      "_key": "!tables.results!GiPEXwkCEHm6s5AQ.ztlCITgANLUGzBMJ",
+      "documentUuid": "Compendium.mmm.injuries.Item.9T9VFivK7dzTehXC"
+    },
+    {
+      "_id": "5xYxYwmHNBEqQUIv",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        14,
+        14
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/magic/fire/flame-burning-campfire-orange.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>The temperature around you skyrockets, flash-heating everything nearby. Any flammable objects being worn or wielded are ignited. You drop anything metal you are carrying in sudden shock.</p><p><em>Treatment</em> - You may extinguish any worn or wielded items that were ignited with a bonus action. If you attempt to pick up any dropped items, make a Constitution saving throw (DC equals half the damage that caused the lingering injury or 10, whichever number is higher) to brave the heat and retrieve them.</p>",
+      "name": "Searing Temperatures",
+      "_key": "!tables.results!GiPEXwkCEHm6s5AQ.5xYxYwmHNBEqQUIv",
+      "documentUuid": "Compendium.mmm.injuries.Item.WlPyx1X1D5MllNiX"
+    },
+    {
+      "_id": "0NzG2B900AuqiGOD",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        15,
+        15
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/magic/fire/flame-burning-campfire-orange.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>Roll on the @UUID[Compendium.mmm.mmmm.RollTable.5EyNHyXKtfhIlYCa]{Scar Chart}. In a freak instance of chance, the heat has interacted with a thread of natural magic within you. This area of your body is permanently hot (though to you it feels pleasantly warm) and radiates a faint aura of Transmutation. You have advantage on Constitution checks and saving throws made to resist the environmental effects of heat. You may suppress this effect by maintaining concentration.</p>",
+      "name": "Inner Fire",
+      "_key": "!tables.results!GiPEXwkCEHm6s5AQ.0NzG2B900AuqiGOD",
+      "documentUuid": "Compendium.mmm.injuries.Item.ONRCEI0PF2jD4mah"
+    },
+    {
+      "_id": "k2Sv7O6CBCwMkbL7",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        16,
+        16
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/magic/fire/flame-burning-campfire-orange.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>Roll on the @UUID[Compendium.mmm.mmmm.RollTable.vG8gsjqxGB7y9cSD]{Small Appendage Table}. The blazing fires have scoured through until nothing but ash remains. The appendage is <strong>missing</strong> and the resulting wound is cauterized.</p>",
+      "name": "Incinerated Appendage",
+      "_key": "!tables.results!GiPEXwkCEHm6s5AQ.k2Sv7O6CBCwMkbL7",
+      "documentUuid": "Compendium.mmm.injuries.Item.sxVV0S6YqVMTyyrg"
+    },
+    {
+      "_id": "wiovK1an4WFoH6Op",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        17,
+        17
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/magic/fire/flame-burning-campfire-orange.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>Roll on the @UUID[Compendium.mmm.mmmm.RollTable.iP8lOROAIYARwcgk]{Large Limb Table}. The voracious fire has devoured your limb, leaving nothing but smoking cinders in its wake. The limb is <strong>missing</strong>, and the resulting wound is cauterized</p>",
+      "name": "Incinerated Limb",
+      "_key": "!tables.results!GiPEXwkCEHm6s5AQ.wiovK1an4WFoH6Op",
+      "documentUuid": "Compendium.mmm.injuries.Item.DnHqRvkRGeOkHeNy"
+    },
+    {
+      "_id": "FYywmaJdRzJrhFqw",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        18,
+        18
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/magic/fire/flame-burning-campfire-orange.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>You inhale the scorching air around you and it burns a path straight down to your lungs. Your sense of taste and smell are <strong>nonfunctional</strong> If not treated within 24 hours they will be permanently <strong>missing</strong>.</p><p><em>Treatment</em> - A DC 20 Save Sense Surgery</p>",
+      "name": "Airway Burn",
+      "_key": "!tables.results!GiPEXwkCEHm6s5AQ.FYywmaJdRzJrhFqw",
+      "documentUuid": "Compendium.mmm.injuries.Item.9NSMJlilDK1lbi5h"
+    }
+  ],
+  "formula": "3d6",
+  "replacement": true,
+  "displayRoll": true,
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "core": {}
+  },
+  "_id": "GiPEXwkCEHm6s5AQ",
+  "_stats": {
+    "coreVersion": "13.342",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": "RollTable.wFjBxyviu454YEnk",
+    "duplicateSource": null,
+    "exportSource": {
+      "worldId": "tester",
+      "uuid": null,
+      "coreVersion": "0.8.9",
+      "systemId": "dnd5e",
+      "systemVersion": "1.4.3"
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "Cspu3pxFr7tu7SU7": 3
+  },
+  "_key": "!tables!GiPEXwkCEHm6s5AQ"
+}

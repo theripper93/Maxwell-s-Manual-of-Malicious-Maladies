@@ -1,0 +1,89 @@
+{
+  "name": "Strap-In Saddle",
+  "type": "equipment",
+  "img": "icons/containers/bags/satchel-leather-grey.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "_id": "FnZqxLJUFftWFDNE",
+  "_stats": {
+    "coreVersion": "13.342",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": "Item.0yun0B1hqoV5t54K",
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "Cspu3pxFr7tu7SU7": 3
+  },
+  "system": {
+    "description": {
+      "value": "<p>This saddle is specifically constructed for people who have lost the use of their legs and includes leather straps that secure the rider in place. Mounting and dismounting this saddle requires an action instead of half of your movement. You have advantage on Dexterity saving throws made to prevent being thrown from your mount while using this saddle.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "MMMM pg. 31",
+      "revision": 1,
+      "rules": "2024"
+    },
+    "quantity": 1,
+    "weight": {
+      "value": 10,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "attunement": "",
+    "equipped": false,
+    "identified": true,
+    "uses": {
+      "max": "",
+      "spent": 0,
+      "recovery": []
+    },
+    "armor": {
+      "value": null,
+      "dex": null
+    },
+    "hp": {
+      "value": 0,
+      "max": 0,
+      "dt": null,
+      "conditions": ""
+    },
+    "speed": {
+      "value": null,
+      "conditions": "",
+      "units": "ft"
+    },
+    "strength": 0,
+    "proficient": 1,
+    "unidentified": {
+      "description": ""
+    },
+    "type": {
+      "value": "trinket",
+      "baseItem": ""
+    },
+    "rarities": [
+      "common"
+    ],
+    "activities": {},
+    "identifier": "",
+    "container": null,
+    "attuned": false,
+    "crew": {
+      "value": []
+    },
+    "properties": []
+  },
+  "_key": "!items!FnZqxLJUFftWFDNE"
+}

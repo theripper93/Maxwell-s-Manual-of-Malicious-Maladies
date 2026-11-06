@@ -1,0 +1,79 @@
+{
+  "_id": "7sz0vgON8LBgdaZ9",
+  "name": "Null Arcana",
+  "type": "feat",
+  "img": "icons/magic/movement/trail-streak-zigzag-teal.webp",
+  "system": {
+    "description": {
+      "value": "<p>As the arcane energy strikes you, you feel something within you sputter and fizzle. You lose the ability to cast spells through any means (including class features, racial traits, or magical items) for [[1d4]] days.</p>",
+      "chat": ""
+    },
+    "source": {
+      "book": "Maxwell's Manual of Malicious Maladies",
+      "custom": ""
+    },
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "requirements": "Force Lingering Injury"
+  },
+  "effects": [
+    {
+      "_id": "H8djBO5Ql4uGdasQ",
+      "name": "Null Arcana",
+      "img": "icons/magic/movement/trail-streak-zigzag-teal.webp",
+      "type": "base",
+      "system": {
+        "changes": [],
+        "conditions": "{}",
+        "magical": false,
+        "rider": {
+          "statuses": []
+        }
+      },
+      "disabled": false,
+      "duration": {
+        "value": null,
+        "units": "days",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "showIcon": 1,
+      "sort": 0,
+      "flags": {
+        "mmm": {
+          "duration": {
+            "formula": "1d4",
+            "units": "days"
+          }
+        }
+      },
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6"
+      },
+      "_key": "!items.effects!7sz0vgON8LBgdaZ9.H8djBO5Ql4uGdasQ"
+    }
+  ],
+  "folder": "SsBTrqUBbEVlKT2I",
+  "sort": 500,
+  "flags": {
+    "mmm": {
+      "injury": true,
+      "damageType": "force"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  },
+  "_key": "!items!7sz0vgON8LBgdaZ9"
+}

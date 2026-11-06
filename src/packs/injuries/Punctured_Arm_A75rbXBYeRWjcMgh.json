@@ -1,0 +1,80 @@
+{
+  "_id": "A75rbXBYeRWjcMgh",
+  "name": "Punctured Arm",
+  "type": "feat",
+  "img": "icons/skills/melee/blade-tip-orange.webp",
+  "system": {
+    "description": {
+      "value": "<p>The attack sinks into the meat of your arm. It's probably not serious, but the pain makes you treat your arm gingerly. You no longer get one free object interaction per turn. This effect lasts [[1d8]] turns.</p><p><em>Treatment</em> - Any amount of magical healing will end this effect.</p>",
+      "chat": ""
+    },
+    "source": {
+      "book": "Maxwell's Manual of Malicious Maladies",
+      "custom": ""
+    },
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "requirements": "Piercing Lingering Injury"
+  },
+  "effects": [
+    {
+      "_id": "ilPjfFzLpiwwb0nv",
+      "name": "Punctured Arm",
+      "img": "icons/skills/melee/blade-tip-orange.webp",
+      "type": "base",
+      "system": {
+        "changes": [],
+        "conditions": "{}",
+        "magical": false,
+        "rider": {
+          "statuses": []
+        }
+      },
+      "disabled": false,
+      "duration": {
+        "value": null,
+        "units": "rounds",
+        "expiry": "turnEnd",
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "showIcon": 1,
+      "sort": 0,
+      "flags": {
+        "mmm": {
+          "duration": {
+            "formula": "1d8",
+            "units": "rounds",
+            "expiry": "turnEnd"
+          }
+        }
+      },
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6"
+      },
+      "_key": "!items.effects!A75rbXBYeRWjcMgh.ilPjfFzLpiwwb0nv"
+    }
+  ],
+  "folder": "txEFm3aMv2ObXu7k",
+  "sort": 800,
+  "flags": {
+    "mmm": {
+      "injury": true,
+      "damageType": "piercing"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  },
+  "_key": "!items!A75rbXBYeRWjcMgh"
+}

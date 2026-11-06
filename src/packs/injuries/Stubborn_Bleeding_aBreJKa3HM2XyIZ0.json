@@ -1,0 +1,92 @@
+{
+  "_id": "aBreJKa3HM2XyIZ0",
+  "name": "Stubborn Bleeding",
+  "type": "feat",
+  "img": "icons/skills/melee/blood-slash-foam-red.webp",
+  "system": {
+    "description": {
+      "value": "<p>You see blood trickling from your wound. It must be a nicked vein because it's difficult to staunch. At the end of each turn you take damage to your maximum hit points scaled to the damage that caused the lingering injury: 1-10 damage ([[1d2]]), 11-20 damage ([[1d4]]), 21-30 damage ([[1d6]]), 31-40 damage ([[1d8]]), &gt;40 damage ([[1d10]]).</p><p><em>Treatment</em> - A [[/skill medicine 14]] check staunches the bleeding. You may reattempt this check.</p>",
+      "chat": ""
+    },
+    "source": {
+      "book": "Maxwell's Manual of Malicious Maladies",
+      "custom": ""
+    },
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "requirements": "Slashing Lingering Injury"
+  },
+  "effects": [
+    {
+      "_id": "V9Jq3sA0oNGlldXa",
+      "name": "Stubborn Bleeding",
+      "img": "icons/skills/melee/blood-slash-foam-red.webp",
+      "type": "base",
+      "system": {
+        "changes": [],
+        "conditions": "{}",
+        "magical": false,
+        "rider": {
+          "statuses": []
+        }
+      },
+      "disabled": false,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [
+        "bleeding"
+      ],
+      "showIcon": 1,
+      "sort": 0,
+      "flags": {
+        "mmm": {
+          "ongoing": [
+            {
+              "event": "turnEnd",
+              "formula": "@tier",
+              "type": "maximum"
+            }
+          ],
+          "duration": null
+        }
+      },
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6"
+      },
+      "_key": "!items.effects!aBreJKa3HM2XyIZ0.V9Jq3sA0oNGlldXa"
+    }
+  ],
+  "folder": "IMJkXH0pVkMixlbt",
+  "sort": 1300,
+  "flags": {
+    "mmm": {
+      "injury": true,
+      "damageType": "slashing",
+      "tiers": [
+        "1d2",
+        "1d4",
+        "1d6",
+        "1d8",
+        "1d10"
+      ]
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  },
+  "_key": "!items!aBreJKa3HM2XyIZ0"
+}

@@ -1,0 +1,79 @@
+{
+  "_id": "DnHqRvkRGeOkHeNy",
+  "name": "Incinerated Limb",
+  "type": "feat",
+  "img": "icons/magic/fire/flame-burning-campfire-orange.webp",
+  "system": {
+    "description": {
+      "value": "<p>Roll on the @UUID[Compendium.mmm.mmmm.RollTable.iP8lOROAIYARwcgk]{Large Limb Table}. The voracious fire has devoured your limb, leaving nothing but smoking cinders in its wake. The limb is <strong>missing</strong>, and the resulting wound is cauterized</p>",
+      "chat": ""
+    },
+    "source": {
+      "book": "Maxwell's Manual of Malicious Maladies",
+      "custom": ""
+    },
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "requirements": "Fire Lingering Injury"
+  },
+  "effects": [
+    {
+      "_id": "gfacqBOpZmeU43ro",
+      "name": "Incinerated Limb",
+      "img": "icons/magic/fire/flame-burning-campfire-orange.webp",
+      "type": "base",
+      "system": {
+        "changes": [],
+        "conditions": "{}",
+        "magical": false,
+        "rider": {
+          "statuses": []
+        }
+      },
+      "disabled": false,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "showIcon": 1,
+      "sort": 0,
+      "flags": {
+        "mmm": {
+          "duration": null
+        }
+      },
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6"
+      },
+      "_key": "!items.effects!DnHqRvkRGeOkHeNy.gfacqBOpZmeU43ro"
+    }
+  ],
+  "folder": "LvtSZL0IocSdIxLC",
+  "sort": 1700,
+  "flags": {
+    "mmm": {
+      "injury": true,
+      "damageType": "fire",
+      "location": {
+        "table": "largeLimb"
+      }
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  },
+  "_key": "!items!DnHqRvkRGeOkHeNy"
+}

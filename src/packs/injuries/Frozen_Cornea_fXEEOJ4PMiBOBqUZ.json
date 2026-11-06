@@ -1,0 +1,80 @@
+{
+  "_id": "fXEEOJ4PMiBOBqUZ",
+  "name": "Frozen Cornea",
+  "type": "feat",
+  "img": "icons/magic/water/snowflake-ice-snow-white.webp",
+  "system": {
+    "description": {
+      "value": "<p>Roll to randomly determine the right or left eye. The frigid air has frozen over the surface layer of your eye. The eye is <strong>nonfunctional</strong>. If not treated within 12 hours, your vision will be permanently <strong>missing</strong>.</p><p><em>Treatment</em> - A DC 20 Save Sense Surgery. If the player spends a short rest rewarming the area within 15 minutes of the injury occurring, this DC is decreased to 10.</p>",
+      "chat": ""
+    },
+    "source": {
+      "book": "Maxwell's Manual of Malicious Maladies",
+      "custom": ""
+    },
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "requirements": "Cold Lingering Injury"
+  },
+  "effects": [
+    {
+      "_id": "k1b9tz1y0N9Pa9yu",
+      "name": "Frozen Cornea",
+      "img": "icons/magic/water/snowflake-ice-snow-white.webp",
+      "type": "base",
+      "system": {
+        "changes": [],
+        "conditions": "{}",
+        "magical": false,
+        "rider": {
+          "statuses": []
+        }
+      },
+      "disabled": false,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "showIcon": 1,
+      "sort": 0,
+      "flags": {
+        "mmm": {
+          "duration": null
+        }
+      },
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6"
+      },
+      "_key": "!items.effects!fXEEOJ4PMiBOBqUZ.k1b9tz1y0N9Pa9yu"
+    }
+  ],
+  "folder": "ehO7jsjguoMng3CE",
+  "sort": 400,
+  "flags": {
+    "mmm": {
+      "injury": true,
+      "damageType": "cold",
+      "location": {
+        "table": "side",
+        "part": "Eye"
+      }
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  },
+  "_key": "!items!fXEEOJ4PMiBOBqUZ"
+}

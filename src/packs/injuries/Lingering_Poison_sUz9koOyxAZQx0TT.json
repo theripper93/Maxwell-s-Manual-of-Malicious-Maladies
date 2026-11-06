@@ -1,0 +1,81 @@
+{
+  "_id": "sUz9koOyxAZQx0TT",
+  "name": "Lingering Poison",
+  "type": "feat",
+  "img": "icons/skills/toxins/poison-bottle-corked-fire-green.webp",
+  "system": {
+    "description": {
+      "value": "<p>The poison is particularly strong and you can't seem to shake free of it. You are <strong>&Reference[poisoned]{poisoned}</strong> for [[1d6]] days.</p><p><em>Treatment</em> - After each long rest you may make a Constitution saving throw (DC equals half the damage that caused the lingering injury or 10, whichever number is higher). On a success, you are no longer <strong>poisoned</strong>. Any effect that cures poison (such as the Lesser Restoration spell) instead temporarily suppresses the poison for one hour.</p>",
+      "chat": ""
+    },
+    "source": {
+      "book": "Maxwell's Manual of Malicious Maladies",
+      "custom": ""
+    },
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "requirements": "Poison Lingering Injury"
+  },
+  "effects": [
+    {
+      "_id": "Yk72j8vZV9eDvj1l",
+      "name": "Lingering Poison",
+      "img": "icons/skills/toxins/poison-bottle-corked-fire-green.webp",
+      "type": "base",
+      "system": {
+        "changes": [],
+        "conditions": "{}",
+        "magical": false,
+        "rider": {
+          "statuses": []
+        }
+      },
+      "disabled": false,
+      "duration": {
+        "value": null,
+        "units": "days",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [
+        "poisoned"
+      ],
+      "showIcon": 1,
+      "sort": 0,
+      "flags": {
+        "mmm": {
+          "duration": {
+            "formula": "1d6",
+            "units": "days"
+          }
+        }
+      },
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6"
+      },
+      "_key": "!items.effects!sUz9koOyxAZQx0TT.Yk72j8vZV9eDvj1l"
+    }
+  ],
+  "folder": "TxNzejWG9XMKMnA7",
+  "sort": 600,
+  "flags": {
+    "mmm": {
+      "injury": true,
+      "damageType": "poison"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  },
+  "_key": "!items!sUz9koOyxAZQx0TT"
+}

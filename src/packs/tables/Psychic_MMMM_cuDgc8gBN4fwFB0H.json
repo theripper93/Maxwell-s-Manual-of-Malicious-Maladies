@@ -1,0 +1,437 @@
+{
+  "name": "Psychic - [MMMM]",
+  "img": "icons/magic/control/hypnosis-mesmerism-pendulum.webp",
+  "description": "It is best not to even bother attempting to treat psychic\ninjuries yourself. I had a stint practicing trepanning once,\nwould not recommend. A surgeon is simply unqualified to\ntreat afflictions of the brain. I refer all my patients with\npsychic related damage to a respectable psychological\nauthority, such as your local phrenologist.",
+  "results": [
+    {
+      "_id": "C3GBcTD2hI10YRMe",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/magic/control/hypnosis-mesmerism-pendulum.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>Your mind has been indelibly altered, and you just find it more difficult to care. Your alignment shifts one step towards neutral on the good/evil axis. If it is already neutral, treat this roll as a 15.</p>",
+      "name": "Apathy",
+      "_key": "!tables.results!cuDgc8gBN4fwFB0H.C3GBcTD2hI10YRMe",
+      "documentUuid": "Compendium.mmm.injuries.Item.CY1e5hRepzkBmuR5"
+    },
+    {
+      "_id": "An0bS8PxTRM6ilkw",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/magic/control/hypnosis-mesmerism-pendulum.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p><strong>&Reference[unconscious]{unconscious}</strong>ly, you brain has made a connection between something random and the pain it felt, now you can't help but associate the two. The DM chooses something unique about the source of the damage or the current setting. Any time you move within 15 feet of this thing you are <strong>&Reference[frightened]{frightened}</strong> until you move at least 50 feet away from it.</p>",
+      "name": "Crippling Phobia",
+      "_key": "!tables.results!cuDgc8gBN4fwFB0H.An0bS8PxTRM6ilkw",
+      "documentUuid": "Compendium.mmm.injuries.Item.Th0MdDJHpyyKszPF"
+    },
+    {
+      "_id": "EZ6bgj4yx3zMpXPo",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/magic/control/hypnosis-mesmerism-pendulum.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>Your brain feels wired, and you cannot force it to rest no matter how hard you try. You cannot benefit from short or long rests for [[1d4]] days (You do not regain HD, cannot regain spell slots or prepare spells, and do not heal). During this time you are immune to magical sleep.</p>",
+      "name": "Insomnia",
+      "_key": "!tables.results!cuDgc8gBN4fwFB0H.EZ6bgj4yx3zMpXPo",
+      "documentUuid": "Compendium.mmm.injuries.Item.pCWU8PhiTCfifdKr"
+    },
+    {
+      "_id": "bXPoNtRndp6546m7",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/magic/control/hypnosis-mesmerism-pendulum.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>You feel something within your mind come a touch unhinged. Roll on the Long Term Madness Table (DMG pg.260). This effect lasts [[1d10 * 10]] hours.</p>",
+      "name": "A Taste of Madness",
+      "_key": "!tables.results!cuDgc8gBN4fwFB0H.bXPoNtRndp6546m7",
+      "documentUuid": "Compendium.mmm.injuries.Item.TrZx8sD7agOMofVc"
+    },
+    {
+      "_id": "p0UXIAtKZElWJZog",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        7,
+        7
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/magic/control/hypnosis-mesmerism-pendulum.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>You feel a bubbling terror rising into your throat, and suddenly all you can think of is getting away. You are terrified of the source of the damage as if affected by the Fear spell (saving throw DC equals half the damage that caused the lingering injury or 10, whichever number is higher).</p>",
+      "name": "Terrified",
+      "_key": "!tables.results!cuDgc8gBN4fwFB0H.p0UXIAtKZElWJZog",
+      "documentUuid": "Compendium.mmm.injuries.Item.v6dk6Dqn5P6Rd1We"
+    },
+    {
+      "_id": "bGHXchy2VclhgzQw",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        8,
+        8
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/magic/control/hypnosis-mesmerism-pendulum.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p></strong></p><p>A sudden jolt of intense fear lances through you from your scalp to your toes. You are terrified of the source of the damage as if affected by the Fear spell until the end of your next turn.</p>",
+      "name": "Frightened",
+      "_key": "!tables.results!cuDgc8gBN4fwFB0H.bGHXchy2VclhgzQw",
+      "documentUuid": "Compendium.mmm.injuries.Item.44eqJ9SEijuuorlY"
+    },
+    {
+      "_id": "356IATehEggOGlkI",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        9,
+        9
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/magic/control/hypnosis-mesmerism-pendulum.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>You feel your mind stretch as if to the point of breaking, and then all of the sudden things become clear again. Roll on the Short Term Madness Table (DMG pg.259). This effect lasts for [[1d10]] minutes.</p>",
+      "name": "A Touch of Madness",
+      "_key": "!tables.results!cuDgc8gBN4fwFB0H.356IATehEggOGlkI",
+      "documentUuid": "Compendium.mmm.injuries.Item.ElJeLGqcMXzhVqeP"
+    },
+    {
+      "_id": "EVJB4rTlqsfmkgiK",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        10,
+        10
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/magic/control/hypnosis-mesmerism-pendulum.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>Your head throbs, the light aggravates you, and all you want is for the pounding to stop. You cannot benefit from a short rest for [[1d4]] days.</p>",
+      "name": "Persistent Migraine",
+      "_key": "!tables.results!cuDgc8gBN4fwFB0H.EVJB4rTlqsfmkgiK",
+      "documentUuid": "Compendium.mmm.injuries.Item.yfY1oVRL1hLzJbCL"
+    },
+    {
+      "_id": "pIqnEhyKrcocdyos",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        11,
+        11
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/magic/control/hypnosis-mesmerism-pendulum.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>The psychic assault has left you with a small vocal or motor tic; a brief compulsive behavior you find difficult or impossible to suppress. The DM may choose a specific tic or roll to determine the tic randomly ([[1d6]]): 1) Eye twitching, 2) Finger clicking, 3) Touching other people or things, 4) Grunting, 5) Repeating a sound or phrase, 6) Grimacing.</p>",
+      "name": "Tic",
+      "_key": "!tables.results!cuDgc8gBN4fwFB0H.pIqnEhyKrcocdyos",
+      "documentUuid": "Compendium.mmm.injuries.Item.2bLES41fFRItdePd"
+    },
+    {
+      "_id": "DV2ycF0Vvm3riVrN",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        12,
+        12
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/magic/control/hypnosis-mesmerism-pendulum.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>You now tend to experience nosebleeds when you exert a great force of mental effort. The nosebleeds occur when (roll [[1d6]]): 1) You are <strong>&Reference[frightened]{frightened}</strong>, 2) You are <strong>&Reference[charmed]{charmed}</strong>, 3) You make an Intelligence saving throw, 4) You make a Wisdom saving throw, 5) You make a Charisma saving throw, 6) You take psychic damage.</p>",
+      "name": "Nosebleeds",
+      "_key": "!tables.results!cuDgc8gBN4fwFB0H.DV2ycF0Vvm3riVrN",
+      "documentUuid": "Compendium.mmm.injuries.Item.xxtbp9GbBhiqace6"
+    },
+    {
+      "_id": "PW89yuLl6Z37xc8y",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        13,
+        13
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/magic/control/hypnosis-mesmerism-pendulum.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p></strong></p><p>Against all logic, you feel yourself becoming warm and endeared. You are <strong>&Reference[charmed]{charmed}</strong> by the source of the damage as if under the effects of the Charm Person spell. This effect lasts until the end of your next turn.</p><p><em>Treatment</em> - Taking any amount of damage from the source of the charm ends this effect.</p>",
+      "name": "Charmed",
+      "_key": "!tables.results!cuDgc8gBN4fwFB0H.PW89yuLl6Z37xc8y",
+      "documentUuid": "Compendium.mmm.injuries.Item.ErwoTS4Mji5K7Ial"
+    },
+    {
+      "_id": "EaSfdGr8uuntehqw",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        14,
+        14
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/magic/control/hypnosis-mesmerism-pendulum.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>A bit confused, you feel a wave of unexpected affection wash over you. You are <strong>&Reference[charmed]{charmed}</strong> by the source of the damage as if under the effects of the Charm Person spell. This effect lasts [[1d4]] rounds.</p><p><em>Treatment</em> - Taking any amount of damage from the source of the charm ends this effect.</p>",
+      "name": "Enamoured",
+      "_key": "!tables.results!cuDgc8gBN4fwFB0H.EaSfdGr8uuntehqw",
+      "documentUuid": "Compendium.mmm.injuries.Item.9qQe15vBFlmwqHll"
+    },
+    {
+      "_id": "uVDiJW99HxlAYB6D",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        15,
+        15
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/magic/control/hypnosis-mesmerism-pendulum.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>Roll on the @UUID[Compendium.mmm.mmmm.RollTable.5EyNHyXKtfhIlYCa]{Scar Chart}. In a freak instance of chance, the psychic assault has interacted with a thread of natural magic within you. The appearance of this body part keeps subtly shifting, though it feels exactly the same as before. This area of your body is permanently under the effect of a Minor Illusion spell and emits a faint aura of Illusion. You can suppress or control this effect with an effort of concentration, otherwise the body part slowly shifts through minor changes in colour, size, shape, and appearance seemingly in relation to your general mood. The spell save DC for this illusion is 10 + your current level.</p>",
+      "name": "Illusory Limb",
+      "_key": "!tables.results!cuDgc8gBN4fwFB0H.uVDiJW99HxlAYB6D",
+      "documentUuid": "Compendium.mmm.injuries.Item.xltUN0eArziKSY18"
+    },
+    {
+      "_id": "hVP100SCgORrLxxu",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        16,
+        16
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/magic/control/hypnosis-mesmerism-pendulum.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>Your attempts to be understood are met with nothing but narrowed eyes and confused looks. You lose proficiency with all languages except common, which you can understand, but not speak. You cannot read or write. Any attempt to speak a language results in a garbled string of seemingly random words. This effect lasts [[1d4]] days.</p><p><em>Treatment</em> - Any spell that allows the caster to comprehend the literal or implied meaning of communication will function as normal.</p>",
+      "name": "Temporary Aphasia",
+      "_key": "!tables.results!cuDgc8gBN4fwFB0H.hVP100SCgORrLxxu",
+      "documentUuid": "Compendium.mmm.injuries.Item.eo0LfZSYSd2oVoXH"
+    },
+    {
+      "_id": "xz1KGfB6GgLgxa2O",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        17,
+        18
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/magic/control/hypnosis-mesmerism-pendulum.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>You find it difficult to stop being distracted by the feeling that there is someone or something out to get you. Whenever you must maintain concentration, roll [[1d4]]. This is the maximum amount of rounds you may maintain concentration for that spell or effect.</p>",
+      "name": "Paranoia",
+      "_key": "!tables.results!cuDgc8gBN4fwFB0H.xz1KGfB6GgLgxa2O",
+      "documentUuid": "Compendium.mmm.injuries.Item.wBMB7y6bbZ8Ltkb0"
+    }
+  ],
+  "formula": "3d6",
+  "replacement": true,
+  "displayRoll": true,
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "core": {}
+  },
+  "_id": "cuDgc8gBN4fwFB0H",
+  "_stats": {
+    "coreVersion": "13.342",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": "RollTable.NAuTLbG4fvTWmRPO",
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "Cspu3pxFr7tu7SU7": 3
+  },
+  "_key": "!tables!cuDgc8gBN4fwFB0H"
+}

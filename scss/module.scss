@@ -1,0 +1,24 @@
+.chat-message {
+    .mmm-location {
+        margin: 0.25rem 0;
+    }
+
+    .mmm-apply {
+        width: 100%;
+        margin-top: 0.25rem;
+
+        i {
+            color: var(--color-level-error);
+        }
+    }
+}
+
+.chat-message .mmm-applied {
+    margin-top: 0.25rem;
+    padding-top: 0.25rem;
+    border-top: 1px solid var(--color-border);
+
+    p {
+        margin: 0.125rem 0;
+    }
+}

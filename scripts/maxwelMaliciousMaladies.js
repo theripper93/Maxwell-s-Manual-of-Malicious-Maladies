@@ -1,162 +1,139 @@
+import { MODULE_ID } from "./main.js";
+import { Injuries } from "./injuries.js";
+
+const TABLE_SUFFIX = " - [MMMM]";
+const SUBTABLES = ["Scar Chart", "Small Appendage Table", "Large Limb Table"];
+
 export class MaxwelMaliciousMaladies {
-  static async rollTable(name, actor){
-    name = name.trim();
-    if(!name.endsWith("[MMMM]")) name = name + " - [MMMM]";
-    name = name.charAt(0).toUpperCase() + name.slice(1);
-    const table = game.tables.getName(name) ?? await this.getTableFromPack(name);
-    if(!table) return await this.displayDialog();
-    let chatMessage
-    Hooks.once("createChatMessage", (message) =>{
-      chatMessage = message;
-    })
-    const result = await table.draw()
-    this.rollSubtable(result.results[0].text, chatMessage);
-    return result
-  }
-
-  static async rollSubtable(result, chatMessage){
-    const subTables = ["Scar Chart", "Small Appendage Table", "Large Limb Table"];
-    for(let tab of subTables){
-      if(result.toLowerCase().includes(tab.toLowerCase())){
-        const result = await MaxwelMaliciousMaladies.rollTable(tab);
-        const text = result.results[0].text
-        MaxwelMaliciousMaladies.insertSubtableResult(text,chatMessage)
-        return;
-      }
+    static getPack() {
+        return game.packs.get(`${MODULE_ID}.mmmm`);
     }
-  }
 
-  static async insertSubtableResult(text, chatMessage){
-    const content = $(chatMessage.content)
-    const result = content.find(".result-text")
-    //find replace the text in the first stron tag
-    const oldTitle = result.find("strong").first().text()
-    const newContent = chatMessage.content.replace(oldTitle, oldTitle + "(" + text + ")")
-    chatMessage.update({
-      content: newContent
-    })
-  }
+    static normalizeTableName(name) {
+        name = name.trim().replace(TABLE_SUFFIX, "");
+        return name.charAt(0).toUpperCase() + name.slice(1) + TABLE_SUFFIX;
+    }
 
+    static async getTable(name) {
+        const fullName = this.normalizeTableName(name);
+        const worldTable = game.tables.getName(fullName);
+        if (worldTable) return worldTable;
+        const entry = this.getPack().index.find((e) => e.name.toLowerCase() === fullName.toLowerCase());
+        return entry ? this.getPack().getDocument(entry._id) : null;
+    }
 
-  static getPack(){
-    return game.packs.get("mmm.mmmm");
-  }
+    static getInjuryTableNames() {
+        return this.getPack()
+            .index.map((e) => e.name.replace(TABLE_SUFFIX, ""))
+            .filter((n) => !SUBTABLES.includes(n))
+            .sort((a, b) => a.localeCompare(b));
+    }
 
-  static async getTableFromPack(name){
-    const pack = this.getPack();
-    const entry = Array.from(pack.index).find(e => e.name == name);
-    return await pack.getDocument(entry._id);
-  }
+    static async rollTable(name, { actor, damage, reason } = {}) {
+        const table = await this.getTable(name);
+        if (!table) return this.displayDialog();
+        const { roll, results } = await table.draw({ displayChat: false });
+        if (!results.length) return null;
+        const injury = results[0].documentUuid ? await fromUuid(results[0].documentUuid) : null;
+        const location = injury ? await Injuries.rollLocation(injury.flags[MODULE_ID]?.location) : null;
+        const durations = injury ? await Injuries.rollDurations(injury) : [];
+        const displayed = injury ? [results[0].clone({ description: Injuries.applyDurationsToText(results[0].description, injury, durations) }, { keepId: true }), ...results.slice(1)] : results;
+        const flags = { [MODULE_ID]: { injuryUuid: injury?.uuid ?? null, location, durations, damage: damage ?? null, actorUuid: actor?.uuid ?? null, reason: reason ?? null } };
+        const speaker = actor ? ChatMessage.implementation.getSpeaker({ actor }) : undefined;
+        return table.toMessage(displayed, { roll, messageData: { flags, ...(speaker ? { speaker } : {}) } });
+    }
 
-  static async displayDialog(){
-    let select = `<div class="form-group"><select style="width: 100%;" id="mmm-select-table">`;
-    const pack = this.getPack();
-    const tableNames = Array.from(pack.index).map(e => e.name.replace(" - [MMMM]", "")).sort((a,b) => a.localeCompare(b));
-    tableNames.forEach(name => select += `<option value="${name}">${name}</option>`);
-    select += `</select></div><p>`;
-    new foundry.applications.api.DialogV2({
-      window: { title: "Maxwell's Manual of Malicious Maladies" },
-      content: `<p>Choose a Table:</p>${select}`,
-      buttons: [
-        {
-          action: "roll",
-          icon: "fas fa-dice-d20",
-          label: "Roll Injury",
-          default: true,
-          callback: (event, button, dialog) => {
-            const tableName = dialog.element.querySelector("#mmm-select-table").value;
-            MaxwelMaliciousMaladies.rollTable(tableName);
-          }
-        },
-        {
-          action: "cancel",
-          icon: "fas fa-times",
-          label: "Cancel",
-          callback: () => {}
+    static onRenderChatMessage(message, html) {
+        const data = message.flags[MODULE_ID];
+        if (!data?.injuryUuid) return;
+        const results = html.querySelector(".table-results");
+        if (!results) return;
+        if (data.location) {
+            const location = document.createElement("p");
+            location.classList.add("mmm-location");
+            location.innerHTML = `<strong>${game.i18n.localize("mmm.chat.location")}:</strong> ${data.location}`;
+            results.after(location);
         }
-      ]
-    }).render({ force: true });
-    
-
-  }
-
-  static async confirmInjury(reason, tablename, actor){
-    //set first letter to upper case
-    const choseTable = !tablename
-    const damage = choseTable ? "" : tablename.charAt(0).toUpperCase() + tablename.slice(1);
-    let select = "";
-    let rollPrompt = choseTable ? `Select the correct <strong>Damage Type</strong> before rolling on the table.` : `Roll on the <strong>${damage} Damage</strong> table?`;
-    if(choseTable){
-      select = `<div class="form-group"><select style="width: 100%;" id="mmm-select-table">`;
-      const pack = this.getPack();
-      const tableNames = Array.from(pack.index).map(e => e.name.replace(" - [MMMM]", "")).sort((a,b) => a.localeCompare(b));
-      tableNames.forEach(name => select+=`<option value="${name}">${name}</option>`);
-      select += `</select></div><p>`;
-    }
-    new foundry.applications.api.DialogV2({
-      window: { title: "Maxwell's Manual of Malicious Maladies" },
-      content: `
-        <p class="mmmm-dialog">
-          ${actor.name} sustained a lingering injury.<br>
-          Reason: <strong>${reason}</strong>.<br>
-          ${rollPrompt}
-        </p>
-        ${select}
-      `,
-      buttons: [
-        {
-          action: "roll",
-          icon: "fas fa-dice-d20",
-          label: "Roll Injury",
-          default: true,
-          callback: (event, button, dialog) => {
-            const token = actor.getActiveTokens();
-            token[0]?.control();
-            if (choseTable) {
-              tablename = dialog.element.querySelector("#mmm-select-table").value;
-            }
-            MaxwelMaliciousMaladies.rollTable(tablename, actor);
-          }
-        },
-        {
-          action: "cancel",
-          icon: "fas fa-times",
-          label: "Cancel",
-          callback: () => {}
+        if (data.applied) {
+            const applied = document.createElement("div");
+            applied.classList.add("mmm-applied");
+            applied.innerHTML = data.applied;
+            (html.querySelector(".mmm-location") ?? results).after(applied);
+            return;
         }
-      ]
-    }).render({ force: true });
-    
-  }
-
-  static sleep(ms) {
-    return new Promise(resolve => setTimeout(resolve, ms));
-  }
-
-  static inferDuration(text){
-    const seconds = parseInt(text.match(/\d+ second/i)) || 0;
-    const minutes = parseInt(text.match(/\d+ minute/i)) || 0;
-    const hours = parseInt(text.match(/\d+ hour/i)) || 0;
-    const days = parseInt(text.match(/\d+ day/i)) || 0;
-    //add up
-    return seconds + (minutes * 60) + (hours * 60 * 60) + (days * 60 * 60 * 24);
-  }
-
-  static isOwnerConnected(actor){
-    for(let [userId,permission] of Object.entries(actor.ownership)){
-      if(permission !== 3) continue;
-      const user = game.users.get(userId);
-      if(!user?.isGM && user?.active) return true;
+        const actor = data.actorUuid ? fromUuidSync(data.actorUuid) : null;
+        if (!game.user.isGM && !actor?.isOwner) return;
+        const button = document.createElement("button");
+        button.type = "button";
+        button.classList.add("mmm-apply");
+        button.innerHTML = `<i class="fas fa-viruses"></i> ${game.i18n.localize("mmm.chat.apply")}`;
+        button.addEventListener("click", (event) => {
+            event.preventDefault();
+            button.disabled = true;
+            this.applyFromMessage(message).finally(() => (button.disabled = false));
+        });
+        (html.querySelector(".mmm-location") ?? results).after(button);
     }
-    return false;
-  }
 
-  static async requestRoll({reason, tablename, uuid}){
-    const actor = await fromUuid(uuid);
-    if(game.user.isGM){
-      if(!MaxwelMaliciousMaladies.isOwnerConnected(actor)) MaxwelMaliciousMaladies.confirmInjury(reason, tablename, actor);
-      return;
+    static async applyFromMessage(message) {
+        const data = message.flags[MODULE_ID];
+        const speakerActor = ChatMessage.implementation.getSpeakerActor(message.speaker);
+        const actor = (data.actorUuid ? await fromUuid(data.actorUuid) : null) ?? speakerActor ?? canvas.tokens.controlled[0]?.actor;
+        if (!actor) return ui.notifications.error("mmm.notifications.noActor", { localize: true });
+        return Injuries.apply(actor, data.injuryUuid, { damage: data.damage, location: data.location, durations: data.durations, messageId: message.id });
     }
-    if(actor.isOwner && MaxwelMaliciousMaladies.isOwnerConnected(actor)) MaxwelMaliciousMaladies.confirmInjury(reason, tablename, actor);
-  }
+
+    static getTableSelect() {
+        const options = this.getInjuryTableNames()
+            .map((name) => `<option value="${name}">${name}</option>`)
+            .join("");
+        return `<div class="form-group"><select name="table">${options}</select></div>`;
+    }
+
+    static async displayDialog() {
+        const tableName = await foundry.applications.api.DialogV2.prompt({
+            window: { title: "mmm.title" },
+            content: `<p>${game.i18n.localize("mmm.dialog.chooseTable")}</p>${this.getTableSelect()}`,
+            ok: {
+                icon: "fas fa-dice-d20",
+                label: "mmm.dialog.roll",
+                callback: (event, button) => button.form.elements.table.value,
+            },
+            rejectClose: false,
+        });
+        if (tableName) return this.rollTable(tableName);
+    }
+
+    static async confirmInjury({ reason, tablename, actor, damage }) {
+        const hasTable = tablename && this.getInjuryTableNames().some((n) => n.toLowerCase() === tablename.toLowerCase());
+        const damageLabel = hasTable ? game.i18n.localize(CONFIG.DND5E.damageTypes[tablename]?.label ?? tablename) : "";
+        const prompt = hasTable ? game.i18n.format("mmm.dialog.rollOnTable", { damage: damageLabel }) : game.i18n.localize("mmm.dialog.selectDamageType");
+        const select = hasTable ? "" : this.getTableSelect();
+        const content = `<p class="mmm-dialog">${game.i18n.format("mmm.dialog.sustained", { actor: foundry.utils.escapeHTML(actor.name) })}<br>${game.i18n.localize("mmm.dialog.reason")}: <strong>${game.i18n.localize(reason)}</strong>.<br>${prompt}</p>${select}`;
+        const tableName = await foundry.applications.api.DialogV2.prompt({
+            window: { title: "mmm.title" },
+            content,
+            ok: {
+                icon: "fas fa-dice-d20",
+                label: "mmm.dialog.roll",
+                callback: (event, button) => button.form.elements.table?.value ?? tablename,
+            },
+            rejectClose: false,
+        });
+        if (!tableName) return;
+        actor.getActiveTokens()[0]?.control();
+        return this.rollTable(tableName, { actor, damage, reason });
+    }
+
+    static isOwnerConnected(actor) {
+        return game.users.some((u) => u.active && !u.isGM && actor.testUserPermission(u, "OWNER"));
+    }
+
+    static async requestRoll({ reason, tablename, uuid, damage }) {
+        const actor = await fromUuid(uuid);
+        if (!actor) return;
+        const ownerConnected = MaxwelMaliciousMaladies.isOwnerConnected(actor);
+        const shouldPrompt = game.user.isGM ? !ownerConnected && game.users.activeGM?.isSelf : actor.isOwner && ownerConnected;
+        if (shouldPrompt) MaxwelMaliciousMaladies.confirmInjury({ reason, tablename, actor, damage });
+    }
 }

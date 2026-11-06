@@ -1,0 +1,80 @@
+{
+  "_id": "i7VC1FIxuVSPkPUS",
+  "name": "Mitotic Rejection",
+  "type": "feat",
+  "img": "icons/magic/unholy/strike-body-explode-disintegrate.webp",
+  "system": {
+    "description": {
+      "value": "<p>You cannot be magically healed for [[1d6]] turns. This includes spells which restore hit points, cure conditions, and raise the dead.</p>",
+      "chat": ""
+    },
+    "source": {
+      "book": "Maxwell's Manual of Malicious Maladies",
+      "custom": ""
+    },
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "requirements": "Necrotic Lingering Injury"
+  },
+  "effects": [
+    {
+      "_id": "POOyV5wozsBFvhRA",
+      "name": "Mitotic Rejection",
+      "img": "icons/magic/unholy/strike-body-explode-disintegrate.webp",
+      "type": "base",
+      "system": {
+        "changes": [],
+        "conditions": "{}",
+        "magical": false,
+        "rider": {
+          "statuses": []
+        }
+      },
+      "disabled": false,
+      "duration": {
+        "value": null,
+        "units": "rounds",
+        "expiry": "turnEnd",
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "showIcon": 1,
+      "sort": 0,
+      "flags": {
+        "mmm": {
+          "duration": {
+            "formula": "1d6",
+            "units": "rounds",
+            "expiry": "turnEnd"
+          }
+        }
+      },
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6"
+      },
+      "_key": "!items.effects!i7VC1FIxuVSPkPUS.POOyV5wozsBFvhRA"
+    }
+  ],
+  "folder": "1nRoeyF7X9eMLmxS",
+  "sort": 1300,
+  "flags": {
+    "mmm": {
+      "injury": true,
+      "damageType": "necrotic"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  },
+  "_key": "!items!i7VC1FIxuVSPkPUS"
+}

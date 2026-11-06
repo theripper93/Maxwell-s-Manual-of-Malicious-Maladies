@@ -1,0 +1,37 @@
+{
+  "_id": "y6wNp7fgoTELTfRq",
+  "name": "Seen the Light",
+  "type": "feat",
+  "img": "icons/magic/lightning/bolt-strike-streak-yellow.webp",
+  "system": {
+    "description": {
+      "value": "<p>You feel as if you've seen a glimpse of something greater than yourself, and a tiny mote of that light has come to rest on your soul. You take a <strong>flaw</strong> that would be considered benevolent, self-sacrificing, unyielding, or militant.</p>",
+      "chat": ""
+    },
+    "source": {
+      "book": "Maxwell's Manual of Malicious Maladies",
+      "custom": ""
+    },
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "requirements": "Radiant Lingering Injury"
+  },
+  "effects": [],
+  "folder": "yRuhPzOAD5hEAtff",
+  "sort": 1800,
+  "flags": {
+    "mmm": {
+      "injury": true,
+      "damageType": "radiant",
+      "instant": true
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  },
+  "_key": "!items!y6wNp7fgoTELTfRq"
+}

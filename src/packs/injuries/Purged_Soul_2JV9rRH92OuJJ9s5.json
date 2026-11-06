@@ -1,0 +1,37 @@
+{
+  "_id": "2JV9rRH92OuJJ9s5",
+  "name": "Purged Soul",
+  "type": "feat",
+  "img": "icons/magic/lightning/bolt-strike-streak-yellow.webp",
+  "system": {
+    "description": {
+      "value": "<p>The purging light has scoured clean the filth in your soul. Your alignment shifts one step towards good. If your alignment is already good, treat this roll as a 15.</p>",
+      "chat": ""
+    },
+    "source": {
+      "book": "Maxwell's Manual of Malicious Maladies",
+      "custom": ""
+    },
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "requirements": "Radiant Lingering Injury"
+  },
+  "effects": [],
+  "folder": "yRuhPzOAD5hEAtff",
+  "sort": 300,
+  "flags": {
+    "mmm": {
+      "injury": true,
+      "damageType": "radiant",
+      "instant": true
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  },
+  "_key": "!items!2JV9rRH92OuJJ9s5"
+}

@@ -1,0 +1,79 @@
+{
+  "_id": "eo0LfZSYSd2oVoXH",
+  "name": "Temporary Aphasia",
+  "type": "feat",
+  "img": "icons/magic/control/hypnosis-mesmerism-pendulum.webp",
+  "system": {
+    "description": {
+      "value": "<p>Your attempts to be understood are met with nothing but narrowed eyes and confused looks. You lose proficiency with all languages except common, which you can understand, but not speak. You cannot read or write. Any attempt to speak a language results in a garbled string of seemingly random words. This effect lasts [[1d4]] days.</p><p><em>Treatment</em> - Any spell that allows the caster to comprehend the literal or implied meaning of communication will function as normal.</p>",
+      "chat": ""
+    },
+    "source": {
+      "book": "Maxwell's Manual of Malicious Maladies",
+      "custom": ""
+    },
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "requirements": "Psychic Lingering Injury"
+  },
+  "effects": [
+    {
+      "_id": "6QNj8LidDmk0Bdqz",
+      "name": "Temporary Aphasia",
+      "img": "icons/magic/control/hypnosis-mesmerism-pendulum.webp",
+      "type": "base",
+      "system": {
+        "changes": [],
+        "conditions": "{}",
+        "magical": false,
+        "rider": {
+          "statuses": []
+        }
+      },
+      "disabled": false,
+      "duration": {
+        "value": null,
+        "units": "days",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "showIcon": 1,
+      "sort": 0,
+      "flags": {
+        "mmm": {
+          "duration": {
+            "formula": "1d4",
+            "units": "days"
+          }
+        }
+      },
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6"
+      },
+      "_key": "!items.effects!eo0LfZSYSd2oVoXH.6QNj8LidDmk0Bdqz"
+    }
+  ],
+  "folder": "LhZNHt3RmLuRoZa8",
+  "sort": 1600,
+  "flags": {
+    "mmm": {
+      "injury": true,
+      "damageType": "psychic"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  },
+  "_key": "!items!eo0LfZSYSd2oVoXH"
+}

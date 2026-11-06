@@ -1,0 +1,79 @@
+{
+  "_id": "E8op63o7hvqWFV29",
+  "name": "Caustic Coating",
+  "type": "feat",
+  "img": "icons/magic/acid/dissolve-drip-droplet-smoke.webp",
+  "system": {
+    "description": {
+      "value": "<p>Any friendly character you touch or otherwise interact with physically takes acid damage equal to your level. Creatures you grapple take this damage at the beginning of their turn. This effect lasts 1 minute.</p><p><em>Treatment</em> - A [[/skill medicine 15]] check ends this effect. You may reattempt this check.</p>",
+      "chat": ""
+    },
+    "source": {
+      "book": "Maxwell's Manual of Malicious Maladies",
+      "custom": ""
+    },
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "requirements": "Acid Lingering Injury"
+  },
+  "effects": [
+    {
+      "_id": "Lx2ZR4l3qALXDr6I",
+      "name": "Caustic Coating",
+      "img": "icons/magic/acid/dissolve-drip-droplet-smoke.webp",
+      "type": "base",
+      "system": {
+        "changes": [],
+        "conditions": "{}",
+        "magical": false,
+        "rider": {
+          "statuses": []
+        }
+      },
+      "disabled": false,
+      "duration": {
+        "value": null,
+        "units": "minutes",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "showIcon": 1,
+      "sort": 0,
+      "flags": {
+        "mmm": {
+          "duration": {
+            "formula": "1",
+            "units": "minutes"
+          }
+        }
+      },
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6"
+      },
+      "_key": "!items.effects!E8op63o7hvqWFV29.Lx2ZR4l3qALXDr6I"
+    }
+  ],
+  "folder": "hz7xOtq4kabtsVtJ",
+  "sort": 700,
+  "flags": {
+    "mmm": {
+      "injury": true,
+      "damageType": "acid"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  },
+  "_key": "!items!E8op63o7hvqWFV29"
+}

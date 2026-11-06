@@ -1,0 +1,82 @@
+{
+  "_id": "bSoJyL42dtYXnhus",
+  "name": "Vertigo",
+  "type": "feat",
+  "img": "icons/skills/toxins/poison-bottle-corked-fire-green.webp",
+  "system": {
+    "description": {
+      "value": "<p>You feel dizzy, the world seems to be shifting under your feet. The problem only gets worse when you're near a great height. You have disadvantage on Dexterity (Acrobatics) checks. You have disadvantage on all attacks and ability checks when you are within 5 feet of a height 15 feet or greater.</p>",
+      "chat": ""
+    },
+    "source": {
+      "book": "Maxwell's Manual of Malicious Maladies",
+      "custom": ""
+    },
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "requirements": "Poison Lingering Injury"
+  },
+  "effects": [
+    {
+      "_id": "uBXWIIHwCBqsUPmN",
+      "name": "Vertigo",
+      "img": "icons/skills/toxins/poison-bottle-corked-fire-green.webp",
+      "type": "base",
+      "system": {
+        "changes": [
+          {
+            "key": "system.skills.acr.roll.mode",
+            "type": "add",
+            "value": "-1"
+          }
+        ],
+        "conditions": "{}",
+        "magical": false,
+        "rider": {
+          "statuses": []
+        }
+      },
+      "disabled": false,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "showIcon": 1,
+      "sort": 0,
+      "flags": {
+        "mmm": {
+          "duration": null
+        }
+      },
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6"
+      },
+      "_key": "!items.effects!bSoJyL42dtYXnhus.uBXWIIHwCBqsUPmN"
+    }
+  ],
+  "folder": "TxNzejWG9XMKMnA7",
+  "sort": 400,
+  "flags": {
+    "mmm": {
+      "injury": true,
+      "damageType": "poison"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  },
+  "_key": "!items!bSoJyL42dtYXnhus"
+}

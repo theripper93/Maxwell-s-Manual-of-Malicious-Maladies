@@ -1,0 +1,79 @@
+{
+  "_id": "ONRCEI0PF2jD4mah",
+  "name": "Inner Fire",
+  "type": "feat",
+  "img": "icons/magic/fire/flame-burning-campfire-orange.webp",
+  "system": {
+    "description": {
+      "value": "<p>Roll on the @UUID[Compendium.mmm.mmmm.RollTable.5EyNHyXKtfhIlYCa]{Scar Chart}. In a freak instance of chance, the heat has interacted with a thread of natural magic within you. This area of your body is permanently hot (though to you it feels pleasantly warm) and radiates a faint aura of Transmutation. You have advantage on Constitution checks and saving throws made to resist the environmental effects of heat. You may suppress this effect by maintaining concentration.</p>",
+      "chat": ""
+    },
+    "source": {
+      "book": "Maxwell's Manual of Malicious Maladies",
+      "custom": ""
+    },
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "requirements": "Fire Lingering Injury"
+  },
+  "effects": [
+    {
+      "_id": "uzt2Z2HjDIQoK82T",
+      "name": "Inner Fire",
+      "img": "icons/magic/fire/flame-burning-campfire-orange.webp",
+      "type": "base",
+      "system": {
+        "changes": [],
+        "conditions": "{}",
+        "magical": false,
+        "rider": {
+          "statuses": []
+        }
+      },
+      "disabled": false,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "showIcon": 1,
+      "sort": 0,
+      "flags": {
+        "mmm": {
+          "duration": null
+        }
+      },
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6"
+      },
+      "_key": "!items.effects!ONRCEI0PF2jD4mah.uzt2Z2HjDIQoK82T"
+    }
+  ],
+  "folder": "LvtSZL0IocSdIxLC",
+  "sort": 1500,
+  "flags": {
+    "mmm": {
+      "injury": true,
+      "damageType": "fire",
+      "location": {
+        "table": "scar"
+      }
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  },
+  "_key": "!items!ONRCEI0PF2jD4mah"
+}

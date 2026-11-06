@@ -1,0 +1,37 @@
+{
+  "_id": "27oyKKLJ3qXHlFpM",
+  "name": "Fountain of Youth",
+  "type": "feat",
+  "img": "icons/magic/lightning/bolt-strike-streak-yellow.webp",
+  "system": {
+    "description": {
+      "value": "<p>As the divine energy fades you feel as if some of the great burden of time has left with it. Your body is [[1d10]] years younger. Your mind is unaffected.</p>",
+      "chat": ""
+    },
+    "source": {
+      "book": "Maxwell's Manual of Malicious Maladies",
+      "custom": ""
+    },
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "requirements": "Radiant Lingering Injury"
+  },
+  "effects": [],
+  "folder": "yRuhPzOAD5hEAtff",
+  "sort": 1700,
+  "flags": {
+    "mmm": {
+      "injury": true,
+      "damageType": "radiant",
+      "instant": true
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  },
+  "_key": "!items!27oyKKLJ3qXHlFpM"
+}

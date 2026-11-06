@@ -1,0 +1,79 @@
+{
+  "_id": "q6TsKI59GuLp8Ioh",
+  "name": "Bleached",
+  "type": "feat",
+  "img": "icons/magic/lightning/bolt-strike-streak-yellow.webp",
+  "system": {
+    "description": {
+      "value": "<p>Roll on the @UUID[Compendium.mmm.mmmm.RollTable.5EyNHyXKtfhIlYCa]{Scar Chart}. This area of your body is left bleached a bone white, and hair no longer grows on it.</p>",
+      "chat": ""
+    },
+    "source": {
+      "book": "Maxwell's Manual of Malicious Maladies",
+      "custom": ""
+    },
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "requirements": "Radiant Lingering Injury"
+  },
+  "effects": [
+    {
+      "_id": "NRmAeY7B6mJNvw05",
+      "name": "Bleached",
+      "img": "icons/magic/lightning/bolt-strike-streak-yellow.webp",
+      "type": "base",
+      "system": {
+        "changes": [],
+        "conditions": "{}",
+        "magical": false,
+        "rider": {
+          "statuses": []
+        }
+      },
+      "disabled": false,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "showIcon": 1,
+      "sort": 0,
+      "flags": {
+        "mmm": {
+          "duration": null
+        }
+      },
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6"
+      },
+      "_key": "!items.effects!q6TsKI59GuLp8Ioh.NRmAeY7B6mJNvw05"
+    }
+  ],
+  "folder": "yRuhPzOAD5hEAtff",
+  "sort": 1200,
+  "flags": {
+    "mmm": {
+      "injury": true,
+      "damageType": "radiant",
+      "location": {
+        "table": "scar"
+      }
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  },
+  "_key": "!items!q6TsKI59GuLp8Ioh"
+}

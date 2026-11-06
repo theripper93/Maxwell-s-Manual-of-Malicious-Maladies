@@ -1,0 +1,79 @@
+{
+  "_id": "KqnnrCd0IaSXV3ls",
+  "name": "Broken Nose",
+  "type": "feat",
+  "img": "icons/skills/melee/strike-hammer-destructive-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>A sharp impact to your face has left you with a painfully broken nose.</p><p><em>Treatment</em> - A [[/skill medicine 8]] check will set your nose properly, otherwise it has a 50% chance of healing slightly crooked in [[1d6]] days. The DC of this check increases by 2 each time your nose is broken.</p>",
+      "chat": ""
+    },
+    "source": {
+      "book": "Maxwell's Manual of Malicious Maladies",
+      "custom": ""
+    },
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "requirements": "Bludgeoning Lingering Injury"
+  },
+  "effects": [
+    {
+      "_id": "FzQzpub3kcQaKxCE",
+      "name": "Broken Nose",
+      "img": "icons/skills/melee/strike-hammer-destructive-blue.webp",
+      "type": "base",
+      "system": {
+        "changes": [],
+        "conditions": "{}",
+        "magical": false,
+        "rider": {
+          "statuses": []
+        }
+      },
+      "disabled": false,
+      "duration": {
+        "value": null,
+        "units": "days",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "showIcon": 1,
+      "sort": 0,
+      "flags": {
+        "mmm": {
+          "duration": {
+            "formula": "1d6",
+            "units": "days"
+          }
+        }
+      },
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6"
+      },
+      "_key": "!items.effects!KqnnrCd0IaSXV3ls.FzQzpub3kcQaKxCE"
+    }
+  ],
+  "folder": "Wc8yj8xMGuNmySgj",
+  "sort": 1200,
+  "flags": {
+    "mmm": {
+      "injury": true,
+      "damageType": "bludgeoning"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  },
+  "_key": "!items!KqnnrCd0IaSXV3ls"
+}

@@ -1,0 +1,82 @@
+{
+  "_id": "rgDfZBqajmNAITMC",
+  "name": "Slowed Reflexes",
+  "type": "feat",
+  "img": "icons/magic/water/snowflake-ice-snow-white.webp",
+  "system": {
+    "description": {
+      "value": "<p>The cold has permanently damaged your nerves and your reflexes have become dull and sluggish. You have disadvantage on initiative checks.</p>",
+      "chat": ""
+    },
+    "source": {
+      "book": "Maxwell's Manual of Malicious Maladies",
+      "custom": ""
+    },
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "requirements": "Cold Lingering Injury"
+  },
+  "effects": [
+    {
+      "_id": "E2JNpVUrd8RgvSYj",
+      "name": "Slowed Reflexes",
+      "img": "icons/magic/water/snowflake-ice-snow-white.webp",
+      "type": "base",
+      "system": {
+        "changes": [
+          {
+            "key": "system.attributes.init.roll.mode",
+            "type": "add",
+            "value": "-1"
+          }
+        ],
+        "conditions": "{}",
+        "magical": false,
+        "rider": {
+          "statuses": []
+        }
+      },
+      "disabled": false,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "showIcon": 1,
+      "sort": 0,
+      "flags": {
+        "mmm": {
+          "duration": null
+        }
+      },
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6"
+      },
+      "_key": "!items.effects!rgDfZBqajmNAITMC.E2JNpVUrd8RgvSYj"
+    }
+  ],
+  "folder": "ehO7jsjguoMng3CE",
+  "sort": 1800,
+  "flags": {
+    "mmm": {
+      "injury": true,
+      "damageType": "cold"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  },
+  "_key": "!items!rgDfZBqajmNAITMC"
+}

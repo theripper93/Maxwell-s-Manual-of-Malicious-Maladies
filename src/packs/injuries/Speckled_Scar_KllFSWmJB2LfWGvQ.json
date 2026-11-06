@@ -1,0 +1,79 @@
+{
+  "_id": "KllFSWmJB2LfWGvQ",
+  "name": "Speckled Scar",
+  "type": "feat",
+  "img": "icons/magic/sonic/explosion-shock-wave-teal.webp",
+  "system": {
+    "description": {
+      "value": "<p>Roll on the @UUID[Compendium.mmm.mmmm.RollTable.5EyNHyXKtfhIlYCa]{Scar Chart}. The ballistic debris has left you with a speckled scar in this area.</p>",
+      "chat": ""
+    },
+    "source": {
+      "book": "Maxwell's Manual of Malicious Maladies",
+      "custom": ""
+    },
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "requirements": "Thunder Lingering Injury"
+  },
+  "effects": [
+    {
+      "_id": "lvgZh9t14tT8CUmG",
+      "name": "Speckled Scar",
+      "img": "icons/magic/sonic/explosion-shock-wave-teal.webp",
+      "type": "base",
+      "system": {
+        "changes": [],
+        "conditions": "{}",
+        "magical": false,
+        "rider": {
+          "statuses": []
+        }
+      },
+      "disabled": false,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "showIcon": 1,
+      "sort": 0,
+      "flags": {
+        "mmm": {
+          "duration": null
+        }
+      },
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6"
+      },
+      "_key": "!items.effects!KllFSWmJB2LfWGvQ.lvgZh9t14tT8CUmG"
+    }
+  ],
+  "folder": "SP14yKoZanH0tu1K",
+  "sort": 1200,
+  "flags": {
+    "mmm": {
+      "injury": true,
+      "damageType": "thunder",
+      "location": {
+        "table": "scar"
+      }
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  },
+  "_key": "!items!KllFSWmJB2LfWGvQ"
+}

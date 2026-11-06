@@ -1,0 +1,79 @@
+{
+  "_id": "nQ9BDJmwaBvsR4oh",
+  "name": "Necrotic Wound",
+  "type": "feat",
+  "img": "icons/magic/unholy/strike-body-explode-disintegrate.webp",
+  "system": {
+    "description": {
+      "value": "<p>Your wound festers with a dark energy. It resists both magical and natural healing. Your maximum hit points are reduced by the amount of damage that caused the lingering injury.</p><p><em>Treatment</em> - A DC 18 General Surgery check or the Greater Restoration spell.</p>",
+      "chat": ""
+    },
+    "source": {
+      "book": "Maxwell's Manual of Malicious Maladies",
+      "custom": ""
+    },
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "requirements": "Necrotic Lingering Injury"
+  },
+  "effects": [
+    {
+      "_id": "vT7Vuk74asC7Hlbb",
+      "name": "Necrotic Wound",
+      "img": "icons/magic/unholy/strike-body-explode-disintegrate.webp",
+      "type": "base",
+      "system": {
+        "changes": [],
+        "conditions": "{}",
+        "magical": false,
+        "rider": {
+          "statuses": []
+        }
+      },
+      "disabled": false,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "showIcon": 1,
+      "sort": 0,
+      "flags": {
+        "mmm": {
+          "duration": null
+        }
+      },
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6"
+      },
+      "_key": "!items.effects!nQ9BDJmwaBvsR4oh.vT7Vuk74asC7Hlbb"
+    }
+  ],
+  "folder": "1nRoeyF7X9eMLmxS",
+  "sort": 500,
+  "flags": {
+    "mmm": {
+      "injury": true,
+      "damageType": "necrotic",
+      "onApply": {
+        "maxHpFromDamage": true
+      }
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  },
+  "_key": "!items!nQ9BDJmwaBvsR4oh"
+}

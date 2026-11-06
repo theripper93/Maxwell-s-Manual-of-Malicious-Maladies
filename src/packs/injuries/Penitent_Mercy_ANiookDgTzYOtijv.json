@@ -1,0 +1,79 @@
+{
+  "_id": "ANiookDgTzYOtijv",
+  "name": "Penitent Mercy",
+  "type": "feat",
+  "img": "icons/magic/lightning/bolt-strike-streak-yellow.webp",
+  "system": {
+    "description": {
+      "value": "<p>You seem to have lost your stomach for killing. The thought of taking a life fills you with abject disgust. You may not willingly take a life. Any damage dealt by you that reduces a creature’s hit points to 0 automatically knocks them out instead of killing them. This effect lasts [[1d4]] days.</p>",
+      "chat": ""
+    },
+    "source": {
+      "book": "Maxwell's Manual of Malicious Maladies",
+      "custom": ""
+    },
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "requirements": "Radiant Lingering Injury"
+  },
+  "effects": [
+    {
+      "_id": "Q8wBgO5qnqTSysfH",
+      "name": "Penitent Mercy",
+      "img": "icons/magic/lightning/bolt-strike-streak-yellow.webp",
+      "type": "base",
+      "system": {
+        "changes": [],
+        "conditions": "{}",
+        "magical": false,
+        "rider": {
+          "statuses": []
+        }
+      },
+      "disabled": false,
+      "duration": {
+        "value": null,
+        "units": "days",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "showIcon": 1,
+      "sort": 0,
+      "flags": {
+        "mmm": {
+          "duration": {
+            "formula": "1d4",
+            "units": "days"
+          }
+        }
+      },
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6"
+      },
+      "_key": "!items.effects!ANiookDgTzYOtijv.Q8wBgO5qnqTSysfH"
+    }
+  ],
+  "folder": "yRuhPzOAD5hEAtff",
+  "sort": 1000,
+  "flags": {
+    "mmm": {
+      "injury": true,
+      "damageType": "radiant"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  },
+  "_key": "!items!ANiookDgTzYOtijv"
+}

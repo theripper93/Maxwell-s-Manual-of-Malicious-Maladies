@@ -1,0 +1,78 @@
+{
+  "_id": "c6fr5xJn7uYmpTbt",
+  "name": "Severe Hypothermia",
+  "type": "feat",
+  "img": "icons/magic/water/snowflake-ice-snow-white.webp",
+  "system": {
+    "description": {
+      "value": "<p>Your core body temperature has plummeted dangerously low. While on initiative you function as if affected by both the <em>Slow</em> and <em>Confusion</em> spells. If untreated for one hour, you fall <strong>&Reference[unconscious]{unconscious}<strong>.</p><p><em>Treatment</em> - A short rest slowly rewarming yourself ends this effect.</strong></strong></p>",
+      "chat": ""
+    },
+    "source": {
+      "book": "Maxwell's Manual of Malicious Maladies",
+      "custom": ""
+    },
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "requirements": "Cold Lingering Injury"
+  },
+  "effects": [
+    {
+      "_id": "HxVdftiZ1ecfFVHY",
+      "name": "Severe Hypothermia",
+      "img": "icons/magic/water/snowflake-ice-snow-white.webp",
+      "type": "base",
+      "system": {
+        "changes": [],
+        "conditions": "{}",
+        "magical": false,
+        "rider": {
+          "statuses": []
+        }
+      },
+      "disabled": false,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": "shortRest",
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "showIcon": 1,
+      "sort": 0,
+      "flags": {
+        "mmm": {
+          "duration": {
+            "expiry": "shortRest"
+          }
+        }
+      },
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6"
+      },
+      "_key": "!items.effects!c6fr5xJn7uYmpTbt.HxVdftiZ1ecfFVHY"
+    }
+  ],
+  "folder": "ehO7jsjguoMng3CE",
+  "sort": 600,
+  "flags": {
+    "mmm": {
+      "injury": true,
+      "damageType": "cold"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  },
+  "_key": "!items!c6fr5xJn7uYmpTbt"
+}

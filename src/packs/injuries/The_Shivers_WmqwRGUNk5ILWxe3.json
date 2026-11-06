@@ -1,0 +1,76 @@
+{
+  "_id": "WmqwRGUNk5ILWxe3",
+  "name": "The Shivers",
+  "type": "feat",
+  "img": "icons/magic/water/snowflake-ice-snow-white.webp",
+  "system": {
+    "description": {
+      "value": "<p>You are so cold your hands are shaking uncontrollably and your voice quavers as you speak. The next three spells you cast have a 50% chance to fail. This effect ends after three spells are attempted.</p>",
+      "chat": ""
+    },
+    "source": {
+      "book": "Maxwell's Manual of Malicious Maladies",
+      "custom": ""
+    },
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "requirements": "Cold Lingering Injury"
+  },
+  "effects": [
+    {
+      "_id": "vXu0zBPuEutrQUb4",
+      "name": "The Shivers",
+      "img": "icons/magic/water/snowflake-ice-snow-white.webp",
+      "type": "base",
+      "system": {
+        "changes": [],
+        "conditions": "{}",
+        "magical": false,
+        "rider": {
+          "statuses": []
+        }
+      },
+      "disabled": false,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "showIcon": 1,
+      "sort": 0,
+      "flags": {
+        "mmm": {
+          "duration": null
+        }
+      },
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6"
+      },
+      "_key": "!items.effects!WmqwRGUNk5ILWxe3.vXu0zBPuEutrQUb4"
+    }
+  ],
+  "folder": "ehO7jsjguoMng3CE",
+  "sort": 700,
+  "flags": {
+    "mmm": {
+      "injury": true,
+      "damageType": "cold"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  },
+  "_key": "!items!WmqwRGUNk5ILWxe3"
+}

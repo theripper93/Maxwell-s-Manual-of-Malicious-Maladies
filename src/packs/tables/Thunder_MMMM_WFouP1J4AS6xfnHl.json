@@ -1,0 +1,464 @@
+{
+  "name": "Thunder - [MMMM]",
+  "img": "icons/magic/sonic/explosion-shock-wave-teal.webp",
+  "description": "The damage type you're most likely to experience after a poor performance by your resident Bard. Ha! I jest (mostly). Be wary of your eardrums and watch out for shrapnel. If you want to reattach a concussively amputated limb, you'd best keep a close eye on where it lands!",
+  "results": [
+    {
+      "_id": "ztM5gVgtQz6uvqbU",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/magic/sonic/explosion-shock-wave-teal.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>The sonic assault has blown out your eardrums. You are <strong>&Reference[deafened]{deafened}</strong> and your ears are <strong>nonfunctional</strong>. If not treated within 24 hours, your hearing will be permanently <strong>missing</strong>.</p><p><em>Treatment</em> - A DC 20 Save Sense Surgery.</p>",
+      "name": "Ruptured Eardrums",
+      "_key": "!tables.results!WFouP1J4AS6xfnHl.ztM5gVgtQz6uvqbU",
+      "documentUuid": "Compendium.mmm.injuries.Item.AlfbHdQyTdD3T8k2"
+    },
+    {
+      "_id": "kP6XF0CpmoJeDrTm",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/magic/sonic/explosion-shock-wave-teal.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>Roll on the @UUID[Compendium.mmm.mmmm.RollTable.iP8lOROAIYARwcgk]{Large Limb Table}. The concussive blast has torn your limb clean off and sent it sailing through the air. It lands 30 feet from you, pushed away from the direction of the attack and is considered <strong>missing</strong>.</p><p><em>Treatment</em> - A DC 22 Save Limb Surgery.</p>",
+      "name": "Concussive Amputation",
+      "_key": "!tables.results!WFouP1J4AS6xfnHl.kP6XF0CpmoJeDrTm",
+      "documentUuid": "Compendium.mmm.injuries.Item.4V5MtYMFihK5kGRQ"
+    },
+    {
+      "_id": "DecRr9ddWmuCoJxo",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/magic/sonic/explosion-shock-wave-teal.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>Roll on the @UUID[Compendium.mmm.mmmm.RollTable.vG8gsjqxGB7y9cSD]{Small Appendage Table}. The concussive blast has torn your appendage free and sent it flying. It lands 30 feet away from you, pushed away from the direction of the attack, and is considered <strong>missing</strong>.</p><p><em>Treatment</em> - A DC 22 Save Limb Surgery.</p>",
+      "name": "Small Concussive Amputation",
+      "_key": "!tables.results!WFouP1J4AS6xfnHl.DecRr9ddWmuCoJxo",
+      "documentUuid": "Compendium.mmm.injuries.Item.TxC8c7bT8mLbTDo7"
+    },
+    {
+      "_id": "BBJaCd6HEtUUad4N",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/magic/sonic/explosion-shock-wave-teal.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>The attack has turned small fragments of debris in the surrounding area into deadly ballistic projectiles, many of which have found their way deep into your leg muscles. Your speed is reduced by 10 feet.</p><p><em>Treatment</em> - A DC 22 General Surgery.</p>",
+      "name": "Leg Shrapnel",
+      "_key": "!tables.results!WFouP1J4AS6xfnHl.BBJaCd6HEtUUad4N",
+      "documentUuid": "Compendium.mmm.injuries.Item.MYmVgwxklq9DZNBb"
+    },
+    {
+      "_id": "DXCaYTtOvInEZ3Cs",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        7,
+        7
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/magic/sonic/explosion-shock-wave-teal.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>The force of the blast has left you reeling. You are <strong>&Reference[stunned]{stunned}</strong> until the end of your next turn.</p>",
+      "name": "Disorientation",
+      "_key": "!tables.results!WFouP1J4AS6xfnHl.DXCaYTtOvInEZ3Cs",
+      "documentUuid": "Compendium.mmm.injuries.Item.RK8HpRy7k9tVYHLQ"
+    },
+    {
+      "_id": "X537LT1JwzCPLPGZ",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        8,
+        8
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/magic/sonic/explosion-shock-wave-teal.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>As the attack's thunderous echo fades, you find that your hands are empty. Anything you were holding is wrenched free of your grip and lands 50 feet from you, pushed away from the direction of the attack.</p>",
+      "name": "Percussive Disarming",
+      "_key": "!tables.results!WFouP1J4AS6xfnHl.X537LT1JwzCPLPGZ",
+      "documentUuid": "Compendium.mmm.injuries.Item.0hIGI5Kb2k0dNTYz"
+    },
+    {
+      "_id": "vGAyqeXVuNRbDvbd",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        9,
+        9
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/magic/sonic/explosion-shock-wave-teal.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>You are left with an annoying ringing in your ears. You have disadvantage on perception checks related to sound for [[1d6]] days.</p><p><em>Treatment</em> - A [[/skill medicine 12]] check reduces the duration of this injury by [[1d4]] days.</p>",
+      "name": "Ringing Ears",
+      "_key": "!tables.results!WFouP1J4AS6xfnHl.vGAyqeXVuNRbDvbd",
+      "documentUuid": "Compendium.mmm.injuries.Item.qdOoqVjFN22DcFsu"
+    },
+    {
+      "_id": "zvO3kKzfye3ms1vq",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        10,
+        10
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/magic/sonic/explosion-shock-wave-teal.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>You are bowled over by the percussive assault and the only thing you hear is an atonal ringing. You are knocked &Reference[prone]{prone} and <strong>&Reference[deafened]{deafened}</strong> for [[1d6]] hours.</p>",
+      "name": "Deaf and Dazed",
+      "_key": "!tables.results!WFouP1J4AS6xfnHl.zvO3kKzfye3ms1vq",
+      "documentUuid": "Compendium.mmm.injuries.Item.Xs58l3dVJxhRoiWK"
+    },
+    {
+      "_id": "H3KQp2q2HYRZ8pjf",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        11,
+        11
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/magic/sonic/explosion-shock-wave-teal.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>Roll on the @UUID[Compendium.mmm.mmmm.RollTable.5EyNHyXKtfhIlYCa]{Scar Chart}. You have some massive, ugly bruising in this area, but it looks worse than it feels. The bruising will fade after [[1d8]] days.</p>",
+      "name": "Extensive Bruising",
+      "_key": "!tables.results!WFouP1J4AS6xfnHl.H3KQp2q2HYRZ8pjf",
+      "documentUuid": "Compendium.mmm.injuries.Item.6zDeA1sJ8EEuT6lC"
+    },
+    {
+      "_id": "rXb1olOhTtnN2cOX",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        12,
+        12
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/magic/sonic/explosion-shock-wave-teal.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>Roll on the @UUID[Compendium.mmm.mmmm.RollTable.5EyNHyXKtfhIlYCa]{Scar Chart}. The ballistic debris has left you with a speckled scar in this area.</p>",
+      "name": "Speckled Scar",
+      "_key": "!tables.results!WFouP1J4AS6xfnHl.rXb1olOhTtnN2cOX",
+      "documentUuid": "Compendium.mmm.injuries.Item.KllFSWmJB2LfWGvQ"
+    },
+    {
+      "_id": "Rg9HOdLZ1sGMs1Vy",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        13,
+        13
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/magic/sonic/explosion-shock-wave-teal.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>The force of the blast has knocked you backwards. You are pushed away from the source of the damage an amount of feet scaled to the damage from the lingering injury: 1-10 damage (5 ft.), 11-20 damage (10 ft.), 21-30 damage (15 ft.), 31-40 damage (20 ft.), &gt;40 damage (25 ft.).</p>",
+      "name": "Knocked Around",
+      "_key": "!tables.results!WFouP1J4AS6xfnHl.Rg9HOdLZ1sGMs1Vy",
+      "documentUuid": "Compendium.mmm.injuries.Item.FhCwNWb1qDsdOlod"
+    },
+    {
+      "_id": "1K7ziF2905TF81hD",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        14,
+        14
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/magic/sonic/explosion-shock-wave-teal.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>The concussive wave sends you flying back. You are blown away from the source of the damage an amount of feet scaled to the damage from the lingering injury: 1-10 damage (10 ft.), 11-20 damage (20 ft.), 21-30 damage (30 ft.), 31-40 damage (40 ft.), &gt;40 damage (50 ft.).</p>",
+      "name": "Blown Away",
+      "_key": "!tables.results!WFouP1J4AS6xfnHl.1K7ziF2905TF81hD",
+      "documentUuid": "Compendium.mmm.injuries.Item.VfwQzty0PVxbmd6v"
+    },
+    {
+      "_id": "06Vrx0BaMGA97oX4",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        15,
+        15
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/magic/sonic/explosion-shock-wave-teal.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>Roll on the @UUID[Compendium.mmm.mmmm.RollTable.5EyNHyXKtfhIlYCa]{Scar Chart}. In a freak instance of chance, the sonic assault has interacted with a thread of natural magic within you. Everything around this part of your body seems strangely...silent. All noise within a half foot radius of this area of your body is inaudible as if under the effect of a Silence spell, and the area emits a faint aura of Illusion. An effort of concentration will suppress this effect.</p>",
+      "name": "Acoustic Dead Zone",
+      "_key": "!tables.results!WFouP1J4AS6xfnHl.06Vrx0BaMGA97oX4",
+      "documentUuid": "Compendium.mmm.injuries.Item.K2rqpEmrU2C1zx6Y"
+    },
+    {
+      "_id": "VPBroH9Abx7BTHGv",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        16,
+        16
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/magic/sonic/explosion-shock-wave-teal.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>Roll to randomly determine the left or right arm. The attack has turned small fragments of debris in the surrounding area into deadly ballistic projectiles, many of which have found their way deep into your arm muscles. Attacks made by this arm have disadvantage. Shields used by this arm provide 1 AC instead of 2 AC.</p><p><em>Treatment</em> - A DC 21 General Surgery.</p>",
+      "name": "Arm Shrapnel",
+      "_key": "!tables.results!WFouP1J4AS6xfnHl.VPBroH9Abx7BTHGv",
+      "documentUuid": "Compendium.mmm.injuries.Item.p17XnkeM9XbwIOk2"
+    },
+    {
+      "_id": "hwDumUeDIFQLqEv0",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        17,
+        17
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/magic/sonic/explosion-shock-wave-teal.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>The concussive force reverberates through the gas inside your lungs, doing major damage to them. You can only hold your breath for half the normal duration. In addition, the blood vessels in your eyes have ruptured, turning the whites of your eyes the color of your blood for [[1d6]] days.</p>",
+      "name": "Barotrauma",
+      "_key": "!tables.results!WFouP1J4AS6xfnHl.hwDumUeDIFQLqEv0",
+      "documentUuid": "Compendium.mmm.injuries.Item.z0j29n8pFxD6w9gw"
+    },
+    {
+      "_id": "Hf4diVrhEcm22wud",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        18,
+        18
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/magic/sonic/explosion-shock-wave-teal.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>Roll to randomly determine your left or right eye. An unlucky piece of shrapnel has ricocheted straight into your eye. This eye is <strong>nonfunctional</strong>. If not treated within 4 hours, your vision permanently <strong>missing</strong>.</p><p><em>Treatment</em> - A DC 20 Save Sense Surgery.</p>",
+      "name": "Unlucky Shrapnel",
+      "_key": "!tables.results!WFouP1J4AS6xfnHl.Hf4diVrhEcm22wud",
+      "documentUuid": "Compendium.mmm.injuries.Item.q1dofzfulyAPfSzJ"
+    }
+  ],
+  "formula": "3d6",
+  "replacement": true,
+  "displayRoll": true,
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "core": {}
+  },
+  "_id": "WFouP1J4AS6xfnHl",
+  "_stats": {
+    "coreVersion": "13.342",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": "RollTable.dBNzeBtaakcQPGq0",
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "Cspu3pxFr7tu7SU7": 3
+  },
+  "_key": "!tables!WFouP1J4AS6xfnHl"
+}

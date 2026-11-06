@@ -1,0 +1,82 @@
+{
+  "_id": "zvxHkSREpWCoRe7m",
+  "name": "Ligo Secare",
+  "type": "feat",
+  "img": "icons/magic/movement/trail-streak-zigzag-teal.webp",
+  "system": {
+    "description": {
+      "value": "<p>You feel the abrupt and disconcerting recoil of a severed connection. You lose attunement to anything you are currently attuned to. You may not attune to anything for [[1d4]] days.</p>",
+      "chat": ""
+    },
+    "source": {
+      "book": "Maxwell's Manual of Malicious Maladies",
+      "custom": ""
+    },
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "requirements": "Force Lingering Injury"
+  },
+  "effects": [
+    {
+      "_id": "KIoxx2PfmmWRgeL4",
+      "name": "Ligo Secare",
+      "img": "icons/magic/movement/trail-streak-zigzag-teal.webp",
+      "type": "base",
+      "system": {
+        "changes": [],
+        "conditions": "{}",
+        "magical": false,
+        "rider": {
+          "statuses": []
+        }
+      },
+      "disabled": false,
+      "duration": {
+        "value": null,
+        "units": "days",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "showIcon": 1,
+      "sort": 0,
+      "flags": {
+        "mmm": {
+          "duration": {
+            "formula": "1d4",
+            "units": "days"
+          }
+        }
+      },
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6"
+      },
+      "_key": "!items.effects!zvxHkSREpWCoRe7m.KIoxx2PfmmWRgeL4"
+    }
+  ],
+  "folder": "SsBTrqUBbEVlKT2I",
+  "sort": 600,
+  "flags": {
+    "mmm": {
+      "injury": true,
+      "damageType": "force",
+      "onApply": {
+        "unattune": true
+      }
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  },
+  "_key": "!items!zvxHkSREpWCoRe7m"
+}

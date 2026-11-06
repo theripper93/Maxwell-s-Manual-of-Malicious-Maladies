@@ -1,0 +1,79 @@
+{
+  "_id": "K2rqpEmrU2C1zx6Y",
+  "name": "Acoustic Dead Zone",
+  "type": "feat",
+  "img": "icons/magic/sonic/explosion-shock-wave-teal.webp",
+  "system": {
+    "description": {
+      "value": "<p>Roll on the @UUID[Compendium.mmm.mmmm.RollTable.5EyNHyXKtfhIlYCa]{Scar Chart}. In a freak instance of chance, the sonic assault has interacted with a thread of natural magic within you. Everything around this part of your body seems strangely...silent. All noise within a half foot radius of this area of your body is inaudible as if under the effect of a Silence spell, and the area emits a faint aura of Illusion. An effort of concentration will suppress this effect.</p>",
+      "chat": ""
+    },
+    "source": {
+      "book": "Maxwell's Manual of Malicious Maladies",
+      "custom": ""
+    },
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "requirements": "Thunder Lingering Injury"
+  },
+  "effects": [
+    {
+      "_id": "v6NBj5dLLbWZ9FBi",
+      "name": "Acoustic Dead Zone",
+      "img": "icons/magic/sonic/explosion-shock-wave-teal.webp",
+      "type": "base",
+      "system": {
+        "changes": [],
+        "conditions": "{}",
+        "magical": false,
+        "rider": {
+          "statuses": []
+        }
+      },
+      "disabled": false,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "showIcon": 1,
+      "sort": 0,
+      "flags": {
+        "mmm": {
+          "duration": null
+        }
+      },
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6"
+      },
+      "_key": "!items.effects!K2rqpEmrU2C1zx6Y.v6NBj5dLLbWZ9FBi"
+    }
+  ],
+  "folder": "SP14yKoZanH0tu1K",
+  "sort": 1500,
+  "flags": {
+    "mmm": {
+      "injury": true,
+      "damageType": "thunder",
+      "location": {
+        "table": "scar"
+      }
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  },
+  "_key": "!items!K2rqpEmrU2C1zx6Y"
+}

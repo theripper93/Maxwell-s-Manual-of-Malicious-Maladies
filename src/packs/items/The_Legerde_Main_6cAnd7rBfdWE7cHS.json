@@ -1,0 +1,89 @@
+{
+  "name": "The Legerde-Main",
+  "type": "equipment",
+  "img": "icons/tools/laboratory/bowl-powder-purple.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "_id": "6cAnd7rBfdWE7cHS",
+  "_stats": {
+    "coreVersion": "13.342",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": "Compendium.world.mmmm-butters.r95OIYkzptaFBnCr",
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "Cspu3pxFr7tu7SU7": 3
+  },
+  "system": {
+    "description": {
+      "value": "<p><em>Wondrous item (requires attunement)</em></p>\n<p>The Legerde-Main resembles a half foot diameter bowl engraved with arcane runes and sigils. If you hold the bowl to an end of a <strong>missing </strong>arm or hand, it adheres and shrinks to cup the area. A spectral hand then appears, similar to the <em>Mage Hand</em> cantrip.</p>\n<p>This hand hovers in place of where your hand would be, and you may move it within your arm's reach at will. It can only attack with <em>light </em>weapons, cannot activate magic items, and can only carry up to 20 pounds. An unarmed attack with this hand deals Force damage instead of Bludgeoning damage.</p>\n<p>You can detach or reattach it as an action, and it can't be removed against your will. It detaches if you die.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "MMMM pg. 33",
+      "revision": 1,
+      "rules": "2024"
+    },
+    "quantity": 1,
+    "weight": {
+      "value": 3,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "attunement": "",
+    "equipped": false,
+    "identified": true,
+    "uses": {
+      "max": "0",
+      "spent": 0,
+      "recovery": []
+    },
+    "armor": {
+      "value": null,
+      "dex": null
+    },
+    "hp": {
+      "value": 0,
+      "max": 0,
+      "dt": null,
+      "conditions": ""
+    },
+    "speed": {
+      "value": null,
+      "conditions": "",
+      "units": "ft"
+    },
+    "strength": 0,
+    "proficient": 1,
+    "unidentified": {
+      "description": ""
+    },
+    "type": {
+      "value": "trinket",
+      "baseItem": ""
+    },
+    "rarities": [
+      "common"
+    ],
+    "activities": {},
+    "identifier": "",
+    "container": null,
+    "attuned": false,
+    "crew": {
+      "value": []
+    },
+    "properties": []
+  },
+  "_key": "!items!6cAnd7rBfdWE7cHS"
+}

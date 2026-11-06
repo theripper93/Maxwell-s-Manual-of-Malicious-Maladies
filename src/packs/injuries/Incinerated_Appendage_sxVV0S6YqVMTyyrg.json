@@ -1,0 +1,79 @@
+{
+  "_id": "sxVV0S6YqVMTyyrg",
+  "name": "Incinerated Appendage",
+  "type": "feat",
+  "img": "icons/magic/fire/flame-burning-campfire-orange.webp",
+  "system": {
+    "description": {
+      "value": "<p>Roll on the @UUID[Compendium.mmm.mmmm.RollTable.vG8gsjqxGB7y9cSD]{Small Appendage Table}. The blazing fires have scoured through until nothing but ash remains. The appendage is <strong>missing</strong> and the resulting wound is cauterized.</p>",
+      "chat": ""
+    },
+    "source": {
+      "book": "Maxwell's Manual of Malicious Maladies",
+      "custom": ""
+    },
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "requirements": "Fire Lingering Injury"
+  },
+  "effects": [
+    {
+      "_id": "c5bonzHSDkPFjLME",
+      "name": "Incinerated Appendage",
+      "img": "icons/magic/fire/flame-burning-campfire-orange.webp",
+      "type": "base",
+      "system": {
+        "changes": [],
+        "conditions": "{}",
+        "magical": false,
+        "rider": {
+          "statuses": []
+        }
+      },
+      "disabled": false,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "showIcon": 1,
+      "sort": 0,
+      "flags": {
+        "mmm": {
+          "duration": null
+        }
+      },
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6"
+      },
+      "_key": "!items.effects!sxVV0S6YqVMTyyrg.c5bonzHSDkPFjLME"
+    }
+  ],
+  "folder": "LvtSZL0IocSdIxLC",
+  "sort": 1600,
+  "flags": {
+    "mmm": {
+      "injury": true,
+      "damageType": "fire",
+      "location": {
+        "table": "smallAppendage"
+      }
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  },
+  "_key": "!items!sxVV0S6YqVMTyyrg"
+}

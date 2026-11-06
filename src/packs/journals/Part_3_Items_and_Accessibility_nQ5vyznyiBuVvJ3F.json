@@ -1,0 +1,103 @@
+{
+  "name": "Part 3: Items and Accessibility",
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "core": {}
+  },
+  "_id": "nQ5vyznyiBuVvJ3F",
+  "pages": [
+    {
+      "name": "Figure: Part 3: Items and Accessibility",
+      "type": "image",
+      "src": "https://i.imgur.com/nKHhlJ9.png",
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_id": "iEe7eZkAWUpTfOcY",
+      "system": {},
+      "image": {},
+      "text": {
+        "format": 1
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "sort": 0,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "category": null,
+      "_key": "!journal.pages!nQ5vyznyiBuVvJ3F.iEe7eZkAWUpTfOcY"
+    },
+    {
+      "name": "Part 3: Items and Accessibility",
+      "type": "text",
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<h1>Part 3: Items and Accessibility</h1>\n<p><strong>Maxwell Says:</strong> \"Well, my studious apprentice, you have made it this far, and so you are deserving of the explanation for the asterisk on the very first page of this manual. The bitter truth is, try and we might, we cannot save them all. We cannot fix every injury, every illness, every ill. I lied, and I hope you will forgive me. Nothing is guaranteed.</p>\n<p>\"Sometimes a surgery is unsuccessful despite your best efforts, and you need to resort to other options. There are all manner of equipments out there that can help get your patient back on their feet, swinging dragons, slaying swords, and whatnot. No pupil of mine is going get a complete education without knowing about all of them.\"</p>\n<p> </p>\n<blockquote>\n<h2>A Note on Prosthetics</h2>\n<p>It can be challenging to get used to wearing a prosthetic limb after a new injury. Some prosthetics take weeks of practice before they begin to feel natural. As a DM, you may decide to not to give your players some of the mechanical benefits of wearing a prosthetic right away to reflect this.</p>\n</blockquote>"
+      },
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_id": "KQIbN1xs0T7xH0NM",
+      "system": {},
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "sort": 0,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "category": null,
+      "_key": "!journal.pages!nQ5vyznyiBuVvJ3F.KQIbN1xs0T7xH0NM"
+    }
+  ],
+  "_stats": {
+    "coreVersion": "13.342",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": "JournalEntry.1n0r1nV2fNu5TIWh",
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "Cspu3pxFr7tu7SU7": 3
+  },
+  "categories": [],
+  "_key": "!journal!nQ5vyznyiBuVvJ3F"
+}

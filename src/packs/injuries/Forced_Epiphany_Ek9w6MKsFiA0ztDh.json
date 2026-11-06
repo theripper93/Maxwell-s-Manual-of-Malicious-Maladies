@@ -1,0 +1,76 @@
+{
+  "_id": "Ek9w6MKsFiA0ztDh",
+  "name": "Forced Epiphany",
+  "type": "feat",
+  "img": "icons/magic/lightning/bolt-strike-streak-yellow.webp",
+  "system": {
+    "description": {
+      "value": "<p>As the energy of the attack passes, you have a revelation clawing at the edge of your brain, you're sure of it. You have [[1d6]] days to withdraw from activity and spend 24 hours alone in silent, individual contemplation about your god, belief set, or yourself. After this, you come to an enlightening realization. If you do not do this within the time limit, the nagging urge builds to distracting levels and you have disadvantage to all attack rolls, ability checks, and saving throws until you do.</p>",
+      "chat": ""
+    },
+    "source": {
+      "book": "Maxwell's Manual of Malicious Maladies",
+      "custom": ""
+    },
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "requirements": "Radiant Lingering Injury"
+  },
+  "effects": [
+    {
+      "_id": "KNnzQa43R81948fD",
+      "name": "Forced Epiphany",
+      "img": "icons/magic/lightning/bolt-strike-streak-yellow.webp",
+      "type": "base",
+      "system": {
+        "changes": [],
+        "conditions": "{}",
+        "magical": false,
+        "rider": {
+          "statuses": []
+        }
+      },
+      "disabled": false,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "showIcon": 1,
+      "sort": 0,
+      "flags": {
+        "mmm": {
+          "duration": null
+        }
+      },
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6"
+      },
+      "_key": "!items.effects!Ek9w6MKsFiA0ztDh.KNnzQa43R81948fD"
+    }
+  ],
+  "folder": "yRuhPzOAD5hEAtff",
+  "sort": 1600,
+  "flags": {
+    "mmm": {
+      "injury": true,
+      "damageType": "radiant"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  },
+  "_key": "!items!Ek9w6MKsFiA0ztDh"
+}

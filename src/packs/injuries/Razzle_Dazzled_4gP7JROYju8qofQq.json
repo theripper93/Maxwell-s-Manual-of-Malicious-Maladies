@@ -1,0 +1,82 @@
+{
+  "_id": "4gP7JROYju8qofQq",
+  "name": "Razzle Dazzled",
+  "type": "feat",
+  "img": "icons/magic/lightning/bolt-strike-streak-yellow.webp",
+  "system": {
+    "description": {
+      "value": "<p>You blink the spots from your eyes, but your vision is taking a while to return. You are <strong>&Reference[blinded]{blinded}</strong> for [[1d4]] turns.</p><p><em>Treatment</em> - A Lesser Restoration spell will cure this condition as usual.</p>",
+      "chat": ""
+    },
+    "source": {
+      "book": "Maxwell's Manual of Malicious Maladies",
+      "custom": ""
+    },
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "requirements": "Radiant Lingering Injury"
+  },
+  "effects": [
+    {
+      "_id": "tOyTDUB1U5pg36a1",
+      "name": "Razzle Dazzled",
+      "img": "icons/magic/lightning/bolt-strike-streak-yellow.webp",
+      "type": "base",
+      "system": {
+        "changes": [],
+        "conditions": "{}",
+        "magical": false,
+        "rider": {
+          "statuses": []
+        }
+      },
+      "disabled": false,
+      "duration": {
+        "value": null,
+        "units": "rounds",
+        "expiry": "turnEnd",
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [
+        "blinded"
+      ],
+      "showIcon": 1,
+      "sort": 0,
+      "flags": {
+        "mmm": {
+          "duration": {
+            "formula": "1d4",
+            "units": "rounds",
+            "expiry": "turnEnd"
+          }
+        }
+      },
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6"
+      },
+      "_key": "!items.effects!4gP7JROYju8qofQq.tOyTDUB1U5pg36a1"
+    }
+  ],
+  "folder": "yRuhPzOAD5hEAtff",
+  "sort": 700,
+  "flags": {
+    "mmm": {
+      "injury": true,
+      "damageType": "radiant"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  },
+  "_key": "!items!4gP7JROYju8qofQq"
+}

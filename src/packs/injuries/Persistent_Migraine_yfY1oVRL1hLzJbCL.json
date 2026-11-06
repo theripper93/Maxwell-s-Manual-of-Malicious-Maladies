@@ -1,0 +1,79 @@
+{
+  "_id": "yfY1oVRL1hLzJbCL",
+  "name": "Persistent Migraine",
+  "type": "feat",
+  "img": "icons/magic/control/hypnosis-mesmerism-pendulum.webp",
+  "system": {
+    "description": {
+      "value": "<p>Your head throbs, the light aggravates you, and all you want is for the pounding to stop. You cannot benefit from a short rest for [[1d4]] days.</p>",
+      "chat": ""
+    },
+    "source": {
+      "book": "Maxwell's Manual of Malicious Maladies",
+      "custom": ""
+    },
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "requirements": "Psychic Lingering Injury"
+  },
+  "effects": [
+    {
+      "_id": "R5Jx7HcFO6DkUCN6",
+      "name": "Persistent Migraine",
+      "img": "icons/magic/control/hypnosis-mesmerism-pendulum.webp",
+      "type": "base",
+      "system": {
+        "changes": [],
+        "conditions": "{}",
+        "magical": false,
+        "rider": {
+          "statuses": []
+        }
+      },
+      "disabled": false,
+      "duration": {
+        "value": null,
+        "units": "days",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "showIcon": 1,
+      "sort": 0,
+      "flags": {
+        "mmm": {
+          "duration": {
+            "formula": "1d4",
+            "units": "days"
+          }
+        }
+      },
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6"
+      },
+      "_key": "!items.effects!yfY1oVRL1hLzJbCL.R5Jx7HcFO6DkUCN6"
+    }
+  ],
+  "folder": "LhZNHt3RmLuRoZa8",
+  "sort": 1000,
+  "flags": {
+    "mmm": {
+      "injury": true,
+      "damageType": "psychic"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  },
+  "_key": "!items!yfY1oVRL1hLzJbCL"
+}

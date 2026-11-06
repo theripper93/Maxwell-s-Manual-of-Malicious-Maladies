@@ -1,0 +1,79 @@
+{
+  "_id": "NRqRf9KwsXR2ICjf",
+  "name": "Lichtenberg Figure",
+  "type": "feat",
+  "img": "icons/magic/lightning/bolt-strike-sparks-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Roll on the @UUID[Compendium.mmm.mmmm.RollTable.5EyNHyXKtfhIlYCa]{Scar Chart}. This area of your body is left with a Lichtenberg Figure, a scar resembling lightning that runs along the path the current took through your body.</p>",
+      "chat": ""
+    },
+    "source": {
+      "book": "Maxwell's Manual of Malicious Maladies",
+      "custom": ""
+    },
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "requirements": "Lightning Lingering Injury"
+  },
+  "effects": [
+    {
+      "_id": "NJbmbv6mB3X0VkMs",
+      "name": "Lichtenberg Figure",
+      "img": "icons/magic/lightning/bolt-strike-sparks-blue.webp",
+      "type": "base",
+      "system": {
+        "changes": [],
+        "conditions": "{}",
+        "magical": false,
+        "rider": {
+          "statuses": []
+        }
+      },
+      "disabled": false,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "showIcon": 1,
+      "sort": 0,
+      "flags": {
+        "mmm": {
+          "duration": null
+        }
+      },
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6"
+      },
+      "_key": "!items.effects!NRqRf9KwsXR2ICjf.NJbmbv6mB3X0VkMs"
+    }
+  ],
+  "folder": "pVtivJ93JSXv9sP3",
+  "sort": 1200,
+  "flags": {
+    "mmm": {
+      "injury": true,
+      "damageType": "lightning",
+      "location": {
+        "table": "scar"
+      }
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  },
+  "_key": "!items!NRqRf9KwsXR2ICjf"
+}

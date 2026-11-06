@@ -1,0 +1,88 @@
+{
+  "_id": "YHkM24LfyMLdwAD7",
+  "name": "Corroded Armor",
+  "type": "feat",
+  "img": "icons/magic/acid/dissolve-drip-droplet-smoke.webp",
+  "system": {
+    "description": {
+      "value": "<p>The acid has covered your armor, slowly eating away at it. Each turn your armor takes a cumulative -1 penalty to AC. When the armor's AC reaches 10, it is destroyed. If the armor is magical, its magical effects are instead suppressed for [[1d6]] days and it is unusable during this time (after which the penalty disappears and the armor functions normally).</p>",
+      "chat": ""
+    },
+    "source": {
+      "book": "Maxwell's Manual of Malicious Maladies",
+      "custom": ""
+    },
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "requirements": "Acid Lingering Injury"
+  },
+  "effects": [
+    {
+      "_id": "51LIXIiruzV5fIXE",
+      "name": "Corroded Armor",
+      "img": "icons/magic/acid/dissolve-drip-droplet-smoke.webp",
+      "type": "base",
+      "system": {
+        "changes": [],
+        "conditions": "{}",
+        "magical": false,
+        "rider": {
+          "statuses": []
+        }
+      },
+      "disabled": false,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "showIcon": 1,
+      "sort": 0,
+      "flags": {
+        "mmm": {
+          "stack": {
+            "event": "turnStart",
+            "max": 10,
+            "changes": [
+              {
+                "key": "system.attributes.ac.bonus",
+                "type": "add",
+                "value": "-1"
+              }
+            ],
+            "count": 0
+          },
+          "duration": null
+        }
+      },
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6"
+      },
+      "_key": "!items.effects!YHkM24LfyMLdwAD7.51LIXIiruzV5fIXE"
+    }
+  ],
+  "folder": "hz7xOtq4kabtsVtJ",
+  "sort": 1600,
+  "flags": {
+    "mmm": {
+      "injury": true,
+      "damageType": "acid"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  },
+  "_key": "!items!YHkM24LfyMLdwAD7"
+}

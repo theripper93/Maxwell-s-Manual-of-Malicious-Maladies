@@ -1,0 +1,79 @@
+{
+  "_id": "TrZx8sD7agOMofVc",
+  "name": "A Taste of Madness",
+  "type": "feat",
+  "img": "icons/magic/control/hypnosis-mesmerism-pendulum.webp",
+  "system": {
+    "description": {
+      "value": "<p>You feel something within your mind come a touch unhinged. Roll on the Long Term Madness Table (DMG pg.260). This effect lasts [[1d10 * 10]] hours.</p>",
+      "chat": ""
+    },
+    "source": {
+      "book": "Maxwell's Manual of Malicious Maladies",
+      "custom": ""
+    },
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "requirements": "Psychic Lingering Injury"
+  },
+  "effects": [
+    {
+      "_id": "cJ2rZJC7endKx7qT",
+      "name": "A Taste of Madness",
+      "img": "icons/magic/control/hypnosis-mesmerism-pendulum.webp",
+      "type": "base",
+      "system": {
+        "changes": [],
+        "conditions": "{}",
+        "magical": false,
+        "rider": {
+          "statuses": []
+        }
+      },
+      "disabled": false,
+      "duration": {
+        "value": null,
+        "units": "hours",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "showIcon": 1,
+      "sort": 0,
+      "flags": {
+        "mmm": {
+          "duration": {
+            "formula": "1d10 * 10",
+            "units": "hours"
+          }
+        }
+      },
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6"
+      },
+      "_key": "!items.effects!TrZx8sD7agOMofVc.cJ2rZJC7endKx7qT"
+    }
+  ],
+  "folder": "LhZNHt3RmLuRoZa8",
+  "sort": 600,
+  "flags": {
+    "mmm": {
+      "injury": true,
+      "damageType": "psychic"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  },
+  "_key": "!items!TrZx8sD7agOMofVc"
+}

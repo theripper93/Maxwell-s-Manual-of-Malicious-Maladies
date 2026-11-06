@@ -1,0 +1,76 @@
+{
+  "_id": "z0j29n8pFxD6w9gw",
+  "name": "Barotrauma",
+  "type": "feat",
+  "img": "icons/magic/sonic/explosion-shock-wave-teal.webp",
+  "system": {
+    "description": {
+      "value": "<p>The concussive force reverberates through the gas inside your lungs, doing major damage to them. You can only hold your breath for half the normal duration. In addition, the blood vessels in your eyes have ruptured, turning the whites of your eyes the color of your blood for [[1d6]] days.</p>",
+      "chat": ""
+    },
+    "source": {
+      "book": "Maxwell's Manual of Malicious Maladies",
+      "custom": ""
+    },
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "requirements": "Thunder Lingering Injury"
+  },
+  "effects": [
+    {
+      "_id": "0HpSO7VbKfbMwOev",
+      "name": "Barotrauma",
+      "img": "icons/magic/sonic/explosion-shock-wave-teal.webp",
+      "type": "base",
+      "system": {
+        "changes": [],
+        "conditions": "{}",
+        "magical": false,
+        "rider": {
+          "statuses": []
+        }
+      },
+      "disabled": false,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "showIcon": 1,
+      "sort": 0,
+      "flags": {
+        "mmm": {
+          "duration": null
+        }
+      },
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6"
+      },
+      "_key": "!items.effects!z0j29n8pFxD6w9gw.0HpSO7VbKfbMwOev"
+    }
+  ],
+  "folder": "SP14yKoZanH0tu1K",
+  "sort": 1700,
+  "flags": {
+    "mmm": {
+      "injury": true,
+      "damageType": "thunder"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  },
+  "_key": "!items!z0j29n8pFxD6w9gw"
+}

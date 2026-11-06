@@ -1,0 +1,76 @@
+{
+  "_id": "0qbw96Oz0hZ5eQ0k",
+  "name": "Gouged Left Eye",
+  "type": "feat",
+  "img": "icons/skills/melee/blade-tip-orange.webp",
+  "system": {
+    "description": {
+      "value": "<p>You've taken grievous damage directly to your left eye. Your eye is <strong>nonfunctional</strong>. If untreated within 8 hours, your vision will be beyond saving (and be considered <strong>missing</strong>).</p><p><em>Treatment</em> - A DC 20 Save Sense Surgery.</p>",
+      "chat": ""
+    },
+    "source": {
+      "book": "Maxwell's Manual of Malicious Maladies",
+      "custom": ""
+    },
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "requirements": "Piercing Lingering Injury"
+  },
+  "effects": [
+    {
+      "_id": "iGEArxNGwRQmdLZU",
+      "name": "Gouged Left Eye",
+      "img": "icons/skills/melee/blade-tip-orange.webp",
+      "type": "base",
+      "system": {
+        "changes": [],
+        "conditions": "{}",
+        "magical": false,
+        "rider": {
+          "statuses": []
+        }
+      },
+      "disabled": false,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "showIcon": 1,
+      "sort": 0,
+      "flags": {
+        "mmm": {
+          "duration": null
+        }
+      },
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6"
+      },
+      "_key": "!items.effects!0qbw96Oz0hZ5eQ0k.iGEArxNGwRQmdLZU"
+    }
+  ],
+  "folder": "txEFm3aMv2ObXu7k",
+  "sort": 1800,
+  "flags": {
+    "mmm": {
+      "injury": true,
+      "damageType": "piercing"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  },
+  "_key": "!items!0qbw96Oz0hZ5eQ0k"
+}

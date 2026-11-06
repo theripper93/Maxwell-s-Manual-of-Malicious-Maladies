@@ -1,0 +1,37 @@
+{
+  "_id": "g5MTkNtAkdzOjMsf",
+  "name": "Dissolved Magic",
+  "type": "feat",
+  "img": "icons/magic/acid/dissolve-drip-droplet-smoke.webp",
+  "system": {
+    "description": {
+      "value": "<p>Acid has eaten into the essence of one of your magic items, expelling its arcane energy and rendering it mundane. Choose a magic item on your person at random. That item loses all magical effects permanently. If the item's rarity is Legendary or Artifact, its magical effects are instead suppressed for [[3d6]] days (and return to normal after this period).</p>",
+      "chat": ""
+    },
+    "source": {
+      "book": "Maxwell's Manual of Malicious Maladies",
+      "custom": ""
+    },
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "requirements": "Acid Lingering Injury"
+  },
+  "effects": [],
+  "folder": "hz7xOtq4kabtsVtJ",
+  "sort": 1700,
+  "flags": {
+    "mmm": {
+      "injury": true,
+      "damageType": "acid",
+      "instant": true
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  },
+  "_key": "!items!g5MTkNtAkdzOjMsf"
+}

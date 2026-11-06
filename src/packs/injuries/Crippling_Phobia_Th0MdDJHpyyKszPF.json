@@ -1,0 +1,76 @@
+{
+  "_id": "Th0MdDJHpyyKszPF",
+  "name": "Crippling Phobia",
+  "type": "feat",
+  "img": "icons/magic/control/hypnosis-mesmerism-pendulum.webp",
+  "system": {
+    "description": {
+      "value": "<p><strong>&Reference[unconscious]{unconscious}</strong>ly, you brain has made a connection between something random and the pain it felt, now you can't help but associate the two. The DM chooses something unique about the source of the damage or the current setting. Any time you move within 15 feet of this thing you are <strong>&Reference[frightened]{frightened}</strong> until you move at least 50 feet away from it.</p>",
+      "chat": ""
+    },
+    "source": {
+      "book": "Maxwell's Manual of Malicious Maladies",
+      "custom": ""
+    },
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "requirements": "Psychic Lingering Injury"
+  },
+  "effects": [
+    {
+      "_id": "5hZegR1MKk0cnHB9",
+      "name": "Crippling Phobia",
+      "img": "icons/magic/control/hypnosis-mesmerism-pendulum.webp",
+      "type": "base",
+      "system": {
+        "changes": [],
+        "conditions": "{}",
+        "magical": false,
+        "rider": {
+          "statuses": []
+        }
+      },
+      "disabled": false,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "showIcon": 1,
+      "sort": 0,
+      "flags": {
+        "mmm": {
+          "duration": null
+        }
+      },
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6"
+      },
+      "_key": "!items.effects!Th0MdDJHpyyKszPF.5hZegR1MKk0cnHB9"
+    }
+  ],
+  "folder": "LhZNHt3RmLuRoZa8",
+  "sort": 400,
+  "flags": {
+    "mmm": {
+      "injury": true,
+      "damageType": "psychic"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  },
+  "_key": "!items!Th0MdDJHpyyKszPF"
+}

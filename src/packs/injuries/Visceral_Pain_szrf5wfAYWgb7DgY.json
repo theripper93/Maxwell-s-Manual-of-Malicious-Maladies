@@ -1,0 +1,37 @@
+{
+  "_id": "szrf5wfAYWgb7DgY",
+  "name": "Visceral Pain",
+  "type": "feat",
+  "img": "icons/skills/melee/blade-tip-orange.webp",
+  "system": {
+    "description": {
+      "value": "<p>What did that attack even hit? Your liver? Your spleen? Whatever it was, who knew it could hurt so much? You let out an ear-splitting cry of pain. If the enemy wasn't aware of you, they sure are now. Every creature within 60 feet of you knows your exact location, and you are no longer hidden.</p>",
+      "chat": ""
+    },
+    "source": {
+      "book": "Maxwell's Manual of Malicious Maladies",
+      "custom": ""
+    },
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "requirements": "Piercing Lingering Injury"
+  },
+  "effects": [],
+  "folder": "txEFm3aMv2ObXu7k",
+  "sort": 1400,
+  "flags": {
+    "mmm": {
+      "injury": true,
+      "damageType": "piercing",
+      "instant": true
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  },
+  "_key": "!items!szrf5wfAYWgb7DgY"
+}

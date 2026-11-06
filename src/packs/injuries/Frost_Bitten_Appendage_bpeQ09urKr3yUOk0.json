@@ -1,0 +1,79 @@
+{
+  "_id": "bpeQ09urKr3yUOk0",
+  "name": "Frost Bitten Appendage",
+  "type": "feat",
+  "img": "icons/magic/water/snowflake-ice-snow-white.webp",
+  "system": {
+    "description": {
+      "value": "<p>Roll on the @UUID[Compendium.mmm.mmmm.RollTable.vG8gsjqxGB7y9cSD]{Small Appendage Table}. This appendage is firm, frigid, pale, and <strong>nonfunctional</strong>. If not treated within 15 minutes it will necrotize and fall off in [[1d4]] days (after which it is <strong>missing</strong>).</p><p><em>Treatment</em> - A short rest slowly rewarming the appendage.</p>",
+      "chat": ""
+    },
+    "source": {
+      "book": "Maxwell's Manual of Malicious Maladies",
+      "custom": ""
+    },
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "requirements": "Cold Lingering Injury"
+  },
+  "effects": [
+    {
+      "_id": "1YMrkYZaO8qbKFPD",
+      "name": "Frost Bitten Appendage",
+      "img": "icons/magic/water/snowflake-ice-snow-white.webp",
+      "type": "base",
+      "system": {
+        "changes": [],
+        "conditions": "{}",
+        "magical": false,
+        "rider": {
+          "statuses": []
+        }
+      },
+      "disabled": false,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "showIcon": 1,
+      "sort": 0,
+      "flags": {
+        "mmm": {
+          "duration": null
+        }
+      },
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6"
+      },
+      "_key": "!items.effects!bpeQ09urKr3yUOk0.1YMrkYZaO8qbKFPD"
+    }
+  ],
+  "folder": "ehO7jsjguoMng3CE",
+  "sort": 1600,
+  "flags": {
+    "mmm": {
+      "injury": true,
+      "damageType": "cold",
+      "location": {
+        "table": "smallAppendage"
+      }
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  },
+  "_key": "!items!bpeQ09urKr3yUOk0"
+}

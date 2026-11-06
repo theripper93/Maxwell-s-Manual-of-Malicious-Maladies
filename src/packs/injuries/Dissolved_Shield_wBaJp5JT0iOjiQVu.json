@@ -1,0 +1,37 @@
+{
+  "_id": "wBaJp5JT0iOjiQVu",
+  "name": "Dissolved Shield",
+  "type": "feat",
+  "img": "icons/magic/acid/dissolve-drip-droplet-smoke.webp",
+  "system": {
+    "description": {
+      "value": "<p>Your shield is dissolved and destroyed. If your shield is magical, it instead has its magical effects suppressed for [[1d4]] days and is unusable during that time.</p>",
+      "chat": ""
+    },
+    "source": {
+      "book": "Maxwell's Manual of Malicious Maladies",
+      "custom": ""
+    },
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "requirements": "Acid Lingering Injury"
+  },
+  "effects": [],
+  "folder": "hz7xOtq4kabtsVtJ",
+  "sort": 1000,
+  "flags": {
+    "mmm": {
+      "injury": true,
+      "damageType": "acid",
+      "instant": true
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  },
+  "_key": "!items!wBaJp5JT0iOjiQVu"
+}

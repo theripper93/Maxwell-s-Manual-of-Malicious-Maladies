@@ -1,0 +1,127 @@
+{
+  "name": "Seeds of the Serene Druid",
+  "type": "equipment",
+  "img": "icons/consumables/plants/sprout-seed-yellow-green.webp",
+  "effects": [
+    {
+      "_id": "mmmSeedsDeafened",
+      "name": "Seeds of the Serene Druid",
+      "img": "icons/consumables/plants/sprout-seed-yellow-green.webp",
+      "type": "base",
+      "system": {
+        "changes": [],
+        "conditions": {},
+        "magical": true,
+        "rider": {
+          "statuses": []
+        }
+      },
+      "disabled": false,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [
+        "deafened"
+      ],
+      "showIcon": 1,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6"
+      },
+      "_key": "!items.effects!8ufUN6RYSigGXc3N.mmmSeedsDeafened"
+    }
+  ],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "_id": "8ufUN6RYSigGXc3N",
+  "_stats": {
+    "coreVersion": "13.342",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": "Item.mXGF3lOklQLNz7wt",
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "Cspu3pxFr7tu7SU7": 3
+  },
+  "system": {
+    "description": {
+      "value": "<p><em>Wondrous item (requires attunement)</em></p>\n<p>These small seeds always occur in pairs within an iridescent purple shell. The seeds are attuned to when one is placed in each of your ears. Over a 24 hour period, small vines sprout from these seeds, wrapping around your ears and sprouting delicate, green leaves. While you are attuned to the seeds, your hearing is considered <strong>nonfunctional </strong>and you are <strong>deafened</strong>.</p>\n<p>Through the vines in your left ear, you may understand animals as if permanently under the effects of a <em>Speak with Animals</em> spell. Through the vines in your right ear, you may understand plants as if permanently under the effects of a <em>Speak with Plants</em> spell. You may communicate freely with both plants and animals as described in the respective spells.</p>\n<p>You may unattune from the seeds by pulling the vines from your ears. Your normal hearing is restored, but the plants die within seconds if one or both are removed.</p>\n<p> </p>\n<p> </p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "MMMM pg. 33",
+      "revision": 1,
+      "rules": "2024"
+    },
+    "quantity": 1,
+    "weight": {
+      "value": 0.01,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "attunement": "required",
+    "equipped": false,
+    "identified": true,
+    "uses": {
+      "max": "0",
+      "spent": 0,
+      "recovery": []
+    },
+    "armor": {
+      "value": null,
+      "dex": null
+    },
+    "hp": {
+      "value": 0,
+      "max": 0,
+      "dt": null,
+      "conditions": ""
+    },
+    "speed": {
+      "value": null,
+      "conditions": "",
+      "units": "ft"
+    },
+    "strength": 0,
+    "proficient": 1,
+    "unidentified": {
+      "description": ""
+    },
+    "type": {
+      "value": "trinket",
+      "baseItem": ""
+    },
+    "rarities": [
+      "rare"
+    ],
+    "activities": {},
+    "identifier": "",
+    "container": null,
+    "attuned": false,
+    "crew": {
+      "value": []
+    },
+    "properties": []
+  },
+  "_key": "!items!8ufUN6RYSigGXc3N"
+}

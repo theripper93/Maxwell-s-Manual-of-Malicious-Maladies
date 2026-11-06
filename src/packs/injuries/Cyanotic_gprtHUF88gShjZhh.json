@@ -1,0 +1,40 @@
+{
+  "_id": "gprtHUF88gShjZhh",
+  "name": "Cyanotic",
+  "type": "feat",
+  "img": "icons/skills/toxins/poison-bottle-corked-fire-green.webp",
+  "system": {
+    "description": {
+      "value": "<p>Your lips turn blue, you're out of breath and you feel like you can't suck in enough air no matter how hard you try. You suffer three levels of <strong>&Reference[exhaustion]{exhaustion}</strong>.</p><p><em>Treatment</em> - You may remove these levels of <strong>exhaustion</strong> with either a long or a short rest. Any spell or effect that removes one level of <strong>exhaustion</strong> instead removes all three.</p>",
+      "chat": ""
+    },
+    "source": {
+      "book": "Maxwell's Manual of Malicious Maladies",
+      "custom": ""
+    },
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "requirements": "Poison Lingering Injury"
+  },
+  "effects": [],
+  "folder": "TxNzejWG9XMKMnA7",
+  "sort": 900,
+  "flags": {
+    "mmm": {
+      "injury": true,
+      "damageType": "poison",
+      "instant": true,
+      "onApply": {
+        "exhaustion": 3
+      }
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  },
+  "_key": "!items!gprtHUF88gShjZhh"
+}

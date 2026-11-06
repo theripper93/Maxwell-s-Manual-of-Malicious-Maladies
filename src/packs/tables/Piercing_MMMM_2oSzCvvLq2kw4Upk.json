@@ -1,0 +1,464 @@
+{
+  "name": "Piercing - [MMMM]",
+  "img": "icons/skills/melee/blade-tip-orange.webp",
+  "description": "Daggers and arrows and teeth, oh my! Treat piercing wounds gingerly, as they are likely to be painful and make movement and action more difficult in general. And always be wary of wounds to the abdomen. A perforated bowel left untreated is\na death sentence. As a side note, I find that advising my patients never to run with scissors reduces the rate of piercing related complaints by a surprising amount.",
+  "results": [
+    {
+      "_id": "yLN128lJJZIGs328",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/skills/melee/blade-tip-orange.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>You've taken grievous damage directly to your right eye. Your eye is <strong>nonfunctional</strong>. If untreated within 8 hours, your vision will be beyond saving (and be considered <strong>missing</strong>).</p><p><em>Treatment</em> - A DC 20 Save Sense Surgery.</p>",
+      "name": "Gouged Right Eye",
+      "_key": "!tables.results!2oSzCvvLq2kw4Upk.yLN128lJJZIGs328",
+      "documentUuid": "Compendium.mmm.injuries.Item.sro4iySc6JaCyeC8"
+    },
+    {
+      "_id": "bcMmetrn1kEnOtWh",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/skills/melee/blade-tip-orange.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>Roll on the @UUID[Compendium.mmm.mmmm.RollTable.iP8lOROAIYARwcgk]{Large Limb Table}. Through precision or just sheer luck, the blow has severed a nerve in one of your major limbs. This limb is <strong>nonfunctional</strong> and will not heal properly without surgery.</p><p><em>Treatment</em> - A DC 22 Save Limb Surgery.</p>",
+      "name": "Severed Nerve",
+      "_key": "!tables.results!2oSzCvvLq2kw4Upk.bcMmetrn1kEnOtWh",
+      "documentUuid": "Compendium.mmm.injuries.Item.EQKcmneymtagEONJ"
+    },
+    {
+      "_id": "skC4JU5didgRpylO",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/skills/melee/blade-tip-orange.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>Roll on the @UUID[Compendium.mmm.mmmm.RollTable.vG8gsjqxGB7y9cSD]{Small Appendage Table}. You feel a stabbing pain in your appendage, and then an instant numbness. The appendage is <strong>nonfunctional</strong> and will not heal properly without surgery.</p><p><em>Treatment</em> - A DC 20 Save Sense Surgery.</p>",
+      "name": "Severed Small Nerve",
+      "_key": "!tables.results!2oSzCvvLq2kw4Upk.skC4JU5didgRpylO",
+      "documentUuid": "Compendium.mmm.injuries.Item.9zPDBAiPTp8qJL83"
+    },
+    {
+      "_id": "EbOaybmpQ1DH9o1Q",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/skills/melee/blade-tip-orange.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>The superficial wound closes easily, but the attack has left an insidious contamination deep inside. At the end of every long rest, roll your class's hit die and reduce your max hit points by this amount. If this effect reduces your hit points to 0, you fall <strong>&Reference[unconscious]{unconscious}</strong> and will die in [[1d6]] days.</p><p><em>Treatment</em> - Once per day you may attempt a [[/save con 22]] saving throw or a [[/skill medicine 17]] check. A success on either cures the infection. The Greater Restoration spell restores the max hit point damage as usual, but does not cure the infection.</p>",
+      "name": "Deep Infection",
+      "_key": "!tables.results!2oSzCvvLq2kw4Upk.EbOaybmpQ1DH9o1Q",
+      "documentUuid": "Compendium.mmm.injuries.Item.M4b2nqm2LIfXaaPi"
+    },
+    {
+      "_id": "mNUOMRfueglPO2qn",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        7,
+        7
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/skills/melee/blade-tip-orange.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>You bite back a snarl as the attack penetrates just a little bit deeper. You take one extra damage die of whatever type the damage was dealt with.</p>",
+      "name": "Deep Perforation",
+      "_key": "!tables.results!2oSzCvvLq2kw4Upk.mNUOMRfueglPO2qn",
+      "documentUuid": "Compendium.mmm.injuries.Item.lh4mNSArBDx8x2BO"
+    },
+    {
+      "_id": "zaqfj8ATVvZfuhS9",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        8,
+        8
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/skills/melee/blade-tip-orange.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>The attack sinks into the meat of your arm. It's probably not serious, but the pain makes you treat your arm gingerly. You no longer get one free object interaction per turn. This effect lasts [[1d8]] turns.</p><p><em>Treatment</em> - Any amount of magical healing will end this effect.</p>",
+      "name": "Punctured Arm",
+      "_key": "!tables.results!2oSzCvvLq2kw4Upk.zaqfj8ATVvZfuhS9",
+      "documentUuid": "Compendium.mmm.injuries.Item.A75rbXBYeRWjcMgh"
+    },
+    {
+      "_id": "CHYjAHhd6HGi7wPd",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        9,
+        9
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/skills/melee/blade-tip-orange.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>You cough up blood. The wound has made it past your ribs and into your lung. You make Strength (Athletics) and Dexterity (Acrobatics) checks at disadvantage for [[1d6]] days.</p><p><em>Treatment</em> - A [[/skill medicine 15]] check reduces the duration of this injury by [[1d4]] days.</p>",
+      "name": "Punctured Lung",
+      "_key": "!tables.results!2oSzCvvLq2kw4Upk.CHYjAHhd6HGi7wPd",
+      "documentUuid": "Compendium.mmm.injuries.Item.orh5q2ysikLwbK9j"
+    },
+    {
+      "_id": "Y9fL3J6lqkMrFLBe",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        10,
+        10
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/skills/melee/blade-tip-orange.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>The attack went in one end and out the other. Luckily, it's missed anything vital, but you can still feel the agony of it in every motion you make. Bonus actions require a full action instead. This effect lasts for [[1d4]] days.</p><p><em>Treatment</em> - A [[/skill medicine 15]] check reduces the duration of this injury by [[1d2]] days.</p>",
+      "name": "Ran Through",
+      "_key": "!tables.results!2oSzCvvLq2kw4Upk.Y9fL3J6lqkMrFLBe",
+      "documentUuid": "Compendium.mmm.injuries.Item.VD30q7uoIl5BIBiQ"
+    },
+    {
+      "_id": "aKUjrMMnskhPmMM9",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        11,
+        11
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/skills/melee/blade-tip-orange.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>Roll on the @UUID[Compendium.mmm.mmmm.RollTable.5EyNHyXKtfhIlYCa]{Scar Chart}. You are left with a raised, gnarled scar on this area of your body.</p>",
+      "name": "Gnarled Scar",
+      "_key": "!tables.results!2oSzCvvLq2kw4Upk.aKUjrMMnskhPmMM9",
+      "documentUuid": "Compendium.mmm.injuries.Item.qwGn6ahu1YIVNFan"
+    },
+    {
+      "_id": "i9r8DxUoTmd4u6mg",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        12,
+        12
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/skills/melee/blade-tip-orange.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>Roll on the @UUID[Compendium.mmm.mmmm.RollTable.5EyNHyXKtfhIlYCa]{Scar Chart}. You are left with an indented, depressed scar on this area of your body.</p>",
+      "name": "Depressed Scar",
+      "_key": "!tables.results!2oSzCvvLq2kw4Upk.i9r8DxUoTmd4u6mg",
+      "documentUuid": "Compendium.mmm.injuries.Item.qrBjiP5PSXP8uimU"
+    },
+    {
+      "_id": "bkU63wCwsEEre4Be",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        13,
+        13
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/skills/melee/blade-tip-orange.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>The attack sinks into the meat of your leg. It's probably not serious, but the pain of it makes you treat your leg gingerly. Your speed is reduced by 10 feet for [[1d8]] rounds.</p><p><em>Treatment</em> - Any amount of magical healing will end this effect.</p>",
+      "name": "Punctured Leg",
+      "_key": "!tables.results!2oSzCvvLq2kw4Upk.bkU63wCwsEEre4Be",
+      "documentUuid": "Compendium.mmm.injuries.Item.lnJUllGbkqzZOC2T"
+    },
+    {
+      "_id": "mfcghIAyMtsyr7UG",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        14,
+        14
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/skills/melee/blade-tip-orange.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>What did that attack even hit? Your liver? Your spleen? Whatever it was, who knew it could hurt so much? You let out an ear-splitting cry of pain. If the enemy wasn't aware of you, they sure are now. Every creature within 60 feet of you knows your exact location, and you are no longer hidden.</p>",
+      "name": "Visceral Pain",
+      "_key": "!tables.results!2oSzCvvLq2kw4Upk.mfcghIAyMtsyr7UG",
+      "documentUuid": "Compendium.mmm.injuries.Item.szrf5wfAYWgb7DgY"
+    },
+    {
+      "_id": "dBsarJyCkvoy5aGE",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        15,
+        15
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/skills/melee/blade-tip-orange.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>Roll on the @UUID[Compendium.mmm.mmmm.RollTable.5EyNHyXKtfhIlYCa]{Scar Chart}. You are left with a scar that somehow gives you a distinct roguish charm. When this scar is visible you have a +1 bonus to Charisma (Deception) checks. If you collect multiple Roguish Scars, this bonus does not stack.</p>",
+      "name": "Roguish Scar",
+      "_key": "!tables.results!2oSzCvvLq2kw4Upk.dBsarJyCkvoy5aGE",
+      "documentUuid": "Compendium.mmm.injuries.Item.aaPvPvxOoiI8V8XY"
+    },
+    {
+      "_id": "uPrSnGc5S0eE8And",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        16,
+        16
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/skills/melee/blade-tip-orange.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>The attack is over, but it's left something left behind. An arrowhead, a chip from the creature's tooth, or the broken point of a sword, perhaps. Whatever it is, you can still feel it cutting within you. Any time you use an action, bonus action, and movement on the same turn you are &Reference[incapacitated]{incapacitated} until the end of your next turn.</p><p><em>Treatment</em> - A DC 19 General Surgery removes the foreign body and ends this effect.</p>",
+      "name": "Foreign Body",
+      "_key": "!tables.results!2oSzCvvLq2kw4Upk.uPrSnGc5S0eE8And",
+      "documentUuid": "Compendium.mmm.injuries.Item.NXpRiIcH5yia83eZ"
+    },
+    {
+      "_id": "Bmiptv20mT1pqEC2",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        17,
+        17
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/skills/melee/blade-tip-orange.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>You look down at your stomach and a wave of cold fear washes over you. You've taken a gut wound, and it's only a matter of time until it turns septic. You are <strong>&Reference[poisoned]{poisoned}</strong>. Every 24 hours you gain 1 level of <strong>&Reference[exhaustion]{exhaustion}</strong>. This level of <strong>exhaustion</strong> may not be removed by nonmagical means.</p><p><em>Treatment</em> - A DC 21 General Surgery. Any effect that cures disease will remove 1 level of <strong>exhaustion</strong>. A Lesser Restoration spell temporarily removes the <strong>poisoned</strong> condition for 24 hours. A Greater Restoration spell removes <strong>exhaustion</strong> levels as usual, but does not stop the infection.</p>",
+      "name": "Perforated Gut",
+      "_key": "!tables.results!2oSzCvvLq2kw4Upk.Bmiptv20mT1pqEC2",
+      "documentUuid": "Compendium.mmm.injuries.Item.pL5kCJKlhlFXTokB"
+    },
+    {
+      "_id": "904sfKRT6BHhuZU1",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        18,
+        18
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/skills/melee/blade-tip-orange.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>You've taken grievous damage directly to your left eye. Your eye is <strong>nonfunctional</strong>. If untreated within 8 hours, your vision will be beyond saving (and be considered <strong>missing</strong>).</p><p><em>Treatment</em> - A DC 20 Save Sense Surgery.</p>",
+      "name": "Gouged Left Eye",
+      "_key": "!tables.results!2oSzCvvLq2kw4Upk.904sfKRT6BHhuZU1",
+      "documentUuid": "Compendium.mmm.injuries.Item.0qbw96Oz0hZ5eQ0k"
+    }
+  ],
+  "formula": "3d6",
+  "replacement": true,
+  "displayRoll": true,
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "core": {}
+  },
+  "_id": "2oSzCvvLq2kw4Upk",
+  "_stats": {
+    "coreVersion": "13.342",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": "RollTable.ZiiET8sEzTiqBr8r",
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "Cspu3pxFr7tu7SU7": 3
+  },
+  "_key": "!tables!2oSzCvvLq2kw4Upk"
+}

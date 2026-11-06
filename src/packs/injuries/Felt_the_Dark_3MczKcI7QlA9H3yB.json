@@ -1,0 +1,37 @@
+{
+  "_id": "3MczKcI7QlA9H3yB",
+  "name": "Felt the Dark",
+  "type": "feat",
+  "img": "icons/magic/unholy/strike-body-explode-disintegrate.webp",
+  "system": {
+    "description": {
+      "value": "<p>A small mote of corrupt power has taken residence within you and you feel a tiny part of your soul become unhinged. You take a <strong>flaw</strong> that would be considered malevolent, violent, cruel, or volatile.</p>",
+      "chat": ""
+    },
+    "source": {
+      "book": "Maxwell's Manual of Malicious Maladies",
+      "custom": ""
+    },
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "requirements": "Necrotic Lingering Injury"
+  },
+  "effects": [],
+  "folder": "1nRoeyF7X9eMLmxS",
+  "sort": 1800,
+  "flags": {
+    "mmm": {
+      "injury": true,
+      "damageType": "necrotic",
+      "instant": true
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  },
+  "_key": "!items!3MczKcI7QlA9H3yB"
+}

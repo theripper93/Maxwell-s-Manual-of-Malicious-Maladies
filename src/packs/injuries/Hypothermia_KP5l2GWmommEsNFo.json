@@ -1,0 +1,78 @@
+{
+  "_id": "KP5l2GWmommEsNFo",
+  "name": "Hypothermia",
+  "type": "feat",
+  "img": "icons/magic/water/snowflake-ice-snow-white.webp",
+  "system": {
+    "description": {
+      "value": "<p>The extreme cold has leeched away a large amount of your body heat. While on initiative you function as if affected by the Slow spell. If untreated for two hours, the condition advances to Severe Hypothermia.</p><p><em>Treatment</em> - A short rest slowly rewarming yourself ends this effect.</p>",
+      "chat": ""
+    },
+    "source": {
+      "book": "Maxwell's Manual of Malicious Maladies",
+      "custom": ""
+    },
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "requirements": "Cold Lingering Injury"
+  },
+  "effects": [
+    {
+      "_id": "lyyvlAnMdryeZfT2",
+      "name": "Hypothermia",
+      "img": "icons/magic/water/snowflake-ice-snow-white.webp",
+      "type": "base",
+      "system": {
+        "changes": [],
+        "conditions": "{}",
+        "magical": false,
+        "rider": {
+          "statuses": []
+        }
+      },
+      "disabled": false,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": "shortRest",
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "showIcon": 1,
+      "sort": 0,
+      "flags": {
+        "mmm": {
+          "duration": {
+            "expiry": "shortRest"
+          }
+        }
+      },
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6"
+      },
+      "_key": "!items.effects!KP5l2GWmommEsNFo.lyyvlAnMdryeZfT2"
+    }
+  ],
+  "folder": "ehO7jsjguoMng3CE",
+  "sort": 1000,
+  "flags": {
+    "mmm": {
+      "injury": true,
+      "damageType": "cold"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  },
+  "_key": "!items!KP5l2GWmommEsNFo"
+}

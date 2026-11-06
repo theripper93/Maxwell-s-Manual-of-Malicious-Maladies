@@ -1,0 +1,89 @@
+{
+  "name": "Working Animal",
+  "type": "equipment",
+  "img": "icons/creatures/mammals/dog-husky-white-blue.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "_id": "Opgi9Pe2w1qEuPZQ",
+  "_stats": {
+    "coreVersion": "13.342",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": "Item.UbwvJfahtn00OcsF",
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "Cspu3pxFr7tu7SU7": 3
+  },
+  "system": {
+    "description": {
+      "value": "<p>Any animal with an Intelligence of 3 or greater is capable of being a working animal. These rigorously trained animals are taught from birth to be highly attentive to their master and their surroundings. Whenever you would make a Wisdom (Perception) check you may have your working animal make the Wisdom (Perception) check instead. Your working animal can use body language to communicate non-specific information based on the result of the check, such as \"everything is fine\", \"be cautious\", or \"danger ahead\".</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "MMMM pg. 32",
+      "revision": 1,
+      "rules": "2024"
+    },
+    "quantity": 1,
+    "weight": {
+      "value": 0,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "attunement": "",
+    "equipped": false,
+    "identified": true,
+    "uses": {
+      "max": "",
+      "spent": 0,
+      "recovery": []
+    },
+    "armor": {
+      "value": null,
+      "dex": null
+    },
+    "hp": {
+      "value": 0,
+      "max": 0,
+      "dt": null,
+      "conditions": ""
+    },
+    "speed": {
+      "value": null,
+      "conditions": "",
+      "units": "ft"
+    },
+    "strength": 0,
+    "proficient": 1,
+    "unidentified": {
+      "description": ""
+    },
+    "type": {
+      "value": "trinket",
+      "baseItem": ""
+    },
+    "rarities": [
+      "common"
+    ],
+    "activities": {},
+    "identifier": "",
+    "container": null,
+    "attuned": false,
+    "crew": {
+      "value": []
+    },
+    "properties": []
+  },
+  "_key": "!items!Opgi9Pe2w1qEuPZQ"
+}

@@ -1,0 +1,80 @@
+{
+  "_id": "v5PoVKf3dnfBJ38c",
+  "name": "Extensive Frostbite",
+  "type": "feat",
+  "img": "icons/magic/water/snowflake-ice-snow-white.webp",
+  "system": {
+    "description": {
+      "value": "<p>Roll twice on the @UUID[Compendium.mmm.mmmm.RollTable.vG8gsjqxGB7y9cSD]{Small Appendage Table}. These appendages are firm, frigid, pale, and <strong>nonfunctional</strong>. If not treated within 15 minutes they will necrotize and fall off in [[1d4]] days (after which they are <strong>missing</strong>).</p><p><em>Treatment</em> - A short rest slowly rewarming the appendages.</p>",
+      "chat": ""
+    },
+    "source": {
+      "book": "Maxwell's Manual of Malicious Maladies",
+      "custom": ""
+    },
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "requirements": "Cold Lingering Injury"
+  },
+  "effects": [
+    {
+      "_id": "xYdWjSzst1oL6JI1",
+      "name": "Extensive Frostbite",
+      "img": "icons/magic/water/snowflake-ice-snow-white.webp",
+      "type": "base",
+      "system": {
+        "changes": [],
+        "conditions": "{}",
+        "magical": false,
+        "rider": {
+          "statuses": []
+        }
+      },
+      "disabled": false,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "showIcon": 1,
+      "sort": 0,
+      "flags": {
+        "mmm": {
+          "duration": null
+        }
+      },
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6"
+      },
+      "_key": "!items.effects!v5PoVKf3dnfBJ38c.xYdWjSzst1oL6JI1"
+    }
+  ],
+  "folder": "ehO7jsjguoMng3CE",
+  "sort": 500,
+  "flags": {
+    "mmm": {
+      "injury": true,
+      "damageType": "cold",
+      "location": {
+        "table": "smallAppendage",
+        "count": 2
+      }
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  },
+  "_key": "!items!v5PoVKf3dnfBJ38c"
+}

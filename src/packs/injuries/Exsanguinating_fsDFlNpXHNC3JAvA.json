@@ -1,0 +1,85 @@
+{
+  "_id": "fsDFlNpXHNC3JAvA",
+  "name": "Exsanguinating",
+  "type": "feat",
+  "img": "icons/skills/melee/blood-slash-foam-red.webp",
+  "system": {
+    "description": {
+      "value": "<p>The attack has hit one of your vital points and opened a large artery. You are bleeding out. At the end of each turn, take one level of <strong>&Reference[exhaustion]{exhaustion}</strong>.</p><p><em>Treatment</em> - A [[/skill medicine 16]] check staunches bleeding. On a failed save you do not take a level of <strong>exhaustion</strong> at the end of your next turn. You may reattempt this check.</p>",
+      "chat": ""
+    },
+    "source": {
+      "book": "Maxwell's Manual of Malicious Maladies",
+      "custom": ""
+    },
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "requirements": "Slashing Lingering Injury"
+  },
+  "effects": [
+    {
+      "_id": "8G7GatpBFfXaS2wP",
+      "name": "Exsanguinating",
+      "img": "icons/skills/melee/blood-slash-foam-red.webp",
+      "type": "base",
+      "system": {
+        "changes": [],
+        "conditions": "{}",
+        "magical": false,
+        "rider": {
+          "statuses": []
+        }
+      },
+      "disabled": false,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [
+        "bleeding"
+      ],
+      "showIcon": 1,
+      "sort": 0,
+      "flags": {
+        "mmm": {
+          "ongoing": [
+            {
+              "event": "turnEnd",
+              "type": "exhaustion",
+              "formula": "1"
+            }
+          ],
+          "duration": null
+        }
+      },
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6"
+      },
+      "_key": "!items.effects!fsDFlNpXHNC3JAvA.8G7GatpBFfXaS2wP"
+    }
+  ],
+  "folder": "IMJkXH0pVkMixlbt",
+  "sort": 600,
+  "flags": {
+    "mmm": {
+      "injury": true,
+      "damageType": "slashing"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  },
+  "_key": "!items!fsDFlNpXHNC3JAvA"
+}

@@ -1,0 +1,40 @@
+{
+  "_id": "eev0iOyegv32i2Qd",
+  "name": "Heat Exhaustion",
+  "type": "feat",
+  "img": "icons/magic/fire/flame-burning-campfire-orange.webp",
+  "system": {
+    "description": {
+      "value": "<p>Sweat breaks out on your brow, your pulse is thready, and your muscles feel weak. You take 1 level of <strong>&Reference[exhaustion]{exhaustion}</strong>.</p><p><em>Treatment</em> - A long rest or the <em>Greater Restoration</em> spell removes this <strong>exhaustion</strong> as usual.</p>",
+      "chat": ""
+    },
+    "source": {
+      "book": "Maxwell's Manual of Malicious Maladies",
+      "custom": ""
+    },
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "requirements": "Fire Lingering Injury"
+  },
+  "effects": [],
+  "folder": "LvtSZL0IocSdIxLC",
+  "sort": 700,
+  "flags": {
+    "mmm": {
+      "injury": true,
+      "damageType": "fire",
+      "instant": true,
+      "onApply": {
+        "exhaustion": 1
+      }
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  },
+  "_key": "!items!eev0iOyegv32i2Qd"
+}

@@ -1,0 +1,100 @@
+{
+  "_id": "PaLdXDLkYkynIM5B",
+  "name": "Blurred Vision",
+  "type": "feat",
+  "img": "icons/skills/toxins/poison-bottle-corked-fire-green.webp",
+  "system": {
+    "description": {
+      "value": "<p>Your eyes cloud over, your vision blurs, and distinct shapes become amorphous blobs. You have disadvantage on Wisdom (Perception) checks relying on vision and all ranged attacks for [[1d4]] days. If you have darkvision, you lose it for this duration.</p><p><em>Treatment</em> - A [[/skill medicine 15]] check reduces the duration of this injury by [[1d2]] days.</p>",
+      "chat": ""
+    },
+    "source": {
+      "book": "Maxwell's Manual of Malicious Maladies",
+      "custom": ""
+    },
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "requirements": "Poison Lingering Injury"
+  },
+  "effects": [
+    {
+      "_id": "vqqs3H2UVV9H5tN6",
+      "name": "Blurred Vision",
+      "img": "icons/skills/toxins/poison-bottle-corked-fire-green.webp",
+      "type": "base",
+      "system": {
+        "changes": [
+          {
+            "key": "system.skills.prc.roll.mode",
+            "type": "add",
+            "value": "-1"
+          },
+          {
+            "key": "system.rolls.attack.rwak.mode",
+            "type": "add",
+            "value": "-1"
+          },
+          {
+            "key": "system.rolls.attack.rsak.mode",
+            "type": "add",
+            "value": "-1"
+          },
+          {
+            "key": "system.attributes.senses.ranges.darkvision",
+            "type": "override",
+            "value": "0"
+          }
+        ],
+        "conditions": "{}",
+        "magical": false,
+        "rider": {
+          "statuses": []
+        }
+      },
+      "disabled": false,
+      "duration": {
+        "value": null,
+        "units": "days",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "showIcon": 1,
+      "sort": 0,
+      "flags": {
+        "mmm": {
+          "duration": {
+            "formula": "1d4",
+            "units": "days"
+          }
+        }
+      },
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6"
+      },
+      "_key": "!items.effects!PaLdXDLkYkynIM5B.vqqs3H2UVV9H5tN6"
+    }
+  ],
+  "folder": "TxNzejWG9XMKMnA7",
+  "sort": 1000,
+  "flags": {
+    "mmm": {
+      "injury": true,
+      "damageType": "poison"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  },
+  "_key": "!items!PaLdXDLkYkynIM5B"
+}

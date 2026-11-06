@@ -1,0 +1,79 @@
+{
+  "_id": "XqfSTxLQY0Wy9p2n",
+  "name": "Aching Bones",
+  "type": "feat",
+  "img": "icons/skills/melee/strike-hammer-destructive-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Roll on the @UUID[Compendium.mmm.mmmm.RollTable.5EyNHyXKtfhIlYCa]{Scar Chart}. The ache of your injury never completely leaves you and even years later you sometimes feel a twinge of pain. The bones in/around the area rolled ache 6 hours before (roll [[1d6]]): 1) Rain, 2) Bright Sunshine, 3) Snow, 4) Fog, 5) Storms, 6) Calamities and Natural Disasters</p>",
+      "chat": ""
+    },
+    "source": {
+      "book": "Maxwell's Manual of Malicious Maladies",
+      "custom": ""
+    },
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "requirements": "Bludgeoning Lingering Injury"
+  },
+  "effects": [
+    {
+      "_id": "YUyM7MkcVVLrPWnh",
+      "name": "Aching Bones",
+      "img": "icons/skills/melee/strike-hammer-destructive-blue.webp",
+      "type": "base",
+      "system": {
+        "changes": [],
+        "conditions": "{}",
+        "magical": false,
+        "rider": {
+          "statuses": []
+        }
+      },
+      "disabled": false,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "showIcon": 1,
+      "sort": 0,
+      "flags": {
+        "mmm": {
+          "duration": null
+        }
+      },
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6"
+      },
+      "_key": "!items.effects!XqfSTxLQY0Wy9p2n.YUyM7MkcVVLrPWnh"
+    }
+  ],
+  "folder": "Wc8yj8xMGuNmySgj",
+  "sort": 1500,
+  "flags": {
+    "mmm": {
+      "injury": true,
+      "damageType": "bludgeoning",
+      "location": {
+        "table": "scar"
+      }
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  },
+  "_key": "!items!XqfSTxLQY0Wy9p2n"
+}

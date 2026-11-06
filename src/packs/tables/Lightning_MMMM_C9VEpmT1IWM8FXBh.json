@@ -1,0 +1,464 @@
+{
+  "name": "Lightning - [MMMM]",
+  "img": "icons/magic/lightning/bolt-strike-sparks-blue.webp",
+  "description": "They say lightning never strikes the same place twice, but ask any poor soul who's gone up against a Wizard with the Lightning Bolt spell...that's just a flagrant lie. Lightning damage can seize muscles, damage the heart, and even alter the brain. When treating lightning damage, always remember to look for the electricity's entry and exit point...after you are\ncompletely certain the patient is grounded, of course.",
+  "results": [
+    {
+      "_id": "p0FhrECtMLLXIg8J",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/magic/lightning/bolt-strike-sparks-blue.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>Electricity surges into the core of your being, causing your heart to stutter. It is far more difficult for you to handle physical activity without becoming greatly fatigued. Any time you would take levels of <strong>&Reference[exhaustion]{exhaustion}</strong> you take one additional level.</p><p><em>Treatment</em> - A DC 25 General Surgery.</p>",
+      "name": "Arrhythmia",
+      "_key": "!tables.results!C9VEpmT1IWM8FXBh.p0FhrECtMLLXIg8J",
+      "documentUuid": "Compendium.mmm.injuries.Item.kXRB09aXRqYGtqQa"
+    },
+    {
+      "_id": "IFbFoUzB4qt0AgV3",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/magic/lightning/bolt-strike-sparks-blue.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>As the electricity leaves your heart, it beats one last time before silence. You are <strong>&Reference[unconscious]{unconscious}</strong> and dying, your hit points drop to 0.</p><p><em>Treatment</em> - If you are stabilized your heart gallops back to life, you are no longer <strong>unconscious</strong>, and your hit points return to the total they were at before they dropped to 0.</p>",
+      "name": "Cardiac Arrest",
+      "_key": "!tables.results!C9VEpmT1IWM8FXBh.IFbFoUzB4qt0AgV3",
+      "documentUuid": "Compendium.mmm.injuries.Item.5YDAB0u20y9npQUQ"
+    },
+    {
+      "_id": "la33qmFoirnT147t",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/magic/lightning/bolt-strike-sparks-blue.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>Roll on the @UUID[Compendium.mmm.mmmm.RollTable.iP8lOROAIYARwcgk]{Large Limb Table}. Your muscle has contracted so strongly that its been torn free of the bone. Your limb is <strong>nonfunctional</strong> and will not properly heal without surgery.</p><p><em>Treatment</em> - A DC 20 Save Limb Surgery.</p>",
+      "name": "Muscle Avulsion",
+      "_key": "!tables.results!C9VEpmT1IWM8FXBh.la33qmFoirnT147t",
+      "documentUuid": "Compendium.mmm.injuries.Item.TdmwWKMIbILcrMyE"
+    },
+    {
+      "_id": "HtnLT2MDX6sC6OrY",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/magic/lightning/bolt-strike-sparks-blue.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>Your brain has been damaged by the electrical surge and you're not acting like yourself. You take a <strong>flaw</strong> chosen randomly or by the DM.</p><p><em>Treatment</em> - After each long rest roll a d20. On a 19 or 20, the <strong>flaw</strong> disappears.</p>",
+      "name": "Personality Change",
+      "_key": "!tables.results!C9VEpmT1IWM8FXBh.HtnLT2MDX6sC6OrY",
+      "documentUuid": "Compendium.mmm.injuries.Item.xu5RO5Z0AGYlrUQ5"
+    },
+    {
+      "_id": "6LtXHSLYbuAwbdrQ",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        7,
+        7
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/magic/lightning/bolt-strike-sparks-blue.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>Your muscles twitch in repetitive patterns and you have difficulty coordinating your movement. You have disadvantage on all Dexterity based attacks, checks, and saves for [[1d4]] turns.</p>",
+      "name": "Muscle Spasms",
+      "_key": "!tables.results!C9VEpmT1IWM8FXBh.6LtXHSLYbuAwbdrQ",
+      "documentUuid": "Compendium.mmm.injuries.Item.TKSWxIOc3q1j3QKW"
+    },
+    {
+      "_id": "SCTneGLMu1IXH50N",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        8,
+        8
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/magic/lightning/bolt-strike-sparks-blue.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>Your muscles seize, your eyes roll back, and you cannot seem to force your body to function. You are <strong>&Reference[paralyzed]{paralyzed}</strong> until the end of your next turn. Critical hits as the result of your paralysis do not cause you to roll another lingering injury.</p><p><em>Treatment</em> - The Lesser Restoration spell removes this paralysis as usual.</p>",
+      "name": "Electrocution",
+      "_key": "!tables.results!C9VEpmT1IWM8FXBh.SCTneGLMu1IXH50N",
+      "documentUuid": "Compendium.mmm.injuries.Item.pelqSHjxykmnoJNG"
+    },
+    {
+      "_id": "pDQtUCLWykFeJuW2",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        9,
+        9
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/magic/lightning/bolt-strike-sparks-blue.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>Your body convulses and seizes, you can hardly even think, much less move it. You are <strong>&Reference[paralyzed]{paralyzed}</strong> for [[1d2]] rounds. Critical hits as the result of your paralysis do not cause you to roll another lingering injury.</p><p><em>Treatment</em> - The Lesser Restoration spell removes this paralysis as usual.</p>",
+      "name": "True Electrocution",
+      "_key": "!tables.results!C9VEpmT1IWM8FXBh.pDQtUCLWykFeJuW2",
+      "documentUuid": "Compendium.mmm.injuries.Item.LoYpvUMKZCrUSAqg"
+    },
+    {
+      "_id": "DlT8xu72pdkTS73u",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        10,
+        10
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/magic/lightning/bolt-strike-sparks-blue.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>Your nerves are shot, you feel numb, and you're having trouble making your body respond with the speed you need it to. You cannot take reactions for [[1d4]] days.</p><p><em>Treatment</em> - A [[/skill medicine 14]] check reduces the duration of this injury by [[1d4]] days.</p>",
+      "name": "Numbed Nerves",
+      "_key": "!tables.results!C9VEpmT1IWM8FXBh.DlT8xu72pdkTS73u",
+      "documentUuid": "Compendium.mmm.injuries.Item.QCwUDqgN01J2UcBO"
+    },
+    {
+      "_id": "fUDRwhqypuKa64Fs",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        11,
+        11
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/magic/lightning/bolt-strike-sparks-blue.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>Roll twice on the @UUID[Compendium.mmm.mmmm.RollTable.5EyNHyXKtfhIlYCa]{Scar Chart}. Each area of your body is left with a round scar, one where the electricity entered, and one where the electricity left.</p>",
+      "name": "Grounding Scar",
+      "_key": "!tables.results!C9VEpmT1IWM8FXBh.fUDRwhqypuKa64Fs",
+      "documentUuid": "Compendium.mmm.injuries.Item.oXynahd8ruUshXUE"
+    },
+    {
+      "_id": "PWDc7pCd3TtZH467",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        12,
+        12
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/magic/lightning/bolt-strike-sparks-blue.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>Roll on the @UUID[Compendium.mmm.mmmm.RollTable.5EyNHyXKtfhIlYCa]{Scar Chart}. This area of your body is left with a Lichtenberg Figure, a scar resembling lightning that runs along the path the current took through your body.</p>",
+      "name": "Lichtenberg Figure",
+      "_key": "!tables.results!C9VEpmT1IWM8FXBh.PWDc7pCd3TtZH467",
+      "documentUuid": "Compendium.mmm.injuries.Item.NRqRf9KwsXR2ICjf"
+    },
+    {
+      "_id": "9hvScTyXfkCKjlhL",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        13,
+        13
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/magic/lightning/bolt-strike-sparks-blue.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>The electricity's current has ignited you aflame. At the beginning of your turn, you take fire damage scaled to the damage that caused the lingering injury: 1-10 damage ([[1d2]]), 11-20 damage ([[1d4]]), 21-30 damage ([[1d6]]), 31-40 damage ([[1d8]]), &gt;40 damage ([[1d10]]).</p><p><em>Treatment</em> - You may use an action to extinguish the flames.</p>",
+      "name": "Arc Flash",
+      "_key": "!tables.results!C9VEpmT1IWM8FXBh.9hvScTyXfkCKjlhL",
+      "documentUuid": "Compendium.mmm.injuries.Item.kH8yy1pgqUq6w4pK"
+    },
+    {
+      "_id": "LERMeFqLfXhRMQvF",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        14,
+        14
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/magic/lightning/bolt-strike-sparks-blue.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>The electricity crackles around your body for a second, looking for the closest thing to discharge to. The electricity then arcs from you to the nearest creature carrying metal weapons or wearing metal armor. This creature takes lightning damage equal to half the damage that caused the lingering injury.</p>",
+      "name": "Lightning Rod",
+      "_key": "!tables.results!C9VEpmT1IWM8FXBh.LERMeFqLfXhRMQvF",
+      "documentUuid": "Compendium.mmm.injuries.Item.trzqu8dPofAPS68G"
+    },
+    {
+      "_id": "R30x9IOGKRqjyShC",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        15,
+        15
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/magic/lightning/bolt-strike-sparks-blue.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>Roll on the @UUID[Compendium.mmm.mmmm.RollTable.5EyNHyXKtfhIlYCa]{Scar Chart}. In a freak instance of chance, the electricity has interacted with a thread of natural magic within you. This body part emits a small electrical arc of energy every few minutes. If you use an action to touch this body part to a character with 0 hit points they become stable in the same manner as the Spare the Dying cantrip. You may suppress the arcing effect by maintaining concentration. The limb emits a faint aura of Evocation.</p>",
+      "name": "Static Arc",
+      "_key": "!tables.results!C9VEpmT1IWM8FXBh.R30x9IOGKRqjyShC",
+      "documentUuid": "Compendium.mmm.injuries.Item.Fj4AEbUuxgw3tgxA"
+    },
+    {
+      "_id": "YJVZUrVhCW4k7GW2",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        16,
+        16
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/magic/lightning/bolt-strike-sparks-blue.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>Roll on the @UUID[Compendium.mmm.mmmm.RollTable.vG8gsjqxGB7y9cSD]{Small Appendage Table}. The electricity has violently exited your body at this point, charring it to the point of being <strong>nonfunctional</strong>. If not treated within 24 hours, the appendage will necrotize and fall off in [[1d4]] days (after which it is <strong>missing</strong>).</p><p><em>Treatment</em> - A DC 21 Save Limb Surgery.</p>",
+      "name": "Destructive Grounding",
+      "_key": "!tables.results!C9VEpmT1IWM8FXBh.YJVZUrVhCW4k7GW2",
+      "documentUuid": "Compendium.mmm.injuries.Item.2WbWzUxWznvk6JbL"
+    },
+    {
+      "_id": "esbzQKHRyA0WPvGq",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        17,
+        17
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/magic/lightning/bolt-strike-sparks-blue.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>Shocked through the heart, and you're to blame. Any time you are <strong>&Reference[charmed]{charmed}</strong> or <strong>&Reference[frightened]{frightened}</strong> you take 1 level of <strong>&Reference[exhaustion]{exhaustion}</strong>.</p><p><em>Treatment</em> - A DC 25 General Surgery.</p>",
+      "name": "Heart Palpitations",
+      "_key": "!tables.results!C9VEpmT1IWM8FXBh.esbzQKHRyA0WPvGq",
+      "documentUuid": "Compendium.mmm.injuries.Item.oUmEbf4G1zykuMiU"
+    },
+    {
+      "_id": "qBaCnpnjErxorK3b",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        18,
+        18
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/magic/lightning/bolt-strike-sparks-blue.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>The electricity lances across the wiring of your brain, short circuiting your neurons and changing you permanently. Your alignment shifts one step towards neutral on the law/chaos axis. If it is already neutral, treat this roll as a 15.</p>",
+      "name": "Brain Injury",
+      "_key": "!tables.results!C9VEpmT1IWM8FXBh.qBaCnpnjErxorK3b",
+      "documentUuid": "Compendium.mmm.injuries.Item.lF0V852UdZonlEbM"
+    }
+  ],
+  "formula": "3d6",
+  "replacement": true,
+  "displayRoll": true,
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "core": {}
+  },
+  "_id": "C9VEpmT1IWM8FXBh",
+  "_stats": {
+    "coreVersion": "13.342",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": "RollTable.YLTizlScXk8xYCGi",
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "Cspu3pxFr7tu7SU7": 3
+  },
+  "_key": "!tables!C9VEpmT1IWM8FXBh"
+}

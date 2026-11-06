@@ -1,0 +1,76 @@
+{
+  "_id": "FY5fuwuHmYXwkIpF",
+  "name": "Insidious Compulsion",
+  "type": "feat",
+  "img": "icons/magic/unholy/strike-body-explode-disintegrate.webp",
+  "system": {
+    "description": {
+      "value": "<p>Slowly, you feel the building urge to destroy something beautiful. You have [[1d6]] days to commit an act of senseless destruction or violence (outside of what would be normal behavior for your character). If you do not do this within the time limit, the compulsion builds to distracting levels, and you have disadvantage to all attack rolls, ability checks, and saving throws until you do.</p>",
+      "chat": ""
+    },
+    "source": {
+      "book": "Maxwell's Manual of Malicious Maladies",
+      "custom": ""
+    },
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "requirements": "Necrotic Lingering Injury"
+  },
+  "effects": [
+    {
+      "_id": "aVkFvWriUmQ0uxPl",
+      "name": "Insidious Compulsion",
+      "img": "icons/magic/unholy/strike-body-explode-disintegrate.webp",
+      "type": "base",
+      "system": {
+        "changes": [],
+        "conditions": "{}",
+        "magical": false,
+        "rider": {
+          "statuses": []
+        }
+      },
+      "disabled": false,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "showIcon": 1,
+      "sort": 0,
+      "flags": {
+        "mmm": {
+          "duration": null
+        }
+      },
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6"
+      },
+      "_key": "!items.effects!FY5fuwuHmYXwkIpF.aVkFvWriUmQ0uxPl"
+    }
+  ],
+  "folder": "1nRoeyF7X9eMLmxS",
+  "sort": 1600,
+  "flags": {
+    "mmm": {
+      "injury": true,
+      "damageType": "necrotic"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  },
+  "_key": "!items!FY5fuwuHmYXwkIpF"
+}

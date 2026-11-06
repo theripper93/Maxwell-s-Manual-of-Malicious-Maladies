@@ -1,0 +1,76 @@
+{
+  "_id": "UlEPild1l1r57sMT",
+  "name": "Liver Cirrhosis",
+  "type": "feat",
+  "img": "icons/skills/toxins/poison-bottle-corked-fire-green.webp",
+  "system": {
+    "description": {
+      "value": "<p>The poison has left your liver scarred and damaged. There's never been a better time to give up drinking. Any amount of alcohol you consume gives you the <strong>&Reference[poisoned]{poisoned}</strong> condition. Alcohol or other drugs affect you for double their normal duration. You have disadvantage on any Constitution checks or saving throws made to resist poison.</p>",
+      "chat": ""
+    },
+    "source": {
+      "book": "Maxwell's Manual of Malicious Maladies",
+      "custom": ""
+    },
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "requirements": "Poison Lingering Injury"
+  },
+  "effects": [
+    {
+      "_id": "q2pG6qQMm5bsqnlv",
+      "name": "Liver Cirrhosis",
+      "img": "icons/skills/toxins/poison-bottle-corked-fire-green.webp",
+      "type": "base",
+      "system": {
+        "changes": [],
+        "conditions": "{}",
+        "magical": false,
+        "rider": {
+          "statuses": []
+        }
+      },
+      "disabled": false,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "showIcon": 1,
+      "sort": 0,
+      "flags": {
+        "mmm": {
+          "duration": null
+        }
+      },
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6"
+      },
+      "_key": "!items.effects!UlEPild1l1r57sMT.q2pG6qQMm5bsqnlv"
+    }
+  ],
+  "folder": "TxNzejWG9XMKMnA7",
+  "sort": 1800,
+  "flags": {
+    "mmm": {
+      "injury": true,
+      "damageType": "poison"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  },
+  "_key": "!items!UlEPild1l1r57sMT"
+}

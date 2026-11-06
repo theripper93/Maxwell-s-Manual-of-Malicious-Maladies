@@ -1,0 +1,103 @@
+{
+  "name": "Introduction",
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "core": {}
+  },
+  "_id": "RGGP1QiwPiIcrWyz",
+  "pages": [
+    {
+      "name": "Figure: Introduction",
+      "type": "image",
+      "src": "https://i.imgur.com/nKHhlJ9.png",
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_id": "mvxC363A48R09ryF",
+      "system": {},
+      "image": {},
+      "text": {
+        "format": 1
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "sort": 0,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "category": null,
+      "_key": "!journal.pages!RGGP1QiwPiIcrWyz.mvxC363A48R09ryF"
+    },
+    {
+      "name": "Introduction",
+      "type": "text",
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<h1>Introduction</h1>\n<p>Welcome, prospective student, to Maxwell's Manual of Malicious Maladies (and Miraculous Medicine). I am the distinguished surgeon, Maxwell Gonzolaz, though you may have heard of me by my popular moniker: Maxwell Hacks-Well. In this comprehensive (and dare I say, preeminent) guide you will find descriptions of all manner of injury: physical, mental, spiritual, and arcane. I will take you on a sanguinary journey through a universe of traumatic possibility and illustrate how you (an industrious and clever  budding surgeon) can wrest your companions from the foul- smelling maw of death and dismemberment.  You will also find within a variety of cutting-edge surgeries (pun intended) which are guaranteed* to get your compatriots back on their feet, especially if their feet were missing to begin with. But wait, my friend, there's more! When the worst happens (and you aren't around to prevent it, of course), maiming and dismemberment are no longer the end. Thanks to modern medical -- and magical -- technology there are a variety of options described within to get your kickers back kicking and your snatchers back snatching. Brilliant! So, my young pupil, oil up your bone saw, sharpen your scalpel, and get those bandages boiling, it's time to save some lives!</p>\n<p> </p>\n<h2>How to Use This Book</h2>\n<p>This book is organized into three parts. The first part is a series of tables describing Lingering Injuries based on the 13 different damage types (acid, bludgeoning, cold, fire, force, lightning, necrotic, piercing, poison, psychic, radiant, slashing, and thunder). Each table has a variety of injuries, conditions, and effects that increase the risk of combat and provide interesting and dire narrative opportunities. The second part is a system for characters to perform surgery. Surgery is a new and unique skill challenge that has the potential -- with a bit of talent and luck -- to treat some of the injuries described in the first section. The final section is a collection of mundane and magical items focussed on accessibility and allowing options for adventurers with physical disabilities.</p>\n<p> </p>\n<h2>Part 1: Lingering Injuries</h2>\n<p>Adventuring is a dangerous business, and combat a more dangerous business still. Your players are consistently encountering monsters, traps, hazards, and all manner of opportunities for injury and death. The Lingering Injury tables in this book provide an interesting way to give your campaign's conflict a risk of more permanent consequences.</p>\n<p>Why play with Lingering Injuries though?</p>\n<p><strong>Overcome Your Limitations</strong>. Dungeons and Dragons is a game about narrative, creative problem solving, and overcoming obstacles. Whether it be an alchemist who paid an arm and a leg for his powers, a blind geomancer who \"sees\" through vibrations in the earth, a psionic professor confined to his wheelchair, or a blind attorney with his own version of justice, there are plenty of examples of characters in the media who never let their physical limitations stand in the way of their goals. Injuries are an opportunity for your characters to experience unique challenges and triumph over them. There is no injury so great that your character cannot be a hero.</p>\n<p><strong>Risk and Reward.</strong> When characters can seemingly heal from even the more grievous injuries with a full night's rest, sometimes it's difficult to maintain immersion. Lingering injuries provide a ever-present risk that any combat encounter will have a serious consequence. Even so, the Lingering Injury tables were designed so that the probability the most serious injuries (such as losing an arm, leg, vision, or hearing) are relatively small compared to that chance your characters will end up with a purely cosmetic scar.</p>\n<p><strong>Scars are Fun.</strong> These charts give your players the opportunity to pick up purely cosmetic reminders of struggles past (some of which even have some unique properties!). Give your players the opportunity to show off their battle scars in the local tavern. Let your players laugh at the hideous scar one took when they were fighting rats at Level 1 now that they are fighting dragons at Level 12. Let your Barbarian (who seems to take 90% of the party's damage) turn into a physical roadmap of your adventure history. Scars are interesting way to evolve your characters' appearance and bookmark the memories of their past struggles.</p>\n<p> </p>\n<h2>Part 2: Surgical Treatment</h2>\n<p>There are some injuries that potions, salves, and bandages just aren't enough for. Part 2 of this book describes Surgery, a new skill challenge that allows your characters the chance to mitigate the effects of injuries they've taken. With some skill and luck, your characters will be able to reattach an arm severed by a mighty attack, remove an arrowhead left behind in the chest of their comrade, neutralize acid threatening to permanently damage the vision of the sharp-eyed rogue, and more. Surgery is not without its risks, however, and no surgery is guaranteed to be successful. Ultimately, Surgery offers a second chance for your characters to avoid the permanent effects of some of the more dire lingering injuries.</p>\n<p> </p>\n<h2>Part 3: Items, Magical and Mundane</h2>\n<p>Despite your characters' best effort to prevent them, permanent injuries are going to occur. The final part of this book contains a variety of options -- both magical and mundane -- focussed on accessibility, so that no physical limitation will stand in their way.</p>\n<p> </p>\n<h1>Magical Healing</h1>\n<p><strong>Maxwell Says:</strong> \"Magical healing is a fickle thing, my friend. I've travelled far and wide, studied with clerics and scholars, and let me tell you, it's a rare spell that can do what I can with a scalpel and some catgut.</p>\n<p>\"Your humble teacher Maxwell has been in one or two scraps himself, and seen a thing or three. Magical healing is great for getting you back on your toes in a pinch, but it sometimes it responds.... oddly. Most often it seals up your wounds lickity-split without so much as a weal or welt left behind. Other times, you're left with a wicked looking cicatrix that looks like it's been with you for since that time you played with daddy's sheep shears as a child, even though he told you not to.</p>\n<p>\"Now, -- and mind you, this is still just a theoretical postulation -- I believe that magical healing (to its capacity) acts on the reflected image of oneself that lies deep within our inner soul. When a particularly grievous wound is taken it damages not only our physical body, but our spiritual sense of self. It traumatically changes our inner perception, and when we receive magical healing, that perception is outwardly reflected on the body.</p>\n<p>\"Simply put: 'See stars? Get scars.' \"</p>\n<p> </p>\n<h2>The Regenerate Spell</h2>\n<p>Regenerate is a 7th level spell available to the Bard, Cleric, and Druid that threatens to make the entire lingering injury system obsolete. Where is the threat when a 13th level character can cure even the direst of injuries with the only cost being a night's rest? While most campaigns are played between 1st and 12th level, if you enjoy this system and want to DM for a higher-level campaign, you may want to alter the Regenerate spell as follows:</p>\n<p> </p>\n<blockquote>\n<h3><strong>Regenerate</strong></h3>\n<p><em>7th-level transmutation</em></p>\n<p><strong>Casting Time</strong>: 1 minute</p>\n<p><strong>Range</strong>: touch</p>\n<p><strong>Components</strong>: V, S, M (a prayer wheel, holy water, and healing potions worth at least 400 gold, which the spell consumes)</p>\n<p><strong>Duration</strong>: 1 hour</p>\n<p>You touch a creature and stimulate its natural healing ability. The target regains 4d8 + 15 hit points. For the duration of the spell, the target regains 1 hit point at the start of each of its turns (10 hit points each minute). The target’s severed body members (fingers, legs, tails, and so on), if any, are restored after 2 minutes. If you have the severed part and hold it to the stump, the spell instantaneously causes the limb to knit to the stump. This spell does not heal any injury or scar that is older than one week.</p>\n</blockquote>\n<p> </p>\n<p>This optional change gives Regenerate a new material component which may or may not be available to the characters, and lets them make the choice between attempting surgery or consuming potentially precious healing resources. It also does not instantly remove the scars and other marks your players may have collected during their adventures, so long as they are older than one week.</p>\n<p> </p>\n<h2>Interaction with Injuries</h2>\n<p>Though the DM always has the final ruling, magical healing is intended to be ineffective at treating lingering injuries unless the treatment section of the lingering injury chart specifies otherwise. Narratively, the magic is considered ineffective at treating the source of the injury or effect. For example, magical healing fixes up the damage from a standard long sword wound without any trouble, but can't knit together a broken bone.</p>"
+      },
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_id": "MdQKeaYYOn50YVnf",
+      "system": {},
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "sort": 0,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "category": null,
+      "_key": "!journal.pages!RGGP1QiwPiIcrWyz.MdQKeaYYOn50YVnf"
+    }
+  ],
+  "_stats": {
+    "coreVersion": "13.342",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": "JournalEntry.HB6kJCMVbfngKR9f",
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "Cspu3pxFr7tu7SU7": 3
+  },
+  "categories": [],
+  "_key": "!journal!RGGP1QiwPiIcrWyz"
+}

@@ -1,0 +1,81 @@
+{
+  "_id": "6Xj07LrPNOteJ3Pt",
+  "name": "Irradiated",
+  "type": "feat",
+  "img": "icons/magic/lightning/bolt-strike-streak-yellow.webp",
+  "system": {
+    "description": {
+      "value": "<p>The energy that washed over you has left you with a lingering feeling of sickness and nausea. You are <strong>&Reference[poisoned]{poisoned}</strong> for [[1d4]] days. During this time, you slowly lose all the hair on your body. After [[1d12]] days, it begins to regrow at the normal rate.</p>",
+      "chat": ""
+    },
+    "source": {
+      "book": "Maxwell's Manual of Malicious Maladies",
+      "custom": ""
+    },
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "requirements": "Radiant Lingering Injury"
+  },
+  "effects": [
+    {
+      "_id": "lVLNk0NK8DIaav0x",
+      "name": "Irradiated",
+      "img": "icons/magic/lightning/bolt-strike-streak-yellow.webp",
+      "type": "base",
+      "system": {
+        "changes": [],
+        "conditions": "{}",
+        "magical": false,
+        "rider": {
+          "statuses": []
+        }
+      },
+      "disabled": false,
+      "duration": {
+        "value": null,
+        "units": "days",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [
+        "poisoned"
+      ],
+      "showIcon": 1,
+      "sort": 0,
+      "flags": {
+        "mmm": {
+          "duration": {
+            "formula": "1d4",
+            "units": "days"
+          }
+        }
+      },
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6"
+      },
+      "_key": "!items.effects!6Xj07LrPNOteJ3Pt.lVLNk0NK8DIaav0x"
+    }
+  ],
+  "folder": "yRuhPzOAD5hEAtff",
+  "sort": 500,
+  "flags": {
+    "mmm": {
+      "injury": true,
+      "damageType": "radiant"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  },
+  "_key": "!items!6Xj07LrPNOteJ3Pt"
+}

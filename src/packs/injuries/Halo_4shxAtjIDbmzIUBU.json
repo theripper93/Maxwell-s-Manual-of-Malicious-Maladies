@@ -1,0 +1,79 @@
+{
+  "_id": "4shxAtjIDbmzIUBU",
+  "name": "Halo",
+  "type": "feat",
+  "img": "icons/magic/lightning/bolt-strike-streak-yellow.webp",
+  "system": {
+    "description": {
+      "value": "<p>Roll on the @UUID[Compendium.mmm.mmmm.RollTable.5EyNHyXKtfhIlYCa]{Scar Chart}. This area of your body flares with a sudden radiance, which then dies down to a soft, dull glow. It emits bright light in a 5 foot radius, dim light in an additional 5 foot radius, and has a faint aura of Evocation. An effort of concentration can either suppress this effect or flare the light to the brightness of a torch.</p>",
+      "chat": ""
+    },
+    "source": {
+      "book": "Maxwell's Manual of Malicious Maladies",
+      "custom": ""
+    },
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "requirements": "Radiant Lingering Injury"
+  },
+  "effects": [
+    {
+      "_id": "zV9jQpioKQJHM3LW",
+      "name": "Halo",
+      "img": "icons/magic/lightning/bolt-strike-streak-yellow.webp",
+      "type": "base",
+      "system": {
+        "changes": [],
+        "conditions": "{}",
+        "magical": false,
+        "rider": {
+          "statuses": []
+        }
+      },
+      "disabled": false,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "showIcon": 1,
+      "sort": 0,
+      "flags": {
+        "mmm": {
+          "duration": null
+        }
+      },
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6"
+      },
+      "_key": "!items.effects!4shxAtjIDbmzIUBU.zV9jQpioKQJHM3LW"
+    }
+  ],
+  "folder": "yRuhPzOAD5hEAtff",
+  "sort": 1500,
+  "flags": {
+    "mmm": {
+      "injury": true,
+      "damageType": "radiant",
+      "location": {
+        "table": "scar"
+      }
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  },
+  "_key": "!items!4shxAtjIDbmzIUBU"
+}

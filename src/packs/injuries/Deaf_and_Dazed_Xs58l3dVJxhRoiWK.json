@@ -1,0 +1,86 @@
+{
+  "_id": "Xs58l3dVJxhRoiWK",
+  "name": "Deaf and Dazed",
+  "type": "feat",
+  "img": "icons/magic/sonic/explosion-shock-wave-teal.webp",
+  "system": {
+    "description": {
+      "value": "<p>You are bowled over by the percussive assault and the only thing you hear is an atonal ringing. You are knocked &Reference[prone]{prone} and <strong>&Reference[deafened]{deafened}</strong> for [[1d6]] hours.</p>",
+      "chat": ""
+    },
+    "source": {
+      "book": "Maxwell's Manual of Malicious Maladies",
+      "custom": ""
+    },
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "requirements": "Thunder Lingering Injury"
+  },
+  "effects": [
+    {
+      "_id": "yGSS64xjQOCx2VDc",
+      "name": "Deaf and Dazed",
+      "img": "icons/magic/sonic/explosion-shock-wave-teal.webp",
+      "type": "base",
+      "system": {
+        "changes": [],
+        "conditions": "{}",
+        "magical": false,
+        "rider": {
+          "statuses": []
+        }
+      },
+      "disabled": false,
+      "duration": {
+        "value": null,
+        "units": "hours",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [
+        "deafened"
+      ],
+      "showIcon": 1,
+      "sort": 0,
+      "flags": {
+        "mmm": {
+          "duration": {
+            "formula": "1d6",
+            "units": "hours"
+          }
+        }
+      },
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6"
+      },
+      "_key": "!items.effects!Xs58l3dVJxhRoiWK.yGSS64xjQOCx2VDc"
+    }
+  ],
+  "folder": "SP14yKoZanH0tu1K",
+  "sort": 1000,
+  "flags": {
+    "mmm": {
+      "injury": true,
+      "damageType": "thunder",
+      "onApply": {
+        "statuses": [
+          "prone"
+        ]
+      }
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  },
+  "_key": "!items!Xs58l3dVJxhRoiWK"
+}

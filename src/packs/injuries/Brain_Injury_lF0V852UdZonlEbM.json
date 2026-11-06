@@ -1,0 +1,37 @@
+{
+  "_id": "lF0V852UdZonlEbM",
+  "name": "Brain Injury",
+  "type": "feat",
+  "img": "icons/magic/lightning/bolt-strike-sparks-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>The electricity lances across the wiring of your brain, short circuiting your neurons and changing you permanently. Your alignment shifts one step towards neutral on the law/chaos axis. If it is already neutral, treat this roll as a 15.</p>",
+      "chat": ""
+    },
+    "source": {
+      "book": "Maxwell's Manual of Malicious Maladies",
+      "custom": ""
+    },
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "requirements": "Lightning Lingering Injury"
+  },
+  "effects": [],
+  "folder": "pVtivJ93JSXv9sP3",
+  "sort": 1800,
+  "flags": {
+    "mmm": {
+      "injury": true,
+      "damageType": "lightning",
+      "instant": true
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  },
+  "_key": "!items!lF0V852UdZonlEbM"
+}

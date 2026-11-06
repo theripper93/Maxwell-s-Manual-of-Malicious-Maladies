@@ -1,0 +1,470 @@
+{
+  "name": "Cold - [MMMM]",
+  "img": "icons/magic/water/snowflake-ice-snow-white.webp",
+  "description": "Simply put, the cold makes you slow and stupid. Expect your patients to be numb, clumsy, and frostbitten. Fortunately, there is an easy solution to almost every wintery woe: warm them back up. You will need a crackling fire, thick blankets, or at the very least, the body heat of a willing volunteer. Do not rewarm them too fast, mind you. Slow and gentle, like thawing meat from the icebox.",
+  "results": [
+    {
+      "_id": "suseSy7RPk0Tmk55",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/magic/water/snowflake-ice-snow-white.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>You've been frigid one too many times and your skin easily develops a rash and blisters in cold. You have disadvantage to Constitution checks and saving throws made to resist the environmental effects of cold.</p>",
+      "name": "Chilblains",
+      "_key": "!tables.results!7VCX5pPOOcrrfRO9.suseSy7RPk0Tmk55",
+      "documentUuid": "Compendium.mmm.injuries.Item.84oGAFCT3QrgRHj6"
+    },
+    {
+      "_id": "TVBki4p4T3wU0ZS1",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/magic/water/snowflake-ice-snow-white.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>Roll to randomly determine the right or left eye. The frigid air has frozen over the surface layer of your eye. The eye is <strong>nonfunctional</strong>. If not treated within 12 hours, your vision will be permanently <strong>missing</strong>.</p><p><em>Treatment</em> - A DC 20 Save Sense Surgery. If the player spends a short rest rewarming the area within 15 minutes of the injury occurring, this DC is decreased to 10.</p>",
+      "name": "Frozen Cornea",
+      "_key": "!tables.results!7VCX5pPOOcrrfRO9.TVBki4p4T3wU0ZS1",
+      "documentUuid": "Compendium.mmm.injuries.Item.fXEEOJ4PMiBOBqUZ"
+    },
+    {
+      "_id": "rapzjtMGK4VLX4wf",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/magic/water/snowflake-ice-snow-white.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>Roll twice on the @UUID[Compendium.mmm.mmmm.RollTable.vG8gsjqxGB7y9cSD]{Small Appendage Table}. These appendages are firm, frigid, pale, and <strong>nonfunctional</strong>. If not treated within 15 minutes they will necrotize and fall off in [[1d4]] days (after which they are <strong>missing</strong>).</p><p><em>Treatment</em> - A short rest slowly rewarming the appendages.</p>",
+      "name": "Extensive Frostbite",
+      "_key": "!tables.results!7VCX5pPOOcrrfRO9.rapzjtMGK4VLX4wf",
+      "documentUuid": "Compendium.mmm.injuries.Item.v5PoVKf3dnfBJ38c"
+    },
+    {
+      "_id": "8jJIfpgD0nxBFF7u",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/magic/water/snowflake-ice-snow-white.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>Your core body temperature has plummeted dangerously low. While on initiative you function as if affected by both the <em>Slow</em> and <em>Confusion</em> spells. If untreated for one hour, you fall <strong>&Reference[unconscious]{unconscious}<strong>.</p><p><em>Treatment</em> - A short rest slowly rewarming yourself ends this effect.</strong></strong></p>",
+      "name": "Severe Hypothermia",
+      "_key": "!tables.results!7VCX5pPOOcrrfRO9.8jJIfpgD0nxBFF7u",
+      "documentUuid": "Compendium.mmm.injuries.Item.c6fr5xJn7uYmpTbt"
+    },
+    {
+      "_id": "6nva89TqTbTkG7Je",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        7,
+        7
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/magic/water/snowflake-ice-snow-white.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>You are so cold your hands are shaking uncontrollably and your voice quavers as you speak. The next three spells you cast have a 50% chance to fail. This effect ends after three spells are attempted.</p>",
+      "name": "The Shivers",
+      "_key": "!tables.results!7VCX5pPOOcrrfRO9.6nva89TqTbTkG7Je",
+      "documentUuid": "Compendium.mmm.injuries.Item.WmqwRGUNk5ILWxe3"
+    },
+    {
+      "_id": "4H4kEMLGjMxyDyr5",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        8,
+        8
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/magic/water/snowflake-ice-snow-white.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>Your hands are so cold you barely have any feeling in them. Your next three attacks have disadvantage.</p>",
+      "name": "Frost Nipped Fingers",
+      "_key": "!tables.results!7VCX5pPOOcrrfRO9.4H4kEMLGjMxyDyr5",
+      "documentUuid": "Compendium.mmm.injuries.Item.oa4dKoNSTS9fXtgV"
+    },
+    {
+      "_id": "ss3rLGdJAupNTzCt",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        9,
+        9
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/magic/water/snowflake-ice-snow-white.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>You attempt to move your feet but find the intensity of the cold has frozen you directly to the ground. You are <strong>&Reference[restrained]{restrained}</strong>. If you are flying or otherwise not contacting a surface, there is no effect.</p><p><em>Treatment</em> - A Strength check (DC equals half the damage that caused the lingering injury or 10, whichever number is higher) as an action allows you to break free.</p>",
+      "name": "Frozen in Place",
+      "_key": "!tables.results!7VCX5pPOOcrrfRO9.ss3rLGdJAupNTzCt",
+      "documentUuid": "Compendium.mmm.injuries.Item.iHMtpZsTEJogJdXu"
+    },
+    {
+      "_id": "ijPpSVT8cX1MRNgG",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        10,
+        10
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/magic/water/snowflake-ice-snow-white.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>The extreme cold has leeched away a large amount of your body heat. While on initiative you function as if affected by the Slow spell. If untreated for two hours, the condition advances to Severe Hypothermia.</p><p><em>Treatment</em> - A short rest slowly rewarming yourself ends this effect.</p>",
+      "name": "Hypothermia",
+      "_key": "!tables.results!7VCX5pPOOcrrfRO9.ijPpSVT8cX1MRNgG",
+      "documentUuid": "Compendium.mmm.injuries.Item.KP5l2GWmommEsNFo"
+    },
+    {
+      "_id": "MNBtXTArqkFFZ3YG",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        11,
+        11
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/magic/water/snowflake-ice-snow-white.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>Roll on the @UUID[Compendium.mmm.mmmm.RollTable.5EyNHyXKtfhIlYCa]{Scar Chart}. This body area is left with a pale, blue-tinged scar.</p>",
+      "name": "Pale Blue Dot",
+      "_key": "!tables.results!7VCX5pPOOcrrfRO9.MNBtXTArqkFFZ3YG",
+      "documentUuid": "Compendium.mmm.injuries.Item.WzxI45g7DfRH4WBZ"
+    },
+    {
+      "_id": "ZPVbTc1a7OJmxAyZ",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        12,
+        12
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/magic/water/snowflake-ice-snow-white.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>Roll on the @UUID[Compendium.mmm.mmmm.RollTable.5EyNHyXKtfhIlYCa]{Scar Chart}. This area of your body has been cryo-branded, and will result in a defined, pale scar. Any hair on the affected area will grow back white.</p>",
+      "name": "Cold Brand",
+      "_key": "!tables.results!7VCX5pPOOcrrfRO9.ZPVbTc1a7OJmxAyZ",
+      "documentUuid": "Compendium.mmm.injuries.Item.CBY3vTDTvOSMuJIY"
+    },
+    {
+      "_id": "ztlCITgANLUGzBMJ",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        13,
+        13
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/magic/water/snowflake-ice-snow-white.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>You cannot take the <em>dash</em> action. This effect lasts [[1d6]] rounds.</p>",
+      "name": "Frost Nipped Toes",
+      "_key": "!tables.results!7VCX5pPOOcrrfRO9.ztlCITgANLUGzBMJ",
+      "documentUuid": "Compendium.mmm.injuries.Item.dD4Ahma09dBrSDPR"
+    },
+    {
+      "_id": "5xYxYwmHNBEqQUIv",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        14,
+        14
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/magic/water/snowflake-ice-snow-white.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>You are cold. So cold. You stumble. You fumble. You tumble. You mumble and grumble. You cannot take the <em>disengage</em> action for [[1d6]] turns.</p>",
+      "name": "The Umbles",
+      "_key": "!tables.results!7VCX5pPOOcrrfRO9.5xYxYwmHNBEqQUIv",
+      "documentUuid": "Compendium.mmm.injuries.Item.SEeyX0wZ8DrrYk7O"
+    },
+    {
+      "_id": "0NzG2B900AuqiGOD",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        15,
+        15
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/magic/water/snowflake-ice-snow-white.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>Roll on the @UUID[Compendium.mmm.mmmm.RollTable.5EyNHyXKtfhIlYCa]{Scar Chart}. In a freak instance of chance, the cold has interacted with a thread of natural magic within you. This area of your body is permanently frigid (though to you it feels pleasantly cool) and it radiates a faint aura of Transmutation. You have advantage on Constitution checks and saves made to resist the environmental effects of cold. You may suppress this effect by maintaining concentration.</p>",
+      "name": "Heart of Ice",
+      "_key": "!tables.results!7VCX5pPOOcrrfRO9.0NzG2B900AuqiGOD",
+      "documentUuid": "Compendium.mmm.injuries.Item.ivXkUWxsKpu7W2xF"
+    },
+    {
+      "_id": "k2Sv7O6CBCwMkbL7",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        16,
+        16
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/magic/water/snowflake-ice-snow-white.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>Roll on the @UUID[Compendium.mmm.mmmm.RollTable.vG8gsjqxGB7y9cSD]{Small Appendage Table}. This appendage is firm, frigid, pale, and <strong>nonfunctional</strong>. If not treated within 15 minutes it will necrotize and fall off in [[1d4]] days (after which it is <strong>missing</strong>).</p><p><em>Treatment</em> - A short rest slowly rewarming the appendage.</p>",
+      "name": "Frost Bitten Appendage",
+      "_key": "!tables.results!7VCX5pPOOcrrfRO9.k2Sv7O6CBCwMkbL7",
+      "documentUuid": "Compendium.mmm.injuries.Item.bpeQ09urKr3yUOk0"
+    },
+    {
+      "_id": "wiovK1an4WFoH6Op",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        17,
+        17
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/magic/water/snowflake-ice-snow-white.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>Roll on the @UUID[Compendium.mmm.mmmm.RollTable.iP8lOROAIYARwcgk]{Large Limb Table}. Your limb is frozen, rigid, numb, and <strong>nonfunctional</strong>. If not treated within 15 minutes the limb will necrotize and fall off in [[1d4]] days (after which it is <strong>missing</strong>)</p><p><em>Treatment</em> - A short rest slowly rewarming the limb.</p>",
+      "name": "Frost Bitten Limb",
+      "_key": "!tables.results!7VCX5pPOOcrrfRO9.wiovK1an4WFoH6Op",
+      "documentUuid": "Compendium.mmm.injuries.Item.u88lSICkmHVEB4DT"
+    },
+    {
+      "_id": "FYywmaJdRzJrhFqw",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        18,
+        18
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/magic/water/snowflake-ice-snow-white.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>The cold has permanently damaged your nerves and your reflexes have become dull and sluggish. You have disadvantage on initiative checks.</p>",
+      "name": "Slowed Reflexes",
+      "_key": "!tables.results!7VCX5pPOOcrrfRO9.FYywmaJdRzJrhFqw",
+      "documentUuid": "Compendium.mmm.injuries.Item.rgDfZBqajmNAITMC"
+    }
+  ],
+  "formula": "3d6",
+  "replacement": true,
+  "displayRoll": true,
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "core": {}
+  },
+  "_id": "7VCX5pPOOcrrfRO9",
+  "_stats": {
+    "coreVersion": "13.342",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": "RollTable.llMNo9pcHIxunpDm",
+    "duplicateSource": null,
+    "exportSource": {
+      "worldId": "tester",
+      "uuid": null,
+      "coreVersion": "0.8.9",
+      "systemId": "dnd5e",
+      "systemVersion": "1.4.3"
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "Cspu3pxFr7tu7SU7": 3
+  },
+  "_key": "!tables!7VCX5pPOOcrrfRO9"
+}

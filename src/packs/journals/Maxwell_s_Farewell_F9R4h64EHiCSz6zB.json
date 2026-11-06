@@ -1,0 +1,103 @@
+{
+  "name": "Maxwell's Farewell",
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "core": {}
+  },
+  "_id": "F9R4h64EHiCSz6zB",
+  "pages": [
+    {
+      "name": "Figure: Maxwell's Farewell",
+      "type": "image",
+      "src": "https://i.imgur.com/nKHhlJ9.png",
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_id": "2W7Ki64qiS3Ze5cl",
+      "system": {},
+      "image": {},
+      "text": {
+        "format": 1
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "sort": 0,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "category": null,
+      "_key": "!journal.pages!F9R4h64EHiCSz6zB.2W7Ki64qiS3Ze5cl"
+    },
+    {
+      "name": "Maxwell's Farewell",
+      "type": "text",
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<blockquote>\n<h1>Maxwell's Farewell</h1>\n<p>Well, my pupil, you've been burning the midnight oil at both ends, and ol' Hacks-Well is proud of you. Open the back packet of this manual to find enclosed your honorary graduation scalpel. It is my sincere hope that while using it you are fondly reminded of our time together.</p>\n<p>If I leave you with one thing, I want it to be a deep instilled feeling that it is worth it to help others. Both crutches and kind words can help people get back on their feet. Giving a person their hearing back means nothing if you're not willing to listen to them. And finally, if I ever find out you've turned down a child because they can't pay for treatment, I will personally hunt you down and beat you with my Surgical Stick (patent pending).</p>\n<p>Good wishes, good tidings, and may your injuries never be greater than the strength of your will.</p>\n</blockquote>\n<p> </p>\n<h2>Related Items and Media:</h2>\n<p><strong>Ersatz Eye</strong> - a magical prosthetic eye (XGE pg. 137)</p>\n<p><strong>Prosthetic Limb</strong> - a magical prosthetic limb (TCE pg. 134)</p>\n<p><strong>Combat Wheelchair </strong>- an all-in-one wheelchair for adventuring and combat <a href=\"https://drive.google.com/drive/folders/1ysDrH2vqKz6NSGkf3_0WX5tV-Ch_t_N_\">Click here</a></p>\n<p><strong>Archmage Hegis' Arcane Prosthesis</strong> - an accessibility related module <a href=\"https://www.dmsguild.com/product/298716/Arcane-Prosthesis--An-Accessibility-Module?term=accessibility\">Click here</a></p>\n<p><strong>Disabilities, Prosthetics, and Guide Animals</strong> - an accessibility related module <a href=\"https://www.dmsguild.com/product/237767/Disabilities-Prosthetics-and-Guide-Animals\">Click here</a></p>\n<p><strong>Inclusive Game Spaces</strong> - a module related to inclusivity (including disability) in gaming spaces <a href=\"https://www.dmsguild.com/product/288729/Inclusive-Games-Spaces\">Click here</a></p>\n<p> </p>\n<h2>A Note from the Author</h2>\n<p>I hope you enjoyed Maxwell's Manual of Malicious Maladies, it has been a project of mine for quite a while and nothing would be more rewarding to me than to know people are using it and enjoying it. If you have any particularly notable stories, I would love to hear them. Email me at <strong>maxwellsmanual@gmail.com</strong> with stories, thoughts, comments, or just a kind word. Happy adventuring!</p>"
+      },
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_id": "UUsPZh8S4oiMtOwp",
+      "system": {},
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "sort": 0,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "category": null,
+      "_key": "!journal.pages!F9R4h64EHiCSz6zB.UUsPZh8S4oiMtOwp"
+    }
+  ],
+  "_stats": {
+    "coreVersion": "13.342",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": "JournalEntry.1wc1G0Cigl5sa05f",
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "Cspu3pxFr7tu7SU7": 3
+  },
+  "categories": [],
+  "_key": "!journal!F9R4h64EHiCSz6zB"
+}

@@ -1,0 +1,37 @@
+{
+  "_id": "0hIGI5Kb2k0dNTYz",
+  "name": "Percussive Disarming",
+  "type": "feat",
+  "img": "icons/magic/sonic/explosion-shock-wave-teal.webp",
+  "system": {
+    "description": {
+      "value": "<p>As the attack's thunderous echo fades, you find that your hands are empty. Anything you were holding is wrenched free of your grip and lands 50 feet from you, pushed away from the direction of the attack.</p>",
+      "chat": ""
+    },
+    "source": {
+      "book": "Maxwell's Manual of Malicious Maladies",
+      "custom": ""
+    },
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "requirements": "Thunder Lingering Injury"
+  },
+  "effects": [],
+  "folder": "SP14yKoZanH0tu1K",
+  "sort": 800,
+  "flags": {
+    "mmm": {
+      "injury": true,
+      "damageType": "thunder",
+      "instant": true
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  },
+  "_key": "!items!0hIGI5Kb2k0dNTYz"
+}

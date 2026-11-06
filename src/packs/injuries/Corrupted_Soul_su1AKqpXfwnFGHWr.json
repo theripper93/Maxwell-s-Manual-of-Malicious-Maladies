@@ -1,0 +1,37 @@
+{
+  "_id": "su1AKqpXfwnFGHWr",
+  "name": "Corrupted Soul",
+  "type": "feat",
+  "img": "icons/magic/unholy/strike-body-explode-disintegrate.webp",
+  "system": {
+    "description": {
+      "value": "<p>You've borne witness to a deep darkness and even now you can feel its touch lingering on your soul. Your alignment shifts one step towards evil. If you are already evil, treat this roll as a 15.</p>",
+      "chat": ""
+    },
+    "source": {
+      "book": "Maxwell's Manual of Malicious Maladies",
+      "custom": ""
+    },
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "requirements": "Necrotic Lingering Injury"
+  },
+  "effects": [],
+  "folder": "1nRoeyF7X9eMLmxS",
+  "sort": 300,
+  "flags": {
+    "mmm": {
+      "injury": true,
+      "damageType": "necrotic",
+      "instant": true
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  },
+  "_key": "!items!su1AKqpXfwnFGHWr"
+}

@@ -1,0 +1,40 @@
+{
+  "_id": "5YDAB0u20y9npQUQ",
+  "name": "Cardiac Arrest",
+  "type": "feat",
+  "img": "icons/magic/lightning/bolt-strike-sparks-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>As the electricity leaves your heart, it beats one last time before silence. You are <strong>&Reference[unconscious]{unconscious}</strong> and dying, your hit points drop to 0.</p><p><em>Treatment</em> - If you are stabilized your heart gallops back to life, you are no longer <strong>unconscious</strong>, and your hit points return to the total they were at before they dropped to 0.</p>",
+      "chat": ""
+    },
+    "source": {
+      "book": "Maxwell's Manual of Malicious Maladies",
+      "custom": ""
+    },
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "requirements": "Lightning Lingering Injury"
+  },
+  "effects": [],
+  "folder": "pVtivJ93JSXv9sP3",
+  "sort": 400,
+  "flags": {
+    "mmm": {
+      "injury": true,
+      "damageType": "lightning",
+      "instant": true,
+      "onApply": {
+        "dropToZero": true
+      }
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  },
+  "_key": "!items!5YDAB0u20y9npQUQ"
+}

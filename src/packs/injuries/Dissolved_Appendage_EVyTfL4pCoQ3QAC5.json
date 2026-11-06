@@ -1,0 +1,79 @@
+{
+  "_id": "EVyTfL4pCoQ3QAC5",
+  "name": "Dissolved Appendage",
+  "type": "feat",
+  "img": "icons/magic/acid/dissolve-drip-droplet-smoke.webp",
+  "system": {
+    "description": {
+      "value": "<p>Roll on the @UUID[Compendium.mmm.mmmm.RollTable.vG8gsjqxGB7y9cSD]{Small Appendage Table}. Acid splashes over your appendage and sizzles as it begins to dissolve. This appendage is <strong>nonfunctional</strong>. If you do not receive treatment within 30 minutes, the appendage dissolves away and is <strong>missing</strong>.</p><p><em>Treatment</em> - A DC 20 Save Limb Surgery. You get 1 check for this surgery; if you do not meet the DC on the first check, the appendage is lost.</p>",
+      "chat": ""
+    },
+    "source": {
+      "book": "Maxwell's Manual of Malicious Maladies",
+      "custom": ""
+    },
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "requirements": "Acid Lingering Injury"
+  },
+  "effects": [
+    {
+      "_id": "Hs7DumQ9gwUkMtaL",
+      "name": "Dissolved Appendage",
+      "img": "icons/magic/acid/dissolve-drip-droplet-smoke.webp",
+      "type": "base",
+      "system": {
+        "changes": [],
+        "conditions": "{}",
+        "magical": false,
+        "rider": {
+          "statuses": []
+        }
+      },
+      "disabled": false,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "showIcon": 1,
+      "sort": 0,
+      "flags": {
+        "mmm": {
+          "duration": null
+        }
+      },
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6"
+      },
+      "_key": "!items.effects!EVyTfL4pCoQ3QAC5.Hs7DumQ9gwUkMtaL"
+    }
+  ],
+  "folder": "hz7xOtq4kabtsVtJ",
+  "sort": 500,
+  "flags": {
+    "mmm": {
+      "injury": true,
+      "damageType": "acid",
+      "location": {
+        "table": "smallAppendage"
+      }
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  },
+  "_key": "!items!EVyTfL4pCoQ3QAC5"
+}

@@ -1,0 +1,82 @@
+{
+  "_id": "PMLqI1xVq357Hm5f",
+  "name": "Dazzled",
+  "type": "feat",
+  "img": "icons/magic/lightning/bolt-strike-streak-yellow.webp",
+  "system": {
+    "description": {
+      "value": "<p>Lights dance in your vision and you shake your head in an attempt to clear it. You are <strong>&Reference[blinded]{blinded}</strong> until the end of your next turn.</p><p><em>Treatment</em> - A Lesser Restoration spell will cure this condition as usual.</p>",
+      "chat": ""
+    },
+    "source": {
+      "book": "Maxwell's Manual of Malicious Maladies",
+      "custom": ""
+    },
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "requirements": "Radiant Lingering Injury"
+  },
+  "effects": [
+    {
+      "_id": "LsodhS9oGmRRHQQ1",
+      "name": "Dazzled",
+      "img": "icons/magic/lightning/bolt-strike-streak-yellow.webp",
+      "type": "base",
+      "system": {
+        "changes": [],
+        "conditions": "{}",
+        "magical": false,
+        "rider": {
+          "statuses": []
+        }
+      },
+      "disabled": false,
+      "duration": {
+        "value": null,
+        "units": "rounds",
+        "expiry": "turnEnd",
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [
+        "blinded"
+      ],
+      "showIcon": 1,
+      "sort": 0,
+      "flags": {
+        "mmm": {
+          "duration": {
+            "formula": "1",
+            "units": "rounds",
+            "expiry": "turnEnd"
+          }
+        }
+      },
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6"
+      },
+      "_key": "!items.effects!PMLqI1xVq357Hm5f.LsodhS9oGmRRHQQ1"
+    }
+  ],
+  "folder": "yRuhPzOAD5hEAtff",
+  "sort": 800,
+  "flags": {
+    "mmm": {
+      "injury": true,
+      "damageType": "radiant"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  },
+  "_key": "!items!PMLqI1xVq357Hm5f"
+}

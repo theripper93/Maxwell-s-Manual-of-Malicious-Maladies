@@ -1,0 +1,76 @@
+{
+  "_id": "xu5RO5Z0AGYlrUQ5",
+  "name": "Personality Change",
+  "type": "feat",
+  "img": "icons/magic/lightning/bolt-strike-sparks-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Your brain has been damaged by the electrical surge and you're not acting like yourself. You take a <strong>flaw</strong> chosen randomly or by the DM.</p><p><em>Treatment</em> - After each long rest roll a d20. On a 19 or 20, the <strong>flaw</strong> disappears.</p>",
+      "chat": ""
+    },
+    "source": {
+      "book": "Maxwell's Manual of Malicious Maladies",
+      "custom": ""
+    },
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "requirements": "Lightning Lingering Injury"
+  },
+  "effects": [
+    {
+      "_id": "L8159X1TDmhtl6Sg",
+      "name": "Personality Change",
+      "img": "icons/magic/lightning/bolt-strike-sparks-blue.webp",
+      "type": "base",
+      "system": {
+        "changes": [],
+        "conditions": "{}",
+        "magical": false,
+        "rider": {
+          "statuses": []
+        }
+      },
+      "disabled": false,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "showIcon": 1,
+      "sort": 0,
+      "flags": {
+        "mmm": {
+          "duration": null
+        }
+      },
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6"
+      },
+      "_key": "!items.effects!xu5RO5Z0AGYlrUQ5.L8159X1TDmhtl6Sg"
+    }
+  ],
+  "folder": "pVtivJ93JSXv9sP3",
+  "sort": 600,
+  "flags": {
+    "mmm": {
+      "injury": true,
+      "damageType": "lightning"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  },
+  "_key": "!items!xu5RO5Z0AGYlrUQ5"
+}

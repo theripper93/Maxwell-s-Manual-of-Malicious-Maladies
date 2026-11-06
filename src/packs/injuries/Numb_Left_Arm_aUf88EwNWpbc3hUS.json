@@ -1,0 +1,80 @@
+{
+  "_id": "aUf88EwNWpbc3hUS",
+  "name": "Numb Left Arm",
+  "type": "feat",
+  "img": "icons/skills/melee/strike-hammer-destructive-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>The force of the impact jars your nerves and sends a spreading numbness through your left arm. You drop anything you are holding with that arm and it is <strong>nonfunctional</strong> for [[1d4]] turns.</p><p><em>Treatment</em> - Any amount of magical healing will end this effect.</p>",
+      "chat": ""
+    },
+    "source": {
+      "book": "Maxwell's Manual of Malicious Maladies",
+      "custom": ""
+    },
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "requirements": "Bludgeoning Lingering Injury"
+  },
+  "effects": [
+    {
+      "_id": "HhJwnW4f2LsfmB7k",
+      "name": "Numb Left Arm",
+      "img": "icons/skills/melee/strike-hammer-destructive-blue.webp",
+      "type": "base",
+      "system": {
+        "changes": [],
+        "conditions": "{}",
+        "magical": false,
+        "rider": {
+          "statuses": []
+        }
+      },
+      "disabled": false,
+      "duration": {
+        "value": null,
+        "units": "rounds",
+        "expiry": "turnEnd",
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "showIcon": 1,
+      "sort": 0,
+      "flags": {
+        "mmm": {
+          "duration": {
+            "formula": "1d4",
+            "units": "rounds",
+            "expiry": "turnEnd"
+          }
+        }
+      },
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6"
+      },
+      "_key": "!items.effects!aUf88EwNWpbc3hUS.HhJwnW4f2LsfmB7k"
+    }
+  ],
+  "folder": "Wc8yj8xMGuNmySgj",
+  "sort": 800,
+  "flags": {
+    "mmm": {
+      "injury": true,
+      "damageType": "bludgeoning"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  },
+  "_key": "!items!aUf88EwNWpbc3hUS"
+}

@@ -1,0 +1,79 @@
+{
+  "_id": "8noSUaYtJmdkIDhK",
+  "name": "Null Scola",
+  "type": "feat",
+  "img": "icons/magic/movement/trail-streak-zigzag-teal.webp",
+  "system": {
+    "description": {
+      "value": "<p>You can feel the magic pulse and resonate with the arcane residue that clings to you from the last spell you cast. There's a searing feeling deep in your mind. You lose the ability to cast spells from the same school of magic as the most recent spell you've cast for [[1d4]] days.</p>",
+      "chat": ""
+    },
+    "source": {
+      "book": "Maxwell's Manual of Malicious Maladies",
+      "custom": ""
+    },
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "requirements": "Force Lingering Injury"
+  },
+  "effects": [
+    {
+      "_id": "9SeGJv0RV65VUg67",
+      "name": "Null Scola",
+      "img": "icons/magic/movement/trail-streak-zigzag-teal.webp",
+      "type": "base",
+      "system": {
+        "changes": [],
+        "conditions": "{}",
+        "magical": false,
+        "rider": {
+          "statuses": []
+        }
+      },
+      "disabled": false,
+      "duration": {
+        "value": null,
+        "units": "days",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "showIcon": 1,
+      "sort": 0,
+      "flags": {
+        "mmm": {
+          "duration": {
+            "formula": "1d4",
+            "units": "days"
+          }
+        }
+      },
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6"
+      },
+      "_key": "!items.effects!8noSUaYtJmdkIDhK.9SeGJv0RV65VUg67"
+    }
+  ],
+  "folder": "SsBTrqUBbEVlKT2I",
+  "sort": 900,
+  "flags": {
+    "mmm": {
+      "injury": true,
+      "damageType": "force"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  },
+  "_key": "!items!8noSUaYtJmdkIDhK"
+}

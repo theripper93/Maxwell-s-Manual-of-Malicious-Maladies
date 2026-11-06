@@ -1,0 +1,78 @@
+{
+  "_id": "pL5kCJKlhlFXTokB",
+  "name": "Perforated Gut",
+  "type": "feat",
+  "img": "icons/skills/melee/blade-tip-orange.webp",
+  "system": {
+    "description": {
+      "value": "<p>You look down at your stomach and a wave of cold fear washes over you. You've taken a gut wound, and it's only a matter of time until it turns septic. You are <strong>&Reference[poisoned]{poisoned}</strong>. Every 24 hours you gain 1 level of <strong>&Reference[exhaustion]{exhaustion}</strong>. This level of <strong>exhaustion</strong> may not be removed by nonmagical means.</p><p><em>Treatment</em> - A DC 21 General Surgery. Any effect that cures disease will remove 1 level of <strong>exhaustion</strong>. A Lesser Restoration spell temporarily removes the <strong>poisoned</strong> condition for 24 hours. A Greater Restoration spell removes <strong>exhaustion</strong> levels as usual, but does not stop the infection.</p>",
+      "chat": ""
+    },
+    "source": {
+      "book": "Maxwell's Manual of Malicious Maladies",
+      "custom": ""
+    },
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "requirements": "Piercing Lingering Injury"
+  },
+  "effects": [
+    {
+      "_id": "zefDlAqhrHf9OHZB",
+      "name": "Perforated Gut",
+      "img": "icons/skills/melee/blade-tip-orange.webp",
+      "type": "base",
+      "system": {
+        "changes": [],
+        "conditions": "{}",
+        "magical": false,
+        "rider": {
+          "statuses": []
+        }
+      },
+      "disabled": false,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [
+        "poisoned"
+      ],
+      "showIcon": 1,
+      "sort": 0,
+      "flags": {
+        "mmm": {
+          "duration": null
+        }
+      },
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6"
+      },
+      "_key": "!items.effects!pL5kCJKlhlFXTokB.zefDlAqhrHf9OHZB"
+    }
+  ],
+  "folder": "txEFm3aMv2ObXu7k",
+  "sort": 1700,
+  "flags": {
+    "mmm": {
+      "injury": true,
+      "damageType": "piercing"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  },
+  "_key": "!items!pL5kCJKlhlFXTokB"
+}

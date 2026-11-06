@@ -1,0 +1,79 @@
+{
+  "_id": "F99iIEP9a1Eyum7w",
+  "name": "Dissolved Limb",
+  "type": "feat",
+  "img": "icons/magic/acid/dissolve-drip-droplet-smoke.webp",
+  "system": {
+    "description": {
+      "value": "<p>Roll on the @UUID[Compendium.mmm.mmmm.RollTable.iP8lOROAIYARwcgk]{Large Limb Table}. Acid coats your limb, and you hear the sizzle as it starts to dissolve. This limb is <strong>nonfunctional</strong>. If you do not receive treatment within 30 minutes, the limb dissolves away and is <strong>missing</strong>.</p><p><em>Treatment</em> - A DC 20 Save Limb Surgery. You get 1 check for this surgery; if you do not meet the DC on the first check, the limb is lost.</p>",
+      "chat": ""
+    },
+    "source": {
+      "book": "Maxwell's Manual of Malicious Maladies",
+      "custom": ""
+    },
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "requirements": "Acid Lingering Injury"
+  },
+  "effects": [
+    {
+      "_id": "RlPSPAG4I8fsrFD7",
+      "name": "Dissolved Limb",
+      "img": "icons/magic/acid/dissolve-drip-droplet-smoke.webp",
+      "type": "base",
+      "system": {
+        "changes": [],
+        "conditions": "{}",
+        "magical": false,
+        "rider": {
+          "statuses": []
+        }
+      },
+      "disabled": false,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "showIcon": 1,
+      "sort": 0,
+      "flags": {
+        "mmm": {
+          "duration": null
+        }
+      },
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6"
+      },
+      "_key": "!items.effects!F99iIEP9a1Eyum7w.RlPSPAG4I8fsrFD7"
+    }
+  ],
+  "folder": "hz7xOtq4kabtsVtJ",
+  "sort": 400,
+  "flags": {
+    "mmm": {
+      "injury": true,
+      "damageType": "acid",
+      "location": {
+        "table": "largeLimb"
+      }
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  },
+  "_key": "!items!F99iIEP9a1Eyum7w"
+}

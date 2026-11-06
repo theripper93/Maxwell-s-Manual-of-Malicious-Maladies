@@ -1,0 +1,146 @@
+{
+  "_id": "l2ONnqFfEkVfZjD1",
+  "name": "Path to Your Grave",
+  "type": "feat",
+  "img": "icons/magic/unholy/strike-body-explode-disintegrate.webp",
+  "system": {
+    "description": {
+      "value": "<p>You are struck by a short, traumatic vision of your own demise, and your heart is filled with dread at this portent. You have vulnerability to the next source of damage that harms you, after which this effect ends.</p><p><em>Treatment</em> - The Remove Curse spell ends this effect.</p>",
+      "chat": ""
+    },
+    "source": {
+      "book": "Maxwell's Manual of Malicious Maladies",
+      "custom": ""
+    },
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "requirements": "Necrotic Lingering Injury"
+  },
+  "effects": [
+    {
+      "_id": "Sf85lFgNDPeg5ruL",
+      "name": "Path to Your Grave",
+      "img": "icons/magic/unholy/strike-body-explode-disintegrate.webp",
+      "type": "base",
+      "system": {
+        "changes": [
+          {
+            "key": "system.traits.dv.value",
+            "type": "add",
+            "value": "acid"
+          },
+          {
+            "key": "system.traits.dv.value",
+            "type": "add",
+            "value": "bludgeoning"
+          },
+          {
+            "key": "system.traits.dv.value",
+            "type": "add",
+            "value": "cold"
+          },
+          {
+            "key": "system.traits.dv.value",
+            "type": "add",
+            "value": "fire"
+          },
+          {
+            "key": "system.traits.dv.value",
+            "type": "add",
+            "value": "force"
+          },
+          {
+            "key": "system.traits.dv.value",
+            "type": "add",
+            "value": "lightning"
+          },
+          {
+            "key": "system.traits.dv.value",
+            "type": "add",
+            "value": "necrotic"
+          },
+          {
+            "key": "system.traits.dv.value",
+            "type": "add",
+            "value": "piercing"
+          },
+          {
+            "key": "system.traits.dv.value",
+            "type": "add",
+            "value": "poison"
+          },
+          {
+            "key": "system.traits.dv.value",
+            "type": "add",
+            "value": "psychic"
+          },
+          {
+            "key": "system.traits.dv.value",
+            "type": "add",
+            "value": "radiant"
+          },
+          {
+            "key": "system.traits.dv.value",
+            "type": "add",
+            "value": "slashing"
+          },
+          {
+            "key": "system.traits.dv.value",
+            "type": "add",
+            "value": "thunder"
+          }
+        ],
+        "conditions": "{}",
+        "magical": false,
+        "rider": {
+          "statuses": []
+        }
+      },
+      "disabled": false,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "showIcon": 1,
+      "sort": 0,
+      "flags": {
+        "mmm": {
+          "consume": {
+            "event": "damage",
+            "uses": 1
+          },
+          "duration": null
+        }
+      },
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6"
+      },
+      "_key": "!items.effects!l2ONnqFfEkVfZjD1.Sf85lFgNDPeg5ruL"
+    }
+  ],
+  "folder": "1nRoeyF7X9eMLmxS",
+  "sort": 1400,
+  "flags": {
+    "mmm": {
+      "injury": true,
+      "damageType": "necrotic"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  },
+  "_key": "!items!l2ONnqFfEkVfZjD1"
+}

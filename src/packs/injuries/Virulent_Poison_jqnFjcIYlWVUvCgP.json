@@ -1,0 +1,92 @@
+{
+  "_id": "jqnFjcIYlWVUvCgP",
+  "name": "Virulent Poison",
+  "type": "feat",
+  "img": "icons/skills/toxins/poison-bottle-corked-fire-green.webp",
+  "system": {
+    "description": {
+      "value": "<p>You can physically feel the poison eating away at you from the inside, and the adrenaline pumping through you is only helping to force it throughout your body. At the beginning of your turn you take poison damage scaled to the damage that caused the lingering injury: 1-10 damage ([[1d2]]), 11-20 damage ([[1d4]]), 21-30 damage ([[1d6]]), 31-40 damage ([[1d8]]), &gt;40 damage ([[1d10]]). This effect continues until you are off initiative.</p><p><em>Treatment</em> - Any spell or effect that cures the <strong>&Reference[poisoned]{poisoned}</strong> condition will end this effect.</p>",
+      "chat": ""
+    },
+    "source": {
+      "book": "Maxwell's Manual of Malicious Maladies",
+      "custom": ""
+    },
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "requirements": "Poison Lingering Injury"
+  },
+  "effects": [
+    {
+      "_id": "q1M1Ph3qkIU7brVB",
+      "name": "Virulent Poison",
+      "img": "icons/skills/toxins/poison-bottle-corked-fire-green.webp",
+      "type": "base",
+      "system": {
+        "changes": [],
+        "conditions": "{}",
+        "magical": false,
+        "rider": {
+          "statuses": []
+        }
+      },
+      "disabled": false,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": "combatEnd",
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "showIcon": 1,
+      "sort": 0,
+      "flags": {
+        "mmm": {
+          "ongoing": [
+            {
+              "event": "turnStart",
+              "formula": "@tier",
+              "type": "poison"
+            }
+          ],
+          "duration": {
+            "expiry": "combatEnd"
+          }
+        }
+      },
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6"
+      },
+      "_key": "!items.effects!jqnFjcIYlWVUvCgP.q1M1Ph3qkIU7brVB"
+    }
+  ],
+  "folder": "TxNzejWG9XMKMnA7",
+  "sort": 800,
+  "flags": {
+    "mmm": {
+      "injury": true,
+      "damageType": "poison",
+      "tiers": [
+        "1d2",
+        "1d4",
+        "1d6",
+        "1d8",
+        "1d10"
+      ]
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  },
+  "_key": "!items!jqnFjcIYlWVUvCgP"
+}

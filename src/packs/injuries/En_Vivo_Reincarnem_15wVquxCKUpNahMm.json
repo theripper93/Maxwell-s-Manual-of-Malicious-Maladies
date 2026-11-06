@@ -1,0 +1,37 @@
+{
+  "_id": "15wVquxCKUpNahMm",
+  "name": "En Vivo Reincarnem",
+  "type": "feat",
+  "img": "icons/magic/movement/trail-streak-zigzag-teal.webp",
+  "system": {
+    "description": {
+      "value": "<p>You experience the feeling of something unlocking, something leaving, something returning, and then grinding bones, stretching muscles, and sliding viscera. When it's all over you're left gasping for breath, and you're different. You change race as if the Reincarnate spell had been cast on you.</p>",
+      "chat": ""
+    },
+    "source": {
+      "book": "Maxwell's Manual of Malicious Maladies",
+      "custom": ""
+    },
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "requirements": "Force Lingering Injury"
+  },
+  "effects": [],
+  "folder": "SsBTrqUBbEVlKT2I",
+  "sort": 1800,
+  "flags": {
+    "mmm": {
+      "injury": true,
+      "damageType": "force",
+      "instant": true
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  },
+  "_key": "!items!15wVquxCKUpNahMm"
+}

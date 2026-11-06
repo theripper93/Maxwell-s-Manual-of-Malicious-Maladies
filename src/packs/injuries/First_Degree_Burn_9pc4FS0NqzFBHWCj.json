@@ -1,0 +1,79 @@
+{
+  "_id": "9pc4FS0NqzFBHWCj",
+  "name": "First Degree Burn",
+  "type": "feat",
+  "img": "icons/magic/fire/flame-burning-campfire-orange.webp",
+  "system": {
+    "description": {
+      "value": "<p>An angry red burn flashes over your skin. It's tender and painful to move. While on initiative you take 1 fire damage per 10 feet of movement. This injury heals in [[1d6]] days.</p><p><em>Treatment</em> - A [[/skill medicine 10]] check reduces the duration of this injury by [[1d6]] days.</p>",
+      "chat": ""
+    },
+    "source": {
+      "book": "Maxwell's Manual of Malicious Maladies",
+      "custom": ""
+    },
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "requirements": "Fire Lingering Injury"
+  },
+  "effects": [
+    {
+      "_id": "gcmHRtmH4MOGKmYf",
+      "name": "First Degree Burn",
+      "img": "icons/magic/fire/flame-burning-campfire-orange.webp",
+      "type": "base",
+      "system": {
+        "changes": [],
+        "conditions": "{}",
+        "magical": false,
+        "rider": {
+          "statuses": []
+        }
+      },
+      "disabled": false,
+      "duration": {
+        "value": null,
+        "units": "days",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "showIcon": 1,
+      "sort": 0,
+      "flags": {
+        "mmm": {
+          "duration": {
+            "formula": "1d6",
+            "units": "days"
+          }
+        }
+      },
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6"
+      },
+      "_key": "!items.effects!9pc4FS0NqzFBHWCj.gcmHRtmH4MOGKmYf"
+    }
+  ],
+  "folder": "LvtSZL0IocSdIxLC",
+  "sort": 800,
+  "flags": {
+    "mmm": {
+      "injury": true,
+      "damageType": "fire"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  },
+  "_key": "!items!9pc4FS0NqzFBHWCj"
+}

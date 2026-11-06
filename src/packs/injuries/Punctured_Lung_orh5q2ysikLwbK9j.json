@@ -1,0 +1,90 @@
+{
+  "_id": "orh5q2ysikLwbK9j",
+  "name": "Punctured Lung",
+  "type": "feat",
+  "img": "icons/skills/melee/blade-tip-orange.webp",
+  "system": {
+    "description": {
+      "value": "<p>You cough up blood. The wound has made it past your ribs and into your lung. You make Strength (Athletics) and Dexterity (Acrobatics) checks at disadvantage for [[1d6]] days.</p><p><em>Treatment</em> - A [[/skill medicine 15]] check reduces the duration of this injury by [[1d4]] days.</p>",
+      "chat": ""
+    },
+    "source": {
+      "book": "Maxwell's Manual of Malicious Maladies",
+      "custom": ""
+    },
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "requirements": "Piercing Lingering Injury"
+  },
+  "effects": [
+    {
+      "_id": "ebha9LCFMnxfFU73",
+      "name": "Punctured Lung",
+      "img": "icons/skills/melee/blade-tip-orange.webp",
+      "type": "base",
+      "system": {
+        "changes": [
+          {
+            "key": "system.skills.ath.roll.mode",
+            "type": "add",
+            "value": "-1"
+          },
+          {
+            "key": "system.skills.acr.roll.mode",
+            "type": "add",
+            "value": "-1"
+          }
+        ],
+        "conditions": "{}",
+        "magical": false,
+        "rider": {
+          "statuses": []
+        }
+      },
+      "disabled": false,
+      "duration": {
+        "value": null,
+        "units": "days",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "showIcon": 1,
+      "sort": 0,
+      "flags": {
+        "mmm": {
+          "duration": {
+            "formula": "1d6",
+            "units": "days"
+          }
+        }
+      },
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6"
+      },
+      "_key": "!items.effects!orh5q2ysikLwbK9j.ebha9LCFMnxfFU73"
+    }
+  ],
+  "folder": "txEFm3aMv2ObXu7k",
+  "sort": 900,
+  "flags": {
+    "mmm": {
+      "injury": true,
+      "damageType": "piercing"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  },
+  "_key": "!items!orh5q2ysikLwbK9j"
+}

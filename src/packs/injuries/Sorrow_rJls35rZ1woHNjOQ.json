@@ -1,0 +1,40 @@
+{
+  "_id": "rJls35rZ1woHNjOQ",
+  "name": "Sorrow",
+  "type": "feat",
+  "img": "icons/magic/unholy/strike-body-explode-disintegrate.webp",
+  "system": {
+    "description": {
+      "value": "<p>All positive emotion within you shatters like a mirror and you are left only with painful, distracting shards. If you have Inspiration, you lose it. You lose any nonmagical effect granting you a temporary bonus or advantage (such as Bardic Inspiration, Barbarian Rage, the Dodge action, or the Help action).</p>",
+      "chat": ""
+    },
+    "source": {
+      "book": "Maxwell's Manual of Malicious Maladies",
+      "custom": ""
+    },
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "requirements": "Necrotic Lingering Injury"
+  },
+  "effects": [],
+  "folder": "1nRoeyF7X9eMLmxS",
+  "sort": 800,
+  "flags": {
+    "mmm": {
+      "injury": true,
+      "damageType": "necrotic",
+      "instant": true,
+      "onApply": {
+        "loseInspiration": true
+      }
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  },
+  "_key": "!items!rJls35rZ1woHNjOQ"
+}

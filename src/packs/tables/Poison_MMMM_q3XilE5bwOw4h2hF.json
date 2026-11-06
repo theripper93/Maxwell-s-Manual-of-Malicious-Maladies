@@ -1,0 +1,464 @@
+{
+  "name": "Poison - [MMMM]",
+  "img": "icons/skills/toxins/poison-bottle-corked-fire-green.webp",
+  "description": "Poison is difficult to physically treat, and I would advise you to make antitoxins a permanent part of your repertoire. There are many different types, some with the potential to harm the sensitive structures in your ears, liver, or even your blood\nitself. Remember not to induce vomiting unless you are certain the poison is not also corrosive.",
+  "results": [
+    {
+      "_id": "Hsc8etMZL7Sap72X",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/skills/toxins/poison-bottle-corked-fire-green.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>Roll to randomly determine your left or right ear. The poison has spread to the delicate structures in your inner ear. This ear is <strong>nonfunctional</strong>, and if not treated within 12 hours, your hearing will be damaged beyond repair (and be considered <strong>missing</strong>).</p><p><em>Treatment</em> - A DC 20 Save Sense Surgery.</p>",
+      "name": "Ototoxicity",
+      "_key": "!tables.results!q3XilE5bwOw4h2hF.Hsc8etMZL7Sap72X",
+      "documentUuid": "Compendium.mmm.injuries.Item.Jh5GQtGEJ82iKXlf"
+    },
+    {
+      "_id": "G7xrg03aujYcFpuC",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/skills/toxins/poison-bottle-corked-fire-green.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>You feel dizzy, the world seems to be shifting under your feet. The problem only gets worse when you're near a great height. You have disadvantage on Dexterity (Acrobatics) checks. You have disadvantage on all attacks and ability checks when you are within 5 feet of a height 15 feet or greater.</p>",
+      "name": "Vertigo",
+      "_key": "!tables.results!q3XilE5bwOw4h2hF.G7xrg03aujYcFpuC",
+      "documentUuid": "Compendium.mmm.injuries.Item.bSoJyL42dtYXnhus"
+    },
+    {
+      "_id": "jv8cbuDrrhOQgIYR",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/skills/toxins/poison-bottle-corked-fire-green.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>When the poison has run its course you are left with a permanent weakness. Your carrying capacity is reduced by half.</p>",
+      "name": "Anemic",
+      "_key": "!tables.results!q3XilE5bwOw4h2hF.jv8cbuDrrhOQgIYR",
+      "documentUuid": "Compendium.mmm.injuries.Item.4rpJmO85hhHzgFjl"
+    },
+    {
+      "_id": "RD5wCeBle5MmS1Vw",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/skills/toxins/poison-bottle-corked-fire-green.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>The poison is particularly strong and you can't seem to shake free of it. You are <strong>&Reference[poisoned]{poisoned}</strong> for [[1d6]] days.</p><p><em>Treatment</em> - After each long rest you may make a Constitution saving throw (DC equals half the damage that caused the lingering injury or 10, whichever number is higher). On a success, you are no longer <strong>poisoned</strong>. Any effect that cures poison (such as the Lesser Restoration spell) instead temporarily suppresses the poison for one hour.</p>",
+      "name": "Lingering Poison",
+      "_key": "!tables.results!q3XilE5bwOw4h2hF.RD5wCeBle5MmS1Vw",
+      "documentUuid": "Compendium.mmm.injuries.Item.sUz9koOyxAZQx0TT"
+    },
+    {
+      "_id": "uSMjZqwYkqYaemzL",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        7,
+        7
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/skills/toxins/poison-bottle-corked-fire-green.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>You can feel your head pounding as the poison pumps through your veins. You gain no advantage from short rests until you take a long rest.</p>",
+      "name": "Splitting Headache",
+      "_key": "!tables.results!q3XilE5bwOw4h2hF.uSMjZqwYkqYaemzL",
+      "documentUuid": "Compendium.mmm.injuries.Item.BfnnnJnbXl6876v6"
+    },
+    {
+      "_id": "ZQBdf2TLoIW7lxJJ",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        8,
+        8
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/skills/toxins/poison-bottle-corked-fire-green.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>You can physically feel the poison eating away at you from the inside, and the adrenaline pumping through you is only helping to force it throughout your body. At the beginning of your turn you take poison damage scaled to the damage that caused the lingering injury: 1-10 damage ([[1d2]]), 11-20 damage ([[1d4]]), 21-30 damage ([[1d6]]), 31-40 damage ([[1d8]]), &gt;40 damage ([[1d10]]). This effect continues until you are off initiative.</p><p><em>Treatment</em> - Any spell or effect that cures the <strong>&Reference[poisoned]{poisoned}</strong> condition will end this effect.</p>",
+      "name": "Virulent Poison",
+      "_key": "!tables.results!q3XilE5bwOw4h2hF.ZQBdf2TLoIW7lxJJ",
+      "documentUuid": "Compendium.mmm.injuries.Item.jqnFjcIYlWVUvCgP"
+    },
+    {
+      "_id": "rZ6ZM30dF9VvEIAB",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        9,
+        9
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/skills/toxins/poison-bottle-corked-fire-green.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>Your lips turn blue, you're out of breath and you feel like you can't suck in enough air no matter how hard you try. You suffer three levels of <strong>&Reference[exhaustion]{exhaustion}</strong>.</p><p><em>Treatment</em> - You may remove these levels of <strong>exhaustion</strong> with either a long or a short rest. Any spell or effect that removes one level of <strong>exhaustion</strong> instead removes all three.</p>",
+      "name": "Cyanotic",
+      "_key": "!tables.results!q3XilE5bwOw4h2hF.rZ6ZM30dF9VvEIAB",
+      "documentUuid": "Compendium.mmm.injuries.Item.gprtHUF88gShjZhh"
+    },
+    {
+      "_id": "tGfvJCHrzePrLc1j",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        10,
+        10
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/skills/toxins/poison-bottle-corked-fire-green.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>Your eyes cloud over, your vision blurs, and distinct shapes become amorphous blobs. You have disadvantage on Wisdom (Perception) checks relying on vision and all ranged attacks for [[1d4]] days. If you have darkvision, you lose it for this duration.</p><p><em>Treatment</em> - A [[/skill medicine 15]] check reduces the duration of this injury by [[1d2]] days.</p>",
+      "name": "Blurred Vision",
+      "_key": "!tables.results!q3XilE5bwOw4h2hF.tGfvJCHrzePrLc1j",
+      "documentUuid": "Compendium.mmm.injuries.Item.PaLdXDLkYkynIM5B"
+    },
+    {
+      "_id": "PuEKXr40WSebEExu",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        11,
+        11
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/skills/toxins/poison-bottle-corked-fire-green.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>Roll on the @UUID[Compendium.mmm.mmmm.RollTable.5EyNHyXKtfhIlYCa]{Scar Chart}. The poison has had the interesting effect of dying your skin. This area of your body has taken on a light shade the same colour as the poison, or roll to determine the color randomly ([[1d4]]): 1) Green 2) Purple 3) Orange 4) Blue.</p>",
+      "name": "Residual Pigmentation",
+      "_key": "!tables.results!q3XilE5bwOw4h2hF.PuEKXr40WSebEExu",
+      "documentUuid": "Compendium.mmm.injuries.Item.1cV2EP1JyjpXSGro"
+    },
+    {
+      "_id": "9fXp7DF60mdD7FkZ",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        12,
+        12
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/skills/toxins/poison-bottle-corked-fire-green.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>Roll on the @UUID[Compendium.mmm.mmmm.RollTable.5EyNHyXKtfhIlYCa]{Scar Chart}. Your veins have been scarred in this area, leaving them slightly raised and pigmented the same color as the poison, or roll to determine the color randomly ([[1d4]]): 1) Green 2) Grey 3) Red 4) Brown.</p>",
+      "name": "Scarred Veins",
+      "_key": "!tables.results!q3XilE5bwOw4h2hF.9fXp7DF60mdD7FkZ",
+      "documentUuid": "Compendium.mmm.injuries.Item.0KcVInZ6xdrUmDo5"
+    },
+    {
+      "_id": "rp03XJHLJUqDDvDj",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        13,
+        13
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/skills/toxins/poison-bottle-corked-fire-green.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>You feel a sick, oily feeling deep in your stomach and bile roiling up your throat. You have disadvantage on all ability checks for [[1d6]] rounds.</p>",
+      "name": "Nausea",
+      "_key": "!tables.results!q3XilE5bwOw4h2hF.rp03XJHLJUqDDvDj",
+      "documentUuid": "Compendium.mmm.injuries.Item.IfX8yzJSedJO9ip7"
+    },
+    {
+      "_id": "Uq1Unk5crrNGRZw3",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        14,
+        14
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/skills/toxins/poison-bottle-corked-fire-green.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>You feel sick, and without warning, the last meal you ate is purged from your stomach. You are &Reference[incapacitated]{incapacitated} until the end of your next turn, and you have disadvantage on all ability checks for [[1d2]] rounds.</p>",
+      "name": "Vomiting",
+      "_key": "!tables.results!q3XilE5bwOw4h2hF.Uq1Unk5crrNGRZw3",
+      "documentUuid": "Compendium.mmm.injuries.Item.xUFD7Fcw1CVkSwkH"
+    },
+    {
+      "_id": "K7BESebKblaanQFy",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        15,
+        15
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/skills/toxins/poison-bottle-corked-fire-green.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>Roll on the @UUID[Compendium.mmm.mmmm.RollTable.5EyNHyXKtfhIlYCa]{Scar Chart}. The poison has interacted with your body in a thoroughly unexpected way, causing a strange alteration in appearance. This area of your body takes on a physical attribute somehow related to the source of the poison (such as green scales from the poison breath of a dragon). At the DM's discretion, this new attribute may give you a +1 bonus to an ability check.</p>",
+      "name": "Unexpected Mutagen",
+      "_key": "!tables.results!q3XilE5bwOw4h2hF.K7BESebKblaanQFy",
+      "documentUuid": "Compendium.mmm.injuries.Item.puryOFgcAqhw2jh7"
+    },
+    {
+      "_id": "nNOLUZqQKKvjri9B",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        16,
+        16
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/skills/toxins/poison-bottle-corked-fire-green.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>You feel hungry all the time, and it's very difficult for you to gain weight. You require double the normal amount of food and water per day.</p>",
+      "name": "Inefficient Metabolism",
+      "_key": "!tables.results!q3XilE5bwOw4h2hF.nNOLUZqQKKvjri9B",
+      "documentUuid": "Compendium.mmm.injuries.Item.Y7YkgDFReYAT7CZC"
+    },
+    {
+      "_id": "yREcF5wJAVgUPygd",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        17,
+        17
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/skills/toxins/poison-bottle-corked-fire-green.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>You hardly ever feel hungry, and it's very easy for you to gain weight. You require half the normal amount of food and water per day. Potions you use require one full minute to take effect instead of taking effect immediately.</p>",
+      "name": "Slowed Metabolism",
+      "_key": "!tables.results!q3XilE5bwOw4h2hF.yREcF5wJAVgUPygd",
+      "documentUuid": "Compendium.mmm.injuries.Item.355ELtFV89CVo0Ge"
+    },
+    {
+      "_id": "qgZbFavXAaQtONWN",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        18,
+        18
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/skills/toxins/poison-bottle-corked-fire-green.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>The poison has left your liver scarred and damaged. There's never been a better time to give up drinking. Any amount of alcohol you consume gives you the <strong>&Reference[poisoned]{poisoned}</strong> condition. Alcohol or other drugs affect you for double their normal duration. You have disadvantage on any Constitution checks or saving throws made to resist poison.</p>",
+      "name": "Liver Cirrhosis",
+      "_key": "!tables.results!q3XilE5bwOw4h2hF.qgZbFavXAaQtONWN",
+      "documentUuid": "Compendium.mmm.injuries.Item.UlEPild1l1r57sMT"
+    }
+  ],
+  "formula": "3d6",
+  "replacement": true,
+  "displayRoll": true,
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "core": {}
+  },
+  "_id": "q3XilE5bwOw4h2hF",
+  "_stats": {
+    "coreVersion": "13.342",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": "RollTable.MQIADy2DbdoAnxVX",
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "Cspu3pxFr7tu7SU7": 3
+  },
+  "_key": "!tables!q3XilE5bwOw4h2hF"
+}

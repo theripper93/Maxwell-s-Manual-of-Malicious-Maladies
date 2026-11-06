@@ -1,0 +1,552 @@
+{
+  "name": "Small Appendage Table - [MMMM]",
+  "img": "icons/skills/social/thumbsup-approval-like.webp",
+  "results": [
+    {
+      "_id": "4I7hVdpHbsyLRHQO",
+      "type": "text",
+      "img": "icons/skills/social/thumbsup-approval-like.webp",
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Left Index Finger",
+      "name": "",
+      "_key": "!tables.results!vG8gsjqxGB7y9cSD.4I7hVdpHbsyLRHQO"
+    },
+    {
+      "_id": "EJI1ZENEsp9y24B5",
+      "type": "text",
+      "img": "icons/skills/social/thumbsup-approval-like.webp",
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Left Middle Finger",
+      "name": "",
+      "_key": "!tables.results!vG8gsjqxGB7y9cSD.EJI1ZENEsp9y24B5"
+    },
+    {
+      "_id": "spBFO7TqBuVXAoyV",
+      "type": "text",
+      "img": "icons/skills/social/thumbsup-approval-like.webp",
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Left Ring Finger",
+      "name": "",
+      "_key": "!tables.results!vG8gsjqxGB7y9cSD.spBFO7TqBuVXAoyV"
+    },
+    {
+      "_id": "kVhmu3PspGyP8ZxA",
+      "type": "text",
+      "img": "icons/skills/social/thumbsup-approval-like.webp",
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Left Pinky Finger",
+      "name": "",
+      "_key": "!tables.results!vG8gsjqxGB7y9cSD.kVhmu3PspGyP8ZxA"
+    },
+    {
+      "_id": "HYBOu0SYRYz1hqtn",
+      "type": "text",
+      "img": "icons/skills/social/thumbsup-approval-like.webp",
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Right Index Finger",
+      "name": "",
+      "_key": "!tables.results!vG8gsjqxGB7y9cSD.HYBOu0SYRYz1hqtn"
+    },
+    {
+      "_id": "8MRBPgaAxLraZNfM",
+      "type": "text",
+      "img": "icons/skills/social/thumbsup-approval-like.webp",
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Right Middle Finger",
+      "name": "",
+      "_key": "!tables.results!vG8gsjqxGB7y9cSD.8MRBPgaAxLraZNfM"
+    },
+    {
+      "_id": "eqWp7IDXJWVqzGTU",
+      "type": "text",
+      "img": "icons/skills/social/thumbsup-approval-like.webp",
+      "weight": 1,
+      "range": [
+        7,
+        7
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Right Ring Finger",
+      "name": "",
+      "_key": "!tables.results!vG8gsjqxGB7y9cSD.eqWp7IDXJWVqzGTU"
+    },
+    {
+      "_id": "HrpAZAsrpjCNadXm",
+      "type": "text",
+      "img": "icons/skills/social/thumbsup-approval-like.webp",
+      "weight": 1,
+      "range": [
+        8,
+        8
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Right Pinky Finger",
+      "name": "",
+      "_key": "!tables.results!vG8gsjqxGB7y9cSD.HrpAZAsrpjCNadXm"
+    },
+    {
+      "_id": "RWTPPq33KZL5R6zz",
+      "type": "text",
+      "img": "icons/skills/social/thumbsup-approval-like.webp",
+      "weight": 1,
+      "range": [
+        9,
+        9
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Left Big Toe",
+      "name": "",
+      "_key": "!tables.results!vG8gsjqxGB7y9cSD.RWTPPq33KZL5R6zz"
+    },
+    {
+      "_id": "Ae36pH17ElkCUzs6",
+      "type": "text",
+      "img": "icons/skills/social/thumbsup-approval-like.webp",
+      "weight": 1,
+      "range": [
+        10,
+        10
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Left 2nd Toe",
+      "name": "",
+      "_key": "!tables.results!vG8gsjqxGB7y9cSD.Ae36pH17ElkCUzs6"
+    },
+    {
+      "_id": "teKzvtgIYi1XPsR1",
+      "type": "text",
+      "img": "icons/skills/social/thumbsup-approval-like.webp",
+      "weight": 1,
+      "range": [
+        11,
+        11
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Left Middle Toe",
+      "name": "",
+      "_key": "!tables.results!vG8gsjqxGB7y9cSD.teKzvtgIYi1XPsR1"
+    },
+    {
+      "_id": "od7cjFn6w7Xxxxam",
+      "type": "text",
+      "img": "icons/skills/social/thumbsup-approval-like.webp",
+      "weight": 1,
+      "range": [
+        12,
+        12
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Left 4th Toe",
+      "name": "",
+      "_key": "!tables.results!vG8gsjqxGB7y9cSD.od7cjFn6w7Xxxxam"
+    },
+    {
+      "_id": "wPP5xdPP9s72BDE7",
+      "type": "text",
+      "img": "icons/skills/social/thumbsup-approval-like.webp",
+      "weight": 1,
+      "range": [
+        13,
+        13
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Left Pinky Toe",
+      "name": "",
+      "_key": "!tables.results!vG8gsjqxGB7y9cSD.wPP5xdPP9s72BDE7"
+    },
+    {
+      "_id": "vyMtpVwm1vOZPZJv",
+      "type": "text",
+      "img": "icons/skills/social/thumbsup-approval-like.webp",
+      "weight": 1,
+      "range": [
+        14,
+        14
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Right Big Toe",
+      "name": "",
+      "_key": "!tables.results!vG8gsjqxGB7y9cSD.vyMtpVwm1vOZPZJv"
+    },
+    {
+      "_id": "qbGHYw2RhEJJpTjU",
+      "type": "text",
+      "img": "icons/skills/social/thumbsup-approval-like.webp",
+      "weight": 1,
+      "range": [
+        15,
+        15
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Right 2nd Toe",
+      "name": "",
+      "_key": "!tables.results!vG8gsjqxGB7y9cSD.qbGHYw2RhEJJpTjU"
+    },
+    {
+      "_id": "omyhEPUWjjJeK18e",
+      "type": "text",
+      "img": "icons/skills/social/thumbsup-approval-like.webp",
+      "weight": 1,
+      "range": [
+        16,
+        16
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Right Middle Toe",
+      "name": "",
+      "_key": "!tables.results!vG8gsjqxGB7y9cSD.omyhEPUWjjJeK18e"
+    },
+    {
+      "_id": "wzJCeIKg77ceVonv",
+      "type": "text",
+      "img": "icons/skills/social/thumbsup-approval-like.webp",
+      "weight": 1,
+      "range": [
+        17,
+        17
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Right 4th Toe",
+      "name": "",
+      "_key": "!tables.results!vG8gsjqxGB7y9cSD.wzJCeIKg77ceVonv"
+    },
+    {
+      "_id": "ye1hXMtsUUVjjEBJ",
+      "type": "text",
+      "img": "icons/skills/social/thumbsup-approval-like.webp",
+      "weight": 1,
+      "range": [
+        18,
+        18
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Right Pinky Toe",
+      "name": "",
+      "_key": "!tables.results!vG8gsjqxGB7y9cSD.ye1hXMtsUUVjjEBJ"
+    },
+    {
+      "_id": "aEKiGrQ5iqaUEAIO",
+      "type": "text",
+      "img": "icons/skills/social/thumbsup-approval-like.webp",
+      "weight": 1,
+      "range": [
+        19,
+        19
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Two Random Fingers",
+      "name": "",
+      "_key": "!tables.results!vG8gsjqxGB7y9cSD.aEKiGrQ5iqaUEAIO"
+    },
+    {
+      "_id": "RrpRRSQKTVA4PeHl",
+      "type": "text",
+      "img": "icons/skills/social/thumbsup-approval-like.webp",
+      "weight": 1,
+      "range": [
+        20,
+        20
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Two Random Toes",
+      "name": "",
+      "_key": "!tables.results!vG8gsjqxGB7y9cSD.RrpRRSQKTVA4PeHl"
+    }
+  ],
+  "formula": "1d20",
+  "replacement": true,
+  "displayRoll": true,
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "core": {}
+  },
+  "_id": "vG8gsjqxGB7y9cSD",
+  "_stats": {
+    "coreVersion": "13.342",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": "RollTable.rSiDHwnSHvyaFf7j",
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "Cspu3pxFr7tu7SU7": 3
+  },
+  "description": "",
+  "_key": "!tables!vG8gsjqxGB7y9cSD"
+}

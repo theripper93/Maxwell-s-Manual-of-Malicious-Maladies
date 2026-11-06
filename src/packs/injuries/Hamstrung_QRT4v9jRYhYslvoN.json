@@ -1,0 +1,82 @@
+{
+  "_id": "QRT4v9jRYhYslvoN",
+  "name": "Hamstrung",
+  "type": "feat",
+  "img": "icons/skills/melee/blood-slash-foam-red.webp",
+  "system": {
+    "description": {
+      "value": "<p>You feel the cut rake across the back of your leg, and you stumble, crying out in pain. Your speed is reduced by 10 feet.</p><p><em>Treatment</em> - A DC 20 Save Limb Surgery.</p>",
+      "chat": ""
+    },
+    "source": {
+      "book": "Maxwell's Manual of Malicious Maladies",
+      "custom": ""
+    },
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "requirements": "Slashing Lingering Injury"
+  },
+  "effects": [
+    {
+      "_id": "oOvj4ug0GjMSFqAw",
+      "name": "Hamstrung",
+      "img": "icons/skills/melee/blood-slash-foam-red.webp",
+      "type": "base",
+      "system": {
+        "changes": [
+          {
+            "key": "system.attributes.movement.speeds.walk",
+            "type": "add",
+            "value": "-10"
+          }
+        ],
+        "conditions": "{}",
+        "magical": false,
+        "rider": {
+          "statuses": []
+        }
+      },
+      "disabled": false,
+      "duration": {
+        "value": null,
+        "units": "seconds",
+        "expiry": null,
+        "expired": false
+      },
+      "description": "",
+      "origin": null,
+      "tint": "#ffffff",
+      "transfer": true,
+      "statuses": [],
+      "showIcon": 1,
+      "sort": 0,
+      "flags": {
+        "mmm": {
+          "duration": null
+        }
+      },
+      "_stats": {
+        "coreVersion": "14.369",
+        "systemId": "dnd5e",
+        "systemVersion": "6.0.6"
+      },
+      "_key": "!items.effects!QRT4v9jRYhYslvoN.oOvj4ug0GjMSFqAw"
+    }
+  ],
+  "folder": "IMJkXH0pVkMixlbt",
+  "sort": 1700,
+  "flags": {
+    "mmm": {
+      "injury": true,
+      "damageType": "slashing"
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  },
+  "_key": "!items!QRT4v9jRYhYslvoN"
+}

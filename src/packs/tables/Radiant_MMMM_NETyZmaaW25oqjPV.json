@@ -1,0 +1,464 @@
+{
+  "name": "Radiant - [MMMM]",
+  "img": "icons/magic/lightning/bolt-strike-streak-yellow.webp",
+  "description": "I am still in the process of studying the enigma of radiant damage. The blindness I can treat. The mild burns I can treat. What I do not yet understand why some patients come to me with a soft, unearthly glow, or hair loss. Fear not, though! In time I shall find a merry cure to these as well.",
+  "results": [
+    {
+      "_id": "8mfcUtt6pMHFo3tK",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/magic/lightning/bolt-strike-streak-yellow.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>The purging light has scoured clean the filth in your soul. Your alignment shifts one step towards good. If your alignment is already good, treat this roll as a 15.</p>",
+      "name": "Purged Soul",
+      "_key": "!tables.results!NETyZmaaW25oqjPV.8mfcUtt6pMHFo3tK",
+      "documentUuid": "Compendium.mmm.injuries.Item.2JV9rRH92OuJJ9s5"
+    },
+    {
+      "_id": "BgSJvTFaJlpmTfik",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/magic/lightning/bolt-strike-streak-yellow.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p></strong></p><p>Roll randomly for the right or left eye. Even through closed lids all you can see is an empty whiteness. Your eye is <strong>nonfunctional</strong>, and if not treated within 24 hours your vision will be permanently <strong>missing</strong>.</p><p><em>Treatment</em> - A DC 20 Save Sense Surgery.</p>",
+      "name": "Blinded Eye",
+      "_key": "!tables.results!NETyZmaaW25oqjPV.BgSJvTFaJlpmTfik",
+      "documentUuid": "Compendium.mmm.injuries.Item.JrCUXPibpjDkAise"
+    },
+    {
+      "_id": "lrhilZ4XgVufhGvY",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/magic/lightning/bolt-strike-streak-yellow.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>The energy that washed over you has left you with a lingering feeling of sickness and nausea. You are <strong>&Reference[poisoned]{poisoned}</strong> for [[1d4]] days. During this time, you slowly lose all the hair on your body. After [[1d12]] days, it begins to regrow at the normal rate.</p>",
+      "name": "Irradiated",
+      "_key": "!tables.results!NETyZmaaW25oqjPV.lrhilZ4XgVufhGvY",
+      "documentUuid": "Compendium.mmm.injuries.Item.6Xj07LrPNOteJ3Pt"
+    },
+    {
+      "_id": "6bgk8XgFA4nhs5G8",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/magic/lightning/bolt-strike-streak-yellow.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>You were unprepared for the overwhelming torrent of brilliance and stared right into it. You are <strong>&Reference[blinded]{blinded}</strong> for [[1d6]] days.</p><p><em>Treatment</em> - A [[/skill medicine 15]] check reduces this injury's duration by [[1d4]] days.</p>",
+      "name": "Flash Burn",
+      "_key": "!tables.results!NETyZmaaW25oqjPV.6bgk8XgFA4nhs5G8",
+      "documentUuid": "Compendium.mmm.injuries.Item.6A75gn1Y0uxnfQWA"
+    },
+    {
+      "_id": "9tPQibbeSeTnr580",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        7,
+        7
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/magic/lightning/bolt-strike-streak-yellow.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>You blink the spots from your eyes, but your vision is taking a while to return. You are <strong>&Reference[blinded]{blinded}</strong> for [[1d4]] turns.</p><p><em>Treatment</em> - A Lesser Restoration spell will cure this condition as usual.</p>",
+      "name": "Razzle Dazzled",
+      "_key": "!tables.results!NETyZmaaW25oqjPV.9tPQibbeSeTnr580",
+      "documentUuid": "Compendium.mmm.injuries.Item.4gP7JROYju8qofQq"
+    },
+    {
+      "_id": "fpgnoKKfrVlPHYRx",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        8,
+        8
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/magic/lightning/bolt-strike-streak-yellow.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>Lights dance in your vision and you shake your head in an attempt to clear it. You are <strong>&Reference[blinded]{blinded}</strong> until the end of your next turn.</p><p><em>Treatment</em> - A Lesser Restoration spell will cure this condition as usual.</p>",
+      "name": "Dazzled",
+      "_key": "!tables.results!NETyZmaaW25oqjPV.fpgnoKKfrVlPHYRx",
+      "documentUuid": "Compendium.mmm.injuries.Item.PMLqI1xVq357Hm5f"
+    },
+    {
+      "_id": "tdhm9ulx9NkOBEnU",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        9,
+        9
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/magic/lightning/bolt-strike-streak-yellow.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>Oddly, after the radiance of the attack fades you are left with a dull, green glow. This affects you in the same manner as the Faerie Fire spell, though the effect itself is non-magical. It last [[1d20]] hours.</p>",
+      "name": "Unearthly Glow",
+      "_key": "!tables.results!NETyZmaaW25oqjPV.tdhm9ulx9NkOBEnU",
+      "documentUuid": "Compendium.mmm.injuries.Item.mX668VDAc2KUZGfN"
+    },
+    {
+      "_id": "MPAheSRgAl4bAfeT",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        10,
+        10
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/magic/lightning/bolt-strike-streak-yellow.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>You seem to have lost your stomach for killing. The thought of taking a life fills you with abject disgust. You may not willingly take a life. Any damage dealt by you that reduces a creature’s hit points to 0 automatically knocks them out instead of killing them. This effect lasts [[1d4]] days.</p>",
+      "name": "Penitent Mercy",
+      "_key": "!tables.results!NETyZmaaW25oqjPV.MPAheSRgAl4bAfeT",
+      "documentUuid": "Compendium.mmm.injuries.Item.ANiookDgTzYOtijv"
+    },
+    {
+      "_id": "nqSFhNH3fXoiyeAC",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        11,
+        11
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/magic/lightning/bolt-strike-streak-yellow.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>Roll on the @UUID[Compendium.mmm.mmmm.RollTable.5EyNHyXKtfhIlYCa]{Scar Chart}. You are left with smooth scar on this part of your body that seems to shimmer through the prismatic colors when the light catches it.</p>",
+      "name": "Prismatic Scar",
+      "_key": "!tables.results!NETyZmaaW25oqjPV.nqSFhNH3fXoiyeAC",
+      "documentUuid": "Compendium.mmm.injuries.Item.GDV8rvcCyNboDepS"
+    },
+    {
+      "_id": "4bINWP9AZmpOf3Eq",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        12,
+        12
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/magic/lightning/bolt-strike-streak-yellow.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>Roll on the @UUID[Compendium.mmm.mmmm.RollTable.5EyNHyXKtfhIlYCa]{Scar Chart}. This area of your body is left bleached a bone white, and hair no longer grows on it.</p>",
+      "name": "Bleached",
+      "_key": "!tables.results!NETyZmaaW25oqjPV.4bINWP9AZmpOf3Eq",
+      "documentUuid": "Compendium.mmm.injuries.Item.q6TsKI59GuLp8Ioh"
+    },
+    {
+      "_id": "D4Z1HciIJyvtEAGU",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        13,
+        13
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/magic/lightning/bolt-strike-streak-yellow.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>The light sears a painful red burn into your skin. You take 1 radiant damage per 10 feet of movement while on initiative. This injury lasts [[1d4]] days.</p><p><em>Treatment</em> - A [[/skill medicine 12]] check reduces this injury's duration by [[1d4]] days.</p>",
+      "name": "Sunburn",
+      "_key": "!tables.results!NETyZmaaW25oqjPV.D4Z1HciIJyvtEAGU",
+      "documentUuid": "Compendium.mmm.injuries.Item.FulHxPsnRF8SRaEF"
+    },
+    {
+      "_id": "nEpQe4pRirFbn6C8",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        14,
+        14
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/magic/lightning/bolt-strike-streak-yellow.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>You've received a brief glimpse of something greater and you can't help but pause for a moment of distracted contemplation. You cannot take reactions for [[1d4]] turns.</p>",
+      "name": "A Brief Stillness of the Soul",
+      "_key": "!tables.results!NETyZmaaW25oqjPV.nEpQe4pRirFbn6C8",
+      "documentUuid": "Compendium.mmm.injuries.Item.A3QThgUfeUZ3nyhT"
+    },
+    {
+      "_id": "u0C7I3bWsbxwWa3P",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        15,
+        15
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/magic/lightning/bolt-strike-streak-yellow.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>Roll on the @UUID[Compendium.mmm.mmmm.RollTable.5EyNHyXKtfhIlYCa]{Scar Chart}. This area of your body flares with a sudden radiance, which then dies down to a soft, dull glow. It emits bright light in a 5 foot radius, dim light in an additional 5 foot radius, and has a faint aura of Evocation. An effort of concentration can either suppress this effect or flare the light to the brightness of a torch.</p>",
+      "name": "Halo",
+      "_key": "!tables.results!NETyZmaaW25oqjPV.u0C7I3bWsbxwWa3P",
+      "documentUuid": "Compendium.mmm.injuries.Item.4shxAtjIDbmzIUBU"
+    },
+    {
+      "_id": "fkLgkzG3A8ZqHG81",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        16,
+        16
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/magic/lightning/bolt-strike-streak-yellow.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>As the energy of the attack passes, you have a revelation clawing at the edge of your brain, you're sure of it. You have [[1d6]] days to withdraw from activity and spend 24 hours alone in silent, individual contemplation about your god, belief set, or yourself. After this, you come to an enlightening realization. If you do not do this within the time limit, the nagging urge builds to distracting levels and you have disadvantage to all attack rolls, ability checks, and saving throws until you do.</p>",
+      "name": "Forced Epiphany",
+      "_key": "!tables.results!NETyZmaaW25oqjPV.fkLgkzG3A8ZqHG81",
+      "documentUuid": "Compendium.mmm.injuries.Item.Ek9w6MKsFiA0ztDh"
+    },
+    {
+      "_id": "BvwrOa4dT538ATC3",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        17,
+        17
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/magic/lightning/bolt-strike-streak-yellow.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>As the divine energy fades you feel as if some of the great burden of time has left with it. Your body is [[1d10]] years younger. Your mind is unaffected.</p>",
+      "name": "Fountain of Youth",
+      "_key": "!tables.results!NETyZmaaW25oqjPV.BvwrOa4dT538ATC3",
+      "documentUuid": "Compendium.mmm.injuries.Item.27oyKKLJ3qXHlFpM"
+    },
+    {
+      "_id": "LlArwUH1XHW7qtoq",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        18,
+        18
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/magic/lightning/bolt-strike-streak-yellow.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>You feel as if you've seen a glimpse of something greater than yourself, and a tiny mote of that light has come to rest on your soul. You take a <strong>flaw</strong> that would be considered benevolent, self-sacrificing, unyielding, or militant.</p>",
+      "name": "Seen the Light",
+      "_key": "!tables.results!NETyZmaaW25oqjPV.LlArwUH1XHW7qtoq",
+      "documentUuid": "Compendium.mmm.injuries.Item.y6wNp7fgoTELTfRq"
+    }
+  ],
+  "formula": "3d6",
+  "replacement": true,
+  "displayRoll": true,
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "core": {}
+  },
+  "_id": "NETyZmaaW25oqjPV",
+  "_stats": {
+    "coreVersion": "13.342",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": "RollTable.X7XyVnNOnOvJ80gL",
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "Cspu3pxFr7tu7SU7": 3
+  },
+  "_key": "!tables!NETyZmaaW25oqjPV"
+}

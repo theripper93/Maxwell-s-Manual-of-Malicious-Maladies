@@ -1,0 +1,464 @@
+{
+  "name": "Force - [MMMM]",
+  "img": "icons/magic/movement/trail-streak-zigzag-teal.webp",
+  "description": "Strange things can happen when you use the raw force of magic. Most of the time it behaves and does the thing you want it to do, but every so often a small string will come loose. How is interacts with you or the environment around you is anyone's guess. As a small point of trivia, did you know that Druids were originally inspired to create the Reincarnate spell by studying the En Vivo Reincarnem effect and learning to reproduce it? It's not a bug, it's a feature!",
+  "results": [
+    {
+      "_id": "On1uWByhfkopjZc8",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/magic/movement/trail-streak-zigzag-teal.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p></strong></p><p>Something vital, yet intangible within you falls deathly silent. You feel...disconnected. You lose the ability to communicate telepathically. All magical communication that specifically targets you fails (such as the Message, Sending, and Telepathic Bond spells). Your mind cannot be read or detected.</p>",
+      "name": "Third Eye Blinded",
+      "_key": "!tables.results!8RjcealuGnn8dloA.On1uWByhfkopjZc8",
+      "documentUuid": "Compendium.mmm.injuries.Item.rAaoTek6MtJSCjvV"
+    },
+    {
+      "_id": "pMZD5WjuS1v7DmDp",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/magic/movement/trail-streak-zigzag-teal.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>Your spells struggle to take and always seem like they need a little something extra. Any spell with a material component cost requires double that cost to cast. If the spell consumes the components, double the cost in components are consumed.</p>",
+      "name": "Pertinax Machina",
+      "_key": "!tables.results!8RjcealuGnn8dloA.pMZD5WjuS1v7DmDp",
+      "documentUuid": "Compendium.mmm.injuries.Item.eEwVyOugeWZekDXW"
+    },
+    {
+      "_id": "yYOE0v0vTiVWNtMp",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/magic/movement/trail-streak-zigzag-teal.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>As the arcane energy strikes you, you feel something within you sputter and fizzle. You lose the ability to cast spells through any means (including class features, racial traits, or magical items) for [[1d4]] days.</p>",
+      "name": "Null Arcana",
+      "_key": "!tables.results!8RjcealuGnn8dloA.yYOE0v0vTiVWNtMp",
+      "documentUuid": "Compendium.mmm.injuries.Item.7sz0vgON8LBgdaZ9"
+    },
+    {
+      "_id": "T2cz3fukuLog312a",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/magic/movement/trail-streak-zigzag-teal.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>You feel the abrupt and disconcerting recoil of a severed connection. You lose attunement to anything you are currently attuned to. You may not attune to anything for [[1d4]] days.</p>",
+      "name": "Ligo Secare",
+      "_key": "!tables.results!8RjcealuGnn8dloA.T2cz3fukuLog312a",
+      "documentUuid": "Compendium.mmm.injuries.Item.zvxHkSREpWCoRe7m"
+    },
+    {
+      "_id": "MTUxPdpjAEKeViPx",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        7,
+        7
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/magic/movement/trail-streak-zigzag-teal.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>An errant thread of magic comes loose, slipping away from you and causing havoc. The creature or source of the damage rolls on the Wild Magic Surge Table (PHB pg.104).</p>",
+      "name": "Wild Magic Feedback",
+      "_key": "!tables.results!8RjcealuGnn8dloA.MTUxPdpjAEKeViPx",
+      "documentUuid": "Compendium.mmm.injuries.Item.DTIAUdudOB28SxM9"
+    },
+    {
+      "_id": "m4YnstFN51ZMQIOS",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        8,
+        8
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/magic/movement/trail-streak-zigzag-teal.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>An errant thread of magic comes loose, slipping towards you and causing chaos. Roll on the Wild Magic Surge Table (PHB pg.104).</p>",
+      "name": "Wild Magic Surge",
+      "_key": "!tables.results!8RjcealuGnn8dloA.m4YnstFN51ZMQIOS",
+      "documentUuid": "Compendium.mmm.injuries.Item.rJEderKwy0KPLa2a"
+    },
+    {
+      "_id": "W1Ft2bd1SLI51gAl",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        9,
+        9
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/magic/movement/trail-streak-zigzag-teal.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>You can feel the magic pulse and resonate with the arcane residue that clings to you from the last spell you cast. There's a searing feeling deep in your mind. You lose the ability to cast spells from the same school of magic as the most recent spell you've cast for [[1d4]] days.</p>",
+      "name": "Null Scola",
+      "_key": "!tables.results!8RjcealuGnn8dloA.W1Ft2bd1SLI51gAl",
+      "documentUuid": "Compendium.mmm.injuries.Item.8noSUaYtJmdkIDhK"
+    },
+    {
+      "_id": "5QvTtWKXTKFWbQbc",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        10,
+        10
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/magic/movement/trail-streak-zigzag-teal.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>You feel an almost anticlimactic pop and then, nothing. All your spell slots are harmlessly expended. You may reprepare spells as usual after a long rest or as your class dictates.</p>",
+      "name": "Mana Discharge",
+      "_key": "!tables.results!8RjcealuGnn8dloA.5QvTtWKXTKFWbQbc",
+      "documentUuid": "Compendium.mmm.injuries.Item.uN9O52wUdAGEAISb"
+    },
+    {
+      "_id": "TtN76YZO4sdKH2he",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        11,
+        11
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/magic/movement/trail-streak-zigzag-teal.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>Roll on the @UUID[Compendium.mmm.mmmm.RollTable.5EyNHyXKtfhIlYCa]{Scar Chart}. Sometimes there are strange side effects when you deal with raw magical energy. This body part emits faint, misty whisps of arcane energy with the following color and faint magical aura (roll [[1d4]]): 1) Orange, Conjuration, 2) Red, Evocation, 3) Blue, Abjuration, 4) Green, Transmutation.</p>",
+      "name": "Lingering Aura",
+      "_key": "!tables.results!8RjcealuGnn8dloA.TtN76YZO4sdKH2he",
+      "documentUuid": "Compendium.mmm.injuries.Item.Uzg4qnzgKmEFpYcI"
+    },
+    {
+      "_id": "SVfKTmuMaYswE7XX",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        12,
+        12
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/magic/movement/trail-streak-zigzag-teal.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>Roll on the @UUID[Compendium.mmm.mmmm.RollTable.5EyNHyXKtfhIlYCa]{Scar Chart}. Sometimes there are strange side effects when you deal with raw magical energy. This body part emits faint, misty whisps of arcane energy with the following color and faint magical aura (roll [[1d4]]): 1) Black, Necromancy, 2) White, Enchantment, 3) Yellow, Illusion, 4) Violet, Divination.</p>",
+      "name": "Lingering Aura",
+      "_key": "!tables.results!8RjcealuGnn8dloA.SVfKTmuMaYswE7XX",
+      "documentUuid": "Compendium.mmm.injuries.Item.L1se5pFxXJpdJLIF"
+    },
+    {
+      "_id": "PYPnUAvwDiw2fUEl",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        13,
+        13
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/magic/movement/trail-streak-zigzag-teal.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>You feel the energy tug violently at your arcane essence until a portion of it tears loose. One of the highest level spell slots you have available to cast is harmlessly expended. You may reprepare this spell slot as usual after a long rest or as your class dictates.</p>",
+      "name": "Mana Burn",
+      "_key": "!tables.results!8RjcealuGnn8dloA.PYPnUAvwDiw2fUEl",
+      "documentUuid": "Compendium.mmm.injuries.Item.5ne8JQFoOuSed1Z0"
+    },
+    {
+      "_id": "zhFIFbNkjeu30sJa",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        14,
+        14
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/magic/movement/trail-streak-zigzag-teal.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>You feel the energy suck away your arcane essence and are left with a lingering feeling of emptiness. Two of the highest level spell slots you have available to cast are harmlessly expended. You may reprepare these spell slots as usual after a long rest or as your class dictates.</p>",
+      "name": "Mana Syphon",
+      "_key": "!tables.results!8RjcealuGnn8dloA.zhFIFbNkjeu30sJa",
+      "documentUuid": "Compendium.mmm.injuries.Item.U5QKhzDgZEZiqAJY"
+    },
+    {
+      "_id": "OBME27B4D4i5Uk9i",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        15,
+        15
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/magic/movement/trail-streak-zigzag-teal.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>Roll on the @UUID[Compendium.mmm.mmmm.RollTable.iP8lOROAIYARwcgk]{Large Limb Table}. When the arcane energy has been expelled and the pain recedes, you flex your limb and find some of that energy has decided to stick with you. Unarmed strikes and weapons wielded by this limb count as magical for the purpose of overcoming resistance and immunity to non- magical attacks and damage.</p>",
+      "name": "Imbuant Artus",
+      "_key": "!tables.results!8RjcealuGnn8dloA.OBME27B4D4i5Uk9i",
+      "documentUuid": "Compendium.mmm.injuries.Item.LFr27kEqjtG87DrX"
+    },
+    {
+      "_id": "jQl5kXu2R1Nu4iGI",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        16,
+        16
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/magic/movement/trail-streak-zigzag-teal.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>Your magical equipment fizzles and starts to emit a high-pitch whine. You're pretty sure it's not supposed to do that... Choose one of your magical items that has charges at random and roll [[1d4]]. That many charges are immediately expended (targets chosen at random, if necessary) and the item's maximum charges are permanently reduced by that amount (to a minimum of 1).</p>",
+      "name": "Dessico Vis",
+      "_key": "!tables.results!8RjcealuGnn8dloA.jQl5kXu2R1Nu4iGI",
+      "documentUuid": "Compendium.mmm.injuries.Item.GN3Bqp6kAIcHtluY"
+    },
+    {
+      "_id": "QdwZdOXzqPlNdYTc",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        17,
+        17
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/magic/movement/trail-streak-zigzag-teal.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>You shake your head from the force of the arcane blow and, it's gone. The knowledge, that is, not your head. You lose the ability to cast your most recently cast spell permanently. You can never cast this spell again by any means (including class features, racial traits, or magical items). If your class allows you to replace spells on your spell list when leveling up, you may replace this spell normally.</p>",
+      "name": "Anathema Magicka",
+      "_key": "!tables.results!8RjcealuGnn8dloA.QdwZdOXzqPlNdYTc",
+      "documentUuid": "Compendium.mmm.injuries.Item.RFGvmYyzPEFdui40"
+    },
+    {
+      "_id": "G13HxQbs8g2lH7lz",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        18,
+        18
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/magic/movement/trail-streak-zigzag-teal.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>You experience the feeling of something unlocking, something leaving, something returning, and then grinding bones, stretching muscles, and sliding viscera. When it's all over you're left gasping for breath, and you're different. You change race as if the Reincarnate spell had been cast on you.</p>",
+      "name": "En Vivo Reincarnem",
+      "_key": "!tables.results!8RjcealuGnn8dloA.G13HxQbs8g2lH7lz",
+      "documentUuid": "Compendium.mmm.injuries.Item.15wVquxCKUpNahMm"
+    }
+  ],
+  "formula": "3d6",
+  "replacement": true,
+  "displayRoll": true,
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "core": {}
+  },
+  "_id": "8RjcealuGnn8dloA",
+  "_stats": {
+    "coreVersion": "13.342",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": "RollTable.f5Nb5zUdHNft9jL0",
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "Cspu3pxFr7tu7SU7": 3
+  },
+  "_key": "!tables!8RjcealuGnn8dloA"
+}

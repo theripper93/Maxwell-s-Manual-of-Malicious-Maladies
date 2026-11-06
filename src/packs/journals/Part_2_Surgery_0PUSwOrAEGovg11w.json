@@ -1,0 +1,103 @@
+{
+  "_id": "0PUSwOrAEGovg11w",
+  "name": "Part 2: Surgery",
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "core": {}
+  },
+  "pages": [
+    {
+      "name": "Figure: Part 2: Surgery",
+      "type": "image",
+      "src": "https://i.imgur.com/nKHhlJ9.png",
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_id": "mwDhVzUz74enqYEG",
+      "system": {},
+      "image": {},
+      "text": {
+        "format": 1
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "sort": 0,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "category": null,
+      "_key": "!journal.pages!0PUSwOrAEGovg11w.mwDhVzUz74enqYEG"
+    },
+    {
+      "name": "Part 2: Surgery",
+      "type": "text",
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<h1>Part 2: Surgery</h1>\n<p><strong>Maxwell Says:</strong> \"Ah, surgery. Nothing makes you feel quite so alive as being elbow deep in blood and humors. Surgery, as you will find out my friend, is more of an art than a science. Something out of place? Excise it. Something need to be in place? Stitch it. Once you know the basics, my apt pupil, it's off on your own like a baby bird falling from the nest.</p>\n<h2>Prepping the Patient</h2>\n<p>Surgery pits the skill of the surgeon against the life force of the patient. Surgeries are meant to be difficult, and many of them may require multiple consecutive attempts before the surgery is successful. Be careful, however, as the longer the surgery takes, the more unstable your patient may become...</p>\n<p>Attempting surgery requires three things:</p>\n<p><strong>A Set of Surgeons' Tools.</strong> From catgut to clamps, from bandages to bone saws, surgeon's tools contain all the necessary equipment to attempt any surgery.</p>\n<p><strong>A Character Proficient with Surgeons' Tools.</strong> Surgery is a specialized skill and impossible to attempt by anyone untrained.</p>\n<p><strong>A Controlled Environment.</strong> This means a stable setting free of threats and distractions for the duration of the surgery. Ideally a dedicated room. At the least, a stable encampment.</p>\n<p><strong>Concentration.</strong> Surgery requires concentration, so the surgeon may not also concentrate on a spell at the same time as performing surgery.</p>\n<p> </p>\n<h2>Initiating Surgery</h2>\n<p>Once the three requirements above are met, a character may initiate the skill challenge. Each round of the skill challenge takes place as follows:</p>\n<p><strong>Surgeons' Tools Check.</strong> The character attempting the surgery makes an surgeons' tools ability check (generally using either Dexterity or Intelligence) opposed by the DC of the surgery. Each attempt takes 30 minutes. If the character meets or exceeds the DC, the surgery is a success. If they fail to meet the DC, they have not yet succeeded and may be able to reattempt.</p>\n<p><strong>Max Hit Point Damage.</strong> The character undergoing surgery takes damage to their maximum hit points equal to their class's hit die (for example, a Barbarian takes 1d12 of damage to their maximum hit points). If the DC is failed by 10 or more, the character undergoing surgery takes two hit dice worth of damage to their max hit points instead. This damage represents trauma to the body through surgery and loss of blood. It occurs whether or not the surgery was a success.</p>\n<p><strong>Decision to Continue.</strong> If the DC was not met, it increases (cumulatively) by 1. The surgeon may choose to either proceed with surgery and make another surgeons' tools ability check or abandon the surgery.</p>\n<p><strong>Dying Patients.</strong> If the character's maximum hit points are ever reduced to 0, they are dying. If the surgeon immediately abandons the surgery at this point they are stabilized and regain 1 to their max hit points. If the surgeon proceeds with the surgery, the character dies.</p>\n<p> </p>\n<h2>Assisting with Surgery</h2>\n<p><strong>Maxwell Says: </strong>\"I always strive to have the maximum available amount of hands possible, both in my help and on my patients.\"</p>\n<p><strong>Second Surgeon.</strong> A character may use the help action to assist with surgery only if they are also proficient in surgeons' tools. In this case, the surgeon rolls their surgeons' tools check with advantage.</p>\n<p><strong>Assessing the Patient</strong> A character proficient in Wisdom (Medicine) may assist the surgeon by assessing the patient's condition. After max hit point damage is done, they may roll a Wisdom (Medicine) ability check:</p>\n<table style=\"width:99.1477%;height:85px\" border=\"1\">\n<tbody>\n<tr style=\"height:17px\">\n<td style=\"width:21.6812%;height:17px\"><strong>Wisdom (Medicine) DC</strong></td>\n<td style=\"width:77.6024%;height:17px\"><strong>Information Known</strong></td>\n</tr>\n<tr style=\"height:17px\">\n<td style=\"width:21.6812%;height:17px\">8</td>\n<td style=\"width:77.6024%;height:17px\">You know if the patient has 0 HP and is dying.</td>\n</tr>\n<tr style=\"height:17px\">\n<td style=\"width:21.6812%;height:17px\">10</td>\n<td style=\"width:77.6024%;height:17px\">You know if the patient has 15 or less HP.</td>\n</tr>\n<tr style=\"height:17px\">\n<td style=\"width:21.6812%;height:17px\">15</td>\n<td style=\"width:77.6024%;height:17px\">You know if the patient is above or below half their original maximum health.</td>\n</tr>\n<tr style=\"height:17px\">\n<td style=\"width:21.6812%;height:17px\">20</td>\n<td style=\"width:77.6024%;height:17px\">You know the patient's exact HP</td>\n</tr>\n</tbody>\n</table>\n<p>If the surgeon chooses to assess the patient, they make their next surgeons' tools ability check with disadvantage. Splitting their attention between the patient's vital signs and the surgery itself is distracting and they need their whole focus to do their best surgical work.</p>\n<p><strong>Other Ways to Help. </strong>Any spell, ability, or mechanic that gives advantage or a bonus to ability checks functions as normal, but only pertains to a single surgeons' tools check unless its duration extends beyond 30 minutes. These include bonuses gained from effects such as (but not limited to) Inspiration, Bardic Inspiration, Guidance, Enhance Ability, and the Lucky feat.</p>\n<p> </p>\n<h2>Recovery</h2>\n<p>Damage to maximum hit points inflicted by surgery recovers at a rate of 1 class HD + the character's Constitution modifier per long rest. For example, a Barbarian with a Constitution score of 18 would recover 1d12 + 4 to their maximum hit points after a long rest. The Greater Restoration spell cures this damage to maximum hit points as usual.</p>\n<p> </p>\n<h2>Finding a Surgeon</h2>\n<p>The adventuring party should be able to find surgeons in any major city with little trouble, though they may not be cheap. The average surgeon charges 500 gold for a surgery, and the most skilled surgeons charge up to double that (though for a higher success rate, it may be worth the money).</p>\n<p>Finding a surgeon in a mid-sized town or smaller village is more difficult. There is a 50% chance an NPC proficient with surgeons' tools resides in any given mid-sized town, and only a 10% chance in a smaller village. Even if the party manages to find someone who knows their way around a scalpel, often these people are more used to treating injured farm animals than they are people.</p>\n<p> </p>\n<h1>List of Common Surgeries</h1>\n<p>Below is a collection of standard surgeries that you are able to perform with a set of surgeons' tools. The specific surgery required for each different injury is listed in the treatment area of the Lingering Injuries Tables.</p>\n<h2>General Surgery</h2>\n<p>General surgery is the most standard surgery and can be used for a wide variety of applications. Removing the broken tip of a weapon from inside someone, stitching back together a perforated bowel, or removing necrotic tissue so a wound can properly heal would all be considered General Surgery. General surgery has no additional rules or requirements unless they are listed in the treatment section of the injury.</p>\n<h2>Save Sense Surgery</h2>\n<p>A Save Sense Surgery attempts to save one of the character's senses, such as vision or hearing. Reconstructing a slashed ear or neutralizing acid splashed into an eye are examples of injuries requiring a Save Sense Surgery. Sensory structures are generally delicate and small, and as a result, all one is often able to do is repair the surrounding area, apply salves and bandages, and hope for the best. As a result, you may only ever make one surgeon's tool's ability check for a Save Sense Surgery. If it is not successful on the very first try, then the surgery was a failure. After a Save Sense Surgery, characters must wait 1d4 days before they remove the bandages and dressings to see if the surgery was successful.</p>\n<h2>Save Limb Surgery</h2>\n<p>A Save Limb Surgery is attempted when you want to reverse damage done to a limb or small appendage. Reattaching a severed limb, treating an immolated arm, or reconstructing a crushed leg are all examples of injuries requiring a Save Limb Surgery. When a limb is missing, the surgeon is racing against the clock. Each hour that the limb is considered missing before the surgery begins increases the DC of the surgery by 1. A Gentle Repose or Feign Death spell cast on the limb eliminates this DC increase for their duration. A limb recovering from this type of surgery is weaker than normal and takes a penalty similar to if the Resurrection spell had been cast on it: The limb takes a −4 penalty to all attack rolls, saving throws, and ability checks requiring its use. Every time the character finishes a long rest, the penalty is reduced by 1 until it disappears.</p>\n<h2>Amputation</h2>\n<p>Sometimes a body part is beyond saving. Sometimes a character is bitten in the arm by a werewolf and wants to prevent lycanthropy by any means necessary. For those occasions, there is Amputation. Amputation grants the missing condition to a body part. Amputation's DC is always 10. 29</p>"
+      },
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_id": "DmP2xbG9Sj39i8Ev",
+      "system": {},
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "sort": 0,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "category": null,
+      "_key": "!journal.pages!0PUSwOrAEGovg11w.DmP2xbG9Sj39i8Ev"
+    }
+  ],
+  "_stats": {
+    "coreVersion": "13.342",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": "JournalEntry.Jr4aQ8ksWV1Q77nE",
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "Cspu3pxFr7tu7SU7": 3
+  },
+  "categories": [],
+  "_key": "!journal!0PUSwOrAEGovg11w"
+}

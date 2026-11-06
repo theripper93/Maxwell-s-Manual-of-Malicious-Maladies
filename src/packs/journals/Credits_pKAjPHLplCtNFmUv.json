@@ -1,0 +1,103 @@
+{
+  "_id": "pKAjPHLplCtNFmUv",
+  "name": "Credits",
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "core": {}
+  },
+  "pages": [
+    {
+      "name": "Figure: Credits",
+      "type": "image",
+      "src": "https://i.imgur.com/nKHhlJ9.png",
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_id": "wG4iyUKaXm45gFSy",
+      "system": {},
+      "image": {},
+      "text": {
+        "format": 1
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "sort": 0,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "category": null,
+      "_key": "!journal.pages!pKAjPHLplCtNFmUv.wG4iyUKaXm45gFSy"
+    },
+    {
+      "name": "Credits",
+      "type": "text",
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<h1>Credits</h1>\n<p>Content, Design, and Editing: Thomas Pfeifer</p>\n<p>Art Direction and Consultation: Lakeysha</p>\n<p>Best Boy: Terry</p>\n<p>Special Thanks to: The Knights of Bohnenburg and Castle Ramrod: Lakeysha, Julie, Rachel, Mark, Adam, Rion, Erin, Hanna, and Jen - for being the eternal best. David, Michael, Stephan, and Heidi - for being awesome in general and letting Maxwell do what Maxwell does. And, of course, to my mom, dad, brother, and sister. All images and graphics contained in this material are free use and retrieved from: pixabay.com Cover font Nodesto Caps Condensed, retrieved from: https://drive.google.com/file/d/0B3104LRlxc9ecnJhVFFkbVlpS1U/view This work was designed using The Homebrewery. (https://homebrewery.naturalcrit.com/)</p>\n<p>Disclaimer: Maxwell's Manual of Malicious Maladies (and Miraculous Medicine) is unofficial Fan Content permitted under the Fan Content Policy. Not approved/endorsed by Wizards. Portions of the materials used are property of Wizards of the Coast. ©Wizards of the Coast LLC.</p>\n<p>This work contains material that is copyright Wizards of the Coast and/or other authors. All other original material in this work is copyright 2021 by Thomas Pfeifer.</p>\n<p>Maxwell's Manual of Malicious Maladies contains descriptions of injuries and violence potentially resulting in permanent disability.This work makes use of humor and hyperbole in reference to this content. The designer of this work understands that it describes aspects of physical and mental disability and has made every effort to avoid language and ideas that are ableist. At core is intended to be empowering and promote empathy and understanding for people with physical and mental disabilities.</p>\n<p> </p>\n<h2>Note from the module developer</h2>\n<p>The contents of the journals and items included in this module where all created from the content of the original hombrew <strong>Maxwell's Manual of Malicious Maladies. </strong>All credits and information up to this point were included by the original author.</p>\n<p>All the code and automation and other original material(not included in the original homebrew) in this work is copyright 2021 by theripper93.</p>"
+      },
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_id": "S81tJ0TSFuU35f4Z",
+      "system": {},
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "sort": 0,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "category": null,
+      "_key": "!journal.pages!pKAjPHLplCtNFmUv.S81tJ0TSFuU35f4Z"
+    }
+  ],
+  "_stats": {
+    "coreVersion": "13.342",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": "JournalEntry.QN5K345PaPTzVhwV",
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "Cspu3pxFr7tu7SU7": 3
+  },
+  "categories": [],
+  "_key": "!journal!pKAjPHLplCtNFmUv"
+}

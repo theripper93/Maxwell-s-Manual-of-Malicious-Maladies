@@ -1,3 +1,86 @@
 {
-    "MODULE.hello": "hello"
+    "mmm": {
+        "title": "Maxwell's Manual of Malicious Maladies",
+        "settings": {
+            "applyOnDamage": {
+                "name": "On Damage",
+                "hint": "Prompt for a lingering injury roll when a single instance of damage is at least the threshold below."
+            },
+            "damageThreshold": {
+                "name": "Damage Threshold",
+                "hint": "Fraction of maximum hit points a single instance of damage must reach to prompt a lingering injury roll (0.5 = half)."
+            },
+            "applyOnDown": {
+                "name": "On Unconscious",
+                "hint": "Prompt for a lingering injury roll when damage brings an actor to 0 hit points."
+            },
+            "applyOnCritSave": {
+                "name": "On Fumbled Saving Throw",
+                "hint": "Prompt for a lingering injury roll when damage comes from a saving throw the actor rolled a natural 1 on."
+            },
+            "applyOnCrit": {
+                "name": "On Critical Hit",
+                "hint": "Prompt for a lingering injury roll when the actor takes damage from a critical hit."
+            },
+            "triggerNpc": {
+                "name": "Trigger Injuries on NPCs",
+                "hint": "Enables the automations on actors without a player owner."
+            },
+            "selfdestruct": {
+                "name": "Remove Expired Injuries",
+                "hint": "When all of an injury's effects expire, delete the injury item from the actor."
+            },
+            "autoApplyOngoing": {
+                "name": "Auto Apply Ongoing Damage",
+                "hint": "Automatically apply ongoing injury damage (burning, poison, bleeding) at turn start/end. When disabled a damage card is posted to apply manually."
+            }
+        },
+        "dialog": {
+            "chooseTable": "Choose a table:",
+            "roll": "Roll Injury",
+            "confirm": "Confirm",
+            "sustained": "{actor} sustained a lingering injury.",
+            "reason": "Reason",
+            "rollOnTable": "Roll on the <strong>{damage} Damage</strong> table?",
+            "selectDamageType": "Select the correct <strong>Damage Type</strong> before rolling on the table.",
+            "damagePrompt": "How much damage caused <strong>{injury}</strong>? Some injury effects scale with it."
+        },
+        "reasons": {
+            "downed": "Downed",
+            "damage": "Damage exceeded the threshold of maximum hit points",
+            "crit": "Critical Hit",
+            "critSave": "Fumbled Saving Throw"
+        },
+        "chat": {
+            "apply": "Apply Lingering Injury",
+            "location": "Location",
+            "applied": "{injury} applied to {actor}.",
+            "duration": "Duration",
+            "instant": "Instantaneous",
+            "untilTreated": "Until treated or removed",
+            "ongoingDamage": "{injury}: ongoing damage",
+            "ongoingExhaustion": "{injury}: gains {levels} level(s) of exhaustion."
+        },
+        "location": {
+            "left": "Left",
+            "right": "Right",
+            "arm": "Arm",
+            "eye": "Eye",
+            "ear": "Ear"
+        },
+        "units": {
+            "years": { "one": "year", "other": "years" },
+            "months": { "one": "month", "other": "months" },
+            "days": { "one": "day", "other": "days" },
+            "hours": { "one": "hour", "other": "hours" },
+            "minutes": { "one": "minute", "other": "minutes" },
+            "seconds": { "one": "second", "other": "seconds" },
+            "rounds": { "one": "round", "other": "rounds" },
+            "turns": { "one": "turn", "other": "turns" }
+        },
+        "notifications": {
+            "noActor": "No token selected or actor found!",
+            "noInjury": "The injury linked to this result could not be found."
+        }
+    }
 }

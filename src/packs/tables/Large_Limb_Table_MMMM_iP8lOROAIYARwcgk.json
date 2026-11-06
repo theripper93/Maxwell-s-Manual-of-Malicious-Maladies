@@ -1,0 +1,552 @@
+{
+  "name": "Large Limb Table - [MMMM]",
+  "img": "icons/skills/wounds/bone-broken-marrow-red.webp",
+  "results": [
+    {
+      "_id": "D1uvu62JqACpkRER",
+      "type": "text",
+      "img": "icons/skills/wounds/bone-broken-marrow-red.webp",
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Entire Left Arm",
+      "name": "",
+      "_key": "!tables.results!iP8lOROAIYARwcgk.D1uvu62JqACpkRER"
+    },
+    {
+      "_id": "FjlB556neNg2zVsS",
+      "type": "text",
+      "img": "icons/skills/wounds/bone-broken-marrow-red.webp",
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Left Arm Above Elbow",
+      "name": "",
+      "_key": "!tables.results!iP8lOROAIYARwcgk.FjlB556neNg2zVsS"
+    },
+    {
+      "_id": "ZE75Xd5sjYQuFQYK",
+      "type": "text",
+      "img": "icons/skills/wounds/bone-broken-marrow-red.webp",
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Left Arm Below Elbow",
+      "name": "",
+      "_key": "!tables.results!iP8lOROAIYARwcgk.ZE75Xd5sjYQuFQYK"
+    },
+    {
+      "_id": "0OjrUiHFfr8uaxGg",
+      "type": "text",
+      "img": "icons/skills/wounds/bone-broken-marrow-red.webp",
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Left Hand",
+      "name": "",
+      "_key": "!tables.results!iP8lOROAIYARwcgk.0OjrUiHFfr8uaxGg"
+    },
+    {
+      "_id": "9OfZUqG7rjqn3dZK",
+      "type": "text",
+      "img": "icons/skills/wounds/bone-broken-marrow-red.webp",
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Left Hand",
+      "name": "",
+      "_key": "!tables.results!iP8lOROAIYARwcgk.9OfZUqG7rjqn3dZK"
+    },
+    {
+      "_id": "ZDw5zzST9JzMBxMU",
+      "type": "text",
+      "img": "icons/skills/wounds/bone-broken-marrow-red.webp",
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Entire Right Arm",
+      "name": "",
+      "_key": "!tables.results!iP8lOROAIYARwcgk.ZDw5zzST9JzMBxMU"
+    },
+    {
+      "_id": "fkRYqC0IUum7pWtF",
+      "type": "text",
+      "img": "icons/skills/wounds/bone-broken-marrow-red.webp",
+      "weight": 1,
+      "range": [
+        7,
+        7
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Right Arm Above Elbow",
+      "name": "",
+      "_key": "!tables.results!iP8lOROAIYARwcgk.fkRYqC0IUum7pWtF"
+    },
+    {
+      "_id": "PZiY1CQ0zSCia0Xo",
+      "type": "text",
+      "img": "icons/skills/wounds/bone-broken-marrow-red.webp",
+      "weight": 1,
+      "range": [
+        8,
+        8
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Right Arm Below Elbow",
+      "name": "",
+      "_key": "!tables.results!iP8lOROAIYARwcgk.PZiY1CQ0zSCia0Xo"
+    },
+    {
+      "_id": "6yoV0ayVAGM0ofXO",
+      "type": "text",
+      "img": "icons/skills/wounds/bone-broken-marrow-red.webp",
+      "weight": 1,
+      "range": [
+        9,
+        9
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Right Hand",
+      "name": "",
+      "_key": "!tables.results!iP8lOROAIYARwcgk.6yoV0ayVAGM0ofXO"
+    },
+    {
+      "_id": "v0iQ6HpYrLEODHjR",
+      "type": "text",
+      "img": "icons/skills/wounds/bone-broken-marrow-red.webp",
+      "weight": 1,
+      "range": [
+        10,
+        10
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Right Hand",
+      "name": "",
+      "_key": "!tables.results!iP8lOROAIYARwcgk.v0iQ6HpYrLEODHjR"
+    },
+    {
+      "_id": "mNMXpmlU56SvzN4o",
+      "type": "text",
+      "img": "icons/skills/wounds/bone-broken-marrow-red.webp",
+      "weight": 1,
+      "range": [
+        11,
+        11
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Entire Left Leg",
+      "name": "",
+      "_key": "!tables.results!iP8lOROAIYARwcgk.mNMXpmlU56SvzN4o"
+    },
+    {
+      "_id": "9uif6UgcftzVZrqA",
+      "type": "text",
+      "img": "icons/skills/wounds/bone-broken-marrow-red.webp",
+      "weight": 1,
+      "range": [
+        12,
+        12
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Left Leg Above Knee",
+      "name": "",
+      "_key": "!tables.results!iP8lOROAIYARwcgk.9uif6UgcftzVZrqA"
+    },
+    {
+      "_id": "eWI2mWSVc7oc1BlC",
+      "type": "text",
+      "img": "icons/skills/wounds/bone-broken-marrow-red.webp",
+      "weight": 1,
+      "range": [
+        13,
+        13
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Left Leg Below Knee",
+      "name": "",
+      "_key": "!tables.results!iP8lOROAIYARwcgk.eWI2mWSVc7oc1BlC"
+    },
+    {
+      "_id": "6T6CMz0Ib4oWa5IK",
+      "type": "text",
+      "img": "icons/skills/wounds/bone-broken-marrow-red.webp",
+      "weight": 1,
+      "range": [
+        14,
+        14
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Left Foot",
+      "name": "",
+      "_key": "!tables.results!iP8lOROAIYARwcgk.6T6CMz0Ib4oWa5IK"
+    },
+    {
+      "_id": "NZ0HHb6cZX0Di1bt",
+      "type": "text",
+      "img": "icons/skills/wounds/bone-broken-marrow-red.webp",
+      "weight": 1,
+      "range": [
+        15,
+        15
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Left Foot",
+      "name": "",
+      "_key": "!tables.results!iP8lOROAIYARwcgk.NZ0HHb6cZX0Di1bt"
+    },
+    {
+      "_id": "ODKwx8KYwzm2AHg5",
+      "type": "text",
+      "img": "icons/skills/wounds/bone-broken-marrow-red.webp",
+      "weight": 1,
+      "range": [
+        16,
+        16
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Entire Right Leg",
+      "name": "",
+      "_key": "!tables.results!iP8lOROAIYARwcgk.ODKwx8KYwzm2AHg5"
+    },
+    {
+      "_id": "8Uj7rl2Ze270YCFj",
+      "type": "text",
+      "img": "icons/skills/wounds/bone-broken-marrow-red.webp",
+      "weight": 1,
+      "range": [
+        17,
+        17
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Right leg Above Knee",
+      "name": "",
+      "_key": "!tables.results!iP8lOROAIYARwcgk.8Uj7rl2Ze270YCFj"
+    },
+    {
+      "_id": "NznBowBebJrM6T3I",
+      "type": "text",
+      "img": "icons/skills/wounds/bone-broken-marrow-red.webp",
+      "weight": 1,
+      "range": [
+        18,
+        18
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Right Leg Below Knee",
+      "name": "",
+      "_key": "!tables.results!iP8lOROAIYARwcgk.NznBowBebJrM6T3I"
+    },
+    {
+      "_id": "4HA2t7yPTwEus14L",
+      "type": "text",
+      "img": "icons/skills/wounds/bone-broken-marrow-red.webp",
+      "weight": 1,
+      "range": [
+        19,
+        19
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Right Foot",
+      "name": "",
+      "_key": "!tables.results!iP8lOROAIYARwcgk.4HA2t7yPTwEus14L"
+    },
+    {
+      "_id": "NJCshXCrn3IVELqy",
+      "type": "text",
+      "img": "icons/skills/wounds/bone-broken-marrow-red.webp",
+      "weight": 1,
+      "range": [
+        20,
+        20
+      ],
+      "drawn": false,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "Right Foot",
+      "name": "",
+      "_key": "!tables.results!iP8lOROAIYARwcgk.NJCshXCrn3IVELqy"
+    }
+  ],
+  "formula": "1d20",
+  "replacement": true,
+  "displayRoll": true,
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "core": {}
+  },
+  "_id": "iP8lOROAIYARwcgk",
+  "_stats": {
+    "coreVersion": "13.342",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": "RollTable.5eqNQU4YRCf2ZASb",
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "Cspu3pxFr7tu7SU7": 3
+  },
+  "description": "",
+  "_key": "!tables!iP8lOROAIYARwcgk"
+}

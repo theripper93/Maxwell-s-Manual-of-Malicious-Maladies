@@ -1,0 +1,37 @@
+{
+  "_id": "FhCwNWb1qDsdOlod",
+  "name": "Knocked Around",
+  "type": "feat",
+  "img": "icons/magic/sonic/explosion-shock-wave-teal.webp",
+  "system": {
+    "description": {
+      "value": "<p>The force of the blast has knocked you backwards. You are pushed away from the source of the damage an amount of feet scaled to the damage from the lingering injury: 1-10 damage (5 ft.), 11-20 damage (10 ft.), 21-30 damage (15 ft.), 31-40 damage (20 ft.), &gt;40 damage (25 ft.).</p>",
+      "chat": ""
+    },
+    "source": {
+      "book": "Maxwell's Manual of Malicious Maladies",
+      "custom": ""
+    },
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "requirements": "Thunder Lingering Injury"
+  },
+  "effects": [],
+  "folder": "SP14yKoZanH0tu1K",
+  "sort": 1300,
+  "flags": {
+    "mmm": {
+      "injury": true,
+      "damageType": "thunder",
+      "instant": true
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  },
+  "_key": "!items!FhCwNWb1qDsdOlod"
+}

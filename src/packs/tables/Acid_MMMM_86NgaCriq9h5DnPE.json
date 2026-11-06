@@ -1,0 +1,470 @@
+{
+  "name": "Acid - [MMMM]",
+  "img": "icons/magic/acid/dissolve-drip-droplet-smoke.webp",
+  "description": "A damage so nice, it burns you twice. Acid damage hurts you, but it also eats through your equipment if you're not careful. Any adventurer who has had the misfortune to come face-to-face with a Black Ooze can tell you that. Magical equipment can generally recover from this damage...but dammit Jim, I'm a plague doctor, not a blacksmith. I stitch flesh, not clothing. You will have look to other expertise if you want your\nbelongings repaired.",
+  "results": [
+    {
+      "_id": "suseSy7RPk0Tmk55",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/magic/acid/dissolve-drip-droplet-smoke.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>Acid has splashed over both of your eyes. You are <strong>&Reference[blinded]{blinded}</strong> and both your eyes are <strong>nonfunctional</strong>. If you do not receive treatment within 30 minutes your vision will be permanently <strong>missing</strong>.</p><p><em>Treatment</em> - A DC 20 Save Sense Surgery</p>",
+      "name": "Ocular Corrosion",
+      "_key": "!tables.results!86NgaCriq9h5DnPE.suseSy7RPk0Tmk55",
+      "documentUuid": "Compendium.mmm.injuries.Item.cQfVucRkiIr8jfxJ"
+    },
+    {
+      "_id": "TVBki4p4T3wU0ZS1",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/magic/acid/dissolve-drip-droplet-smoke.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>Roll on the @UUID[Compendium.mmm.mmmm.RollTable.iP8lOROAIYARwcgk]{Large Limb Table}. Acid coats your limb, and you hear the sizzle as it starts to dissolve. This limb is <strong>nonfunctional</strong>. If you do not receive treatment within 30 minutes, the limb dissolves away and is <strong>missing</strong>.</p><p><em>Treatment</em> - A DC 20 Save Limb Surgery. You get 1 check for this surgery; if you do not meet the DC on the first check, the limb is lost.</p>",
+      "name": "Dissolved Limb",
+      "_key": "!tables.results!86NgaCriq9h5DnPE.TVBki4p4T3wU0ZS1",
+      "documentUuid": "Compendium.mmm.injuries.Item.F99iIEP9a1Eyum7w"
+    },
+    {
+      "_id": "rapzjtMGK4VLX4wf",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/magic/acid/dissolve-drip-droplet-smoke.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>Roll on the @UUID[Compendium.mmm.mmmm.RollTable.vG8gsjqxGB7y9cSD]{Small Appendage Table}. Acid splashes over your appendage and sizzles as it begins to dissolve. This appendage is <strong>nonfunctional</strong>. If you do not receive treatment within 30 minutes, the appendage dissolves away and is <strong>missing</strong>.</p><p><em>Treatment</em> - A DC 20 Save Limb Surgery. You get 1 check for this surgery; if you do not meet the DC on the first check, the appendage is lost.</p>",
+      "name": "Dissolved Appendage",
+      "_key": "!tables.results!86NgaCriq9h5DnPE.rapzjtMGK4VLX4wf",
+      "documentUuid": "Compendium.mmm.injuries.Item.EVyTfL4pCoQ3QAC5"
+    },
+    {
+      "_id": "8jJIfpgD0nxBFF7u",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/magic/acid/dissolve-drip-droplet-smoke.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>Your weapon has been coated in corrosive acid and is getting duller by the second. Each round your weapon takes a cumulative -1 to Damage Rolls. When a mundane weapon reaches a -5 penalty it is destroyed. When a magic weapon reaches a -5 penalty all magical effects are suppressed for [[1d4]] days (after which the penalty disappears and the weapon functions normally).</p>",
+      "name": "Corroded Weapon",
+      "_key": "!tables.results!86NgaCriq9h5DnPE.8jJIfpgD0nxBFF7u",
+      "documentUuid": "Compendium.mmm.injuries.Item.U3yu96lldrg294iT"
+    },
+    {
+      "_id": "6nva89TqTbTkG7Je",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        7,
+        7
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/magic/acid/dissolve-drip-droplet-smoke.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>Any friendly character you touch or otherwise interact with physically takes acid damage equal to your level. Creatures you grapple take this damage at the beginning of their turn. This effect lasts 1 minute.</p><p><em>Treatment</em> - A [[/skill medicine 15]] check ends this effect. You may reattempt this check.</p>",
+      "name": "Caustic Coating",
+      "_key": "!tables.results!86NgaCriq9h5DnPE.6nva89TqTbTkG7Je",
+      "documentUuid": "Compendium.mmm.injuries.Item.E8op63o7hvqWFV29"
+    },
+    {
+      "_id": "4H4kEMLGjMxyDyr5",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        8,
+        8
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/magic/acid/dissolve-drip-droplet-smoke.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>The acid has left you with a superficial, but painful burn. You take 1 point of acid damage per 5 feet of movement while on initiative.</p><p><em>Treatment</em> - A [[/skill medicine 13]] check ends this effect.</p>",
+      "name": "Caustic Burn",
+      "_key": "!tables.results!86NgaCriq9h5DnPE.4H4kEMLGjMxyDyr5",
+      "documentUuid": "Compendium.mmm.injuries.Item.ckLBg5ZeYjJ45b0v"
+    },
+    {
+      "_id": "ss3rLGdJAupNTzCt",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        9,
+        9
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/magic/acid/dissolve-drip-droplet-smoke.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>Your arcane focus or spell component pouch is dissolved and destroyed. If your arcane focus is magical, it instead has its magical effects suppressed for [[1d4]] days and is unusable during that time.</p>",
+      "name": "Dissolved Arcane Medium",
+      "_key": "!tables.results!86NgaCriq9h5DnPE.ss3rLGdJAupNTzCt",
+      "documentUuid": "Compendium.mmm.injuries.Item.fEwQPOzKcjEadDda"
+    },
+    {
+      "_id": "ijPpSVT8cX1MRNgG",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        10,
+        10
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/magic/acid/dissolve-drip-droplet-smoke.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>Your shield is dissolved and destroyed. If your shield is magical, it instead has its magical effects suppressed for [[1d4]] days and is unusable during that time.</p>",
+      "name": "Dissolved Shield",
+      "_key": "!tables.results!86NgaCriq9h5DnPE.ijPpSVT8cX1MRNgG",
+      "documentUuid": "Compendium.mmm.injuries.Item.wBaJp5JT0iOjiQVu"
+    },
+    {
+      "_id": "MNBtXTArqkFFZ3YG",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        11,
+        11
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/magic/acid/dissolve-drip-droplet-smoke.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>Roll on the @UUID[Compendium.mmm.mmmm.RollTable.5EyNHyXKtfhIlYCa]{Scar Chart}. You have a silvery white speckled scar as a result of acid splashing on that area of your body.</p>",
+      "name": "Dappled Scar",
+      "_key": "!tables.results!86NgaCriq9h5DnPE.MNBtXTArqkFFZ3YG",
+      "documentUuid": "Compendium.mmm.injuries.Item.tmjBbGdxPWBqM0xW"
+    },
+    {
+      "_id": "ZPVbTc1a7OJmxAyZ",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        12,
+        12
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/magic/acid/dissolve-drip-droplet-smoke.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>Your clothes have been corroded to the point of uselessness. If they are magic, they instead have any magical effects suppressed for [[1d4]] days. You are luckily unharmed, apart from a potentially awkward situation with your party members.</p>",
+      "name": "Corroded Clothes",
+      "_key": "!tables.results!86NgaCriq9h5DnPE.ZPVbTc1a7OJmxAyZ",
+      "documentUuid": "Compendium.mmm.injuries.Item.FtsxfkWhYScMuGLV"
+    },
+    {
+      "_id": "ztlCITgANLUGzBMJ",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        13,
+        13
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/magic/acid/dissolve-drip-droplet-smoke.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>You've inhaled the acid's toxic fumes causing you to cough and hack violently. You are <strong>&Reference[incapacitated]{incapacitated}</strong> until the end of your next turn.</p>",
+      "name": "Toxic Inhalation",
+      "_key": "!tables.results!86NgaCriq9h5DnPE.ztlCITgANLUGzBMJ",
+      "documentUuid": "Compendium.mmm.injuries.Item.lmTyKn0c6hHUylZX"
+    },
+    {
+      "_id": "5xYxYwmHNBEqQUIv",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        14,
+        14
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/magic/acid/dissolve-drip-droplet-smoke.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>You've deeply inhaled the acid's toxic fumes causing you to go into a coughing fit. You are <strong>&Reference[incapacitated]{incapacitated}</strong> for [[1d4]] rounds.</p>",
+      "name": "Caustic Lung",
+      "_key": "!tables.results!86NgaCriq9h5DnPE.5xYxYwmHNBEqQUIv",
+      "documentUuid": "Compendium.mmm.injuries.Item.jYMxJEbqragvcoj1"
+    },
+    {
+      "_id": "0NzG2B900AuqiGOD",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        15,
+        15
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/magic/acid/dissolve-drip-droplet-smoke.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>Roll on the @UUID[Compendium.mmm.mmmm.RollTable.5EyNHyXKtfhIlYCa]{Scar Chart}. The acid injury has resulted in a scar that is gnarled and scaly with a light sheen the same color as the acid that damaged you. You gain +2 Natural Armor from it, or +1 if you already have a Natural Armor bonus.</p>",
+      "name": "Scaly Scar",
+      "_key": "!tables.results!86NgaCriq9h5DnPE.0NzG2B900AuqiGOD",
+      "documentUuid": "Compendium.mmm.injuries.Item.B788FbEMu4fj27LB"
+    },
+    {
+      "_id": "k2Sv7O6CBCwMkbL7",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        16,
+        16
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/magic/acid/dissolve-drip-droplet-smoke.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>The acid has covered your armor, slowly eating away at it. Each turn your armor takes a cumulative -1 penalty to AC. When the armor's AC reaches 10, it is destroyed. If the armor is magical, its magical effects are instead suppressed for [[1d6]] days and it is unusable during this time (after which the penalty disappears and the armor functions normally).</p>",
+      "name": "Corroded Armor",
+      "_key": "!tables.results!86NgaCriq9h5DnPE.k2Sv7O6CBCwMkbL7",
+      "documentUuid": "Compendium.mmm.injuries.Item.YHkM24LfyMLdwAD7"
+    },
+    {
+      "_id": "wiovK1an4WFoH6Op",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        17,
+        17
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/magic/acid/dissolve-drip-droplet-smoke.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>Acid has eaten into the essence of one of your magic items, expelling its arcane energy and rendering it mundane. Choose a magic item on your person at random. That item loses all magical effects permanently. If the item's rarity is Legendary or Artifact, its magical effects are instead suppressed for [[3d6]] days (and return to normal after this period).</p>",
+      "name": "Dissolved Magic",
+      "_key": "!tables.results!86NgaCriq9h5DnPE.wiovK1an4WFoH6Op",
+      "documentUuid": "Compendium.mmm.injuries.Item.g5MTkNtAkdzOjMsf"
+    },
+    {
+      "_id": "FYywmaJdRzJrhFqw",
+      "type": "document",
+      "weight": 1,
+      "range": [
+        18,
+        18
+      ],
+      "drawn": false,
+      "flags": {},
+      "img": "icons/magic/acid/dissolve-drip-droplet-smoke.webp",
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "description": "<p>The acid's caustic fumes have wreaked havoc on your vocal cords. Your voice is <strong>nonfunctional</strong> and you are mute. If you do not receive treatment within 30 minutes it will be permanently <strong>missing</strong>.</p><p><em>Treatment<em> - A DC 19 Save Sense Surgery</em></em></p>",
+      "name": "Corroded Vocal Cords",
+      "_key": "!tables.results!86NgaCriq9h5DnPE.FYywmaJdRzJrhFqw",
+      "documentUuid": "Compendium.mmm.injuries.Item.WWAdXxyYno3SBvWy"
+    }
+  ],
+  "formula": "3d6",
+  "replacement": true,
+  "displayRoll": true,
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "core": {}
+  },
+  "_id": "86NgaCriq9h5DnPE",
+  "_stats": {
+    "coreVersion": "13.342",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": "RollTable.2sfRAdsQzMAml9Wy",
+    "duplicateSource": null,
+    "exportSource": {
+      "worldId": "tester",
+      "uuid": null,
+      "coreVersion": "0.8.9",
+      "systemId": "dnd5e",
+      "systemVersion": "1.4.3"
+    }
+  },
+  "ownership": {
+    "default": 0,
+    "Cspu3pxFr7tu7SU7": 3
+  },
+  "_key": "!tables!86NgaCriq9h5DnPE"
+}

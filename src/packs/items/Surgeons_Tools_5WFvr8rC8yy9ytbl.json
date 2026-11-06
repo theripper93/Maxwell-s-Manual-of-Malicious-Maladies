@@ -1,0 +1,153 @@
+{
+  "name": "Surgeons' Tools",
+  "type": "tool",
+  "img": "icons/tools/hand/saw-surgical-steel-grey.webp",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "dnd5e": {
+      "persistSourceMigration": true
+    }
+  },
+  "_id": "5WFvr8rC8yy9ytbl",
+  "_stats": {
+    "coreVersion": "13.342",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": "Item.uuTDoKEbCkSCwJH7",
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "Cspu3pxFr7tu7SU7": 3
+  },
+  "system": {
+    "description": {
+      "value": "<p>This black leather bag contains everything you'd need to perform surgery, including anesthetics, scalpels, clamps, bandages, salves, and catgut sutures imbued with healing potion residue to help speed healing and prevent infection. Proficiency with these tools allows you to add your proficiency bonus to any ability check you make to perform surgery. Proficiency with surgeons' tool is required to attempt surgery.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "MMMM pg. 31",
+      "revision": 1,
+      "rules": "2024"
+    },
+    "quantity": 1,
+    "weight": {
+      "value": 1,
+      "units": "lb"
+    },
+    "price": {
+      "value": 0,
+      "denomination": "gp"
+    },
+    "attunement": "",
+    "equipped": false,
+    "identified": true,
+    "ability": "int",
+    "chatFlavor": "",
+    "proficient": 0,
+    "bonus": "",
+    "activities": {
+      "dnd5eactivity000": {
+        "_id": "dnd5eactivity000",
+        "type": "check",
+        "activation": {
+          "type": "",
+          "value": null,
+          "condition": "",
+          "override": false
+        },
+        "consumption": {
+          "targets": [],
+          "scaling": {
+            "allowed": false,
+            "max": ""
+          },
+          "spellSlot": true
+        },
+        "description": {
+          "chatFlavor": "",
+          "value": ""
+        },
+        "duration": {
+          "concentration": false,
+          "units": "inst",
+          "special": "",
+          "expiry": null,
+          "override": false
+        },
+        "effects": [],
+        "range": {
+          "units": "self",
+          "special": "",
+          "override": false
+        },
+        "target": {
+          "template": {
+            "count": "",
+            "contiguous": false,
+            "type": "",
+            "size": "",
+            "width": "",
+            "height": "",
+            "units": "ft",
+            "stationary": false
+          },
+          "affects": {
+            "count": "",
+            "type": "",
+            "choice": false,
+            "special": ""
+          },
+          "prompt": true,
+          "override": false
+        },
+        "uses": {
+          "spent": 0,
+          "max": "",
+          "recovery": []
+        },
+        "check": {
+          "ability": "int",
+          "associated": [],
+          "dc": {},
+          "visible": true
+        },
+        "img": null,
+        "sort": 0,
+        "behaviors": [],
+        "flags": {},
+        "visibility": {
+          "level": {},
+          "requireAttunement": false,
+          "requireIdentification": false,
+          "requireMagic": false
+        }
+      }
+    },
+    "unidentified": {
+      "description": ""
+    },
+    "type": {
+      "value": "",
+      "baseItem": "herb"
+    },
+    "rarities": [
+      "common"
+    ],
+    "uses": {
+      "spent": 0,
+      "recovery": []
+    },
+    "identifier": "",
+    "container": null,
+    "attuned": false,
+    "properties": []
+  },
+  "_key": "!items!5WFvr8rC8yy9ytbl"
+}

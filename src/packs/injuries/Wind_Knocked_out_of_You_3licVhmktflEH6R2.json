@@ -1,0 +1,43 @@
+{
+  "_id": "3licVhmktflEH6R2",
+  "name": "Wind Knocked out of You",
+  "type": "feat",
+  "img": "icons/skills/melee/strike-hammer-destructive-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>You gasp for breath as the blow knocks you flat onto your back. You are <strong>&Reference[prone]{prone}</strong> and you lose <strong>concentration</strong>.</p>",
+      "chat": ""
+    },
+    "source": {
+      "book": "Maxwell's Manual of Malicious Maladies",
+      "custom": ""
+    },
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "requirements": "Bludgeoning Lingering Injury"
+  },
+  "effects": [],
+  "folder": "Wc8yj8xMGuNmySgj",
+  "sort": 700,
+  "flags": {
+    "mmm": {
+      "injury": true,
+      "damageType": "bludgeoning",
+      "instant": true,
+      "onApply": {
+        "statuses": [
+          "prone"
+        ],
+        "breakConcentration": true
+      }
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  },
+  "_key": "!items!3licVhmktflEH6R2"
+}

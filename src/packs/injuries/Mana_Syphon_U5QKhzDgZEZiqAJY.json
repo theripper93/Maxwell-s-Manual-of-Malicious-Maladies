@@ -1,0 +1,40 @@
+{
+  "_id": "U5QKhzDgZEZiqAJY",
+  "name": "Mana Syphon",
+  "type": "feat",
+  "img": "icons/magic/movement/trail-streak-zigzag-teal.webp",
+  "system": {
+    "description": {
+      "value": "<p>You feel the energy suck away your arcane essence and are left with a lingering feeling of emptiness. Two of the highest level spell slots you have available to cast are harmlessly expended. You may reprepare these spell slots as usual after a long rest or as your class dictates.</p>",
+      "chat": ""
+    },
+    "source": {
+      "book": "Maxwell's Manual of Malicious Maladies",
+      "custom": ""
+    },
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "requirements": "Force Lingering Injury"
+  },
+  "effects": [],
+  "folder": "SsBTrqUBbEVlKT2I",
+  "sort": 1400,
+  "flags": {
+    "mmm": {
+      "injury": true,
+      "damageType": "force",
+      "instant": true,
+      "onApply": {
+        "expendSlots": 2
+      }
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  },
+  "_key": "!items!U5QKhzDgZEZiqAJY"
+}

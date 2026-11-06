@@ -1,0 +1,37 @@
+{
+  "_id": "pKxmf8XyaPdqSsBX",
+  "name": "Chronoscarred",
+  "type": "feat",
+  "img": "icons/magic/unholy/strike-body-explode-disintegrate.webp",
+  "system": {
+    "description": {
+      "value": "<p>Every cell in your body protests as they are assaulted by the flow of time itself. Your body ages [[1d10]] years. Your mind is unaffected.</p>",
+      "chat": ""
+    },
+    "source": {
+      "book": "Maxwell's Manual of Malicious Maladies",
+      "custom": ""
+    },
+    "type": {
+      "value": "",
+      "subtype": ""
+    },
+    "requirements": "Necrotic Lingering Injury"
+  },
+  "effects": [],
+  "folder": "1nRoeyF7X9eMLmxS",
+  "sort": 1700,
+  "flags": {
+    "mmm": {
+      "injury": true,
+      "damageType": "necrotic",
+      "instant": true
+    }
+  },
+  "_stats": {
+    "coreVersion": "14.369",
+    "systemId": "dnd5e",
+    "systemVersion": "6.0.6"
+  },
+  "_key": "!items!pKxmf8XyaPdqSsBX"
+}

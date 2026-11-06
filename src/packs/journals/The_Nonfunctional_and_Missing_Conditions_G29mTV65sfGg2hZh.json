@@ -1,0 +1,103 @@
+{
+  "name": "The Nonfunctional and Missing Conditions",
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "core": {}
+  },
+  "_id": "G29mTV65sfGg2hZh",
+  "pages": [
+    {
+      "name": "Figure: The Nonfunctional and Missing Conditions",
+      "type": "image",
+      "src": "https://i.imgur.com/nKHhlJ9.png",
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_id": "yaijdjqoiAsnI3Uu",
+      "system": {},
+      "image": {},
+      "text": {
+        "format": 1
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "sort": 0,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "category": null,
+      "_key": "!journal.pages!G29mTV65sfGg2hZh.yaijdjqoiAsnI3Uu"
+    },
+    {
+      "name": "The Nonfunctional and Missing Conditions",
+      "type": "text",
+      "title": {
+        "show": false,
+        "level": 1
+      },
+      "text": {
+        "format": 1,
+        "content": "<h1>The Nonfunctional and Missing Conditions</h1>\n<p>Maxwell's Manual introduces two new conditions, <strong>nonfunctional </strong>and <strong>missing</strong>. These two conditions are the same in terms of how they affect characters mechanically. They may differ, however, in how the injury is treated surgically, or what types of items are available to characters to assist with their injury. If the distinction is important, it will be listed in the surgery or item's description.</p>\n<p><strong>Nonfunctional </strong>describes a limb or sense that has been damaged to the point where it ceases to function. A leg broken by a greatclub, ears temporarily deafened by a violent percussive attack, or fingers in the early stages of frostbite are considered to have the nonfunctional condition.</p>\n<p><strong>Missing </strong>describes a limb or sense that is permanently gone, destroyed, or otherwise unattached from the body. An arm severed by the mighty swing of a greatsword, a leg incinerated by the flame of a dragon, or an untreated spray of acid into a character's eyes are all considered to have the missing condition.</p>\n<p>The following tables describe the mechanical effect that nonfunctional or missing body parts have on players: Note: Some of these effects are the same as the Lingering Injury Table found on page 272 of the DMG, while others are expanded on or completely new. If playing with Maxwell's Manual, it is recommended you only use the effects listed here.</p>\n<p> </p>\n<blockquote>\n<h3><strong>The Remarkable Adaptability of the Human (and elf, dwarf, etc.) Body</strong></h3>\n<p>The human body is an incredible thing, and the human will even more so. The longer a person lives with an injury or disability, the more they are able to adapt to it. Many of the penalties listed here may be able to be overcome with practice, training, and resilience.</p>\n<p><strong>Maxwell Says:</strong> \"I once, in the folly of youth, made the lamentable error of challenging a man missing an arm to an arm wrestling competition. Little did I consider his normal day involved doing the same work with one arm that I did with two. \"Long story short, I ended up setting my first broken bone.\"</p>\n</blockquote>\n<p> </p>\n<h2>Vision</h2>\n<table style=\"width:99.1549%;height:52px\" border=\"1\">\n<tbody>\n<tr style=\"height:17px\">\n<td style=\"width:14.2599%;height:17px\"><strong>#</strong></td>\n<td style=\"width:85.0299%;height:17px\"><strong>Effect</strong></td>\n</tr>\n<tr style=\"height:18px\">\n<td style=\"width:14.2599%;height:18px\">One Eye</td>\n<td style=\"width:85.0299%;height:18px\">You have disadvantage on Wisdom (Perception) checks that rely on sight and on ranged attack rolls.</td>\n</tr>\n<tr style=\"height:17px\">\n<td style=\"width:14.2599%;height:17px\">Both Eyes</td>\n<td style=\"width:85.0299%;height:17px\">You are <strong>blinded.</strong></td>\n</tr>\n</tbody>\n</table>\n<p> </p>\n<h2>Hearing</h2>\n<table style=\"width:836.5px;height:52px\" border=\"1\">\n<tbody>\n<tr style=\"height:17px\">\n<td style=\"width:116.5px;height:17px\"><strong>#</strong></td>\n<td style=\"width:715px;height:17px\"><strong>Effect</strong></td>\n</tr>\n<tr style=\"height:18px\">\n<td style=\"width:116.5px;height:18px\">One Ear</td>\n<td style=\"width:715px;height:18px\">You have disadvantage on Wisdom (Perception) checks that rely on hearing.</td>\n</tr>\n<tr style=\"height:17px\">\n<td style=\"width:116.5px;height:17px\">Both Ears</td>\n<td style=\"width:715px;height:17px\">You are <strong>deafened.</strong></td>\n</tr>\n</tbody>\n</table>\n<p> </p>\n<h2>Sense of Smell and Taste</h2>\n<table style=\"width:836.5px;height:52px\" border=\"1\">\n<tbody>\n<tr style=\"height:17px\">\n<td style=\"width:116.5px;height:17px\"> </td>\n<td style=\"width:715px;height:17px\"><strong>Effect</strong></td>\n</tr>\n<tr style=\"height:18px\">\n<td style=\"width:116.5px;height:18px\">Smell</td>\n<td style=\"width:715px;height:18px\">You cannot smell. You automatically fail any ability check that requires smell.</td>\n</tr>\n<tr style=\"height:17px\">\n<td style=\"width:116.5px;height:17px\">Taste</td>\n<td style=\"width:715px;height:17px\">You cannot taste. You automatically fail any ability check that requires taste.</td>\n</tr>\n</tbody>\n</table>\n<p> </p>\n<h2>Speaking</h2>\n<table style=\"width:836.5px;height:35px\" border=\"1\">\n<tbody>\n<tr style=\"height:17px\">\n<td style=\"width:116.5px;height:17px\"> </td>\n<td style=\"width:715px;height:17px\"><strong>Effect</strong></td>\n</tr>\n<tr style=\"height:18px\">\n<td style=\"width:116.5px;height:18px\">Voice</td>\n<td style=\"width:715px;height:18px\">You cannot speak. You automatically fail any ability check that requires the use of your voice. You cannot use your voice to provide the verbal component of spells. You have disadvantage on Charisma ability checks unless you are proficient in gestural language or are communicating telepathically.</td>\n</tr>\n</tbody>\n</table>\n<p> </p>\n<h2>Upper Body</h2>\n<table style=\"width:836.5px;height:52px\" border=\"1\">\n<tbody>\n<tr style=\"height:17px\">\n<td style=\"width:116.5px;height:17px\"><strong>#</strong></td>\n<td style=\"width:715px;height:17px\"><strong>Effect</strong></td>\n</tr>\n<tr style=\"height:18px\">\n<td style=\"width:116.5px;height:18px\">One Arm or Hand</td>\n<td style=\"width:715px;height:18px\">You can no longer hold anything with two hands, and you can only hold a single object at a time. You have disadvantage on Strength and Dexterity based ability checks that would normally require the use of both arms (such as a Strength [Athletics] ability check made to climb, or a Dexterity ability check made to use thieves' tools). At the DM's discretion, a character may be able to eliminate these penalties over time through practice and training.</td>\n</tr>\n<tr style=\"height:17px\">\n<td style=\"width:116.5px;height:17px\">Both Arms or Hands</td>\n<td style=\"width:715px;height:17px\">You can no longer hold anything. You automatically fail any ability check that normally requires the use of both arms. At the DM's discretion you may attempt ability checks requiring the use of one arm, as long as you have a reasonable way to do so (such as particularly dexterous feet, or a prehensile tail).</td>\n</tr>\n</tbody>\n</table>\n<p> </p>\n<p> </p>\n<h2>Phalanges</h2>\n<table style=\"width:836.5px;height:69px\" border=\"1\">\n<tbody>\n<tr style=\"height:17px\">\n<td style=\"width:116.5px;height:17px\"><strong>#</strong></td>\n<td style=\"width:715px;height:17px\"><strong>Fingers</strong></td>\n</tr>\n<tr style=\"height:18px\">\n<td style=\"width:116.5px;height:18px\">One Finger</td>\n<td style=\"width:715px;height:18px\">The loss of one finger provides no significant penalty to your character, though depending on which it was your character may lose the ability to express rude gestures.</td>\n</tr>\n<tr style=\"height:17px\">\n<td style=\"width:116.5px;height:17px\">Two Fingers</td>\n<td style=\"width:715px;height:17px\">Melee weapons wielded by this hand have disadvantage on attacks unless they have the light or finesse property. You may wield two-handed weapons as normal.</td>\n</tr>\n<tr style=\"height:17px\">\n<td style=\"width:116.5px;height:17px\">Three Fingers</td>\n<td style=\"width:715px;height:17px\">All weapons wielded by this hand have disadvantage on attacks unless they have the light or finesse property, except crossbows. You have disadvantage on Dexterity (Slight of Hand) checks using this hand, and any ability check to use tools that require delicate precision (such as thieves' tools or surgeons' tools). At the DM's discretion, a character may be able to eliminate these penalties over time through practice and training.</td>\n</tr>\n<tr>\n<td style=\"width:116.5px\">Four Fingers</td>\n<td style=\"width:715px\">You take the same penalties as if you had lost one hand. You can no longer wield weapons or shields with this hand unless you have a way to strap them to your arm.</td>\n</tr>\n</tbody>\n</table>\n<p> </p>\n<p> </p>\n<h2>Lower Body</h2>\n<table style=\"width:836.5px;height:52px\" border=\"1\">\n<tbody>\n<tr style=\"height:17px\">\n<td style=\"width:116.5px;height:17px\"><strong>#</strong></td>\n<td style=\"width:715px;height:17px\"><strong>Effect</strong></td>\n</tr>\n<tr style=\"height:18px\">\n<td style=\"width:116.5px;height:18px\">One Leg or Foot</td>\n<td style=\"width:715px;height:18px\">You require the use of assistive equipment to walk, such as a cane, crutches, or a prosthesis. Without this equipment your speed is halved and you fall prone after using the dash action. You have disadvantage on dexterity checks made to balance.</td>\n</tr>\n<tr style=\"height:17px\">\n<td style=\"width:116.5px;height:17px\">Both Legs or Feet</td>\n<td style=\"width:715px;height:17px\">You require the use of assistive equipment to move, such as a wheelchair. Without this equipment, your speed is 10 feet, and you are unable to stand from prone.</td>\n</tr>\n</tbody>\n</table>\n<p> </p>\n<p> </p>\n<h2>Phalanges</h2>\n<table style=\"width:836.5px;height:52px\" border=\"1\">\n<tbody>\n<tr style=\"height:17px\">\n<td style=\"width:116.5px;height:17px\"><strong>#</strong></td>\n<td style=\"width:715px;height:17px\"><strong>Toes (total)</strong></td>\n</tr>\n<tr style=\"height:18px\">\n<td style=\"width:116.5px;height:18px\">Four or Less</td>\n<td style=\"width:715px;height:18px\">The loss of up to four toes provides no significant penalty to your character, apart from losing the ability to properly recite \"This Little Piggy Went to Market\".</td>\n</tr>\n<tr style=\"height:17px\">\n<td style=\"width:116.5px;height:17px\">Five to Eight</td>\n<td style=\"width:715px;height:17px\">When using the dash action, your speed is reduced by 10 feet.</td>\n</tr>\n<tr>\n<td style=\"width:116.5px\">Nine or Ten</td>\n<td style=\"width:715px\">When using the dash action, your speed is reduced by 10 feet. You have disadvantage on Dexterity checks made to balance.</td>\n</tr>\n</tbody>\n</table>\n<p> </p>\n<p> </p>\n<p> </p>"
+      },
+      "_stats": {
+        "coreVersion": "13.342",
+        "systemId": null,
+        "systemVersion": null,
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null,
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "_id": "80CWy4HrJ849v2i1",
+      "system": {},
+      "image": {},
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "sort": 0,
+      "ownership": {
+        "default": -1
+      },
+      "flags": {},
+      "category": null,
+      "_key": "!journal.pages!G29mTV65sfGg2hZh.80CWy4HrJ849v2i1"
+    }
+  ],
+  "_stats": {
+    "coreVersion": "13.342",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": "JournalEntry.mtKCmPa941uetdFO",
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0,
+    "Cspu3pxFr7tu7SU7": 3
+  },
+  "categories": [],
+  "_key": "!journal!G29mTV65sfGg2hZh"
+}
